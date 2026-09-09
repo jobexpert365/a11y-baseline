@@ -1,0 +1,106 @@
+#if canImport(XCTest) && canImport(XCUIAutomation)
+import Foundation
+import XCTest
+import A11yBaselineCore
+
+/// Сценарий обхода: набор экранов и способ до каждого добраться.
+///
+/// Навигация задаётся замыканием, а не декларацией, сознательно. Любая попытка
+/// описать переходы данными упирается в то, что до половины экранов ведёт
+/// нетривиальный путь — вход, разрешение на уведомления, свайп, модальное окно.
+/// Замыкание честно признаёт, что это код, и оставляет его в тесте, где ему
+/// и место.
+public struct WalkPlan {
+    public struct Step {
+        public let screen: String
+        public let navigate: (XCUIApplication) throws -> Void
+
+        public init(screen: String, navigate: @escaping (XCUIApplication) throws -> Void) {
+            self.screen = screen
+            self.navigate = navigate
+        }
+    }
+
+    public let steps: [Step]
+
+    public init(steps: [Step]) {
+        self.steps = steps
+    }
+}
+
+/// Снимает базовую линию приложения по сценарию.
+@MainActor
+public struct BaselineRecorder {
+
+    private let app: XCUIApplication
+    private let source: SpeechSource
+    private let includePlatformAudit: Bool
+
+    /// - Parameter includePlatformAudit: прогонять ли встроенный
+    ///   `performAccessibilityAudit`. По умолчанию да: его находки идут
+    ///   в отчёт отдельным разделом и служат границей оплачиваемого.
+    public init(app: XCUIApplication, source: SpeechSource, includePlatformAudit: Bool = true) {
+        self.app = app
+        self.source = source
+        self.includePlatformAudit = includePlatformAudit
+    }
+
+    public func record(plan: WalkPlan, appVersion: String, locale: String = "ru") throws -> Baseline {
+        try source.begin()
+        defer { try? source.end() }
+
+        var screens: [ScreenSnapshot] = []
+        for step in plan.steps {
+            try step.navigate(app)
+            var snapshot = try source.captureScreen(named: step.screen)
+
+            if includePlatformAudit {
+                snapshot.platformAuditFindings = platformAudit(screen: step.screen)
+            }
+            screens.append(snapshot)
+        }
+
+        return Baseline(
+            app: app.label,
+            appVersion: appVersion,
+            osVersion: osVersion(),
+            locale: locale,
+            fidelity: source.fidelity,
+            screens: screens
+        )
+    }
+
+    /// Прогоняет встроенный аудит платформы и переводит его находки
+    /// в общую модель.
+    ///
+    /// Аудит бросает исключение на каждой находке, поэтому обработчик всегда
+    /// возвращает false — «не считать это провалом теста». Останавливать
+    /// сборку решает диффер по регрессиям, а не первый попавшийся мелкий
+    /// дефект контраста.
+    private func platformAudit(screen: String) -> [Finding] {
+        var findings: [Finding] = []
+        #if os(iOS)
+        if #available(iOS 17.0, *) {
+            try? app.performAccessibilityAudit { issue in
+                findings.append(Finding(
+                    key: "\(screen)|platform|\(issue.auditType)|\(issue.element?.identifier ?? issue.compactDescription)",
+                    ruleID: "platform-\(issue.auditType)",
+                    source: .platformAudit,
+                    severity: .moderate,
+                    screen: screen,
+                    summary: issue.compactDescription,
+                    evidence: issue.detailedDescription
+                ))
+                return false
+            }
+        }
+        #endif
+        return findings
+    }
+
+    private func osVersion() -> String {
+        let v = ProcessInfo.processInfo.operatingSystemVersion
+        return "\(v.majorVersion).\(v.minorVersion)"
+    }
+}
+#endif
