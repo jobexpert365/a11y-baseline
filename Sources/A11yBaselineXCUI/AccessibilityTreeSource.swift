@@ -40,11 +40,15 @@ public final class AccessibilityTreeSource: SpeechSource {
         utterances.reserveCapacity(elements.count)
 
         for (index, element) in elements.enumerated() {
-            guard element.isHittable || !element.label.isEmpty else { continue }
+            // Контейнеры без подписи и без роли VoiceOver не объявляет —
+            // включать их в обход значит зашумлять базовую линию и сдвигать
+            // отсчёт позиций в правиле порядка чтения.
+            let elementTraits = [Self.traitName(for: element.elementType)].compactMap { $0 }
+            guard !element.label.isEmpty || !elementTraits.isEmpty else { continue }
 
             let label = element.label
             let value = element.value as? String
-            let traits = [Self.traitName(for: element.elementType)].compactMap { $0 }
+            let traits = elementTraits
 
             // Видимую надпись берём только у интерактивных элементов и только
             // из текстового потомка. Это единственный случай, когда её можно

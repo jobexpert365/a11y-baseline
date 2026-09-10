@@ -1,0 +1,37 @@
+name: A11yDemo
+options:
+  bundleIdPrefix: dev.a11ybaseline
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  A11yBaseline:
+    path: ../..
+targets:
+  A11yDemo:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    info:
+      path: Sources/Info.plist
+      properties:
+        UILaunchScreen: {}
+        CFBundleDisplayName: A11yDemo
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: NO
+        PRODUCT_BUNDLE_IDENTIFIER: dev.a11ybaseline.demo
+  A11yDemoUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: A11yDemo
+      - package: A11yBaseline
+        product: A11yBaselineCore
+      - package: A11yBaseline
+        product: A11yBaselineXCUI
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: dev.a11ybaseline.demo.uitests
+        TEST_TARGET_NAME: A11yDemo
