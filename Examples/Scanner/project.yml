@@ -1,0 +1,35 @@
+name: A11yScanner
+options:
+  bundleIdPrefix: dev.a11ybaseline
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  A11yBaseline:
+    path: ../..
+targets:
+  # Пустое приложение-носитель. XCUITest требует цель-хост, но сканируем мы
+  # не его: тест поднимает ЛЮБОЕ установленное приложение по идентификатору.
+  # Это и есть весь фокус — чужой проект не трогается вообще.
+  ScannerHost:
+    type: application
+    platform: iOS
+    sources: [Host]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: dev.a11ybaseline.scannerhost
+  A11yScannerUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: ScannerHost
+      - package: A11yBaseline
+        product: A11yBaselineCore
+      - package: A11yBaseline
+        product: A11yBaselineXCUI
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: dev.a11ybaseline.scanner.uitests
+        TEST_TARGET_NAME: ScannerHost

@@ -36,38 +36,24 @@ public final class AccessibilityTreeSource: SpeechSource {
             .allElementsBoundByAccessibilityElement
             .filter(\.exists)
 
-        var utterances: [Utterance] = []
-        utterances.reserveCapacity(elements.count)
+        // Сначала собираем сырые кандидаты, потом отсеиваем вложенные.
+        // Разделение нужно, потому что решение «пропустить элемент» зависит
+        // от других элементов, а не только от него самого.
+        var raw: [(label: String, value: String?, traits: [String], identifier: String, rect: Rect)] = []
 
-        for (index, element) in elements.enumerated() {
+        for element in elements {
             // Контейнеры без подписи и без роли VoiceOver не объявляет —
             // включать их в обход значит зашумлять базовую линию и сдвигать
             // отсчёт позиций в правиле порядка чтения.
             let elementTraits = [Self.traitName(for: element.elementType)].compactMap { $0 }
             guard !element.label.isEmpty || !elementTraits.isEmpty else { continue }
 
-            let label = element.label
-            let value = element.value as? String
-            let traits = elementTraits
-
-            // Видимую надпись берём только у интерактивных элементов и только
-            // из текстового потомка. Это единственный случай, когда её можно
-            // отличить от подписи не гадая: кнопка с текстом внутри.
-            let visibleText: String? = if traits.contains("button") || traits.contains("link") {
-                element.staticTexts.allElementsBoundByIndex.first?.label
-            } else {
-                nil
-            }
-
-            utterances.append(Utterance(
-                index: index,
-                spoken: Self.compose(label: label, value: value, traits: traits),
-                label: label.isEmpty ? nil : label,
-                value: value,
-                traits: traits,
-                visibleText: visibleText.flatMap { $0 == label ? nil : $0 },
-                identifier: element.identifier.isEmpty ? nil : element.identifier,
-                frame: Rect(
+            raw.append((
+                label: element.label,
+                value: element.value as? String,
+                traits: elementTraits,
+                identifier: element.identifier,
+                rect: Rect(
                     x: element.frame.origin.x,
                     y: element.frame.origin.y,
                     width: element.frame.width,
@@ -76,7 +62,54 @@ public final class AccessibilityTreeSource: SpeechSource {
             ))
         }
 
+        let kept = Self.dropGroupedChildren(raw)
+
+        var utterances: [Utterance] = []
+        utterances.reserveCapacity(kept.count)
+        for (index, item) in kept.enumerated() {
+            utterances.append(Utterance(
+                index: index,
+                spoken: Self.compose(label: item.label, value: item.value, traits: item.traits),
+                label: item.label.isEmpty ? nil : item.label,
+                value: item.value,
+                traits: item.traits,
+                identifier: item.identifier.isEmpty ? nil : item.identifier,
+                frame: item.rect
+            ))
+        }
+
         return ScreenSnapshot(screen: name, utterances: utterances)
+    }
+
+    /// Отсеивает элементы, которые VoiceOver объявляет не отдельно, а вместе
+    /// с родителем.
+    ///
+    /// Найдено измерением, а не придумано. Первый прогон по «Настройкам» iOS
+    /// дал находки на элементах с подписью «chevron» — это стрелки в ячейках
+    /// списка. VoiceOver их отдельно не произносит: он объявляет ячейку целиком,
+    /// а стрелку сворачивает внутрь. Дерево XCUITest устроено иначе и показывает
+    /// их как самостоятельные элементы, поэтому приближение по дереву видело
+    /// дефекты там, где для слушающего человека их нет.
+    ///
+    /// Признак вложенности — геометрия: элемент целиком лежит внутри другого,
+    /// который сам является озвучиваемым и заметно больше. Это эвристика,
+    /// а не точное правило, и она намеренно консервативная: родитель должен
+    /// быть минимум вдвое больше по площади, иначе два элемента одного размера
+    /// начнут поглощать друг друга.
+    static func dropGroupedChildren(
+        _ items: [(label: String, value: String?, traits: [String], identifier: String, rect: Rect)]
+    ) -> [(label: String, value: String?, traits: [String], identifier: String, rect: Rect)] {
+        items.enumerated().filter { index, item in
+            guard item.rect.area > 0 else { return true }
+
+            let hasGroupingParent = items.enumerated().contains { otherIndex, other in
+                guard otherIndex != index,
+                      !other.label.isEmpty,
+                      other.rect.area >= item.rect.area * 2 else { return false }
+                return other.rect.contains(item.rect)
+            }
+            return !hasGroupingParent
+        }.map(\.element)
     }
 
     /// Собирает реплику так, как её произнёс бы VoiceOver.

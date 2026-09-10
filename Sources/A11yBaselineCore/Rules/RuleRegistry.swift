@@ -31,8 +31,30 @@ public struct RuleRegistry: Sendable {
             FilenameLabelRule(),
             DuplicateLabelRule(),
             LabelInNameRule(),
-            ReadingOrderRule(),
         ])
+    }
+
+    /// Набор правил, соответствующий тому, чем снята базовая линия.
+    ///
+    /// Не всякое правило имеет право работать на всяких данных, и это
+    /// измерено, а не выведено. `ReadingOrderRule` судит о ПОРЯДКЕ обхода,
+    /// а порядок в дереве XCUITest — это порядок иерархии представлений,
+    /// а не порядок, в котором идёт VoiceOver. Прогон по «Настройкам» iOS,
+    /// приложению Apple с образцовой доступностью, дал на приближении две
+    /// находки порядка чтения — то есть правило судило о том, чего в данных
+    /// нет. На настоящей речи VoiceOver порядок известен точно, и там правило
+    /// осмысленно.
+    ///
+    /// Принцип общий: правило включается только там, где источник даёт то,
+    /// о чём правило судит. Иначе инструмент уверенно сообщает о дефектах,
+    /// которых нет, и это худший вид ошибки — он выглядит как работа.
+    public static func standard(for fidelity: CaptureFidelity) -> RuleRegistry {
+        switch fidelity {
+        case .voiceOverService:
+            RuleRegistry(rules: standard.rules + [ReadingOrderRule()])
+        case .accessibilityTree, .fixture:
+            standard
+        }
     }
 
     /// Набор для источников, у которых геометрия соответствует области
@@ -70,5 +92,12 @@ public struct RuleRegistry: Sendable {
         baseline.screens
             .flatMap { run(on: $0, locale: baseline.locale) }
             .filter { !baseline.acceptedFindingKeys.contains($0.key) }
+    }
+
+    /// Прогоняет набор, подобранный под точность съёма этой базовой линии.
+    /// Это способ по умолчанию: он не даёт правилу судить о том, чего
+    /// в данных нет.
+    public static func runMatching(_ baseline: Baseline) -> [Finding] {
+        standard(for: baseline.fidelity).run(on: baseline)
     }
 }

@@ -112,4 +112,17 @@ public struct Rect: Codable, Equatable, Sendable {
 
     public var area: Double { width * height }
     public var minSide: Double { min(width, height) }
+
+    /// Полностью ли другой прямоугольник лежит внутри этого.
+    ///
+    /// Допуск в один пункт нужен из-за округления координат: вложенный
+    /// элемент часто совпадает с родителем по краю до долей пункта, и строгое
+    /// сравнение такие случаи теряет.
+    public func contains(_ other: Rect) -> Bool {
+        let tolerance = 1.0
+        return other.x >= x - tolerance
+            && other.y >= y - tolerance
+            && other.x + other.width <= x + width + tolerance
+            && other.y + other.height <= y + height + tolerance
+    }
 }

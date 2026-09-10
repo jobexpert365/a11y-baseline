@@ -28,7 +28,7 @@ final class BaselineUITests: XCTestCase {
             print("A11Y_ELEM=\(u.index)|traits=\(u.traits.joined(separator: "+"))|\(f)|label=\(u.label ?? "nil")|id=\(u.identifier ?? "-")")
         }
 
-        let findings = RuleRegistry.standard.run(on: baseline)
+        let findings = RuleRegistry.runMatching(baseline)
         let report = MarkdownReport().render(baseline: baseline, findings: findings)
 
         // Отчёт и базовая линия кладутся в результат прогона, чтобы их можно

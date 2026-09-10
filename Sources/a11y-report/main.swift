@@ -53,7 +53,7 @@ do {
     fail("не удалось прочитать базовую линию: \(error.localizedDescription)")
 }
 
-let findings = RuleRegistry.standard.run(on: baseline)
+let findings = RuleRegistry.runMatching(baseline)
 
 // Дата берётся из окружения, если задана, иначе из системных часов.
 // Переопределение нужно, чтобы страницы собирались воспроизводимо: одна
