@@ -131,7 +131,7 @@ public struct HTMLReport: Sendable {
 
         return """
         <article class="finding">
-          <h3>\(escape(finding.summary))</h3>
+          <h3>\(escape(finding.summary))\(finding.occurrences > 1 ? " <span class=\"count\">×\(finding.occurrences)</span>" : "")</h3>
           <p class="screen">\(escape(finding.screen))</p>
           <p>\(escape(finding.evidence))</p>
           \(standard)

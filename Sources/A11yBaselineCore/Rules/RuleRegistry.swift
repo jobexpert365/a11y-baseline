@@ -81,10 +81,34 @@ public struct RuleRegistry: Sendable {
             }
         }
 
-        return findings.sorted { lhs, rhs in
+        return Self.collapse(findings).sorted { lhs, rhs in
             if lhs.severity != rhs.severity { return lhs.severity > rhs.severity }
+            if lhs.occurrences != rhs.occurrences { return lhs.occurrences > rhs.occurrences }
             return (lhs.utteranceIndex ?? 0) < (rhs.utteranceIndex ?? 0)
         }
+    }
+
+    /// Схлопывает повторы одного и того же дефекта в одну находку со счётчиком.
+    ///
+    /// Группировка идёт по правилу и по ТЕКСТУ находки, а не по элементу:
+    /// двадцать картинок с подписью «dough/brown-thumb» — это один дефект,
+    /// встреченный двадцать раз, и чинится он одной правкой. Ключ первой
+    /// находки сохраняется, чтобы принятые исключения продолжали работать.
+    static func collapse(_ findings: [Finding]) -> [Finding] {
+        var order: [String] = []
+        var grouped: [String: Finding] = [:]
+
+        for finding in findings {
+            let groupKey = "\(finding.ruleID)|\(finding.screen)|\(finding.summary)"
+            if var existing = grouped[groupKey] {
+                existing.occurrences += 1
+                grouped[groupKey] = existing
+            } else {
+                grouped[groupKey] = finding
+                order.append(groupKey)
+            }
+        }
+        return order.compactMap { grouped[$0] }
     }
 
     /// Прогоняет правила по всей базовой линии, отбрасывая принятые исключения.

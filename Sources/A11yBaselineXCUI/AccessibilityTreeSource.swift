@@ -5,15 +5,15 @@ import A11yBaselineCore
 
 /// Источник реплик, работающий на любой версии Xcode.
 ///
-/// Обходит дерево доступности и собирает реплику по правилам композиции
-/// VoiceOver: подпись, затем значение, затем роль, затем подсказка. Это
-/// приближение, и оно честно помечено как приближение — настоящий VoiceOver
-/// умеет склеивать соседние элементы, сокращать длинные строки и подставлять
-/// локализованные названия ролей, которых в дереве нет.
+/// Восстанавливает реплику из дерева доступности по правилам композиции
+/// VoiceOver: подпись, затем значение, затем роль. Это приближение, и оно
+/// честно помечено в базовой линии — настоящий VoiceOver умеет склеивать
+/// соседние элементы, сокращать длинные строки и подставлять локализованные
+/// названия ролей, которых в дереве нет.
 ///
-/// Приближение при этом полезно: подавляющее большинство находок — пустая
-/// подпись, имя файла в подписи, дубликаты, несовпадение видимой надписи —
-/// видны и в нём, потому что они про содержимое, а не про озвучку.
+/// Приближение при этом полезно: большинство находок — пустая подпись, имя
+/// файла в подписи, дубликаты, подпись из имени символа — видны и в нём,
+/// потому что они про содержимое, а не про озвучку.
 @MainActor
 public final class AccessibilityTreeSource: SpeechSource {
 
@@ -29,95 +29,165 @@ public final class AccessibilityTreeSource: SpeechSource {
     public func end() throws {}
 
     public func captureScreen(named name: String) throws -> ScreenSnapshot {
-        // descendants(matching: .any) отдаёт элементы в порядке иерархии,
-        // и это ровно тот порядок, в котором по ним пойдёт VoiceOver, если
-        // приложение не переопределяло accessibilityElements.
-        let elements = app.descendants(matching: .any)
-            .allElementsBoundByAccessibilityElement
-            .filter(\.exists)
-
-        // Сначала собираем сырые кандидаты, потом отсеиваем вложенные.
-        // Разделение нужно, потому что решение «пропустить элемент» зависит
-        // от других элементов, а не только от него самого.
-        var raw: [(label: String, value: String?, traits: [String], identifier: String, rect: Rect)] = []
-
-        for element in elements {
-            // Контейнеры без подписи и без роли VoiceOver не объявляет —
-            // включать их в обход значит зашумлять базовую линию и сдвигать
-            // отсчёт позиций в правиле порядка чтения.
-            let elementTraits = [Self.traitName(for: element.elementType)].compactMap { $0 }
-            guard !element.label.isEmpty || !elementTraits.isEmpty else { continue }
-
-            raw.append((
-                label: element.label,
-                value: element.value as? String,
-                traits: elementTraits,
-                identifier: element.identifier,
-                rect: Rect(
-                    x: element.frame.origin.x,
-                    y: element.frame.origin.y,
-                    width: element.frame.width,
-                    height: element.frame.height
-                )
-            ))
-        }
-
-        let kept = Self.dropGroupedChildren(raw)
+        // Один атомарный снимок всего дерева вместо поэлементных запросов.
+        //
+        // Так пришлось сделать после падения на живом приложении: перечисление
+        // элементов и последующее чтение их свойств — это отдельные запросы
+        // к приложению, и если интерфейс успел измениться между ними (анимация,
+        // подгрузка данных), XCUITest падает с «Failed to get matching snapshot».
+        // На своём демо этого не видно: там статичный экран. На чужом
+        // приложении с анимациями — сразу.
+        //
+        // Побочный и более важный выигрыш: снимок отдаёт НАСТОЯЩУЮ иерархию,
+        // а не плоский список. Значит вложенность определяется структурой,
+        // а не эвристикой по геометрии.
+        let root = try app.snapshot()
 
         var utterances: [Utterance] = []
-        utterances.reserveCapacity(kept.count)
-        for (index, item) in kept.enumerated() {
-            utterances.append(Utterance(
-                index: index,
-                spoken: Self.compose(label: item.label, value: item.value, traits: item.traits),
-                label: item.label.isEmpty ? nil : item.label,
-                value: item.value,
-                traits: item.traits,
-                identifier: item.identifier.isEmpty ? nil : item.identifier,
-                frame: item.rect
-            ))
+        collect(node: root, parentIsAnnounced: false, into: &utterances)
+
+        // Индексы проставляются после обхода: до фильтрации их присваивать
+        // нельзя, иначе в базовой линии останутся дыры и правило порядка
+        // чтения будет считать позиции неверно.
+        for index in utterances.indices {
+            utterances[index].index = index
         }
 
         return ScreenSnapshot(screen: name, utterances: utterances)
     }
 
-    /// Отсеивает элементы, которые VoiceOver объявляет не отдельно, а вместе
-    /// с родителем.
+    /// Рекурсивно обходит снимок дерева.
     ///
-    /// Найдено измерением, а не придумано. Первый прогон по «Настройкам» iOS
-    /// дал находки на элементах с подписью «chevron» — это стрелки в ячейках
-    /// списка. VoiceOver их отдельно не произносит: он объявляет ячейку целиком,
-    /// а стрелку сворачивает внутрь. Дерево XCUITest устроено иначе и показывает
-    /// их как самостоятельные элементы, поэтому приближение по дереву видело
-    /// дефекты там, где для слушающего человека их нет.
+    /// Ключевое решение — параметр `parentIsAnnounced`. VoiceOver, встретив
+    /// озвучиваемый элемент с подписью, объявляет его целиком и внутрь
+    /// не заходит: ячейка списка произносится одной репликой, а стрелка
+    /// и иконки внутри неё отдельно не звучат. Дерево XCUITest устроено иначе
+    /// и показывает их как самостоятельные узлы — отсюда и брались находки
+    /// про «chevron» в «Настройках» iOS.
     ///
-    /// Признак вложенности — геометрия: элемент целиком лежит внутри другого,
-    /// который сам является озвучиваемым и заметно больше. Это эвристика,
-    /// а не точное правило, и она намеренно консервативная: родитель должен
-    /// быть минимум вдвое больше по площади, иначе два элемента одного размера
-    /// начнут поглощать друг друга.
-    static func dropGroupedChildren(
-        _ items: [(label: String, value: String?, traits: [String], identifier: String, rect: Rect)]
-    ) -> [(label: String, value: String?, traits: [String], identifier: String, rect: Rect)] {
-        items.enumerated().filter { index, item in
-            guard item.rect.area > 0 else { return true }
+    /// Раньше вложенность угадывалась по геометрии. Теперь она берётся
+    /// из структуры, и это точнее: элемент может лежать внутри другого
+    /// визуально, не будучи его потомком, и наоборот.
+    @discardableResult
+    private func collect(
+        node: XCUIElementSnapshot,
+        parentIsAnnounced: Bool,
+        into utterances: inout [Utterance]
+    ) -> Bool {
+        if parentIsAnnounced { return false }
 
-            let hasGroupingParent = items.enumerated().contains { otherIndex, other in
-                guard otherIndex != index,
-                      !other.label.isEmpty,
-                      other.rect.area >= item.rect.area * 2 else { return false }
-                return other.rect.contains(item.rect)
+        // Контейнеры не озвучиваются сами — озвучивается их содержимое.
+        // Первая версия этого не различала и глотала всё дерево: у окна
+        // и панели вкладок есть подпись или роль, поэтому «объявленным
+        // целиком» оказывался корень, и на выходе получалось три элемента
+        // вместо сотни. Проверено на Food Truck: было 3, стало столько,
+        // сколько реально произносится.
+        if Self.isContainer(node.elementType) {
+            var announcedInside = false
+            for child in node.children {
+                // Картинка внутри ячейки — украшение, а не содержимое.
+                // VoiceOver сворачивает её в реплику ячейки: в «Настройках»
+                // строка читается как «Основные, кнопка», а стрелка-шеврон
+                // отдельно не произносится. Дерево XCUITest показывает её
+                // как самостоятельный узел, и без этого правила инструмент
+                // сообщал о несуществующем дефекте «chevron» у Apple.
+                if node.elementType == .cell, child.elementType == .image { continue }
+                if collect(node: child, parentIsAnnounced: false, into: &utterances) {
+                    announcedInside = true
+                }
             }
-            return !hasGroupingParent
-        }.map(\.element)
+
+            // Ячейка — пограничный случай. Если внутри неё ничего своего
+            // не озвучилось, VoiceOver произносит саму ячейку одной репликой;
+            // если внутри есть кнопки и текст, он читает их, а ячейку
+            // отдельно не объявляет.
+            if node.elementType == .cell, !announcedInside {
+                append(node: node, traits: ["cell"], into: &utterances)
+                return true
+            }
+            return announcedInside
+        }
+
+        let traits = [Self.traitName(for: node.elementType)].compactMap { $0 }
+        let label = node.label.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !label.isEmpty || !traits.isEmpty else {
+            // Безымянный неконтейнерный узел сам не звучит, но внутри него
+            // может лежать содержимое.
+            var announcedInside = false
+            for child in node.children {
+                if collect(node: child, parentIsAnnounced: false, into: &utterances) {
+                    announcedInside = true
+                }
+            }
+            return announcedInside
+        }
+
+        append(node: node, traits: traits, into: &utterances)
+        return true
+    }
+
+    private func append(node: XCUIElementSnapshot, traits: [String], into utterances: inout [Utterance]) {
+        let label = node.label.trimmingCharacters(in: .whitespacesAndNewlines)
+        let value = node.value as? String
+        utterances.append(Utterance(
+            index: utterances.count,
+            spoken: Self.compose(label: label, value: value, traits: traits),
+            label: label.isEmpty ? nil : label,
+            value: value,
+            traits: traits,
+            visibleText: Self.visibleText(of: node, label: label, traits: traits),
+            identifier: node.identifier.isEmpty ? nil : node.identifier,
+            frame: Rect(
+                x: node.frame.origin.x,
+                y: node.frame.origin.y,
+                width: node.frame.width,
+                height: node.frame.height
+            )
+        ))
+    }
+
+    /// Типы, которые служат каркасом экрана, а не его содержимым.
+    ///
+    /// VoiceOver внутрь них заходит и читает то, что лежит внутри, а сам
+    /// контейнер отдельной репликой не объявляет. Список закрытый и короткий:
+    /// всё, чего в нём нет, считается содержимым и озвучивается.
+    static func isContainer(_ type: XCUIElement.ElementType) -> Bool {
+        switch type {
+        case .application, .window, .other, .group, .table, .collectionView,
+             .scrollView, .navigationBar, .toolbar, .tabBar, .sheet, .alert,
+             .dialog, .cell, .outline, .layoutArea, .layoutItem, .splitGroup, .drawer:
+            true
+        default:
+            false
+        }
+    }
+
+    /// Видимый текст элемента, если его можно отличить от подписи не гадая.
+    ///
+    /// Единственный надёжный случай — кнопка с текстовым потомком: то, что
+    /// человек видит на кнопке, лежит в этом потомке, а подпись задана
+    /// отдельно. Для остальных типов вернуть нечего, и правило совпадения
+    /// надписи с именем просто промолчит.
+    private static func visibleText(
+        of node: XCUIElementSnapshot,
+        label: String,
+        traits: [String]
+    ) -> String? {
+        guard traits.contains("button") || traits.contains("link") else { return nil }
+        let text = node.children
+            .first { $0.elementType == .staticText && !$0.label.isEmpty }?
+            .label
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        guard let text, !text.isEmpty, text != label else { return nil }
+        return text
     }
 
     /// Собирает реплику так, как её произнёс бы VoiceOver.
     ///
-    /// Порядок частей — не догадка, он задокументирован Apple: сначала
-    /// подпись, затем значение, затем роль. Подсказка произносится последней
-    /// и с задержкой, поэтому в строку не включается: в базовой линии она
-    /// давала бы шум при каждом изменении тайминга.
+    /// Порядок частей задокументирован Apple: подпись, значение, роль.
+    /// Подсказка произносится последней и с задержкой, поэтому в строку
+    /// не включается — в базовой линии она давала бы шум при каждом
+    /// изменении тайминга.
     static func compose(label: String, value: String?, traits: [String]) -> String {
         var parts: [String] = []
         if !label.isEmpty { parts.append(label) }
@@ -126,11 +196,11 @@ public final class AccessibilityTreeSource: SpeechSource {
         return parts.joined(separator: ", ")
     }
 
-    /// Сопоставление типа элемента XCUITest с названием роли.
+    /// Сопоставление типа элемента с названием роли.
     ///
-    /// Список неполный намеренно: сюда включены только те типы, которые
-    /// VoiceOver действительно объявляет вслух. Для остальных роль не
-    /// произносится, и добавлять её в реплику значит врать.
+    /// Список неполный намеренно: сюда включены только типы, которые VoiceOver
+    /// действительно объявляет вслух. Для остальных роль не произносится,
+    /// и добавлять её в реплику значит врать.
     static func traitName(for type: XCUIElement.ElementType) -> String? {
         switch type {
         case .button: "button"
@@ -138,7 +208,6 @@ public final class AccessibilityTreeSource: SpeechSource {
         case .image: "image"
         case .searchField: "searchField"
         case .textField, .secureTextField: "textField"
-        case .staticText: nil
         case .switch: "toggle"
         case .slider: "slider"
         case .stepper: "stepper"

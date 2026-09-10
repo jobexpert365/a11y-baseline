@@ -73,6 +73,15 @@ public struct Finding: Codable, Equatable, Sendable {
     /// Индекс реплики в снимке экрана — чтобы отчёт мог показать контекст.
     public var utteranceIndex: Int?
 
+    /// Сколько раз этот же дефект встретился на экране.
+    ///
+    /// Появилось после прогона по Food Truck: 147 находок на 212 элементах,
+    /// и почти все — один и тот же дефект, повторённый десятки раз (подписи
+    /// вида «dough/brown-thumb» у каждой картинки пончика). Находки были
+    /// настоящие, а отчёт — нечитаемый. Отчёт, который невозможно дочитать,
+    /// не отличается от неверного: его точно так же закроют и не вернутся.
+    public var occurrences: Int
+
     /// Парный фрагмент кода «было → стало».
     ///
     /// Это и есть то, за что платят: находку без исправления выдаёт любой
@@ -89,6 +98,7 @@ public struct Finding: Codable, Equatable, Sendable {
         evidence: String,
         standard: StandardRef? = nil,
         utteranceIndex: Int? = nil,
+        occurrences: Int = 1,
         fix: Fix? = nil
     ) {
         self.key = key
@@ -100,6 +110,7 @@ public struct Finding: Codable, Equatable, Sendable {
         self.evidence = evidence
         self.standard = standard
         self.utteranceIndex = utteranceIndex
+        self.occurrences = occurrences
         self.fix = fix
     }
 

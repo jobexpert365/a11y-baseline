@@ -64,7 +64,8 @@ public struct MarkdownReport: Sendable {
 
     private func renderFinding(_ finding: Finding) -> String {
         var out: [String] = []
-        out.append("### \(finding.summary)")
+        let repeats = finding.occurrences > 1 ? " — встречается \(finding.occurrences) раз" : ""
+        out.append("### \(finding.summary)\(repeats)")
         out.append("")
         out.append("**Экран:** \(finding.screen)")
         if let standard = finding.standard {
