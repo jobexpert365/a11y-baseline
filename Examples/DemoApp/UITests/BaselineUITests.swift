@@ -44,9 +44,13 @@ final class BaselineUITests: XCTestCase {
         add(baselineAttachment)
 
         // Дублируем в файл: так проще читать из скрипта и из CI.
-        let out = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("a11y-report.md")
+        let tmp = URL(fileURLWithPath: NSTemporaryDirectory())
+        let out = tmp.appendingPathComponent("a11y-report.md")
         try report.write(to: out, atomically: true, encoding: .utf8)
+        let baselineOut = tmp.appendingPathComponent("baseline.json")
+        try BaselineStore().encode(baseline).write(to: baselineOut)
         print("A11Y_REPORT_PATH=\(out.path)")
+        print("A11Y_BASELINE_PATH=\(baselineOut.path)")
         print("A11Y_FINDINGS_COUNT=\(findings.count)")
         for finding in findings {
             print("A11Y_FINDING=\(finding.severity.rawValue)|\(finding.ruleID)|\(finding.summary)")

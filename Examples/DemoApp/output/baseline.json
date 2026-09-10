@@ -1,0 +1,251 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "A11yDemo",
+  "appVersion" : "1.0",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 4)|send",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 4)|close",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 1)|generic",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 1)|more-0",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 1)|more-1",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 1)|more-2",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 1)|save",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Каталог|platform|XCUIAccessibilityAuditType(rawValue: 131072)|save",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Каталог",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
+      ],
+      "screen" : "Каталог",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 40.66666666666666,
+            "width" : 124,
+            "x" : 139,
+            "y" : 240.33333333333334
+          },
+          "index" : 5,
+          "label" : "Каталог",
+          "spoken" : "Каталог",
+          "traits" : [
+
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 19.666666666666686,
+            "width" : 21,
+            "x" : 190.66666666666666,
+            "y" : 301
+          },
+          "identifier" : "send",
+          "index" : 6,
+          "label" : "Send",
+          "spoken" : "Send, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 57.66666666666663,
+            "x" : 172.33333333333334,
+            "y" : 340.66666666666663
+          },
+          "identifier" : "generic",
+          "index" : 7,
+          "label" : "Кнопка",
+          "spoken" : "Кнопка, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 15.333333333333314,
+            "width" : 17.333333333333314,
+            "x" : 192.33333333333334,
+            "y" : 381
+          },
+          "identifier" : "close",
+          "index" : 8,
+          "label" : "ic_close_24",
+          "spoken" : "ic_close_24, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 90.33333333333334,
+            "x" : 156,
+            "y" : 416.3333333333333
+          },
+          "identifier" : "more-0",
+          "index" : 9,
+          "label" : "Подробнее",
+          "spoken" : "Подробнее, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 90.33333333333334,
+            "x" : 156,
+            "y" : 456.6666666666667
+          },
+          "identifier" : "more-1",
+          "index" : 10,
+          "label" : "Подробнее",
+          "spoken" : "Подробнее, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 90.33333333333334,
+            "x" : 156,
+            "y" : 497
+          },
+          "identifier" : "more-2",
+          "index" : 11,
+          "label" : "Подробнее",
+          "spoken" : "Подробнее, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 49.66666666666663,
+            "x" : 176.33333333333334,
+            "y" : 537.3333333333333
+          },
+          "identifier" : "next",
+          "index" : 12,
+          "label" : "Продолжить",
+          "spoken" : "Продолжить, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 191,
+            "y" : 577.6666666666666
+          },
+          "identifier" : "delete",
+          "index" : 13,
+          "label" : "Удалить",
+          "spoken" : "Удалить, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 165.66666666666669,
+            "x" : 118.33333333333333,
+            "y" : 629.6666666666666
+          },
+          "identifier" : "save",
+          "index" : 14,
+          "label" : "Сохранить черновик",
+          "spoken" : "Сохранить черновик, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        }
+      ]
+    }
+  ]
+}

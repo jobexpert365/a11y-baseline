@@ -18,10 +18,12 @@ let package = Package(
     products: [
         .library(name: "A11yBaselineCore", targets: ["A11yBaselineCore"]),
         .library(name: "A11yBaselineXCUI", targets: ["A11yBaselineXCUI"]),
+        .executable(name: "a11y-report", targets: ["a11y-report"]),
     ],
     targets: [
         .target(name: "A11yBaselineCore"),
         .target(name: "A11yBaselineXCUI", dependencies: ["A11yBaselineCore"]),
+        .executableTarget(name: "a11y-report", dependencies: ["A11yBaselineCore"]),
         .testTarget(name: "A11yBaselineCoreTests", dependencies: ["A11yBaselineCore"]),
     ]
 )
