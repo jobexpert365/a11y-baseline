@@ -1,0 +1,436 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Быстрые команды",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 105,
+            "x" : 221,
+            "y" : 66
+          },
+          "index" : 1,
+          "label" : "Изменить",
+          "spoken" : "Изменить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "добавить",
+          "spoken" : "добавить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 81.66666666666666,
+            "width" : 223.66666666666666,
+            "x" : 16,
+            "y" : 119.66666666666666
+          },
+          "index" : 3,
+          "label" : "Все быстрые команды",
+          "spoken" : "Все быстрые команды",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 210
+          },
+          "index" : 4,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 286,
+            "width" : 642,
+            "x" : -120,
+            "y" : 731
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 5,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 153.66665649414062,
+            "x" : 20,
+            "y" : 294
+          },
+          "index" : 6,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 112,
+            "width" : 180,
+            "x" : 16,
+            "y" : 333
+          },
+          "index" : 7,
+          "label" : "Food Truck Trends for Today",
+          "spoken" : "Food Truck Trends for Today, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 112,
+            "width" : 180,
+            "x" : 206,
+            "y" : 333
+          },
+          "index" : 8,
+          "label" : "Food Truck Trends for This Week",
+          "spoken" : "Food Truck Trends for This Week, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 142.3333282470703,
+            "x" : 20,
+            "y" : 470
+          },
+          "index" : 9,
+          "label" : "Ice Cubes",
+          "spoken" : "Ice Cubes, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 32,
+            "y" : 525.6666666666666
+          },
+          "identifier" : "square.and.pencil",
+          "index" : 10,
+          "label" : "Создать",
+          "spoken" : "Создать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.33333333333337,
+            "width" : 57.33333333333332,
+            "x" : 31.333333333333336,
+            "y" : 590.6666666666666
+          },
+          "index" : 11,
+          "label" : "Compose a post",
+          "spoken" : "Compose a post",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 126,
+            "y" : 525.6666666666666
+          },
+          "identifier" : "square.and.pencil",
+          "index" : 12,
+          "label" : "Создать",
+          "spoken" : "Создать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 67.33333333333334,
+            "x" : 120.33333333333334,
+            "y" : 590.6666666666666
+          },
+          "index" : 13,
+          "label" : "Send a post",
+          "spoken" : "Send a post",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 220,
+            "y" : 525.6666666666666
+          },
+          "identifier" : "photo.on.rectangle.angled",
+          "index" : 14,
+          "label" : "photo.on.rectangle.angled",
+          "spoken" : "photo.on.rectangle.angled, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.33333333333337,
+            "width" : 65.66666666666669,
+            "x" : 215.16666666666669,
+            "y" : 590.6666666666666
+          },
+          "index" : 15,
+          "label" : "Send image(s) (background)",
+          "spoken" : "Send image(s) (background)",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 314,
+            "y" : 525.6666666666666
+          },
+          "identifier" : "cube",
+          "index" : 16,
+          "label" : "Эффект Глубины",
+          "spoken" : "Эффект Глубины, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.33333333333337,
+            "width" : 54,
+            "x" : 315,
+            "y" : 590.6666666666666
+          },
+          "index" : 17,
+          "label" : "Open Ice Cubes",
+          "spoken" : "Open Ice Cubes",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 119,
+            "x" : 20,
+            "y" : 663.6666870117188
+          },
+          "index" : 18,
+          "label" : "Sonava",
+          "spoken" : "Sonava, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 32,
+            "y" : 719.6666666666667
+          },
+          "identifier" : "heart.fill",
+          "index" : 19,
+          "label" : "Любовь",
+          "spoken" : "Любовь, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 65.33333333333331,
+            "x" : 27.333333333333336,
+            "y" : 784.6666666666667
+          },
+          "index" : 20,
+          "label" : "Избранное",
+          "spoken" : "Избранное",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 126,
+            "y" : 719.6666666666667
+          },
+          "identifier" : "dot.radiowaves.left.and.right",
+          "index" : 21,
+          "label" : "Радио",
+          "spoken" : "Радио, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 64.33333333333334,
+            "x" : 121.83333333333334,
+            "y" : 784.6666666666667
+          },
+          "index" : 22,
+          "label" : "Моё радио",
+          "spoken" : "Моё радио",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 220,
+            "y" : 719.6666666666667
+          },
+          "identifier" : "play.fill",
+          "index" : 23,
+          "label" : "Воспроизвести",
+          "spoken" : "Воспроизвести, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.33333333333337,
+            "width" : 50.66666666666666,
+            "x" : 222.66666666666666,
+            "y" : 784.6666666666667
+          },
+          "index" : 24,
+          "label" : "Продолжить",
+          "spoken" : "Продолжить",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 185,
+            "x" : 20,
+            "y" : 857.6666870117188
+          },
+          "index" : 25,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 30,
+            "y" : 795
+          },
+          "index" : 26,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 141.33333333333331,
+            "y" : 795
+          },
+          "index" : 27,
+          "label" : "Автоматизация",
+          "spoken" : "Автоматизация, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333334,
+            "x" : 252.66666666666666,
+            "y" : 795
+          },
+          "index" : 28,
+          "label" : "Галерея",
+          "spoken" : "Галерея, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    }
+  ]
+}

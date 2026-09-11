@@ -36,13 +36,97 @@ struct Arguments {
     }
 }
 
+/// Транслитерация имени приложения в адрес страницы.
+///
+/// Адреса должны быть латиницей и без пробелов: они попадают в ссылки,
+/// в поисковую выдачу и в файловую систему. Русские названия приложений
+/// при этом никуда не деваются — они остаются в заголовке страницы.
+func slugify(_ name: String) -> String {
+    let map: [Character: String] = [
+        "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"e","ж":"zh","з":"z",
+        "и":"i","й":"y","к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r",
+        "с":"s","т":"t","у":"u","ф":"f","х":"h","ц":"c","ч":"ch","ш":"sh","щ":"sch",
+        "ъ":"","ы":"y","ь":"","э":"e","ю":"yu","я":"ya",
+    ]
+    var out = ""
+    for character in name.lowercased() {
+        if let replacement = map[character] { out += replacement }
+        else if character.isLetter || character.isNumber { out.append(character) }
+        else if !out.hasSuffix("-") { out.append("-") }
+    }
+    return out.trimmingCharacters(in: CharacterSet(charactersIn: "-"))
+}
+
+/// Собирает сайт индекса из каталога с базовыми линиями.
+func buildIndex(from inputDir: URL, to outputDir: URL) {
+    let fm = FileManager.default
+    let store = BaselineStore()
+
+    guard let files = try? fm.contentsOfDirectory(at: inputDir, includingPropertiesForKeys: nil)
+        .filter({ $0.pathExtension == "json" }).sorted(by: { $0.path < $1.path }) else {
+        fail("не удалось прочитать каталог \(inputDir.path)")
+    }
+    guard !files.isEmpty else { fail("в каталоге \(inputDir.path) нет базовых линий") }
+
+    let generatedOn = ProcessInfo.processInfo.environment["A11Y_REPORT_DATE"] ?? {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "ru_RU")
+        formatter.dateFormat = "d MMMM yyyy"
+        return formatter.string(from: Date())
+    }()
+
+    var entries: [IndexReport.Entry] = []
+    for file in files {
+        guard let baseline = try? store.read(from: file) else {
+            print("пропущено (не читается): \(file.lastPathComponent)")
+            continue
+        }
+        let findings = RuleRegistry.runMatching(baseline)
+        let slug = slugify(baseline.app)
+        let appDir = outputDir.appendingPathComponent("apps/\(slug)")
+        try? fm.createDirectory(at: appDir, withIntermediateDirectories: true)
+
+        let meta = HTMLReport.Meta(
+            contactURL: "https://github.com/jobexpert365/a11y-baseline/issues/new",
+            indexURL: "../../",
+            generatedOn: generatedOn
+        )
+        let html = HTMLReport().render(baseline: baseline, findings: findings, meta: meta)
+        try? html.write(to: appDir.appendingPathComponent("index.html"), atomically: true, encoding: .utf8)
+
+        entries.append(IndexReport.Entry(
+            app: baseline.app,
+            slug: slug,
+            elements: baseline.screens.reduce(0) { $0 + $1.utterances.count },
+            findings: findings.count,
+            blockers: findings.filter { $0.severity == .blocker }.count
+        ))
+        print("страница: apps/\(slug)/ — \(findings.count) находок")
+    }
+
+    try? fm.createDirectory(at: outputDir, withIntermediateDirectories: true)
+    let index = IndexReport().render(entries: entries, generatedOn: generatedOn)
+    try? index.write(to: outputDir.appendingPathComponent("index.html"), atomically: true, encoding: .utf8)
+    print("индекс собран: \(entries.count) приложений в \(outputDir.path)")
+}
+
 func fail(_ message: String) -> Never {
     FileHandle.standardError.write(Data("Ошибка: \(message)\n".utf8))
     exit(1)
 }
 
+// Режим сборки индекса: на входе каталог с базовыми линиями, на выходе
+// готовый сайт. Отдельный режим, а не флаг, потому что это другая работа:
+// одиночный отчёт делают для клиента, индекс — для поиска.
+if CommandLine.arguments.count >= 4, CommandLine.arguments[1] == "--index" {
+    let inputDir = URL(fileURLWithPath: CommandLine.arguments[2])
+    let outputDir = URL(fileURLWithPath: CommandLine.arguments[3])
+    buildIndex(from: inputDir, to: outputDir)
+    exit(0)
+}
+
 guard let args = Arguments.parse(CommandLine.arguments) else {
-    fail("использование: a11y-report <baseline.json> [--html out.html] [--markdown out.md]")
+    fail("использование:\n  a11y-report <baseline.json> [--html out.html] [--markdown out.md]\n  a11y-report --index <каталог-с-базовыми-линиями> <каталог-сайта>")
 }
 
 let store = BaselineStore()

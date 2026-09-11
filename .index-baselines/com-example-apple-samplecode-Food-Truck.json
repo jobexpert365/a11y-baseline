@@ -1,0 +1,3155 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Food Truck (пример Apple)",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "en",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 89,
+            "x" : 15.999999999999993,
+            "y" : 119.66666666666667
+          },
+          "index" : 1,
+          "label" : "Truck",
+          "spoken" : "Truck",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 142,
+            "x" : 26,
+            "y" : 394
+          },
+          "index" : 2,
+          "label" : "New Orders",
+          "spoken" : "New Orders, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666669,
+            "width" : 102.66666666666666,
+            "x" : 36,
+            "y" : 429.99999999999994
+          },
+          "index" : 3,
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666669,
+            "width" : 102.66666666666666,
+            "x" : 36,
+            "y" : 429.99999999999994
+          },
+          "index" : 4,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666669,
+            "width" : 102.66666666666666,
+            "x" : 36,
+            "y" : 429.99999999999994
+          },
+          "index" : 5,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 434.99999999999994
+          },
+          "index" : 6,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 434.99999999999994
+          },
+          "index" : 7,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 434.99999999999994
+          },
+          "index" : 8,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666674,
+            "width" : 102.66666666666666,
+            "x" : 59.666666666666664,
+            "y" : 466.33333333333326
+          },
+          "index" : 9,
+          "label" : "topping/zigzag-white-thumb",
+          "spoken" : "topping/zigzag-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666674,
+            "width" : 102.66666666666666,
+            "x" : 59.666666666666664,
+            "y" : 466.33333333333326
+          },
+          "index" : 10,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666674,
+            "width" : 102.66666666666666,
+            "x" : 59.666666666666664,
+            "y" : 466.33333333333326
+          },
+          "index" : 11,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 450.66666666666663
+          },
+          "index" : 12,
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 450.66666666666663
+          },
+          "index" : 13,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 450.66666666666663
+          },
+          "index" : 14,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
+          },
+          "index" : 15,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
+          },
+          "index" : 16,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 466.33333333333326
+          },
+          "index" : 17,
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 466.33333333333326
+          },
+          "index" : 18,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 466.33333333333326
+          },
+          "index" : 19,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
+          },
+          "index" : 20,
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
+          },
+          "index" : 21,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
+          },
+          "index" : 22,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
+          },
+          "index" : 23,
+          "label" : "topping/crisscross-white-thumb",
+          "spoken" : "topping/crisscross-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
+          },
+          "index" : 24,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
+          },
+          "index" : 25,
+          "label" : "dough/blue-thumb",
+          "spoken" : "dough/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666663,
+            "width" : 102.66666666666667,
+            "x" : 83.33333333333333,
+            "y" : 502.66666666666663
+          },
+          "index" : 26,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666663,
+            "width" : 102.66666666666667,
+            "x" : 83.33333333333333,
+            "y" : 502.66666666666663
+          },
+          "index" : 27,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 102.66666666666663,
+            "width" : 102.66666666666667,
+            "x" : 83.33333333333333,
+            "y" : 502.66666666666663
+          },
+          "index" : 28,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 47.66666666666674,
+            "width" : 47.66666666666663,
+            "x" : 212,
+            "y" : 525.3333333333333
+          },
+          "index" : 29,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 47.66666666666674,
+            "width" : 47.66666666666663,
+            "x" : 212,
+            "y" : 525.3333333333333
+          },
+          "index" : 30,
+          "label" : "glaze/yellow-thumb",
+          "spoken" : "glaze/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 47.66666666666674,
+            "width" : 47.66666666666663,
+            "x" : 212,
+            "y" : 525.3333333333333
+          },
+          "index" : 31,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 525
+          },
+          "index" : 32,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 525
+          },
+          "index" : 33,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 47.66666666666674,
+            "width" : 47.66666666666666,
+            "x" : 232.33333333333334,
+            "y" : 552.3333333333333
+          },
+          "index" : 34,
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 47.66666666666674,
+            "width" : 47.66666666666666,
+            "x" : 232.33333333333334,
+            "y" : 552.3333333333333
+          },
+          "index" : 35,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 47.66666666666674,
+            "width" : 47.66666666666666,
+            "x" : 232.33333333333334,
+            "y" : 552.3333333333333
+          },
+          "index" : 36,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 540.6666666666666
+          },
+          "index" : 37,
+          "label" : "topping/powdersugar-thumb",
+          "spoken" : "topping/powdersugar-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 540.6666666666666
+          },
+          "index" : 38,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 556.3333333333333
+          },
+          "index" : 39,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 556.3333333333333
+          },
+          "index" : 40,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 89.33333333333333,
+            "x" : 126.33333333333333,
+            "y" : 609.40966796875
+          },
+          "index" : 41,
+          "label" : "Order#1201",
+          "spoken" : "Order#1201",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19,
+            "width" : 24,
+            "x" : 225,
+            "y" : 610
+          },
+          "index" : 42,
+          "label" : "donut",
+          "spoken" : "donut, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 17.333333333333314,
+            "x" : 258.3333333333333,
+            "y" : 609.40966796875
+          },
+          "index" : 43,
+          "label" : "12",
+          "spoken" : "12",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 122,
+            "x" : 26,
+            "y" : 662
+          },
+          "index" : 44,
+          "label" : "Forecast",
+          "spoken" : "Forecast, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.33333333333337,
+            "width" : 111.66666666666666,
+            "x" : 26,
+            "y" : 911.3333333333333
+          },
+          "index" : 45,
+          "label" : "Donuts",
+          "spoken" : "Donuts, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 954.3333333333333
+          },
+          "index" : 46,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 954.3333333333333
+          },
+          "index" : 47,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 954.3333333333333
+          },
+          "index" : 48,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 954.3333333333333
+          },
+          "index" : 49,
+          "label" : "topping/crisscross-white-thumb",
+          "spoken" : "topping/crisscross-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 954.3333333333333
+          },
+          "index" : 50,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 954.3333333333333
+          },
+          "index" : 51,
+          "label" : "dough/blue-thumb",
+          "spoken" : "dough/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 954.3333333333333
+          },
+          "index" : 52,
+          "label" : "topping/zigzag-white-thumb",
+          "spoken" : "topping/zigzag-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 954.3333333333333
+          },
+          "index" : 53,
+          "label" : "glaze/pink-thumb",
+          "spoken" : "glaze/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 954.3333333333333
+          },
+          "index" : 54,
+          "label" : "dough/pink-thumb",
+          "spoken" : "dough/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 954.3333333333333
+          },
+          "index" : 55,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 954.3333333333333
+          },
+          "index" : 56,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 954.3333333333333
+          },
+          "index" : 57,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 954.3333333333333
+          },
+          "index" : 58,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 954.3333333333333
+          },
+          "index" : 59,
+          "label" : "glaze/pink-thumb",
+          "spoken" : "glaze/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 954.3333333333333
+          },
+          "index" : 60,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 66,
+            "y" : 1024.3333333333333
+          },
+          "index" : 61,
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 66,
+            "y" : 1024.3333333333333
+          },
+          "index" : 62,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 66,
+            "y" : 1024.3333333333333
+          },
+          "index" : 63,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 136,
+            "y" : 1024.3333333333333
+          },
+          "index" : 64,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 136,
+            "y" : 1024.3333333333333
+          },
+          "index" : 65,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 206,
+            "y" : 1024.3333333333333
+          },
+          "index" : 66,
+          "label" : "topping/crisscross-blue-thumb",
+          "spoken" : "topping/crisscross-blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 206,
+            "y" : 1024.3333333333333
+          },
+          "index" : 67,
+          "label" : "glaze/pink-thumb",
+          "spoken" : "glaze/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 206,
+            "y" : 1024.3333333333333
+          },
+          "index" : 68,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 276,
+            "y" : 1024.3333333333333
+          },
+          "index" : 69,
+          "label" : "topping/zigzag-white-thumb",
+          "spoken" : "topping/zigzag-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 276,
+            "y" : 1024.3333333333333
+          },
+          "index" : 70,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 276,
+            "y" : 1024.3333333333333
+          },
+          "index" : 71,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 1094.3333333333333
+          },
+          "index" : 72,
+          "label" : "topping/powdersugar-thumb",
+          "spoken" : "topping/powdersugar-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 1094.3333333333333
+          },
+          "index" : 73,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 1094.3333333333333
+          },
+          "index" : 74,
+          "label" : "topping/powdersugar-thumb",
+          "spoken" : "topping/powdersugar-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 1094.3333333333333
+          },
+          "index" : 75,
+          "label" : "dough/pink-thumb",
+          "spoken" : "dough/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 1094.3333333333333
+          },
+          "index" : 76,
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 1094.3333333333333
+          },
+          "index" : 77,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 1094.3333333333333
+          },
+          "index" : 78,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 1094.3333333333333
+          },
+          "index" : 79,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 1094.3333333333333
+          },
+          "index" : 80,
+          "label" : "glaze/yellow-thumb",
+          "spoken" : "glaze/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 1094.3333333333333
+          },
+          "index" : 81,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 1094.3333333333333
+          },
+          "index" : 82,
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 1094.3333333333333
+          },
+          "index" : 83,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 1094.3333333333333
+          },
+          "index" : 84,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 141.33333333333331,
+            "x" : 26,
+            "y" : 1191.3333333333333
+          },
+          "index" : 85,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333485,
+            "width" : 151,
+            "x" : 54,
+            "y" : 1243.6666666666665
+          },
+          "index" : 86,
+          "label" : "Powdered Chocolate",
+          "spoken" : "Powdered Chocolate",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333485,
+            "width" : 135.33333333333331,
+            "x" : 213,
+            "y" : 1243.6666666666665
+          },
+          "index" : 87,
+          "label" : "Blueberry Frosted",
+          "spoken" : "Blueberry Frosted",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666515,
+            "width" : 100.66666666666666,
+            "x" : 76,
+            "y" : 1278
+          },
+          "index" : 88,
+          "label" : "Warmed Up",
+          "spoken" : "Warmed Up",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666515,
+            "width" : 141.66666666666666,
+            "x" : 184.66666666666666,
+            "y" : 1278
+          },
+          "index" : 89,
+          "label" : "Room Temperature",
+          "spoken" : "Room Temperature",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.333333333333485,
+            "width" : 113.66666666666667,
+            "x" : 26.333333333333332,
+            "y" : 1312.6666666666665
+          },
+          "index" : 90,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333258,
+            "width" : 82,
+            "x" : 148,
+            "y" : 1313.3333333333333
+          },
+          "index" : 91,
+          "label" : "Rainbow",
+          "spoken" : "Rainbow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666515,
+            "width" : 137.66666666666663,
+            "x" : 238,
+            "y" : 1313
+          },
+          "index" : 92,
+          "label" : "Rainbow Sprinkles",
+          "spoken" : "Rainbow Sprinkles",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333485,
+            "width" : 152,
+            "x" : 26,
+            "y" : 1348.6666666666665
+          },
+          "index" : 93,
+          "label" : "Strawberry Sprinkles",
+          "spoken" : "Strawberry Sprinkles",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 92,
+            "x" : 186,
+            "y" : 1348.3333333333333
+          },
+          "index" : 94,
+          "label" : "Dairy Free",
+          "spoken" : "Dairy Free",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.333333333333485,
+            "width" : 90,
+            "x" : 286,
+            "y" : 1348
+          },
+          "index" : 95,
+          "label" : "Cupertino",
+          "spoken" : "Cupertino",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.333333333333258,
+            "width" : 76.33333333333333,
+            "x" : 63.33333333333333,
+            "y" : 1383.3333333333333
+          },
+          "index" : 96,
+          "label" : "London",
+          "spoken" : "London",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 99.66666666666666,
+            "x" : 147.66666666666666,
+            "y" : 1383.6666666666665
+          },
+          "index" : 97,
+          "label" : "Gluten Free",
+          "spoken" : "Gluten Free",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333258,
+            "width" : 83.66666666666669,
+            "x" : 255.33333333333331,
+            "y" : 1384
+          },
+          "index" : 98,
+          "label" : "Fire Zest",
+          "spoken" : "Fire Zest",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333258,
+            "width" : 126.33333333333331,
+            "x" : 96,
+            "y" : 1419
+          },
+          "index" : 99,
+          "label" : "Black Raspberry",
+          "spoken" : "Black Raspberry",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 76,
+            "x" : 230.33333333333331,
+            "y" : 1418.6666666666665
+          },
+          "index" : 100,
+          "label" : "Carrots",
+          "spoken" : "Carrots",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 143.33333333333331,
+            "x" : 129.33333333333331,
+            "y" : 1453.3333333333333
+          },
+          "index" : 101,
+          "label" : "Donut vs Doughnut",
+          "spoken" : "Donut vs Doughnut",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666742,
+            "width" : 96.33333333333334,
+            "x" : 152.83333333333334,
+            "y" : 1484.8059895833333
+          },
+          "index" : 102,
+          "label" : "Trending Topics",
+          "spoken" : "Trending Topics",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 175,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 168
+          },
+          "index" : 1,
+          "label" : "Truck",
+          "spoken" : "Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 220
+          },
+          "index" : 2,
+          "label" : "Orders",
+          "spoken" : "Orders, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 272
+          },
+          "index" : 3,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 324
+          },
+          "index" : 4,
+          "label" : "Sales History",
+          "spoken" : "Sales History, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 393.66666666666663
+          },
+          "index" : 5,
+          "label" : "Donuts",
+          "spoken" : "Donuts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 434
+          },
+          "index" : 6,
+          "label" : "Donuts",
+          "spoken" : "Donuts, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 486
+          },
+          "index" : 7,
+          "label" : "Donut Editor",
+          "spoken" : "Donut Editor, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 538
+          },
+          "index" : 8,
+          "label" : "Top 5",
+          "spoken" : "Top 5, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 607.3333333333333
+          },
+          "index" : 9,
+          "label" : "Cities",
+          "spoken" : "Cities",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 647.6666666666667
+          },
+          "index" : 10,
+          "label" : "Cupertino",
+          "spoken" : "Cupertino, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 699.6666666666666
+          },
+          "index" : 11,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 751.6666666666666
+          },
+          "index" : 12,
+          "label" : "London",
+          "spoken" : "London, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 3",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 89,
+            "x" : 15.999999999999993,
+            "y" : 119.66666666666667
+          },
+          "index" : 1,
+          "label" : "Truck",
+          "spoken" : "Truck",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 142,
+            "x" : 26,
+            "y" : 394
+          },
+          "index" : 2,
+          "label" : "New Orders",
+          "spoken" : "New Orders, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 158,
+            "width" : 158,
+            "x" : 32,
+            "y" : 438.66666666666663
+          },
+          "index" : 3,
+          "label" : "topping/powdersugar-full",
+          "spoken" : "topping/powdersugar-full, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 158,
+            "width" : 158,
+            "x" : 32,
+            "y" : 438.66666666666663
+          },
+          "index" : 4,
+          "label" : "dough/pink-full",
+          "spoken" : "dough/pink-full, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 68,
+            "width" : 68,
+            "x" : 212,
+            "y" : 438.66666666666663
+          },
+          "index" : 5,
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 68,
+            "width" : 68,
+            "x" : 212,
+            "y" : 438.66666666666663
+          },
+          "index" : 6,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 68,
+            "width" : 68,
+            "x" : 212,
+            "y" : 438.66666666666663
+          },
+          "index" : 7,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
+          },
+          "index" : 8,
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
+          },
+          "index" : 9,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
+          },
+          "index" : 10,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
+          },
+          "index" : 11,
+          "label" : "topping/zigzag-white-thumb",
+          "spoken" : "topping/zigzag-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
+          },
+          "index" : 12,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
+          },
+          "index" : 13,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
+          },
+          "index" : 14,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
+          },
+          "index" : 15,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
+          },
+          "index" : 16,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 525
+          },
+          "index" : 17,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 525
+          },
+          "index" : 18,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 525
+          },
+          "index" : 19,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
+          },
+          "index" : 20,
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
+          },
+          "index" : 21,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
+          },
+          "index" : 22,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 525
+          },
+          "index" : 23,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 525
+          },
+          "index" : 24,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 556.3333333333333
+          },
+          "index" : 25,
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 556.3333333333333
+          },
+          "index" : 26,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 556.3333333333333
+          },
+          "index" : 27,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 540.6666666666666
+          },
+          "index" : 28,
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 540.6666666666666
+          },
+          "index" : 29,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 540.6666666666666
+          },
+          "index" : 30,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 556.3333333333333
+          },
+          "index" : 31,
+          "label" : "topping/crisscross-white-thumb",
+          "spoken" : "topping/crisscross-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 556.3333333333333
+          },
+          "index" : 32,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 556.3333333333333
+          },
+          "index" : 33,
+          "label" : "dough/blue-thumb",
+          "spoken" : "dough/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 98.66666666666666,
+            "x" : 124.33333333333334,
+            "y" : 610.0763346354166
+          },
+          "index" : 34,
+          "label" : "Order#1226",
+          "spoken" : "Order#1226",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333396911621,
+            "width" : 25.00000000000003,
+            "x" : 232.33333333333334,
+            "y" : 610
+          },
+          "index" : 35,
+          "label" : "donut",
+          "spoken" : "donut, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 11,
+            "x" : 266.6666666666667,
+            "y" : 610.0763346354166
+          },
+          "index" : 36,
+          "label" : "5",
+          "spoken" : "5",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 122,
+            "x" : 26,
+            "y" : 663.3333333333333
+          },
+          "index" : 37,
+          "label" : "Forecast",
+          "spoken" : "Forecast, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.33333333333337,
+            "width" : 111.66666666666666,
+            "x" : 26,
+            "y" : 912.6666666666666
+          },
+          "index" : 38,
+          "label" : "Donuts",
+          "spoken" : "Donuts, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 955.6666666666666
+          },
+          "index" : 39,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 955.6666666666666
+          },
+          "index" : 40,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 955.6666666666666
+          },
+          "index" : 41,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 955.6666666666666
+          },
+          "index" : 42,
+          "label" : "topping/crisscross-white-thumb",
+          "spoken" : "topping/crisscross-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 955.6666666666666
+          },
+          "index" : 43,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 955.6666666666666
+          },
+          "index" : 44,
+          "label" : "dough/blue-thumb",
+          "spoken" : "dough/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 955.6666666666666
+          },
+          "index" : 45,
+          "label" : "topping/zigzag-white-thumb",
+          "spoken" : "topping/zigzag-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 955.6666666666666
+          },
+          "index" : 46,
+          "label" : "glaze/pink-thumb",
+          "spoken" : "glaze/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 955.6666666666666
+          },
+          "index" : 47,
+          "label" : "dough/pink-thumb",
+          "spoken" : "dough/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 955.6666666666666
+          },
+          "index" : 48,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 955.6666666666666
+          },
+          "index" : 49,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 955.6666666666666
+          },
+          "index" : 50,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 955.6666666666666
+          },
+          "index" : 51,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 955.6666666666666
+          },
+          "index" : 52,
+          "label" : "glaze/pink-thumb",
+          "spoken" : "glaze/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 955.6666666666666
+          },
+          "index" : 53,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 66,
+            "y" : 1025.6666666666665
+          },
+          "index" : 54,
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 66,
+            "y" : 1025.6666666666665
+          },
+          "index" : 55,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 66,
+            "y" : 1025.6666666666665
+          },
+          "index" : 56,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 136,
+            "y" : 1025.6666666666665
+          },
+          "index" : 57,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 136,
+            "y" : 1025.6666666666665
+          },
+          "index" : 58,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 206,
+            "y" : 1025.6666666666665
+          },
+          "index" : 59,
+          "label" : "topping/crisscross-blue-thumb",
+          "spoken" : "topping/crisscross-blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 206,
+            "y" : 1025.6666666666665
+          },
+          "index" : 60,
+          "label" : "glaze/pink-thumb",
+          "spoken" : "glaze/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 206,
+            "y" : 1025.6666666666665
+          },
+          "index" : 61,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 276,
+            "y" : 1025.6666666666665
+          },
+          "index" : 62,
+          "label" : "topping/zigzag-white-thumb",
+          "spoken" : "topping/zigzag-white-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 276,
+            "y" : 1025.6666666666665
+          },
+          "index" : 63,
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 276,
+            "y" : 1025.6666666666665
+          },
+          "index" : 64,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 1095.6666666666665
+          },
+          "index" : 65,
+          "label" : "topping/powdersugar-thumb",
+          "spoken" : "topping/powdersugar-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 31,
+            "y" : 1095.6666666666665
+          },
+          "index" : 66,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 1095.6666666666665
+          },
+          "index" : 67,
+          "label" : "topping/powdersugar-thumb",
+          "spoken" : "topping/powdersugar-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 101,
+            "y" : 1095.6666666666665
+          },
+          "index" : 68,
+          "label" : "dough/pink-thumb",
+          "spoken" : "dough/pink-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 1095.6666666666665
+          },
+          "index" : 69,
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 1095.6666666666665
+          },
+          "index" : 70,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 171,
+            "y" : 1095.6666666666665
+          },
+          "index" : 71,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 1095.6666666666665
+          },
+          "index" : 72,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 1095.6666666666665
+          },
+          "index" : 73,
+          "label" : "glaze/yellow-thumb",
+          "spoken" : "glaze/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 1095.6666666666665
+          },
+          "index" : 74,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 1095.6666666666665
+          },
+          "index" : 75,
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 1095.6666666666665
+          },
+          "index" : 76,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
+            "y" : 1095.6666666666665
+          },
+          "index" : 77,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666515,
+            "width" : 141.33333333333331,
+            "x" : 26,
+            "y" : 1192.6666666666665
+          },
+          "index" : 78,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333485,
+            "width" : 151,
+            "x" : 54,
+            "y" : 1245
+          },
+          "index" : 79,
+          "label" : "Powdered Chocolate",
+          "spoken" : "Powdered Chocolate",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333485,
+            "width" : 135.33333333333331,
+            "x" : 213,
+            "y" : 1245
+          },
+          "index" : 80,
+          "label" : "Blueberry Frosted",
+          "spoken" : "Blueberry Frosted",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 100.66666666666666,
+            "x" : 76,
+            "y" : 1279.3333333333333
+          },
+          "index" : 81,
+          "label" : "Warmed Up",
+          "spoken" : "Warmed Up",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 141.66666666666666,
+            "x" : 184.66666666666666,
+            "y" : 1279.3333333333333
+          },
+          "index" : 82,
+          "label" : "Room Temperature",
+          "spoken" : "Room Temperature",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.333333333333485,
+            "width" : 113.66666666666667,
+            "x" : 26.333333333333332,
+            "y" : 1314
+          },
+          "index" : 83,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333485,
+            "width" : 82,
+            "x" : 148,
+            "y" : 1314.6666666666665
+          },
+          "index" : 84,
+          "label" : "Rainbow",
+          "spoken" : "Rainbow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 137.66666666666663,
+            "x" : 238,
+            "y" : 1314.3333333333333
+          },
+          "index" : 85,
+          "label" : "Rainbow Sprinkles",
+          "spoken" : "Rainbow Sprinkles",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333485,
+            "width" : 152,
+            "x" : 26,
+            "y" : 1350
+          },
+          "index" : 86,
+          "label" : "Strawberry Sprinkles",
+          "spoken" : "Strawberry Sprinkles",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666515,
+            "width" : 92,
+            "x" : 186,
+            "y" : 1349.6666666666665
+          },
+          "index" : 87,
+          "label" : "Dairy Free",
+          "spoken" : "Dairy Free",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.333333333333258,
+            "width" : 90,
+            "x" : 286,
+            "y" : 1349.3333333333333
+          },
+          "index" : 88,
+          "label" : "Cupertino",
+          "spoken" : "Cupertino",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.333333333333258,
+            "width" : 76.33333333333333,
+            "x" : 63.33333333333333,
+            "y" : 1384.6666666666665
+          },
+          "index" : 89,
+          "label" : "London",
+          "spoken" : "London",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 99.66666666666666,
+            "x" : 147.66666666666666,
+            "y" : 1385
+          },
+          "index" : 90,
+          "label" : "Gluten Free",
+          "spoken" : "Gluten Free",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333258,
+            "width" : 83.66666666666669,
+            "x" : 255.33333333333331,
+            "y" : 1385.3333333333333
+          },
+          "index" : 91,
+          "label" : "Fire Zest",
+          "spoken" : "Fire Zest",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333258,
+            "width" : 126.33333333333331,
+            "x" : 96,
+            "y" : 1420.3333333333333
+          },
+          "index" : 92,
+          "label" : "Black Raspberry",
+          "spoken" : "Black Raspberry",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 76,
+            "x" : 230.33333333333331,
+            "y" : 1420
+          },
+          "index" : 93,
+          "label" : "Carrots",
+          "spoken" : "Carrots",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666742,
+            "width" : 143.33333333333331,
+            "x" : 129.33333333333331,
+            "y" : 1454.6666666666665
+          },
+          "index" : 94,
+          "label" : "Donut vs Doughnut",
+          "spoken" : "Donut vs Doughnut",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666742,
+            "width" : 96.33333333333334,
+            "x" : 152.83333333333334,
+            "y" : 1486.1393229166665
+          },
+          "index" : 95,
+          "label" : "Trending Topics",
+          "spoken" : "Trending Topics",
+          "traits" : [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

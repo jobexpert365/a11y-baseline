@@ -1,0 +1,49 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Напоминания",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 26.333333333333343,
+            "width" : 326,
+            "x" : 38,
+            "y" : 140.66666666666669
+          },
+          "index" : 0,
+          "label" : "Встречайте Напоминания!",
+          "spoken" : "Встречайте Напоминания!",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 326,
+            "x" : 38,
+            "y" : 784
+          },
+          "index" : 1,
+          "label" : "Продолжить",
+          "spoken" : "Продолжить, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    }
+  ]
+}

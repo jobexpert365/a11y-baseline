@@ -1,0 +1,238 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Календарь",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44.00000000000001,
+            "width" : 129.66666666666666,
+            "x" : 16.000000100000026,
+            "y" : 61.99999999999999
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Сентябрь",
+          "spoken" : "Сентябрь, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 45.666666666666686,
+            "x" : 227.3333334333334,
+            "y" : 66
+          },
+          "identifier" : "toggle-day-list-view",
+          "index" : 1,
+          "label" : "calendar.day.timeline.leading",
+          "spoken" : "calendar.day.timeline.leading, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 39.666666666666686,
+            "x" : 289.0000001,
+            "y" : 66
+          },
+          "identifier" : "searchbar-button",
+          "index" : 2,
+          "label" : "Искать",
+          "spoken" : "Искать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 37.333333333333314,
+            "x" : 344.6666667666667,
+            "y" : 66
+          },
+          "identifier" : "add-plus-button",
+          "index" : 3,
+          "label" : "Добавить",
+          "spoken" : "Добавить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 43,
+            "width" : 57.333333333333336,
+            "x" : 1.0000002248489182e-07,
+            "y" : 133.33333333333331
+          },
+          "index" : 4,
+          "label" : "понедельник, 7 сентября",
+          "spoken" : "понедельник, 7 сентября, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 43,
+            "width" : 57.33333333333334,
+            "x" : 57.33333343333214,
+            "y" : 133.33333333333331
+          },
+          "index" : 5,
+          "label" : "вторник, 8 сентября",
+          "spoken" : "вторник, 8 сентября, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 43,
+            "width" : 57.33333333333334,
+            "x" : 114.66666676666426,
+            "y" : 133.33333333333331
+          },
+          "index" : 6,
+          "label" : "среда, 9 сентября",
+          "spoken" : "среда, 9 сентября, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 43,
+            "width" : 57.33333333333334,
+            "x" : 172.00000009999638,
+            "y" : 133.33333333333331
+          },
+          "index" : 7,
+          "label" : "четверг, 10 сентября",
+          "spoken" : "четверг, 10 сентября, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 43,
+            "width" : 57.333333333333314,
+            "x" : 286.6666667666606,
+            "y" : 133.33333333333331
+          },
+          "index" : 8,
+          "label" : "суббота, 12 сентября",
+          "spoken" : "суббота, 12 сентября, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 43,
+            "width" : 57.333333333333314,
+            "x" : 344.00000009999275,
+            "y" : 133.33333333333331
+          },
+          "index" : 9,
+          "label" : "воскресенье, 13 сентября",
+          "spoken" : "воскресенье, 13 сентября, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 194.33333333333331,
+            "x" : 103.83333333333331,
+            "y" : 192.33333333333334
+          },
+          "identifier" : "current-day",
+          "index" : 10,
+          "label" : "Пятница — 11 сент. 2026 г.",
+          "spoken" : "Пятница — 11 сент. 2026 г.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 272,
+            "width" : 642,
+            "x" : -120,
+            "y" : 738
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 11,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 90.33333333333333,
+            "x" : 33,
+            "y" : 803
+          },
+          "identifier" : "today-button",
+          "index" : 12,
+          "label" : "Сегодня",
+          "spoken" : "Сегодня, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 56.66666666666666,
+            "x" : 251.66666666666666,
+            "y" : 803
+          },
+          "identifier" : "calendars-button",
+          "index" : 13,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 46.666666666666686,
+            "x" : 322.3333333333333,
+            "y" : 803
+          },
+          "identifier" : "inbox-button",
+          "index" : 14,
+          "label" : "ящик входящие",
+          "spoken" : "ящик входящие, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    }
+  ]
+}

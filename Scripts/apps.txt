@@ -1,0 +1,13 @@
+# Приложения для индекса: bundle.id|Имя|локаль|экранов
+# Системные приложения симулятора — они сложные и хорошо сделаны,
+# поэтому служат проверкой на шум.
+com.apple.Preferences|Настройки iOS|ru|1
+com.apple.MobileAddressBook|Контакты|ru|1
+com.apple.mobilecal|Календарь|ru|1
+com.apple.Maps|Карты|ru|1
+com.apple.shortcuts|Быстрые команды|ru|1
+com.apple.reminders|Напоминания|ru|1
+com.apple.Passwords|Пароли|ru|1
+# Собранные из исходников открытые приложения.
+com.example.IceCubesApp|Ice Cubes (клиент Mastodon)|en|3
+com.example.apple-samplecode.Food-Truck|Food Truck (пример Apple)|en|3
