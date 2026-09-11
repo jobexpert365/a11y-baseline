@@ -43,6 +43,15 @@ public final class AccessibilityTreeSource: SpeechSource {
         // а не эвристикой по геометрии.
         let root = try app.snapshot()
 
+        if ProcessInfo.processInfo.environment["A11Y_DUMP_TREE"] == "1" {
+            var lines: [String] = []
+            Self.dump(node: root, depth: 0, into: &lines)
+            let path = URL(fileURLWithPath: NSTemporaryDirectory())
+                .appendingPathComponent("tree-\(name).txt")
+            try? lines.joined(separator: "\n").write(to: path, atomically: true, encoding: .utf8)
+            print("A11Y_TREE_DUMP=\(path.path)")
+        }
+
         var utterances: [Utterance] = []
         collect(node: root, parentIsAnnounced: false, into: &utterances)
 
@@ -180,6 +189,19 @@ public final class AccessibilityTreeSource: SpeechSource {
             .trimmingCharacters(in: .whitespacesAndNewlines)
         guard let text, !text.isEmpty, text != label else { return nil }
         return text
+    }
+
+    /// Диагностический вывод структуры дерева. Включается переменной
+    /// A11Y_DUMP_TREE=1 и нужен ровно для одного: чинить фильтры по факту,
+    /// а не по догадке о том, как устроено чужое приложение.
+    static func dump(node: XCUIElementSnapshot, depth: Int, into lines: inout [String]) {
+        let indent = String(repeating: "  ", count: depth)
+        let label = node.label.isEmpty ? "-" : node.label
+        let identifier = node.identifier.isEmpty ? "" : " #\(node.identifier)"
+        lines.append("\(indent)[\(node.elementType.rawValue)]\(identifier) \(label)")
+        for child in node.children {
+            dump(node: child, depth: depth + 1, into: &lines)
+        }
     }
 
     /// Собирает реплику так, как её произнёс бы VoiceOver.

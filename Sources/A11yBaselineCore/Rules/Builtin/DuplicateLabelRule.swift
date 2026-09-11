@@ -9,6 +9,13 @@ import Foundation
 /// Правило принципиально не локальное: об одном элементе судить нельзя,
 /// нужен весь экран. Это и есть причина, по которой правилу передаётся
 /// контекст, а не только реплика.
+///
+/// Сравниваются РЕПЛИКИ ЦЕЛИКОМ, а не подписи. Разница выяснилась на живом
+/// прогоне по «Настройкам» iOS: там есть строка списка «Поиск» и поле поиска
+/// «Поиск». Подписи совпадают, но VoiceOver произносит «Поиск, кнопка»
+/// и «Поиск, поле поиска» — роль он объявляет сам, и на слух эти элементы
+/// различимы. Правило, сравнивавшее только подписи, сообщало о дефекте там,
+/// где для слушающего человека его нет.
 public struct DuplicateLabelRule: Rule {
 
     public static let id = "duplicate-label"
@@ -21,11 +28,13 @@ public struct DuplicateLabelRule: Rule {
               let label = utterance.label?.trimmingCharacters(in: .whitespacesAndNewlines),
               !label.isEmpty else { return nil }
 
-        // Ищем другие интерактивные элементы с той же подписью.
+        // Совпадать должна вся реплика: подпись плюс роль. Два элемента
+        // с одинаковой подписью, но разными ролями человек различает на слух.
+        let spoken = utterance.spoken.lowercased()
         let twins = context.screen.utterances.filter { other in
             other.index != utterance.index
                 && context.isInteractive(other)
-                && other.label?.trimmingCharacters(in: .whitespacesAndNewlines).lowercased() == label.lowercased()
+                && other.spoken.lowercased() == spoken
         }
         guard !twins.isEmpty else { return nil }
 

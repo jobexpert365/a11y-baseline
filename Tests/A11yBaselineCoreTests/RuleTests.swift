@@ -85,6 +85,20 @@ struct DuplicateLabelRuleTests {
         #expect(findings.first?.utteranceIndex == 0)
     }
 
+    @Test("одинаковая подпись при разных ролях дубликатом не считается")
+    func ignoresSameLabelDifferentRole() {
+        // Регрессионный тест на настоящее ложное срабатывание, найденное
+        // прогоном по «Настройкам» iOS: строка списка «Поиск» и поле поиска
+        // «Поиск». VoiceOver произносит роль, поэтому различить их на слух
+        // можно, и дефекта здесь нет.
+        let utterances = [
+            Utterance(index: 0, spoken: "Поиск, button", label: "Поиск", traits: ["button"]),
+            Utterance(index: 1, spoken: "Поиск, searchField", label: "Поиск", traits: ["searchField"]),
+        ]
+        let s = screen(utterances)
+        #expect(utterances.compactMap { DuplicateLabelRule().evaluate($0, in: context(s)) }.isEmpty)
+    }
+
     @Test("разные подписи не считаются дубликатами")
     func ignoresDistinct() {
         let utterances = ["Открыть", "Удалить"].enumerated().map {
