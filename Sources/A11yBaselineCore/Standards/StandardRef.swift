@@ -71,3 +71,32 @@ public enum Standards {
         title: "Минимальный размер цели нажатия"
     )
 }
+
+
+/// Опознание строк, которые выглядят техническими, но являются осмысленным
+/// содержимым приложения.
+///
+/// Живёт отдельно от правил намеренно: одну и ту же строку видят несколько
+/// правил, и судить о ней они обязаны одинаково. Пока проверка на домен
+/// была только в правиле имени символа, то же «objects-origin.github
+/// usercontent.com» спокойно проходило через правило имени файла.
+public enum TechnicalText {
+
+    /// Доменные зоны. Список короткий намеренно: он нужен не для полноты,
+    /// а чтобы отсечь частые случаи вроде «github.com».
+    public static let topLevelDomains: Set<String> = [
+        "com", "org", "net", "io", "ru", "dev", "app", "co", "me", "info",
+        "gov", "edu", "ai", "cloud", "tech", "online", "site", "xyz",
+    ]
+
+    /// Похожа ли строка на доменное имя или адрес.
+    public static func looksLikeDomain(_ text: String) -> Bool {
+        let lower = text.lowercased()
+        if lower.hasPrefix("http://") || lower.hasPrefix("https://") || lower.hasPrefix("www.") {
+            return true
+        }
+        guard lower.contains("."), !lower.contains(" ") else { return false }
+        guard let last = lower.split(separator: ".").last else { return false }
+        return topLevelDomains.contains(String(last))
+    }
+}

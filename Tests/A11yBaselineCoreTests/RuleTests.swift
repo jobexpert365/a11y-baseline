@@ -102,6 +102,16 @@ struct SymbolNameLabelRuleTests {
         #expect(SymbolNameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
     }
 
+    @Test("домен именем символа не считается",
+          arguments: ["github.com", "objects-origin.githubusercontent.com", "api.example.io"])
+    func ignoresDomains(label: String) {
+        // Регрессионный тест на ложное срабатывание из Pulse: сетевой логгер
+        // показывает адреса серверов, а они устроены как имена символов —
+        // строчные слова через точку. Отличаются доменной зоной на конце.
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["button"])
+        #expect(SymbolNameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
     @Test("человеческие подписи и бренды проходят",
           arguments: ["Отправить", "Sonava", "Send", "Календарь на день", "ОК"])
     func ignoresHumanAndBrands(label: String) {
@@ -144,6 +154,24 @@ struct FilenameLabelRuleTests {
     func flagsAssetNames(label: String) {
         let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
         #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
+
+    @Test("строка запроса именем файла не считается",
+          arguments: ["GET /octocat.png", "POST /api/upload.json", "загрузить фото.png"])
+    func ignoresRequestLines(label: String) {
+        // Регрессионный тест из Pulse: «GET /octocat.png» — это строка
+        // HTTP-запроса, показанная по делу, а не утёкшее имя ассета.
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
+        #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("домен именем файла не считается",
+          arguments: ["objects-origin.githubusercontent.com", "cdn-assets.example.io"])
+    func ignoresDomainsInFilenameRule(label: String) {
+        // Регрессионный тест: домен с дефисом проходил проверку «нет пробелов
+        // плюс есть разделитель» и попадал в отчёт как имя ассета.
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
+        #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
     }
 
     @Test("человеческие фразы проходят", arguments: ["Закрыть", "Стрелка назад", "Фото профиля", "ОК"])

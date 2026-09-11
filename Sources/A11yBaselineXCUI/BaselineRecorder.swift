@@ -57,6 +57,16 @@ public struct BaselineRecorder {
             if includePlatformAudit {
                 snapshot.platformAuditFindings = platformAudit(screen: step.screen)
             }
+            // Экран, совпадающий с уже снятым, в базовую линию не попадает.
+            //
+            // Найдено прогоном по Pulse: обход не смог уйти вглубь и снял
+            // стартовый экран дважды, под именами «Стартовый экран»
+            // и «Экран 3». В отчёте это выглядело как одни и те же дефекты
+            // на разных экранах, то есть удваивало их число на ровном месте
+            // и врало о покрытии приложения.
+            let alreadySeen = screens.contains { $0.utterances.map(\.spoken) == snapshot.utterances.map(\.spoken) }
+            if alreadySeen { continue }
+
             screens.append(snapshot)
         }
 

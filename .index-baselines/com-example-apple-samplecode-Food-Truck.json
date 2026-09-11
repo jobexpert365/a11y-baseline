@@ -1562,8 +1562,8 @@
           "summary" : "Text clipped"
         },
         {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Экран 2",
@@ -1572,8 +1572,8 @@
           "summary" : "Text clipped"
         },
         {
-          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Экран 2",

@@ -60,7 +60,17 @@ public struct SymbolNameLabelRule: Rule {
         // попадала дата «01.01.2001» из «Сообщений»: цифры и точки, всё
         // как у имени символа. Имена SF Symbol всегда содержат слова,
         // а строка из одних цифр — это дата, версия или номер.
-        return label.contains { $0.isLowercase }
+        guard label.contains(where: { $0.isLowercase }) else { return false }
+
+        // Доменное имя тоже состоит из строчных слов через точку.
+        // Найдено прогоном по Pulse — это сетевой логгер, он показывает
+        // адреса серверов, и «github.com» попало в отчёт как дефект.
+        // Отличаем по последней части: у домена это доменная зона,
+        // а имена символов заканчиваются обычными словами вроде
+        // «forward», «closed» или «up».
+        guard !TechnicalText.looksLikeDomain(label) else { return false }
+
+        return true
     }
 }
 

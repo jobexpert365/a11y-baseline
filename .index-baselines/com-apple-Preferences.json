@@ -232,6 +232,7 @@
           },
           "index" : 12,
           "label" : "Поиск",
+          "placeholder" : "Поиск",
           "spoken" : "Поиск, searchField",
           "traits" : [
             "searchField"

@@ -82,16 +82,6 @@
           "summary" : "Contrast failed"
         },
         {
-          "evidence" : "Contrast failed for element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast failed"
-        },
-        {
           "evidence" : "Contrast is not high enough for element unless font size is larger.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
           "occurrences" : 1,
@@ -172,10 +162,9 @@
             "x" : 154.91044776119404,
             "y" : 483.5207296849089
           },
-          "identifier" : "Card grabber",
           "index" : 4,
-          "label" : "Контроллер карты",
-          "spoken" : "Контроллер карты, На пол-экрана, button",
+          "label" : "Точка захвата листа",
+          "spoken" : "Точка захвата листа, На пол-экрана, button",
           "traits" : [
             "button"
           ],
@@ -219,8 +208,8 @@
           },
           "identifier" : "userProfileButton",
           "index" : 7,
-          "label" : "профиль",
-          "spoken" : "профиль, button",
+          "label" : "учетная запись",
+          "spoken" : "учетная запись, button",
           "traits" : [
             "button"
           ]

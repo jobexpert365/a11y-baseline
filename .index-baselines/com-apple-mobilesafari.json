@@ -23,6 +23,66 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -33,17 +93,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Стартовый экран",
@@ -60,56 +110,6 @@
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
@@ -277,13 +277,56 @@
         },
         {
           "frame" : {
+            "height" : 26.33333333333337,
+            "width" : 322.3333333333333,
+            "x" : 16,
+            "y" : 571.3333333333333
+          },
+          "index" : 10,
+          "label" : "Отчет о конфиденциальности",
+          "spoken" : "Отчет о конфиденциальности",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 21,
+            "x" : 36,
+            "y" : 627.6666666666666
+          },
+          "index" : 11,
+          "label" : "0 трекеров заблокированы",
+          "spoken" : "0 трекеров заблокированы",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 289,
+            "x" : 77,
+            "y" : 627.6666666666666
+          },
+          "identifier" : "TrackersPreventedCount?TrackingPreventionDataExists=false",
+          "index" : 12,
+          "label" : "За последние 7 дней Safari не позволил создать Ваш профиль 0 трекерам.",
+          "spoken" : "За последние 7 дней Safari не позволил создать Ваш профиль 0 трекерам.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
             "height" : 34.33333333333337,
             "width" : 122.66666666666666,
             "x" : 139.66666666666666,
-            "y" : 579.3333333333333
+            "y" : 723.6666666666666
           },
           "identifier" : "customizationsSheetButton",
-          "index" : 10,
+          "index" : 13,
           "label" : "Изменить",
           "spoken" : "Изменить, button",
           "traits" : [
@@ -298,7 +341,7 @@
             "y" : 792
           },
           "identifier" : "BackButton",
-          "index" : 11,
+          "index" : 14,
           "label" : "Назад",
           "spoken" : "Назад, button",
           "traits" : [
@@ -313,7 +356,7 @@
             "y" : 806
           },
           "identifier" : "TabBarItemTitle",
-          "index" : 12,
+          "index" : 15,
           "label" : "Адрес",
           "placeholder" : "Запрос или сайт",
           "spoken" : "Адрес, textField",
@@ -329,7 +372,7 @@
             "y" : 805.6666666666666
           },
           "identifier" : "VoiceSearchButton",
-          "index" : 13,
+          "index" : 16,
           "label" : "Голосовой поиск",
           "spoken" : "Голосовой поиск, button",
           "traits" : [
@@ -344,7 +387,7 @@
             "y" : 792
           },
           "identifier" : "MoreMenuButton",
-          "index" : 14,
+          "index" : 17,
           "label" : "Еще",
           "spoken" : "Еще, button",
           "traits" : [

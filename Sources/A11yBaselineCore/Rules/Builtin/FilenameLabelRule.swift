@@ -16,6 +16,16 @@ public struct FilenameLabelRule: Rule {
     private func looksLikeAssetName(_ label: String) -> Bool {
         let lower = label.lowercased()
 
+        // Имя ресурса из проекта не содержит пробелов и косых черт.
+        // Найдено прогоном по Pulse: подпись «GET /octocat.png» —
+        // это строка HTTP-запроса, которую логгер показывает по делу,
+        // а правило видело только расширение на конце и сообщало о дефекте.
+        guard !label.contains(" "), !label.contains("/") else { return false }
+
+        // Адрес сервера — это содержимое, а не утёкшее имя ассета.
+        // Проверка общая с правилом имени символа: одна строка, одно суждение.
+        guard !TechnicalText.looksLikeDomain(label) else { return false }
+
         // Расширение файла.
         for ext in [".png", ".jpg", ".jpeg", ".pdf", ".svg", ".webp", ".heic"] where lower.hasSuffix(ext) {
             return true
