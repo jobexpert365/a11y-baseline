@@ -85,6 +85,15 @@ public final class AccessibilityTreeSource: SpeechSource {
     ) -> Bool {
         if parentIsAnnounced { return false }
 
+        // Системная обвязка вокруг приложения в аудит не входит.
+        //
+        // Найдено прогоном по Ice Cubes: пять находок оказались клавишами
+        // экранной клавиатуры с внутренними именами «Padding-Left»
+        // и «Padding-Right». Это интерфейс операционной системы, а не
+        // приложения: разработчик его не писал и починить не может,
+        // а отчёт с чужими дефектами обесценивает все остальные.
+        if Self.isSystemChrome(node.elementType) { return false }
+
         // Контейнеры не озвучиваются сами — озвучивается их содержимое.
         // Первая версия этого не различала и глотала всё дерево: у окна
         // и панели вкладок есть подпись или роль, поэтому «объявленным
@@ -138,12 +147,14 @@ public final class AccessibilityTreeSource: SpeechSource {
     private func append(node: XCUIElementSnapshot, traits: [String], into utterances: inout [Utterance]) {
         let label = node.label.trimmingCharacters(in: .whitespacesAndNewlines)
         let value = node.value as? String
+        let placeholder = node.placeholderValue?.trimmingCharacters(in: .whitespacesAndNewlines)
         utterances.append(Utterance(
             index: utterances.count,
-            spoken: Self.compose(label: label, value: value, traits: traits),
+            spoken: Self.compose(label: label, value: value, placeholder: placeholder, traits: traits),
             label: label.isEmpty ? nil : label,
             value: value,
             traits: traits,
+            placeholder: placeholder?.isEmpty == true ? nil : placeholder,
             visibleText: Self.visibleText(of: node, label: label, traits: traits),
             identifier: node.identifier.isEmpty ? nil : node.identifier,
             frame: Rect(
@@ -153,6 +164,18 @@ public final class AccessibilityTreeSource: SpeechSource {
                 height: node.frame.height
             )
         ))
+    }
+
+    /// Части интерфейса операционной системы, наложенные поверх приложения.
+    ///
+    /// Клавиатура, строка состояния и системные меню принадлежат не тому,
+    /// чьё приложение проверяется. Находки о них не действие, а шум: их
+    /// невозможно исправить в коде приложения.
+    static func isSystemChrome(_ type: XCUIElement.ElementType) -> Bool {
+        switch type {
+        case .keyboard, .statusBar, .menuBar, .touchBar: true
+        default: false
+        }
     }
 
     /// Типы, которые служат каркасом экрана, а не его содержимым.
@@ -210,9 +233,14 @@ public final class AccessibilityTreeSource: SpeechSource {
     /// Подсказка произносится последней и с задержкой, поэтому в строку
     /// не включается — в базовой линии она давала бы шум при каждом
     /// изменении тайминга.
-    static func compose(label: String, value: String?, traits: [String]) -> String {
+    static func compose(label: String, value: String?, placeholder: String? = nil, traits: [String]) -> String {
         var parts: [String] = []
-        if !label.isEmpty { parts.append(label) }
+        if !label.isEmpty {
+            parts.append(label)
+        } else if let placeholder, !placeholder.isEmpty {
+            // Подсказка звучит вместо подписи, только когда подписи нет.
+            parts.append(placeholder)
+        }
         if let value, !value.isEmpty, value != label { parts.append(value) }
         parts.append(contentsOf: traits)
         return parts.joined(separator: ", ")

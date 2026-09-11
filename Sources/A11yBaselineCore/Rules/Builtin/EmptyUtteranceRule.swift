@@ -20,6 +20,13 @@ public struct EmptyUtteranceRule: Rule {
         let meaningful = utterance.label?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
         guard meaningful.isEmpty else { return nil }
 
+        // Поле ввода без подписи, но с подсказкой, VoiceOver озвучивает
+        // подсказкой, и человек понимает, что от него хотят. Это слабее
+        // настоящей подписи (подсказка исчезает при вводе), но блокером
+        // не является, а ложный блокер в отчёте дороже пропущенной мелочи.
+        let placeholder = utterance.placeholder?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+        guard placeholder.isEmpty else { return nil }
+
         return Finding(
             key: makeKey(screen: context.screen.screen, utterance: utterance),
             ruleID: Self.id,

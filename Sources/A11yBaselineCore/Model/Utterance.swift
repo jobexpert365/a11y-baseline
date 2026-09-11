@@ -25,6 +25,19 @@ public struct Utterance: Codable, Equatable, Sendable {
     public var traits: [String]
     public var hint: String?
 
+    /// Подсказка внутри поля ввода (placeholder).
+    ///
+    /// Читается отдельно, потому что для поля без подписи VoiceOver
+    /// произносит именно её: пустое поле с подсказкой «Адрес сервера»
+    /// звучит как «Адрес сервера, текстовое поле» и человеку понятно.
+    /// Без этого поля правило пустой подписи сообщало о дефекте там,
+    /// где его нет — найдено прогоном по Ice Cubes.
+    ///
+    /// Подсказка — не полноценная замена подписи: она исчезает, как только
+    /// человек начинает печатать. Но это вопрос качества, а не отсутствия
+    /// имени, и обвинять в блокере здесь нельзя.
+    public var placeholder: String?
+
     /// Текст, который человек ВИДИТ на элементе, если он отличается от подписи.
     ///
     /// Отдельное поле, а не `value`, и это не педантизм. У поля ввода `value`
@@ -55,6 +68,7 @@ public struct Utterance: Codable, Equatable, Sendable {
         value: String? = nil,
         traits: [String] = [],
         hint: String? = nil,
+        placeholder: String? = nil,
         visibleText: String? = nil,
         identifier: String? = nil,
         frame: Rect? = nil
@@ -65,6 +79,7 @@ public struct Utterance: Codable, Equatable, Sendable {
         self.value = value
         self.traits = traits
         self.hint = hint
+        self.placeholder = placeholder
         self.visibleText = visibleText
         self.identifier = identifier
         self.frame = frame

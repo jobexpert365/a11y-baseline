@@ -32,6 +32,22 @@ struct EmptyUtteranceRuleTests {
         #expect(EmptyUtteranceRule().evaluate(u, in: context(screen([u]))) == nil)
     }
 
+    @Test("поле с подсказкой, но без подписи, блокером не считается")
+    func ignoresFieldWithPlaceholder() {
+        // Регрессионный тест на ложный блокер, найденный прогоном по Ice Cubes:
+        // поле ввода без подписи, но с подсказкой, VoiceOver озвучивает
+        // подсказкой, и человек понимает, что от него хотят.
+        let u = Utterance(index: 0, spoken: "Адрес сервера, textField", label: nil,
+                          traits: ["textField"], placeholder: "Адрес сервера")
+        #expect(EmptyUtteranceRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("поле без подписи и без подсказки — блокер")
+    func flagsFieldWithoutAnything() {
+        let u = Utterance(index: 0, spoken: "textField", label: nil, traits: ["textField"])
+        #expect(EmptyUtteranceRule().evaluate(u, in: context(screen([u])))?.severity == .blocker)
+    }
+
     @Test("кнопка с подписью проходит")
     func ignoresLabeledButton() {
         let u = Utterance(index: 0, spoken: "Отправить, button", label: "Отправить", traits: ["button"])
