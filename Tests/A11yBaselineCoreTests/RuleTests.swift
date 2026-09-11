@@ -150,7 +150,8 @@ struct UntranslatedLabelRuleTests {
 @Suite("Имя файла в подписи")
 struct FilenameLabelRuleTests {
 
-    @Test("имена ресурсов ловятся", arguments: ["ic_close_24", "arrow-left.png", "IMG_2043", "btn_submit"])
+    @Test("имена ресурсов ловятся",
+          arguments: ["ic_close_24", "arrow-left.png", "IMG_2043", "btn_submit", "dough/brown-thumb"])
     func flagsAssetNames(label: String) {
         let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
         #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) != nil)
