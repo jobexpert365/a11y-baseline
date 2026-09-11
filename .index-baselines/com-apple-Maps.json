@@ -11,7 +11,96 @@
   "screens" : [
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
       ],
       "screen" : "Стартовый экран",
       "utterances" : [
@@ -83,9 +172,10 @@
             "x" : 154.91044776119404,
             "y" : 483.5207296849089
           },
+          "identifier" : "Card grabber",
           "index" : 4,
-          "label" : "Точка захвата листа",
-          "spoken" : "Точка захвата листа, На пол-экрана, button",
+          "label" : "Контроллер карты",
+          "spoken" : "Контроллер карты, На пол-экрана, button",
           "traits" : [
             "button"
           ],
@@ -129,8 +219,8 @@
           },
           "identifier" : "userProfileButton",
           "index" : 7,
-          "label" : "учетная запись",
-          "spoken" : "учетная запись, button",
+          "label" : "профиль",
+          "spoken" : "профиль, button",
           "traits" : [
             "button"
           ]

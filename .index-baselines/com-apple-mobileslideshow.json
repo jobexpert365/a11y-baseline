@@ -11,7 +11,16 @@
   "screens" : [
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
       ],
       "screen" : "Стартовый экран",
       "utterances" : [

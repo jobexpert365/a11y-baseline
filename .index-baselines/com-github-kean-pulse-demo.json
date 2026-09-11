@@ -1,0 +1,3823 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Pulse (сетевой логгер)",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "en",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|list.bullet.clipboard",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|exclamationmark.octagon",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|list.bullet.clipboard",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|exclamationmark.octagon",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|Label not human-readable",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|Label not human-readable",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|Label not human-readable",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|Label not human-readable",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|Label not human-readable",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|Label not human-readable",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|Label not human-readable",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast nearly passed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast nearly passed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast nearly passed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast nearly passed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast nearly passed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast nearly passed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast nearly passed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast failed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast failed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast failed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast failed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast failed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Contrast failed",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 90.33333333333331,
+            "x" : 155.66666666666666,
+            "y" : 67
+          },
+          "index" : 0,
+          "label" : "Network, 8 Tasks",
+          "spoken" : "Network, 8 Tasks, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 39,
+            "x" : 289,
+            "y" : 66
+          },
+          "identifier" : "square.and.arrow.up",
+          "index" : 1,
+          "label" : "Share",
+          "spoken" : "Share, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 38,
+            "x" : 344,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "More",
+          "spoken" : "More, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 272,
+            "width" : 642,
+            "x" : -120,
+            "y" : 738
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 3,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.666667938232422,
+            "width" : 11.333333969116211,
+            "x" : 28,
+            "y" : 136.66666666666666
+          },
+          "identifier" : "list.bullet.clipboard",
+          "index" : 4,
+          "label" : "list.bullet.clipboard",
+          "spoken" : "list.bullet.clipboard, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 61.333335876464844,
+            "x" : 69.33333587646484,
+            "y" : 136
+          },
+          "index" : 5,
+          "label" : "Filters",
+          "spoken" : "Filters, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 66.33333333333331,
+            "x" : 276.3333333333333,
+            "y" : 128
+          },
+          "index" : 6,
+          "label" : "Date",
+          "spoken" : "Date, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116183,
+            "width" : 14,
+            "x" : 362.3333333333333,
+            "y" : 138.33333333333334
+          },
+          "identifier" : "exclamationmark.octagon",
+          "index" : 7,
+          "label" : "exclamationmark.octagon",
+          "spoken" : "exclamationmark.octagon, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 206.33333333333331
+          },
+          "index" : 8,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666657,
+            "width" : 173.33333333333331,
+            "x" : 20,
+            "y" : 183
+          },
+          "index" : 9,
+          "label" : "Decoding Failed · 1 KB · 1.3 s",
+          "spoken" : "Decoding Failed · 1 KB · 1.3 s",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 73,
+            "x" : 310,
+            "y" : 183.66666666666666
+          },
+          "index" : 10,
+          "label" : "18:55:58.606",
+          "spoken" : "18:55:58.606",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 186.33333333333334
+          },
+          "identifier" : "circle.fill",
+          "index" : 11,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 186
+          },
+          "identifier" : "chevron.right",
+          "index" : 12,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 173,
+            "x" : 20,
+            "y" : 202.66666666666666
+          },
+          "index" : 13,
+          "label" : "PATCH /repos/kean/nuke",
+          "spoken" : "PATCH /repos/kean/nuke",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666657,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 226
+          },
+          "index" : 14,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 298.66666666666663
+          },
+          "index" : 15,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 177,
+            "x" : 20,
+            "y" : 265.66666666666663
+          },
+          "index" : 16,
+          "label" : "204 No Content · 0 KB · 2.2 s",
+          "spoken" : "204 No Content · 0 KB · 2.2 s",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 73,
+            "x" : 310,
+            "y" : 266.3333333333333
+          },
+          "index" : 17,
+          "label" : "18:55:58.606",
+          "spoken" : "18:55:58.606",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 269
+          },
+          "identifier" : "circle.fill",
+          "index" : 18,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 268.66666666666663
+          },
+          "identifier" : "chevron.right",
+          "index" : 19,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38.333333333333314,
+            "width" : 350.66666666666663,
+            "x" : 20,
+            "y" : 285.3333333333333
+          },
+          "index" : 20,
+          "label" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "spoken" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 229.33333333333331,
+            "x" : 20,
+            "y" : 327.66666666666663
+          },
+          "index" : 21,
+          "label" : "objects-origin.githubusercontent.com",
+          "spoken" : "objects-origin.githubusercontent.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 390.6666666666667
+          },
+          "index" : 22,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 166,
+            "x" : 20,
+            "y" : 367.33333333333337
+          },
+          "index" : 23,
+          "label" : "200 OK · 53 bytes · 304 ms",
+          "spoken" : "200 OK · 53 bytes · 304 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 73,
+            "x" : 310,
+            "y" : 368.00000000000006
+          },
+          "index" : 24,
+          "label" : "18:55:57.634",
+          "spoken" : "18:55:57.634",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 370.6666666666667
+          },
+          "identifier" : "circle.fill",
+          "index" : 25,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 370.33333333333337
+          },
+          "identifier" : "chevron.right",
+          "index" : 26,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333314,
+            "width" : 131.33333333333331,
+            "x" : 20,
+            "y" : 387.00000000000006
+          },
+          "index" : 27,
+          "label" : "GET /createapi/get",
+          "spoken" : "GET /createapi/get",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 410.33333333333337
+          },
+          "index" : 28,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 473.3333333333333
+          },
+          "index" : 29,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 138.33333333333331,
+            "x" : 20,
+            "y" : 450
+          },
+          "index" : 30,
+          "label" : "200 OK · 6,7 MB · 4.5 s",
+          "spoken" : "200 OK · 6,7 MB · 4.5 s",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 73,
+            "x" : 310,
+            "y" : 450.6666666666667
+          },
+          "index" : 31,
+          "label" : "18:55:55.620",
+          "spoken" : "18:55:55.620",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 453.3333333333333
+          },
+          "identifier" : "circle.fill",
+          "index" : 32,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 453
+          },
+          "identifier" : "chevron.right",
+          "index" : 33,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333314,
+            "width" : 272.66666666666663,
+            "x" : 20,
+            "y" : 469.6666666666667
+          },
+          "index" : 34,
+          "label" : "GET /kean/nuke/archive/tags/11.0.0.zip",
+          "spoken" : "GET /kean/nuke/archive/tags/11.0.0.zip",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 493
+          },
+          "index" : 35,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 556.0000000000001
+          },
+          "index" : 36,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 144,
+            "x" : 20,
+            "y" : 532.6666666666667
+          },
+          "index" : 37,
+          "label" : "200 OK · 11 KB · 227 ms",
+          "spoken" : "200 OK · 11 KB · 227 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 533.3333333333334
+          },
+          "index" : 38,
+          "label" : "18:55:55.620",
+          "spoken" : "18:55:55.620",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 536.0000000000001
+          },
+          "identifier" : "circle.fill",
+          "index" : 39,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 535.6666666666667
+          },
+          "identifier" : "chevron.right",
+          "index" : 40,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 123,
+            "x" : 20,
+            "y" : 552.3333333333334
+          },
+          "index" : 41,
+          "label" : "GET /octocat.png",
+          "spoken" : "GET /octocat.png",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 575.6666666666667
+          },
+          "index" : 42,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 638.6666666666666
+          },
+          "index" : 43,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 219,
+            "x" : 20,
+            "y" : 615.3333333333333
+          },
+          "index" : 44,
+          "label" : "404 Not Found · 955 bytes · 227 ms",
+          "spoken" : "404 Not Found · 955 bytes · 227 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 615.9999999999999
+          },
+          "index" : 45,
+          "label" : "18:55:54.100",
+          "spoken" : "18:55:54.100",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 618.6666666666666
+          },
+          "identifier" : "circle.fill",
+          "index" : 46,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 618.3333333333333
+          },
+          "identifier" : "chevron.right",
+          "index" : 47,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 125,
+            "x" : 20,
+            "y" : 634.9999999999999
+          },
+          "index" : 48,
+          "label" : "GET /profile/valdo",
+          "spoken" : "GET /profile/valdo",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 658.3333333333333
+          },
+          "index" : 49,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 721.3333333333334
+          },
+          "index" : 50,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 154.33333333333331,
+            "x" : 20,
+            "y" : 698
+          },
+          "index" : 51,
+          "label" : "200 OK · 165 KB · 527 ms",
+          "spoken" : "200 OK · 165 KB · 527 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 698.6666666666666
+          },
+          "index" : 52,
+          "label" : "18:55:54.100",
+          "spoken" : "18:55:54.100",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 701.3333333333334
+          },
+          "identifier" : "circle.fill",
+          "index" : 53,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 701
+          },
+          "identifier" : "chevron.right",
+          "index" : 54,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 76.66666666666666,
+            "x" : 20,
+            "y" : 717.6666666666666
+          },
+          "index" : 55,
+          "label" : "GET /repos",
+          "spoken" : "GET /repos",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 741
+          },
+          "index" : 56,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 804
+          },
+          "index" : 57,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 172.66666666666666,
+            "x" : 20,
+            "y" : 780.6666666666666
+          },
+          "index" : 58,
+          "label" : "200 OK · 367 bytes · 427 ms",
+          "spoken" : "200 OK · 367 bytes · 427 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 781.3333333333333
+          },
+          "index" : 59,
+          "label" : "18:55:52.510",
+          "spoken" : "18:55:52.510",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 784
+          },
+          "identifier" : "circle.fill",
+          "index" : 60,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 783.6666666666666
+          },
+          "identifier" : "chevron.right",
+          "index" : 61,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 80.33333333333333,
+            "x" : 20,
+            "y" : 800.3333333333333
+          },
+          "index" : 62,
+          "label" : "POST /login",
+          "spoken" : "POST /login",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 823.6666666666666
+          },
+          "index" : 63,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 336,
+            "x" : 32.99999999999994,
+            "y" : 803
+          },
+          "index" : 64,
+          "label" : "Search",
+          "placeholder" : "Search",
+          "spoken" : "Search, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 75.6666666666667,
+            "y" : 76
+          },
+          "index" : 0,
+          "label" : "All",
+          "spoken" : "All, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 75.6666666666667,
+            "y" : 118
+          },
+          "index" : 1,
+          "label" : "Logs",
+          "spoken" : "Logs, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 75.6666666666667,
+            "y" : 160
+          },
+          "identifier" : "checkmark",
+          "index" : 2,
+          "label" : "Network",
+          "spoken" : "Network, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|list.bullet.clipboard",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|exclamationmark.octagon",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|list.bullet.clipboard",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|exclamationmark.octagon",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Экран 3",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 87.33333333333331,
+            "x" : 157.33333333333334,
+            "y" : 66
+          },
+          "index" : 0,
+          "label" : "Console, 26 Items",
+          "spoken" : "Console, 26 Items, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 39,
+            "x" : 289,
+            "y" : 66
+          },
+          "identifier" : "square.and.arrow.up",
+          "index" : 1,
+          "label" : "Share",
+          "spoken" : "Share, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 38,
+            "x" : 344,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "More",
+          "spoken" : "More, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 272,
+            "width" : 642,
+            "x" : -120,
+            "y" : 738
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 3,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.666667938232422,
+            "width" : 11.333333969116211,
+            "x" : 28,
+            "y" : 136.66666666666666
+          },
+          "identifier" : "list.bullet.clipboard",
+          "index" : 4,
+          "label" : "list.bullet.clipboard",
+          "spoken" : "list.bullet.clipboard, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 61.333335876464844,
+            "x" : 69.33333587646484,
+            "y" : 136
+          },
+          "index" : 5,
+          "label" : "Filters",
+          "spoken" : "Filters, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 66.33333333333331,
+            "x" : 276.3333333333333,
+            "y" : 128
+          },
+          "index" : 6,
+          "label" : "Date",
+          "spoken" : "Date, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116183,
+            "width" : 14,
+            "x" : 362.3333333333333,
+            "y" : 138.33333333333334
+          },
+          "identifier" : "exclamationmark.octagon",
+          "index" : 7,
+          "label" : "exclamationmark.octagon",
+          "spoken" : "exclamationmark.octagon, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 196.66666666666666
+          },
+          "index" : 8,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666657,
+            "width" : 42.666666666666664,
+            "x" : 20,
+            "y" : 183
+          },
+          "index" : 9,
+          "label" : "Critical",
+          "spoken" : "Critical",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 73,
+            "x" : 310,
+            "y" : 183.66666666666666
+          },
+          "index" : 10,
+          "label" : "19:09:26.482",
+          "spoken" : "19:09:26.482",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 186
+          },
+          "identifier" : "chevron.right",
+          "index" : 11,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 125,
+            "x" : 20,
+            "y" : 202.66666666666666
+          },
+          "index" : 12,
+          "label" : "💥 0xDEADBEEF",
+          "spoken" : "💥 0xDEADBEEF",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 278.6666666666667
+          },
+          "index" : 13,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 90.66666666666666,
+            "x" : 20,
+            "y" : 246
+          },
+          "index" : 14,
+          "label" : "Warning・Auth",
+          "spoken" : "Warning・Auth",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 73,
+            "x" : 310,
+            "y" : 246.66666666666666
+          },
+          "index" : 15,
+          "label" : "19:09:26.481",
+          "spoken" : "19:09:26.481",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 249
+          },
+          "identifier" : "chevron.right",
+          "index" : 16,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 57.333333333333314,
+            "width" : 358.66666666666663,
+            "x" : 20,
+            "y" : 265.6666666666667
+          },
+          "index" : 17,
+          "label" : "Replace this implementation with code to handle the error appropriately. fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.\n\n2015-12-08 15:04:03.888 Conversion[76776:4410388] call stack:\n(\n    0   Conversion                          0x000694b5 -[ViewController viewDidLoad] + 128\n    1   UIKit                               0x27259f55 <redacted> + 1028\n    ...\n    9   UIKit                               0x274f67a7 <redacted> + 134\n    10  FrontBoardServices                  0x2b358ca5 <redacted> + 232\n    11  FrontBoardServices                  0x2b358f91 <redacted> + 44\n    12  CoreFoundation                      0x230e87c7 <redacted> + 14\n    ...\n    16  CoreFoundation                      0x23038ecd CFRunLoopRunInMode + 108\n    17  UIKit                               0x272c7607 <redacted> + 526\n    18  UIKit                               0x272c22dd UIApplicationMain + 144\n    19  Conversion                          0x000767b5 main + 108\n    20  libdyld.dylib                       0x34f34873 <redacted> + 2\n)",
+          "spoken" : "Replace this implementation with code to handle the error appropriately. fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.\n\n2015-12-08 15:04:03.888 Conversion[76776:4410388] call stack:\n(\n    0   Conversion                          0x000694b5 -[ViewController viewDidLoad] + 128\n    1   UIKit                               0x27259f55 <redacted> + 1028\n    ...\n    9   UIKit                               0x274f67a7 <redacted> + 134\n    10  FrontBoardServices                  0x2b358ca5 <redacted> + 232\n    11  FrontBoardServices                  0x2b358f91 <redacted> + 44\n    12  CoreFoundation                      0x230e87c7 <redacted> + 14\n    ...\n    16  CoreFoundation                      0x23038ecd CFRunLoopRunInMode + 108\n    17  UIKit                               0x272c7607 <redacted> + 526\n    18  UIKit                               0x272c22dd UIApplicationMain + 144\n    19  Conversion                          0x000767b5 main + 108\n    20  libdyld.dylib                       0x34f34873 <redacted> + 2\n)",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 370.3333333333333
+          },
+          "index" : 18,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 173.33333333333331,
+            "x" : 20,
+            "y" : 347
+          },
+          "index" : 19,
+          "label" : "Decoding Failed · 1 KB · 1.3 s",
+          "spoken" : "Decoding Failed · 1 KB · 1.3 s",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 73,
+            "x" : 310,
+            "y" : 347.6666666666667
+          },
+          "index" : 20,
+          "label" : "19:09:22.963",
+          "spoken" : "19:09:22.963",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 350.3333333333333
+          },
+          "identifier" : "circle.fill",
+          "index" : 21,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 350
+          },
+          "identifier" : "chevron.right",
+          "index" : 22,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333314,
+            "width" : 173,
+            "x" : 20,
+            "y" : 366.6666666666667
+          },
+          "index" : 23,
+          "label" : "PATCH /repos/kean/nuke",
+          "spoken" : "PATCH /repos/kean/nuke",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 390
+          },
+          "index" : 24,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 462.6666666666667
+          },
+          "index" : 25,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 177,
+            "x" : 20,
+            "y" : 429.6666666666667
+          },
+          "index" : 26,
+          "label" : "204 No Content · 0 KB · 2.2 s",
+          "spoken" : "204 No Content · 0 KB · 2.2 s",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 73,
+            "x" : 310,
+            "y" : 430.33333333333337
+          },
+          "index" : 27,
+          "label" : "19:09:22.962",
+          "spoken" : "19:09:22.962",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 433
+          },
+          "identifier" : "circle.fill",
+          "index" : 28,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 432.6666666666667
+          },
+          "identifier" : "chevron.right",
+          "index" : 29,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38.333333333333314,
+            "width" : 350.66666666666663,
+            "x" : 20,
+            "y" : 449.33333333333337
+          },
+          "index" : 30,
+          "label" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "spoken" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 229.33333333333331,
+            "x" : 20,
+            "y" : 491.6666666666667
+          },
+          "index" : 31,
+          "label" : "objects-origin.githubusercontent.com",
+          "spoken" : "objects-origin.githubusercontent.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 554.6666666666666
+          },
+          "index" : 32,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 166,
+            "x" : 20,
+            "y" : 531.3333333333333
+          },
+          "index" : 33,
+          "label" : "200 OK · 53 bytes · 304 ms",
+          "spoken" : "200 OK · 53 bytes · 304 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 531.9999999999999
+          },
+          "index" : 34,
+          "label" : "19:09:21.984",
+          "spoken" : "19:09:21.984",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 534.6666666666666
+          },
+          "identifier" : "circle.fill",
+          "index" : 35,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 534.3333333333333
+          },
+          "identifier" : "chevron.right",
+          "index" : 36,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 131.33333333333331,
+            "x" : 20,
+            "y" : 550.9999999999999
+          },
+          "index" : 37,
+          "label" : "GET /createapi/get",
+          "spoken" : "GET /createapi/get",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 574.3333333333333
+          },
+          "index" : 38,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 637.3333333333334
+          },
+          "index" : 39,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 138.33333333333331,
+            "x" : 20,
+            "y" : 614
+          },
+          "index" : 40,
+          "label" : "200 OK · 6,7 MB · 4.5 s",
+          "spoken" : "200 OK · 6,7 MB · 4.5 s",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 614.6666666666666
+          },
+          "index" : 41,
+          "label" : "19:09:20.109",
+          "spoken" : "19:09:20.109",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 617.3333333333334
+          },
+          "identifier" : "circle.fill",
+          "index" : 42,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 617
+          },
+          "identifier" : "chevron.right",
+          "index" : 43,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 272.66666666666663,
+            "x" : 20,
+            "y" : 633.6666666666666
+          },
+          "index" : 44,
+          "label" : "GET /kean/nuke/archive/tags/11.0.0.zip",
+          "spoken" : "GET /kean/nuke/archive/tags/11.0.0.zip",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 657
+          },
+          "index" : 45,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 720
+          },
+          "index" : 46,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 144,
+            "x" : 20,
+            "y" : 696.6666666666666
+          },
+          "index" : 47,
+          "label" : "200 OK · 11 KB · 227 ms",
+          "spoken" : "200 OK · 11 KB · 227 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 697.3333333333333
+          },
+          "index" : 48,
+          "label" : "19:09:20.109",
+          "spoken" : "19:09:20.109",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 700
+          },
+          "identifier" : "circle.fill",
+          "index" : 49,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 699.6666666666666
+          },
+          "identifier" : "chevron.right",
+          "index" : 50,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 123,
+            "x" : 20,
+            "y" : 716.3333333333333
+          },
+          "index" : 51,
+          "label" : "GET /octocat.png",
+          "spoken" : "GET /octocat.png",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 739.6666666666666
+          },
+          "index" : 52,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 802.6666666666667
+          },
+          "index" : 53,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 219,
+            "x" : 20,
+            "y" : 779.3333333333334
+          },
+          "index" : 54,
+          "label" : "404 Not Found · 955 bytes · 227 ms",
+          "spoken" : "404 Not Found · 955 bytes · 227 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 780
+          },
+          "index" : 55,
+          "label" : "19:09:18.463",
+          "spoken" : "19:09:18.463",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 782.6666666666667
+          },
+          "identifier" : "circle.fill",
+          "index" : 56,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 782.3333333333334
+          },
+          "identifier" : "chevron.right",
+          "index" : 57,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 125,
+            "x" : 20,
+            "y" : 799
+          },
+          "index" : 58,
+          "label" : "GET /profile/valdo",
+          "spoken" : "GET /profile/valdo",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 822.3333333333334
+          },
+          "index" : 59,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 885.3333333333334
+          },
+          "index" : 60,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 154.33333333333331,
+            "x" : 20,
+            "y" : 862
+          },
+          "index" : 61,
+          "label" : "200 OK · 165 KB · 527 ms",
+          "spoken" : "200 OK · 165 KB · 527 ms",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 73,
+            "x" : 310,
+            "y" : 862.6666666666666
+          },
+          "index" : 62,
+          "label" : "19:09:18.463",
+          "spoken" : "19:09:18.463",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9,
+            "width" : 9,
+            "x" : 6.666666666666666,
+            "y" : 865.3333333333334
+          },
+          "identifier" : "circle.fill",
+          "index" : 63,
+          "label" : "Circle",
+          "spoken" : "Circle, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 865
+          },
+          "identifier" : "chevron.right",
+          "index" : 64,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 76.66666666666666,
+            "x" : 20,
+            "y" : 881.6666666666666
+          },
+          "index" : 65,
+          "label" : "GET /repos",
+          "spoken" : "GET /repos",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 905
+          },
+          "index" : 66,
+          "label" : "github.com",
+          "spoken" : "github.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 336,
+            "x" : 32.99999999999994,
+            "y" : 803
+          },
+          "index" : 67,
+          "label" : "Search",
+          "placeholder" : "Search",
+          "spoken" : "Search, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,7 @@ com.apple.Passwords|Пароли|ru|1
 # Собранные из исходников открытые приложения.
 com.example.IceCubesApp|Ice Cubes (клиент Mastodon)|en|3
 com.example.apple-samplecode.Food-Truck|Food Truck (пример Apple)|en|3
+com.github.kean.pulse-demo|Pulse (сетевой логгер)|en|3
 com.apple.Health|Здоровье|ru|1
 com.apple.Fitness|Фитнес|ru|1
 com.apple.news|Новости|ru|1

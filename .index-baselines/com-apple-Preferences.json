@@ -11,7 +11,36 @@
   "screens" : [
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
       ],
       "screen" : "Стартовый экран",
       "utterances" : [
@@ -203,7 +232,6 @@
           },
           "index" : 12,
           "label" : "Поиск",
-          "placeholder" : "Поиск",
           "spoken" : "Поиск, searchField",
           "traits" : [
             "searchField"

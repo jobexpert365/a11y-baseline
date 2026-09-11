@@ -11,7 +11,26 @@
   "screens" : [
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "This element is missing useful accessibility information.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
       ],
       "screen" : "Стартовый экран",
       "utterances" : [

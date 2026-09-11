@@ -57,7 +57,7 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
     </p>
     <dl class="tally">
       <div><dt>Находки проверок</dt><dd>2</dd></div>
-      <div><dt>Встроенный аудит Apple</dt><dd>0</dd></div>
+      <div><dt>Встроенный аудит Apple</dt><dd>2</dd></div>
       <div><dt>Экранов</dt><dd>1</dd></div>
     </dl>
   </header>
@@ -93,7 +93,15 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
 </article>
   </section>
 
-  
+  <section class="group platform">
+  <h2>Что нашли встроенные инструменты Apple <span class="count">2</span></h2>
+  <p class="note">
+    Эти находки выдаёт <code>performAccessibilityAudit</code> — он входит
+    в Xcode и доступен любой команде бесплатно. Раздел показан отдельно,
+    чтобы было видно, где заканчивается бесплатное.
+  </p>
+  <ul><li>Dynamic Type font sizes are partially unsupported</li><li>Element has no description</li></ul>
+</section>
 
   <footer>
     <h2>Проверка ошиблась?</h2>
