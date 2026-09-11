@@ -35,7 +35,25 @@ public struct IndexReport: Sendable {
         // иначе, чем с двадцатью элементами и одной. Порядок нужен только
         // чтобы страница читалась сверху вниз.
         let rows = entries.sorted { $0.findings > $1.findings }.map { entry in
-            """
+            // Приложение, в котором не пройдено ни одного элемента, помечается
+            // отдельно и НЕ показывается как «ноль находок».
+            //
+            // Это вопрос честности, а не оформления. Ноль элементов означает,
+            // что сканер не смог войти в приложение — оно не запустилось,
+            // показало экран входа или системный запрос. Вывести такую строку
+            // рядом с настоящими нулями значит выдать «мы ничего не проверили»
+            // за «мы проверили и всё чисто». Ровно на такой подмене и теряют
+            // доверие к отчёту.
+            guard entry.elements > 0 else {
+                return """
+                <tr class="skipped">
+                  <td>\(escape(entry.app))</td>
+                  <td class="num">—</td>
+                  <td colspan="2">не удалось пройти</td>
+                </tr>
+                """
+            }
+            return """
             <tr>
               <td><a href="apps/\(entry.slug)/">\(escape(entry.app))</a></td>
               <td class="num">\(entry.elements)</td>
@@ -45,7 +63,8 @@ public struct IndexReport: Sendable {
             """
         }.joined(separator: "\n")
 
-        let clean = entries.filter { $0.findings == 0 }.count
+        let walked = entries.filter { $0.elements > 0 }
+        let clean = walked.filter { $0.findings == 0 }.count
 
         return """
         <!doctype html>
@@ -98,7 +117,7 @@ public struct IndexReport: Sendable {
           </table>
           </div>
 
-          <p class="tally">Без находок: \(clean) из \(entries.count).</p>
+          <p class="tally">Без находок: \(clean) из \(walked.count) пройденных.\(entries.count > walked.count ? " Не удалось пройти: \(entries.count - walked.count)." : "")</p>
 
           <footer>
             <p>
@@ -153,6 +172,7 @@ public struct IndexReport: Sendable {
         tbody tr:last-child td { border-bottom: 0; }
         .num { text-align: right; font-variant-numeric: tabular-nums; }
         .tally { color: var(--muted); font-size: 14px; }
+        .skipped td { color: var(--muted); font-style: italic; }
         footer { margin-top: 40px; border-top: 1px solid var(--hair); padding-top: 20px; color: var(--ink-2); }
         .repro { font-size: 14px; color: var(--muted); }
         a { color: var(--accent); }

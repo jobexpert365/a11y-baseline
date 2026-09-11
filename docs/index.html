@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Индекс доступности iOS-приложений</title>
-<meta name="description" content="Что произносит VoiceOver в 9 приложениях: результаты автоматической проверки, воспроизводимые открытым инструментом.">
+<meta name="description" content="Что произносит VoiceOver в 19 приложениях: результаты автоматической проверки, воспроизводимые открытым инструментом.">
 <style>:root {
   --ground: #f6f7f9; --surface: #fff; --ink: #14181f; --ink-2: #444c5a;
   --muted: #6b7280; --hair: #e2e5ea; --accent: #8a3324; --ok: #1a6b5f;
@@ -32,6 +32,7 @@ thead th { font-size: 12px; letter-spacing: .05em; text-transform: uppercase; co
 tbody tr:last-child td { border-bottom: 0; }
 .num { text-align: right; font-variant-numeric: tabular-nums; }
 .tally { color: var(--muted); font-size: 14px; }
+.skipped td { color: var(--muted); font-style: italic; }
 footer { margin-top: 40px; border-top: 1px solid var(--hair); padding-top: 20px; color: var(--ink-2); }
 .repro { font-size: 14px; color: var(--muted); }
 a { color: var(--accent); }</style>
@@ -79,9 +80,21 @@ a { color: var(--accent); }</style>
   <td class="num">—</td>
 </tr>
 <tr>
+  <td><a href="apps/fitnes/">Фитнес</a></td>
+  <td class="num">24</td>
+  <td class="num">6</td>
+  <td class="num">—</td>
+</tr>
+<tr>
   <td><a href="apps/bystrye-komandy/">Быстрые команды</a></td>
   <td class="num">29</td>
   <td class="num">4</td>
+  <td class="num">—</td>
+</tr>
+<tr>
+  <td><a href="apps/wallet/">Wallet</a></td>
+  <td class="num">13</td>
+  <td class="num">2</td>
   <td class="num">—</td>
 </tr>
 <tr>
@@ -91,8 +104,37 @@ a { color: var(--accent); }</style>
   <td class="num">1</td>
 </tr>
 <tr>
+  <td><a href="apps/novosti/">Новости</a></td>
+  <td class="num">8</td>
+  <td class="num">2</td>
+  <td class="num">1</td>
+</tr>
+<tr>
+  <td><a href="apps/soobscheniya/">Сообщения</a></td>
+  <td class="num">12</td>
+  <td class="num">1</td>
+  <td class="num">—</td>
+</tr>
+<tr class="skipped">
+  <td>Watch</td>
+  <td class="num">—</td>
+  <td colspan="2">не удалось пройти</td>
+</tr>
+<tr>
+  <td><a href="apps/fayly/">Файлы</a></td>
+  <td class="num">9</td>
+  <td class="num">0</td>
+  <td class="num">—</td>
+</tr>
+<tr>
+  <td><a href="apps/zdorove/">Здоровье</a></td>
+  <td class="num">3</td>
+  <td class="num">0</td>
+  <td class="num">—</td>
+</tr>
+<tr>
   <td><a href="apps/karty/">Карты</a></td>
-  <td class="num">5</td>
+  <td class="num">15</td>
   <td class="num">0</td>
   <td class="num">—</td>
 </tr>
@@ -114,6 +156,23 @@ a { color: var(--accent); }</style>
   <td class="num">0</td>
   <td class="num">—</td>
 </tr>
+<tr class="skipped">
+  <td>Просмотр</td>
+  <td class="num">—</td>
+  <td colspan="2">не удалось пройти</td>
+</tr>
+<tr>
+  <td><a href="apps/safari/">Safari</a></td>
+  <td class="num">15</td>
+  <td class="num">0</td>
+  <td class="num">—</td>
+</tr>
+<tr>
+  <td><a href="apps/foto/">Фото</a></td>
+  <td class="num">13</td>
+  <td class="num">0</td>
+  <td class="num">—</td>
+</tr>
 <tr>
   <td><a href="apps/napominaniya/">Напоминания</a></td>
   <td class="num">2</td>
@@ -130,7 +189,7 @@ a { color: var(--accent); }</style>
   </table>
   </div>
 
-  <p class="tally">Без находок: 6 из 9.</p>
+  <p class="tally">Без находок: 10 из 17 пройденных. Не удалось пройти: 2.</p>
 
   <footer>
     <p>

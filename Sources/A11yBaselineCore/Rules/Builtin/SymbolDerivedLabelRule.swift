@@ -52,7 +52,15 @@ public struct SymbolNameLabelRule: Rule {
     /// это осознанный размен точности на молчание.
     static func looksLikeSymbolName(_ label: String) -> Bool {
         guard label.contains("."), !label.contains(" "), label.count >= 5 else { return false }
-        return label.allSatisfy { $0.isASCII && ($0.isLowercase || $0.isNumber || $0 == "." || $0 == "-") }
+        guard label.allSatisfy({ $0.isASCII && ($0.isLowercase || $0.isNumber || $0 == "." || $0 == "-") }) else {
+            return false
+        }
+
+        // Обязательна хотя бы одна буква. Без этой проверки под правило
+        // попадала дата «01.01.2001» из «Сообщений»: цифры и точки, всё
+        // как у имени символа. Имена SF Symbol всегда содержат слова,
+        // а строка из одних цифр — это дата, версия или номер.
+        return label.contains { $0.isLowercase }
     }
 }
 

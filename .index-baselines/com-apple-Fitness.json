@@ -1,0 +1,422 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Фитнес",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|Fitness.SummaryView.Sessions.Text",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 26.66666666666667,
+            "width" : 99.33333333333331,
+            "x" : 15.999999999999993,
+            "y" : 64
+          },
+          "index" : 0,
+          "label" : "Summary",
+          "spoken" : "Summary",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.66666666666667,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66.66666666666667
+          },
+          "identifier" : "Fitness.SummaryView.accountSettingsButton",
+          "index" : 1,
+          "label" : "Account Settings",
+          "spoken" : "Account Settings, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.666666666666671,
+            "width" : 73.66666666666667,
+            "x" : 16,
+            "y" : 90.33333333333333
+          },
+          "index" : 2,
+          "label" : "Friday, 11 Sep",
+          "spoken" : "Friday, 11 Sep",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 286,
+            "width" : 642,
+            "x" : -120,
+            "y" : 731
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 3,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 38,
+            "x" : 42,
+            "y" : 146
+          },
+          "identifier" : "activity.rings.closed",
+          "index" : 4,
+          "label" : "activity.rings.closed",
+          "spoken" : "activity.rings.closed, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 205.33333333333331,
+            "x" : 92,
+            "y" : 141.895751953125
+          },
+          "index" : 5,
+          "label" : "A Customizable Summary",
+          "spoken" : "A Customizable Summary",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 98.00000000000003,
+            "width" : 264.3333333333333,
+            "x" : 92,
+            "y" : 166.22908528645834
+          },
+          "index" : 6,
+          "label" : "You can make your Summary tab your own, with custom views of everything from your distance totals and average pace to expanded views of trends and tips.",
+          "spoken" : "You can make your Summary tab your own, with custom views of everything from your distance totals and average pace to expanded views of trends and tips.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 330,
+            "x" : 36,
+            "y" : 286.3333333333333
+          },
+          "index" : 7,
+          "label" : "Edit Your Summary",
+          "spoken" : "Edit Your Summary, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.00000000000003,
+            "width" : 26,
+            "x" : 341.66666666666663,
+            "y" : 137.66666666666666
+          },
+          "identifier" : "xmark.circle.fill",
+          "index" : 8,
+          "label" : "Close",
+          "spoken" : "Close, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.333333333333314,
+            "width" : 362,
+            "x" : 20,
+            "y" : 370.66666666666663
+          },
+          "identifier" : "Fitness.SummaryView.Activity Ring.Text",
+          "index" : 9,
+          "label" : "Activity Ring",
+          "spoken" : "Activity Ring",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 41.66666666666666,
+            "x" : 201,
+            "y" : 469.8333333333333
+          },
+          "identifier" : "Fitness.SummaryView.rings",
+          "index" : 10,
+          "label" : "Move",
+          "spoken" : "Move",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 89.33333333333333,
+            "x" : 35,
+            "y" : 592.9333333333333
+          },
+          "identifier" : "Fitness.SummaryView.Step Count.Text",
+          "index" : 11,
+          "label" : "Step Count",
+          "spoken" : "Step Count",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.33333396911621,
+            "width" : 17.33333396911621,
+            "x" : 165.33333333333334,
+            "y" : 594.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalSteps).EditButton",
+          "index" : 12,
+          "label" : "Go Right",
+          "spoken" : "Go Right, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 130.33333333333326,
+            "width" : 146,
+            "x" : 35,
+            "y" : 623.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalSteps)",
+          "index" : 13,
+          "label" : "Today, 0",
+          "spoken" : "Today, 0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 111,
+            "x" : 221,
+            "y" : 592.9333333333333
+          },
+          "identifier" : "Fitness.SummaryView.Step Distance.Text",
+          "index" : 14,
+          "label" : "Step Distance",
+          "spoken" : "Step Distance",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.33333396911621,
+            "width" : 17.33333396911621,
+            "x" : 351.33333333333337,
+            "y" : 594.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalDistance).EditButton",
+          "index" : 15,
+          "label" : "Go Right",
+          "spoken" : "Go Right, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 130.33333333333326,
+            "width" : 146,
+            "x" : 221,
+            "y" : 623.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalDistance)",
+          "index" : 16,
+          "label" : "Today, 0,00KM",
+          "spoken" : "Today, 0,00KM",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 71.33333333333333,
+            "x" : 35,
+            "y" : 787.5999999999999
+          },
+          "identifier" : "Fitness.SummaryView.Sessions.Text",
+          "index" : 17,
+          "label" : "Sessions",
+          "spoken" : "Sessions",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.33333396911621,
+            "width" : 17.33333396911621,
+            "x" : 165.33333333333334,
+            "y" : 789
+          },
+          "identifier" : "Fitness.SummaryView.history.EditButton",
+          "index" : 18,
+          "label" : "Go Right",
+          "spoken" : "Go Right, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 98,
+            "y" : 873.3333333333333
+          },
+          "index" : 19,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95,
+            "x" : 25,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.Summary",
+          "index" : 20,
+          "label" : "Summary",
+          "spoken" : "Summary, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95,
+            "x" : 110.66666666666669,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.FitnessPlus",
+          "index" : 21,
+          "label" : "Fitness+",
+          "spoken" : "Fitness+, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95.00000000000003,
+            "x" : 196.33333333333334,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.Workout",
+          "index" : 22,
+          "label" : "Workout",
+          "spoken" : "Workout, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95,
+            "x" : 282,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.Sharing",
+          "index" : 23,
+          "label" : "Sharing",
+          "spoken" : "Sharing, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    }
+  ]
+}

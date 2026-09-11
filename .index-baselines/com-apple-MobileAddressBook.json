@@ -11,26 +11,7 @@
   "screens" : [
     {
       "platformAuditFindings" : [
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        }
+
       ],
       "screen" : "Стартовый экран",
       "utterances" : [

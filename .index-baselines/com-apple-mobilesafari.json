@@ -1,0 +1,357 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Safari",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|VoiceSearchButton",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 20.33333333333333,
+            "width" : 172,
+            "x" : 115,
+            "y" : 102
+          },
+          "index" : 0,
+          "label" : "Начальная страница",
+          "spoken" : "Начальная страница",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 130.00000000000003,
+            "width" : 310,
+            "x" : 46,
+            "y" : 134.33333333333334
+          },
+          "identifier" : "SafariOnboardingCustomizeStartPage",
+          "index" : 1,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 330,
+            "x" : 36,
+            "y" : 276.33333333333337
+          },
+          "index" : 2,
+          "label" : "Настройте обои и разделы, которые будут отображаться при создании новых вкладок.",
+          "spoken" : "Настройте обои и разделы, которые будут отображаться при создании новых вкладок.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.333333333333314,
+            "width" : 330,
+            "x" : 36,
+            "y" : 326.33333333333337
+          },
+          "identifier" : "onboardingButton-CustomizeStartPage",
+          "index" : 3,
+          "label" : "Настроить",
+          "spoken" : "Настроить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 347,
+            "y" : 98
+          },
+          "index" : 4,
+          "label" : "закрыть",
+          "spoken" : "закрыть, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333314,
+            "width" : 148,
+            "x" : 16,
+            "y" : 410.6666666666667
+          },
+          "index" : 5,
+          "label" : "Избранное",
+          "spoken" : "Избранное",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 82.66666666666669,
+            "x" : 10.666666666666664,
+            "y" : 527
+          },
+          "index" : 6,
+          "label" : "Apple",
+          "spoken" : "Apple",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 82.66666666666666,
+            "x" : 109.99999999999997,
+            "y" : 527
+          },
+          "index" : 7,
+          "label" : "Yandex",
+          "spoken" : "Yandex",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 82.66666666666669,
+            "x" : 209.33333333333331,
+            "y" : 527
+          },
+          "index" : 8,
+          "label" : "Bing",
+          "spoken" : "Bing",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 82.66666666666669,
+            "x" : 308.6666666666667,
+            "y" : 527
+          },
+          "index" : 9,
+          "label" : "Google",
+          "spoken" : "Google",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.33333333333337,
+            "width" : 122.66666666666666,
+            "x" : 139.66666666666666,
+            "y" : 579.3333333333333
+          },
+          "identifier" : "customizationsSheetButton",
+          "index" : 10,
+          "label" : "Изменить",
+          "spoken" : "Изменить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 48,
+            "width" : 48,
+            "x" : 34,
+            "y" : 792
+          },
+          "identifier" : "BackButton",
+          "index" : 11,
+          "label" : "Назад",
+          "spoken" : "Назад, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 131.99999999999997,
+            "x" : 136.66666666666666,
+            "y" : 806
+          },
+          "identifier" : "TabBarItemTitle",
+          "index" : 12,
+          "label" : "Адрес",
+          "placeholder" : "Запрос или сайт",
+          "spoken" : "Адрес, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 21,
+            "width" : 17.333333333333314,
+            "x" : 281.66666666666663,
+            "y" : 805.6666666666666
+          },
+          "identifier" : "VoiceSearchButton",
+          "index" : 13,
+          "label" : "Голосовой поиск",
+          "spoken" : "Голосовой поиск, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 48,
+            "width" : 48,
+            "x" : 320,
+            "y" : 792
+          },
+          "identifier" : "MoreMenuButton",
+          "index" : 14,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    }
+  ]
+}

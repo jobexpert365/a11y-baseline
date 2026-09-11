@@ -17,13 +17,88 @@
       "utterances" : [
         {
           "frame" : {
-            "height" : 385,
-            "width" : 402,
-            "x" : 0,
-            "y" : 72
+            "height" : 20.33333333333333,
+            "width" : 266,
+            "x" : 62.33333333333334,
+            "y" : 76
           },
-          "identifier" : "24hrNotificationWarmingHeader",
+          "identifier" : "StatusIndicatorLabel",
           "index" : 0,
+          "label" : "Службы геолокации выключены",
+          "spoken" : "Службы геолокации выключены",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12.666666666666671,
+            "width" : 9.333333333333314,
+            "x" : 332.33333333333337,
+            "y" : 79.66666666666667
+          },
+          "identifier" : "StatusIndicatorDisclosure",
+          "index" : 1,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 48,
+            "width" : 48,
+            "x" : 338,
+            "y" : 382.33333333333326
+          },
+          "identifier" : "SettingsButton.Explore",
+          "index" : 2,
+          "label" : "Режимы карт",
+          "spoken" : "Режимы карт, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 48,
+            "width" : 48,
+            "x" : 338,
+            "y" : 430.33333333333326
+          },
+          "identifier" : "UserLocationButton",
+          "index" : 3,
+          "label" : "Отслеживание",
+          "spoken" : "Отслеживание, Выключена, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Выключена"
+        },
+        {
+          "frame" : {
+            "height" : 24.00497512437812,
+            "width" : 92.17910447761193,
+            "x" : 154.91044776119404,
+            "y" : 483.5207296849089
+          },
+          "index" : 4,
+          "label" : "Точка захвата листа",
+          "spoken" : "Точка захвата листа, На пол-экрана, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "На пол-экрана"
+        },
+        {
+          "frame" : {
+            "height" : 72.9751243781094,
+            "width" : 386,
+            "x" : 8,
+            "y" : 488.32172470978446
+          },
+          "index" : 5,
           "spoken" : "image",
           "traits" : [
             "image"
@@ -31,59 +106,142 @@
         },
         {
           "frame" : {
-            "height" : 204.66666666666669,
-            "width" : 354,
-            "x" : 24,
-            "y" : 478.6666666666667
+            "height" : 42.24875621890544,
+            "width" : 305.34328358208955,
+            "x" : 23.36318407960199,
+            "y" : 503.68490878938644
           },
-          "index" : 1,
-          "label" : "Получайте уведомления от друзей о примерном времени прибытия",
-          "spoken" : "Получайте уведомления от друзей о примерном времени прибытия",
+          "identifier" : "MapsSearchTextField",
+          "index" : 6,
+          "label" : "Карты Apple",
+          "placeholder" : "Карты Apple",
+          "spoken" : "Карты Apple, searchField",
           "traits" : [
-
+            "searchField"
           ]
         },
         {
           "frame" : {
-            "height" : 86.33333333333337,
-            "width" : 354,
-            "x" : 24,
-            "y" : 702.6666666666666
+            "height" : 42.24875621890544,
+            "width" : 42.2487562189055,
+            "x" : 336.3880597014925,
+            "y" : 503.68490878938644
           },
-          "index" : 2,
-          "label" : "К уведомлениям относятся сообщения о примерном времени прибытия и оповещения о Ваших фото и сообщенных проблемах.",
-          "spoken" : "К уведомлениям относятся сообщения о примерном времени прибытия и оповещения о Ваших фото и сообщенных проблемах.",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 50.33333333333337,
-            "width" : 354,
-            "x" : 24,
-            "y" : 735.6666666666666
-          },
-          "index" : 3,
-          "label" : "Включить уведомления",
-          "spoken" : "Включить уведомления, button",
+          "identifier" : "userProfileButton",
+          "index" : 7,
+          "label" : "учетная запись",
+          "spoken" : "учетная запись, button",
           "traits" : [
             "button"
           ]
         },
         {
           "frame" : {
-            "height" : 34.33333333333337,
-            "width" : 354,
-            "x" : 24,
-            "y" : 792.6666666666666
+            "height" : 23.044776119402968,
+            "width" : 74.8955223880597,
+            "x" : 27.203980099502488,
+            "y" : 570.8988391376452
           },
-          "index" : 4,
-          "label" : "Не сейчас",
-          "spoken" : "Не сейчас, button",
+          "identifier" : "SectionHeader",
+          "index" : 8,
+          "label" : "Места",
+          "spoken" : "Места, button",
           "traits" : [
             "button"
           ]
+        },
+        {
+          "frame" : {
+            "height" : 120.82501220703125,
+            "width" : 83.21724700927734,
+            "x" : 23.363183975219727,
+            "y" : 603.5455932617188
+          },
+          "identifier" : "PinnedTile",
+          "index" : 9,
+          "label" : "Дом, Добавить",
+          "spoken" : "Дом, Добавить, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Дом"
+        },
+        {
+          "frame" : {
+            "height" : 120.82501220703125,
+            "width" : 82.89718627929688,
+            "x" : 114.26202392578125,
+            "y" : 603.5455932617188
+          },
+          "identifier" : "PinnedTile",
+          "index" : 10,
+          "label" : "Работа, Добавить",
+          "spoken" : "Работа, Добавить, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Работа"
+        },
+        {
+          "frame" : {
+            "height" : 105.78192138671875,
+            "width" : 83.21725463867188,
+            "x" : 204.84078979492188,
+            "y" : 603.5455932617188
+          },
+          "identifier" : "PinnedTile",
+          "index" : 11,
+          "label" : "Добавить",
+          "spoken" : "Добавить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.044776119402968,
+            "width" : 200.68159203980105,
+            "x" : 27.203980099502488,
+            "y" : 753.3366500829187
+          },
+          "identifier" : "SectionHeader",
+          "index" : 12,
+          "label" : "Ваши путеводители",
+          "spoken" : "Ваши путеводители, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.885572139303463,
+            "width" : 26.88557213930349,
+            "x" : 158.75124378109453,
+            "y" : 797.5058043117745
+          },
+          "identifier" : "MoreButton",
+          "index" : 13,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 112.02321724709793,
+            "width" : 173.79601990049753,
+            "x" : 23.363184079601993,
+            "y" : 905.6882255389718
+          },
+          "identifier" : "TitleLabel-SubtitleLabel",
+          "index" : 14,
+          "label" : "Избранное, 0 мест",
+          "spoken" : "Избранное, 0 мест, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Избранное"
         }
       ]
     }

@@ -1,0 +1,22 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Просмотр",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+
+      ]
+    }
+  ]
+}

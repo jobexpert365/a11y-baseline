@@ -1,0 +1,213 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Фото",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "ru",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 40.666666666666664,
+            "width" : 185.66666666666666,
+            "x" : 16,
+            "y" : 63.666666666666664
+          },
+          "index" : 0,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 65.33333333333333,
+            "x" : 16,
+            "y" : 104.33333333333333
+          },
+          "index" : 1,
+          "label" : "6 Photos",
+          "spoken" : "6 Photos",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36.00000000000003,
+            "x" : 231.33333333333334,
+            "y" : 66
+          },
+          "identifier" : "sortFilterButton",
+          "index" : 2,
+          "label" : "Сортировать и фильтровать",
+          "spoken" : "Сортировать и фильтровать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 94.66666666666669,
+            "x" : 287.33333333333337,
+            "y" : 66
+          },
+          "index" : 3,
+          "label" : "Выбрать",
+          "spoken" : "Выбрать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 133,
+            "width" : 132.88888549804688,
+            "x" : 1.6954210053654606e-06,
+            "y" : 136
+          },
+          "identifier" : "PXGGridLayout-Info",
+          "index" : 4,
+          "label" : "Фотография, 10 октября 2009 г., 01:09",
+          "spoken" : "Фотография, 10 октября 2009 г., 01:09, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 133,
+            "width" : 132.88888549804688,
+            "x" : 134.55555725097656,
+            "y" : 136
+          },
+          "identifier" : "PXGGridLayout-Info",
+          "index" : 5,
+          "label" : "Фотография, 13 марта 2011 г., 03:17",
+          "spoken" : "Фотография, 13 марта 2011 г., 03:17, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 133,
+            "width" : 132.88888549804688,
+            "x" : 269.1111128065321,
+            "y" : 136
+          },
+          "identifier" : "PXGGridLayout-Info",
+          "index" : 6,
+          "label" : "Фотография, 08 августа 2012 г., 22:52",
+          "spoken" : "Фотография, 08 августа 2012 г., 22:52, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 133,
+            "width" : 132.88888549804688,
+            "x" : 1.6954210053654606e-06,
+            "y" : 270.66666666666663
+          },
+          "identifier" : "PXGGridLayout-Info",
+          "index" : 7,
+          "label" : "Фотография, 09 августа 2012 г., 01:29",
+          "spoken" : "Фотография, 09 августа 2012 г., 01:29, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 133,
+            "width" : 132.88888549804688,
+            "x" : 134.55555725097656,
+            "y" : 270.66666666666663
+          },
+          "identifier" : "PXGGridLayout-Info",
+          "index" : 8,
+          "label" : "Фотография, 09 августа 2012 г., 01:55",
+          "spoken" : "Фотография, 09 августа 2012 г., 01:55, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 133,
+            "width" : 132.88888549804688,
+            "x" : 269.1111128065321,
+            "y" : 270.66666666666663
+          },
+          "identifier" : "PXGGridLayout-Info",
+          "index" : 9,
+          "label" : "Фотография, 30 марта 2018 г., 22:14",
+          "spoken" : "Фотография, 30 марта 2018 г., 22:14, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 96.33333333333334,
+            "x" : 25,
+            "y" : 795
+          },
+          "identifier" : "LibraryTab",
+          "index" : 10,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 96.33333333333336,
+            "x" : 113.33333333333333,
+            "y" : 795
+          },
+          "identifier" : "CollectionsTab",
+          "index" : 11,
+          "label" : "Коллекции",
+          "spoken" : "Коллекции, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 62,
+            "width" : 62,
+            "x" : 319,
+            "y" : 791
+          },
+          "identifier" : "SearchTab",
+          "index" : 12,
+          "label" : "Поиск",
+          "spoken" : "Поиск, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    }
+  ]
+}

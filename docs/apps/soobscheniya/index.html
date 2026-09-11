@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Доступность Карты — проверка VoiceOver</title>
-<meta name="description" content="Что VoiceOver произносит в приложении Карты: результат автоматической проверки 15 элементов интерфейса.">
+<title>Доступность Сообщения — проверка VoiceOver</title>
+<meta name="description" content="Что VoiceOver произносит в приложении Сообщения: результат автоматической проверки 12 элементов интерфейса.">
 <style>:root {
   --ground: #f6f7f9; --surface: #fff; --ink: #14181f; --ink-2: #444c5a;
   --muted: #6b7280; --hair: #e2e5ea; --accent: #8a3324; --ok: #1a6b5f;
@@ -49,15 +49,15 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
 <main>
   <header>
     <p class="eyebrow"><a href="../../">Индекс доступности</a> · проверено 11 сентября 2026</p>
-    <h1>Карты</h1>
+    <h1>Сообщения</h1>
     <p class="lede">
       Автоматическая проверка того, что произносит VoiceOver.
       Версия —, iOS 26.4,
-      язык интерфейса «ru». Пройдено элементов: 15.
+      язык интерфейса «ru». Пройдено элементов: 12.
     </p>
     <dl class="tally">
-      <div><dt>Находки проверок</dt><dd>0</dd></div>
-      <div><dt>Встроенный аудит Apple</dt><dd>0</dd></div>
+      <div><dt>Находки проверок</dt><dd>1</dd></div>
+      <div><dt>Встроенный аудит Apple</dt><dd>3</dd></div>
       <div><dt>Экранов</dt><dd>1</dd></div>
     </dl>
   </header>
@@ -77,9 +77,25 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
     </p>
   </section>
 
-  
+    <section class="group">
+    <h2>Понятно с усилием <span class="count">1</span></h2>
+    <article class="finding">
+  <h3>2 элемента звучат одинаково: «Фото контакта»</h3>
+  <p class="screen">Стартовый экран</p>
+  <p>Все они произносятся как «Фото контакта, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+  </section>
 
-  
+  <section class="group platform">
+  <h2>Что нашли встроенные инструменты Apple <span class="count">3</span></h2>
+  <p class="note">
+    Эти находки выдаёт <code>performAccessibilityAudit</code> — он входит
+    в Xcode и доступен любой команде бесплатно. Раздел показан отдельно,
+    чтобы было видно, где заканчивается бесплатное.
+  </p>
+  <ul><li>Hit area is too small</li><li>Text clipped</li><li>Text clipped</li></ul>
+</section>
 
   <footer>
     <h2>Проверка ошиблась?</h2>

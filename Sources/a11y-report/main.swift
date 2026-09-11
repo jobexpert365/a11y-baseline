@@ -83,6 +83,17 @@ func buildIndex(from inputDir: URL, to outputDir: URL) {
         }
         let findings = RuleRegistry.runMatching(baseline)
         let slug = slugify(baseline.app)
+        let elements = baseline.screens.reduce(0) { $0 + $1.utterances.count }
+
+        // Для непройденного приложения страница не создаётся: публиковать
+        // отчёт «проверено 0 элементов, найдено 0 дефектов» — значит выдавать
+        // неудачу сканера за чистый результат.
+        guard elements > 0 else {
+            entries.append(IndexReport.Entry(app: baseline.app, slug: slug, elements: 0, findings: 0, blockers: 0))
+            print("пропущено (не пройдено ни одного элемента): \(baseline.app)")
+            continue
+        }
+
         let appDir = outputDir.appendingPathComponent("apps/\(slug)")
         try? fm.createDirectory(at: appDir, withIntermediateDirectories: true)
 
@@ -97,7 +108,7 @@ func buildIndex(from inputDir: URL, to outputDir: URL) {
         entries.append(IndexReport.Entry(
             app: baseline.app,
             slug: slug,
-            elements: baseline.screens.reduce(0) { $0 + $1.utterances.count },
+            elements: elements,
             findings: findings.count,
             blockers: findings.filter { $0.severity == .blocker }.count
         ))

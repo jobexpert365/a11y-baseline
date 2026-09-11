@@ -64,6 +64,16 @@ struct GenericLabelRuleTests {
         #expect(GenericLabelRule().evaluate(u, in: context(screen([u])))?.severity == .serious)
     }
 
+    @Test("глагол действия — осмысленная подпись",
+          arguments: ["Выбрать", "Открыть", "Select", "Open", "Сохранить"])
+    func ignoresActionVerbs(label: String) {
+        // Регрессионный тест: правило обвиняло кнопку «Выбрать» в «Фото».
+        // Глагол точно описывает, что произойдёт при нажатии, — это хорошая
+        // подпись, а не заглушка.
+        let u = Utterance(index: 0, spoken: "\(label), button", label: label, traits: ["button"])
+        #expect(GenericLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
     @Test("осмысленная подпись проходит", arguments: ["Отправить отчёт", "Закрыть окно", "Корзина"])
     func ignoresMeaningful(label: String) {
         let u = Utterance(index: 0, spoken: "\(label), button", label: label, traits: ["button"])
@@ -81,6 +91,15 @@ struct SymbolNameLabelRuleTests {
         // кнопки в «Календаре» iOS, найденная прогоном.
         let u = Utterance(index: 0, spoken: "\(label), button", label: label, traits: ["button"])
         #expect(SymbolNameLabelRule().evaluate(u, in: context(screen([u])))?.severity == .serious)
+    }
+
+    @Test("дата именем символа не считается", arguments: ["01.01.2001", "12.5.3", "2.0.1"])
+    func ignoresDates(label: String) {
+        // Регрессионный тест на настоящее ложное срабатывание из «Сообщений»:
+        // дата состоит из цифр и точек, как и имя символа. Имена SF Symbol
+        // всегда содержат слова.
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["button"])
+        #expect(SymbolNameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
     }
 
     @Test("человеческие подписи и бренды проходят",
