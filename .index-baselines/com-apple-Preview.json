@@ -17,6 +17,42 @@
       "utterances" : [
 
       ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 62,
+            "width" : 250,
+            "x" : 76,
+            "y" : 282
+          },
+          "index" : 0,
+          "label" : "Новое пустое изображение",
+          "spoken" : "Новое пустое изображение, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 62,
+            "width" : 250,
+            "x" : 76,
+            "y" : 344
+          },
+          "index" : 1,
+          "label" : "Новый файл из буфера обмена",
+          "spoken" : "Новый файл из буфера обмена, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
     }
   ]
 }

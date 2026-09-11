@@ -239,6 +239,170 @@
           ]
         }
       ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 82
+          },
+          "index" : 0,
+          "label" : "Закрыть",
+          "spoken" : "Закрыть, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333314,
+            "width" : 326,
+            "x" : 38,
+            "y" : 278.66666666666663
+          },
+          "index" : 1,
+          "label" : "Apple Account",
+          "spoken" : "Apple Account",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.33333333333331,
+            "width" : 326,
+            "x" : 38,
+            "y" : 306
+          },
+          "index" : 2,
+          "label" : "Choose the method to sign in yourself or a child in your family on this device.",
+          "spoken" : "Choose the method to sign in yourself or a child in your family on this device.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.666666666666686,
+            "width" : 260.3333333333333,
+            "x" : 38,
+            "y" : 404.33333333333326
+          },
+          "identifier" : "AUTH_DONT_HAVE_APPLE_ID_BUTTON",
+          "index" : 3,
+          "label" : "Don’t have an Apple Account?",
+          "spoken" : "Don’t have an Apple Account?, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 57.99999999999994,
+            "width" : 211.66666666666663,
+            "x" : 123.99999999999999,
+            "y" : 503.3333333333333
+          },
+          "index" : 4,
+          "label" : "Bring another compatible Apple device nearby to sign in quickly and easily.",
+          "spoken" : "Bring another compatible Apple device nearby to sign in quickly and easily.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 211.66666666666663,
+            "x" : 123.99999999999999,
+            "y" : 481
+          },
+          "index" : 5,
+          "label" : "Use Another Apple Device",
+          "spoken" : "Use Another Apple Device",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 58,
+            "width" : 211.66666666666663,
+            "x" : 123.99999999999999,
+            "y" : 641.6666673024495
+          },
+          "index" : 6,
+          "label" : "Enter an email address or phone number and password then verify your identity.",
+          "spoken" : "Enter an email address or phone number and password then verify your identity.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 211.66666666666663,
+            "x" : 123.99999999999999,
+            "y" : 619.3333339691162
+          },
+          "index" : 7,
+          "label" : "Sign in Manually",
+          "spoken" : "Sign in Manually",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333314,
+            "width" : 326,
+            "x" : 38,
+            "y" : 278.66666666666663
+          },
+          "index" : 8,
+          "label" : "Apple Account",
+          "spoken" : "Apple Account",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.33333333333331,
+            "width" : 326,
+            "x" : 38,
+            "y" : 306
+          },
+          "index" : 9,
+          "label" : "Choose the method to sign in yourself or a child in your family on this device.",
+          "spoken" : "Choose the method to sign in yourself or a child in your family on this device.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.666666666666686,
+            "width" : 260.3333333333333,
+            "x" : 38,
+            "y" : 404.33333333333326
+          },
+          "identifier" : "AUTH_DONT_HAVE_APPLE_ID_BUTTON",
+          "index" : 10,
+          "label" : "Don’t have an Apple Account?",
+          "spoken" : "Don’t have an Apple Account?, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
     }
   ]
 }

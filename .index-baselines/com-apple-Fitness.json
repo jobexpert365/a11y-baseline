@@ -96,13 +96,13 @@
         {
           "frame" : {
             "height" : 13.666666666666671,
-            "width" : 73.66666666666667,
+            "width" : 90,
             "x" : 16,
             "y" : 90.33333333333333
           },
           "index" : 2,
-          "label" : "Friday, 11 Sep",
-          "spoken" : "Friday, 11 Sep",
+          "label" : "Saturday, 12 Sep",
+          "spoken" : "Saturday, 12 Sep",
           "traits" : [
 
           ]
@@ -410,6 +410,714 @@
           },
           "identifier" : "Fitness.TabBar.Sharing",
           "index" : 23,
+          "label" : "Sharing",
+          "spoken" : "Sharing, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        }
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 20,
+            "y" : 82
+          },
+          "index" : 0,
+          "label" : "close",
+          "spoken" : "close, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 66.33333333333334,
+            "x" : 167.66666666666666,
+            "y" : 89.66666666666666
+          },
+          "index" : 1,
+          "label" : "Account",
+          "spoken" : "Account",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 300,
+            "x" : 36,
+            "y" : 168
+          },
+          "index" : 2,
+          "label" : "Notifications",
+          "spoken" : "Notifications",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 171
+          },
+          "identifier" : "chevron.forward",
+          "index" : 3,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 300,
+            "x" : 36,
+            "y" : 240
+          },
+          "index" : 4,
+          "label" : "Health Details",
+          "spoken" : "Health Details",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 243
+          },
+          "identifier" : "chevron.forward",
+          "index" : 5,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 300,
+            "x" : 36,
+            "y" : 292
+          },
+          "index" : 6,
+          "label" : "Change Move Goal",
+          "spoken" : "Change Move Goal",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 295
+          },
+          "identifier" : "chevron.forward",
+          "index" : 7,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 300,
+            "x" : 36,
+            "y" : 344
+          },
+          "index" : 8,
+          "label" : "Units of Measure",
+          "spoken" : "Units of Measure",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 347
+          },
+          "identifier" : "chevron.forward",
+          "index" : 9,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 300,
+            "x" : 36,
+            "y" : 396
+          },
+          "index" : 10,
+          "label" : "Privacy",
+          "spoken" : "Privacy",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 399
+          },
+          "identifier" : "chevron.forward",
+          "index" : 11,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 330,
+            "x" : 36,
+            "y" : 468
+          },
+          "index" : 12,
+          "label" : "Workout",
+          "spoken" : "Workout",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 330,
+            "x" : 36,
+            "y" : 520
+          },
+          "index" : 13,
+          "label" : "Fitness+",
+          "spoken" : "Fitness+",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 330,
+            "x" : 36,
+            "y" : 592
+          },
+          "index" : 14,
+          "label" : "Redeem Gift Card or Code",
+          "spoken" : "Redeem Gift Card or Code",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 330,
+            "x" : 36,
+            "y" : 644
+          },
+          "index" : 15,
+          "label" : "Send Gift Card by Email",
+          "spoken" : "Send Gift Card by Email",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 1)|Fitness.SummaryView.Sessions.Text",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
+      ],
+      "screen" : "Экран 3",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 26.66666666666667,
+            "width" : 99.33333333333331,
+            "x" : 15.999999999999993,
+            "y" : 64
+          },
+          "index" : 0,
+          "label" : "Summary",
+          "spoken" : "Summary",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.66666666666667,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66.66666666666667
+          },
+          "identifier" : "Fitness.SummaryView.accountSettingsButton",
+          "index" : 1,
+          "label" : "Account Settings",
+          "spoken" : "Account Settings, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.666666666666671,
+            "width" : 90,
+            "x" : 16,
+            "y" : 90.33333333333333
+          },
+          "index" : 2,
+          "label" : "Saturday, 12 Sep",
+          "spoken" : "Saturday, 12 Sep",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 286,
+            "width" : 642,
+            "x" : -120,
+            "y" : 731
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 3,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 38,
+            "x" : 42,
+            "y" : 146
+          },
+          "identifier" : "activity.rings.closed",
+          "index" : 4,
+          "label" : "activity.rings.closed",
+          "spoken" : "activity.rings.closed, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 205.33333333333331,
+            "x" : 92,
+            "y" : 141.895751953125
+          },
+          "index" : 5,
+          "label" : "A Customizable Summary",
+          "spoken" : "A Customizable Summary",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 98.00000000000003,
+            "width" : 264.3333333333333,
+            "x" : 92,
+            "y" : 166.22908528645834
+          },
+          "index" : 6,
+          "label" : "You can make your Summary tab your own, with custom views of everything from your distance totals and average pace to expanded views of trends and tips.",
+          "spoken" : "You can make your Summary tab your own, with custom views of everything from your distance totals and average pace to expanded views of trends and tips.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 330,
+            "x" : 36,
+            "y" : 286.3333333333333
+          },
+          "index" : 7,
+          "label" : "Edit Your Summary",
+          "spoken" : "Edit Your Summary, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.00000000000003,
+            "width" : 26,
+            "x" : 341.66666666666663,
+            "y" : 137.66666666666666
+          },
+          "identifier" : "xmark.circle.fill",
+          "index" : 8,
+          "label" : "Close",
+          "spoken" : "Close, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.333333333333314,
+            "width" : 362,
+            "x" : 20,
+            "y" : 370.66666666666663
+          },
+          "identifier" : "Fitness.SummaryView.Activity Ring.Text",
+          "index" : 9,
+          "label" : "Activity Ring",
+          "spoken" : "Activity Ring",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 41.66666666666666,
+            "x" : 201,
+            "y" : 469.8333333333333
+          },
+          "identifier" : "Fitness.SummaryView.rings",
+          "index" : 10,
+          "label" : "Move",
+          "spoken" : "Move",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 89.33333333333333,
+            "x" : 35,
+            "y" : 592.9333333333333
+          },
+          "identifier" : "Fitness.SummaryView.Step Count.Text",
+          "index" : 11,
+          "label" : "Step Count",
+          "spoken" : "Step Count",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.33333396911621,
+            "width" : 17.33333396911621,
+            "x" : 165.33333333333334,
+            "y" : 594.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalSteps).EditButton",
+          "index" : 12,
+          "label" : "Go Right",
+          "spoken" : "Go Right, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 130.33333333333326,
+            "width" : 146,
+            "x" : 35,
+            "y" : 623.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalSteps)",
+          "index" : 13,
+          "label" : "Today, 0",
+          "spoken" : "Today, 0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 111,
+            "x" : 221,
+            "y" : 592.9333333333333
+          },
+          "identifier" : "Fitness.SummaryView.Step Distance.Text",
+          "index" : 14,
+          "label" : "Step Distance",
+          "spoken" : "Step Distance",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.33333396911621,
+            "width" : 17.33333396911621,
+            "x" : 351.33333333333337,
+            "y" : 594.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalDistance).EditButton",
+          "index" : 15,
+          "label" : "Go Right",
+          "spoken" : "Go Right, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 130.33333333333326,
+            "width" : 146,
+            "x" : 221,
+            "y" : 623.3333333333334
+          },
+          "identifier" : "Fitness.SummaryView.metric(FitnessApp.ActivityDashboardMetric.totalDistance)",
+          "index" : 16,
+          "label" : "Today, 0,00KM",
+          "spoken" : "Today, 0,00KM",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 184.66666666666663,
+            "width" : 176,
+            "x" : 20,
+            "y" : 775.6666666666666
+          },
+          "identifier" : "Fitness.SummaryView.Sessions.Text-Fitness.SummaryView.history.EditButton",
+          "index" : 17,
+          "label" : "Sessions",
+          "spoken" : "Sessions, 1",
+          "traits" : [
+
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95,
+            "x" : 25,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.Summary",
+          "index" : 18,
+          "label" : "Summary",
+          "spoken" : "Summary, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95,
+            "x" : 110.66666666666669,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.FitnessPlus",
+          "index" : 19,
+          "label" : "Fitness+",
+          "spoken" : "Fitness+, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95.00000000000003,
+            "x" : 196.33333333333334,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.Workout",
+          "index" : 20,
+          "label" : "Workout",
+          "spoken" : "Workout, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 95,
+            "x" : 282,
+            "y" : 795
+          },
+          "identifier" : "Fitness.TabBar.Sharing",
+          "index" : 21,
           "label" : "Sharing",
           "spoken" : "Sharing, button",
           "traits" : [

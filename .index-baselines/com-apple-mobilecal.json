@@ -135,12 +135,12 @@
           "frame" : {
             "height" : 43,
             "width" : 57.333333333333314,
-            "x" : 286.6666667666606,
+            "x" : 229.3333334333285,
             "y" : 133.33333333333331
           },
           "index" : 8,
-          "label" : "суббота, 12 сентября",
-          "spoken" : "суббота, 12 сентября, button",
+          "label" : "пятница, 11 сентября",
+          "spoken" : "пятница, 11 сентября, button",
           "traits" : [
             "button"
           ]
@@ -161,15 +161,28 @@
         },
         {
           "frame" : {
+            "height" : 199,
+            "width" : 402,
+            "x" : 0,
+            "y" : 0
+          },
+          "index" : 10,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
             "height" : 18,
-            "width" : 194.33333333333331,
-            "x" : 103.83333333333331,
+            "width" : 194.66666666666669,
+            "x" : 103.66666666666669,
             "y" : 192.33333333333334
           },
           "identifier" : "current-day",
-          "index" : 10,
-          "label" : "Пятница — 11 сент. 2026 г.",
-          "spoken" : "Пятница — 11 сент. 2026 г.",
+          "index" : 11,
+          "label" : "Суббота — 12 сент. 2026 г.",
+          "spoken" : "Суббота — 12 сент. 2026 г.",
           "traits" : [
 
           ]
@@ -182,7 +195,7 @@
             "y" : 738
           },
           "identifier" : "AdditionalDimmingOverlay",
-          "index" : 11,
+          "index" : 12,
           "spoken" : "image",
           "traits" : [
             "image"
@@ -196,7 +209,7 @@
             "y" : 803
           },
           "identifier" : "today-button",
-          "index" : 12,
+          "index" : 13,
           "label" : "Сегодня",
           "spoken" : "Сегодня, button",
           "traits" : [
@@ -211,7 +224,7 @@
             "y" : 803
           },
           "identifier" : "calendars-button",
-          "index" : 13,
+          "index" : 14,
           "spoken" : "button",
           "traits" : [
             "button"
@@ -225,9 +238,1289 @@
             "y" : 803
           },
           "identifier" : "inbox-button",
-          "index" : 14,
+          "index" : 15,
           "label" : "ящик входящие",
           "spoken" : "ящик входящие, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 93,
+            "x" : 15.999999949999985,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "2026",
+          "spoken" : "2026, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 43.66666666666666,
+            "x" : 229.33333328333336,
+            "y" : 66
+          },
+          "identifier" : "toggle-month-view",
+          "index" : 1,
+          "label" : "Подробно",
+          "spoken" : "Подробно, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 39.666666666666686,
+            "x" : 288.9999999500001,
+            "y" : 66
+          },
+          "identifier" : "searchbar-button",
+          "index" : 2,
+          "label" : "Искать",
+          "spoken" : "Искать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 37.333333333333314,
+            "x" : 344.6666666166667,
+            "y" : 66
+          },
+          "identifier" : "add-plus-button",
+          "index" : 3,
+          "label" : "Добавить",
+          "spoken" : "Добавить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 39.66666666666666,
+            "width" : 155.66666666666666,
+            "x" : 19.99999994999999,
+            "y" : 122
+          },
+          "identifier" : "current-month-year",
+          "index" : 4,
+          "label" : "Сентябрь",
+          "spoken" : "Сентябрь",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 42.33333333333333,
+            "x" : 7.666666666666671,
+            "y" : -71.33333333334303
+          },
+          "index" : 5,
+          "label" : "понедельник, 24 августа",
+          "spoken" : "понедельник, 24 августа, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 42.33333333333333,
+            "x" : 65,
+            "y" : -71.33333333334303
+          },
+          "index" : 6,
+          "label" : "вторник, 25 августа",
+          "spoken" : "вторник, 25 августа, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 42.66666666666666,
+            "x" : 122,
+            "y" : -71.33333333334303
+          },
+          "index" : 7,
+          "label" : "среда, 26 августа",
+          "spoken" : "среда, 26 августа, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 41.33333333333334,
+            "x" : 180,
+            "y" : -71.33333333334303
+          },
+          "index" : 8,
+          "label" : "четверг, 27 августа",
+          "spoken" : "четверг, 27 августа, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 42.66666666666666,
+            "x" : 236.66666666666666,
+            "y" : -71.33333333334303
+          },
+          "index" : 9,
+          "label" : "пятница, 28 августа",
+          "spoken" : "пятница, 28 августа, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 42.666666666666686,
+            "x" : 294,
+            "y" : -71.33333333334303
+          },
+          "index" : 10,
+          "label" : "суббота, 29 августа",
+          "spoken" : "суббота, 29 августа, 1 событие, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "1 событие"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 43,
+            "x" : 351.3333333333333,
+            "y" : -71.33333333334303
+          },
+          "index" : 11,
+          "label" : "воскресенье, 30 августа",
+          "spoken" : "воскресенье, 30 августа, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 272,
+            "width" : 642,
+            "x" : -120,
+            "y" : 738
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 12,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666667,
+            "width" : 40,
+            "x" : 8.666666666666668,
+            "y" : 47.666666666656965
+          },
+          "index" : 13,
+          "label" : "понедельник, 31 августа",
+          "spoken" : "понедельник, 31 августа, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 92.33333333333331,
+            "x" : 39.99999999999999,
+            "y" : 159.66666666665697
+          },
+          "index" : 14,
+          "label" : "сентябрь 2026 г.",
+          "spoken" : "сентябрь 2026 г.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 28.66666666666667,
+            "x" : 71.66666666666667,
+            "y" : 192.66666666665697
+          },
+          "index" : 15,
+          "label" : "вторник, 1 сентября",
+          "spoken" : "вторник, 1 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 31,
+            "x" : 128,
+            "y" : 192.66666666665697
+          },
+          "index" : 16,
+          "label" : "среда, 2 сентября",
+          "spoken" : "среда, 2 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 31.333333333333343,
+            "x" : 185,
+            "y" : 192.66666666665697
+          },
+          "index" : 17,
+          "label" : "четверг, 3 сентября",
+          "spoken" : "четверг, 3 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 31.666666666666657,
+            "x" : 242.33333333333334,
+            "y" : 192.66666666665697
+          },
+          "index" : 18,
+          "label" : "пятница, 4 сентября",
+          "spoken" : "пятница, 4 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 31.333333333333314,
+            "x" : 299.6666666666667,
+            "y" : 192.66666666665697
+          },
+          "index" : 19,
+          "label" : "суббота, 5 сентября",
+          "spoken" : "суббота, 5 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 31.666666666666686,
+            "x" : 357,
+            "y" : 192.66666666665697
+          },
+          "index" : 20,
+          "label" : "воскресенье, 6 сентября",
+          "spoken" : "воскресенье, 6 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 30.333333333333332,
+            "x" : 13.666666666666668,
+            "y" : 311.33333333331393
+          },
+          "index" : 21,
+          "label" : "понедельник, 7 сентября",
+          "spoken" : "понедельник, 7 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 31.66666666666667,
+            "x" : 70.33333333333333,
+            "y" : 311.33333333331393
+          },
+          "index" : 22,
+          "label" : "вторник, 8 сентября",
+          "spoken" : "вторник, 8 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 31.666666666666657,
+            "x" : 127.66666666666666,
+            "y" : 311.33333333331393
+          },
+          "index" : 23,
+          "label" : "среда, 9 сентября",
+          "spoken" : "среда, 9 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 40,
+            "x" : 180.66666666666666,
+            "y" : 311.33333333331393
+          },
+          "index" : 24,
+          "label" : "четверг, 10 сентября",
+          "spoken" : "четверг, 10 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 37,
+            "x" : 239.66666666666663,
+            "y" : 311.33333333331393
+          },
+          "index" : 25,
+          "label" : "пятница, 11 сентября",
+          "spoken" : "пятница, 11 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 39.333333333333314,
+            "x" : 295.6666666666667,
+            "y" : 311.33333333331393
+          },
+          "index" : 26,
+          "label" : "Сегодня, суббота, 12 сентября",
+          "spoken" : "Сегодня, суббота, 12 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 40,
+            "x" : 352.6666666666667,
+            "y" : 311.33333333331393
+          },
+          "index" : 27,
+          "label" : "воскресенье, 13 сентября",
+          "spoken" : "воскресенье, 13 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 40.33333333333333,
+            "x" : 8.666666666666671,
+            "y" : 430.33333333331393
+          },
+          "index" : 28,
+          "label" : "понедельник, 14 сентября",
+          "spoken" : "понедельник, 14 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 39.66666666666667,
+            "x" : 66.33333333333333,
+            "y" : 430.33333333331393
+          },
+          "index" : 29,
+          "label" : "вторник, 15 сентября",
+          "spoken" : "вторник, 15 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 40,
+            "x" : 123.33333333333334,
+            "y" : 430.33333333331393
+          },
+          "index" : 30,
+          "label" : "среда, 16 сентября",
+          "spoken" : "среда, 16 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 38.66666666666666,
+            "x" : 181.33333333333334,
+            "y" : 430.33333333331393
+          },
+          "index" : 31,
+          "label" : "четверг, 17 сентября",
+          "spoken" : "четверг, 17 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 40.33333333333334,
+            "x" : 238.00000000000003,
+            "y" : 430.33333333331393
+          },
+          "index" : 32,
+          "label" : "пятница, 18 сентября",
+          "spoken" : "пятница, 18 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 40,
+            "x" : 295.3333333333333,
+            "y" : 430.33333333331393
+          },
+          "index" : 33,
+          "label" : "суббота, 19 сентября",
+          "spoken" : "суббота, 19 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.666666666666686,
+            "width" : 42.666666666666686,
+            "x" : 351.3333333333333,
+            "y" : 430.33333333331393
+          },
+          "index" : 34,
+          "label" : "воскресенье, 20 сентября",
+          "spoken" : "воскресенье, 20 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 39.33333333333333,
+            "x" : 9,
+            "y" : 549.3333333333139
+          },
+          "index" : 35,
+          "label" : "понедельник, 21 сентября",
+          "spoken" : "понедельник, 21 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 42,
+            "x" : 65,
+            "y" : 549.3333333333139
+          },
+          "index" : 36,
+          "label" : "вторник, 22 сентября",
+          "spoken" : "вторник, 22 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 42.33333333333334,
+            "x" : 122.33333333333334,
+            "y" : 549.3333333333139
+          },
+          "index" : 37,
+          "label" : "среда, 23 сентября",
+          "spoken" : "среда, 23 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 42.33333333333334,
+            "x" : 179.66666666666666,
+            "y" : 549.3333333333139
+          },
+          "index" : 38,
+          "label" : "четверг, 24 сентября",
+          "spoken" : "четверг, 24 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 42.33333333333334,
+            "x" : 237.00000000000003,
+            "y" : 549.3333333333139
+          },
+          "index" : 39,
+          "label" : "пятница, 25 сентября",
+          "spoken" : "пятница, 25 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 42.666666666666686,
+            "x" : 294,
+            "y" : 549.3333333333139
+          },
+          "index" : 40,
+          "label" : "суббота, 26 сентября",
+          "spoken" : "суббота, 26 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 41.333333333333314,
+            "x" : 352,
+            "y" : 549.3333333333139
+          },
+          "index" : 41,
+          "label" : "воскресенье, 27 сентября",
+          "spoken" : "воскресенье, 27 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 42.66666666666667,
+            "x" : 7.333333333333329,
+            "y" : 668.3333333333139
+          },
+          "index" : 42,
+          "label" : "понедельник, 28 сентября",
+          "spoken" : "понедельник, 28 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 42.66666666666667,
+            "x" : 64.66666666666667,
+            "y" : 668.3333333333139
+          },
+          "index" : 43,
+          "label" : "вторник, 29 сентября",
+          "spoken" : "вторник, 29 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 43,
+            "x" : 122,
+            "y" : 668.3333333333139
+          },
+          "index" : 44,
+          "label" : "среда, 30 сентября",
+          "spoken" : "среда, 30 сентября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 80.66666666666666,
+            "x" : 160.33333333333334,
+            "y" : 780.3333333333139
+          },
+          "index" : 45,
+          "label" : "октябрь 2026 г.",
+          "spoken" : "октябрь 2026 г.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 28.666666666666657,
+            "x" : 186.33333333333334,
+            "y" : 813.3333333333139
+          },
+          "index" : 46,
+          "label" : "четверг, 1 октября",
+          "spoken" : "четверг, 1 октября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 31,
+            "x" : 242.66666666666663,
+            "y" : 813.3333333333139
+          },
+          "index" : 47,
+          "label" : "пятница, 2 октября",
+          "spoken" : "пятница, 2 октября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 31.333333333333314,
+            "x" : 299.6666666666667,
+            "y" : 813.3333333333139
+          },
+          "index" : 48,
+          "label" : "суббота, 3 октября",
+          "spoken" : "суббота, 3 октября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 41.66666666666663,
+            "width" : 31.666666666666686,
+            "x" : 357,
+            "y" : 813.3333333333139
+          },
+          "index" : 49,
+          "label" : "воскресенье, 4 октября",
+          "spoken" : "воскресенье, 4 октября, Нет событий, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "Нет событий"
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 90.33333333333333,
+            "x" : 33,
+            "y" : 803
+          },
+          "identifier" : "today-button",
+          "index" : 50,
+          "label" : "Сегодня",
+          "spoken" : "Сегодня, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 56.66666666666666,
+            "x" : 251.66666666666666,
+            "y" : 803
+          },
+          "identifier" : "calendars-button",
+          "index" : 51,
+          "label" : "Календари",
+          "spoken" : "Календари, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 46.666666666666686,
+            "x" : 322.3333333333333,
+            "y" : 803
+          },
+          "identifier" : "inbox-button",
+          "index" : 52,
+          "label" : "Входящие",
+          "spoken" : "Входящие, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 3",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 39.666666666666686,
+            "x" : 289,
+            "y" : 66
+          },
+          "identifier" : "searchbar-button",
+          "index" : 0,
+          "label" : "Искать",
+          "spoken" : "Искать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 37.333333333333314,
+            "x" : 344.66666666666663,
+            "y" : 66
+          },
+          "identifier" : "add-plus-button",
+          "index" : 1,
+          "label" : "Добавить",
+          "spoken" : "Добавить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 22.333333333333336,
+            "y" : -34
+          },
+          "index" : 2,
+          "label" : "октябрь 2025 г.",
+          "spoken" : "октябрь 2025 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 143.66666666666666,
+            "y" : -34
+          },
+          "index" : 3,
+          "label" : "ноябрь 2025 г.",
+          "spoken" : "ноябрь 2025 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666669,
+            "x" : 265,
+            "y" : -34
+          },
+          "index" : 4,
+          "label" : "декабрь 2025 г.",
+          "spoken" : "декабрь 2025 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 271.9999999999998,
+            "width" : 642,
+            "x" : -120,
+            "y" : 738
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 5,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 37,
+            "width" : 87.33333333333333,
+            "x" : 22.333333333333343,
+            "y" : 129
+          },
+          "index" : 6,
+          "label" : "2026",
+          "spoken" : "2026",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 22.333333333333336,
+            "y" : 186
+          },
+          "index" : 7,
+          "label" : "январь 2026 г.",
+          "spoken" : "январь 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 143.66666666666666,
+            "y" : 186
+          },
+          "index" : 8,
+          "label" : "февраль 2026 г.",
+          "spoken" : "февраль 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666669,
+            "x" : 265,
+            "y" : 186
+          },
+          "index" : 9,
+          "label" : "март 2026 г.",
+          "spoken" : "март 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 22.333333333333336,
+            "y" : 336
+          },
+          "index" : 10,
+          "label" : "апрель 2026 г.",
+          "spoken" : "апрель 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 143.66666666666666,
+            "y" : 336
+          },
+          "index" : 11,
+          "label" : "май 2026 г.",
+          "spoken" : "май 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666669,
+            "x" : 265,
+            "y" : 336
+          },
+          "index" : 12,
+          "label" : "июнь 2026 г.",
+          "spoken" : "июнь 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 22.333333333333336,
+            "y" : 486
+          },
+          "index" : 13,
+          "label" : "июль 2026 г.",
+          "spoken" : "июль 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 143.66666666666666,
+            "y" : 486
+          },
+          "index" : 14,
+          "label" : "август 2026 г.",
+          "spoken" : "август 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666669,
+            "x" : 265,
+            "y" : 486
+          },
+          "index" : 15,
+          "label" : "Текущий месяц, сентябрь 2026 г.",
+          "spoken" : "Текущий месяц, сентябрь 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 22.333333333333336,
+            "y" : 636
+          },
+          "index" : 16,
+          "label" : "октябрь 2026 г.",
+          "spoken" : "октябрь 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 143.66666666666666,
+            "y" : 636
+          },
+          "index" : 17,
+          "label" : "ноябрь 2026 г.",
+          "spoken" : "ноябрь 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666669,
+            "x" : 265,
+            "y" : 636
+          },
+          "index" : 18,
+          "label" : "декабрь 2026 г.",
+          "spoken" : "декабрь 2026 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 37,
+            "width" : 85,
+            "x" : 22.333333333333343,
+            "y" : 799
+          },
+          "index" : 19,
+          "label" : "2027",
+          "spoken" : "2027",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 22.333333333333336,
+            "y" : 856
+          },
+          "index" : 20,
+          "label" : "январь 2027 г.",
+          "spoken" : "январь 2027 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666666,
+            "x" : 143.66666666666666,
+            "y" : 856
+          },
+          "index" : 21,
+          "label" : "февраль 2027 г.",
+          "spoken" : "февраль 2027 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 150,
+            "width" : 114.66666666666669,
+            "x" : 265,
+            "y" : 856
+          },
+          "index" : 22,
+          "label" : "март 2027 г.",
+          "spoken" : "март 2027 г., button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 90.33333333333333,
+            "x" : 33,
+            "y" : 803
+          },
+          "identifier" : "today-button",
+          "index" : 23,
+          "label" : "Сегодня",
+          "spoken" : "Сегодня, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 56.66666666666666,
+            "x" : 251.66666666666666,
+            "y" : 803
+          },
+          "identifier" : "calendars-button",
+          "index" : 24,
+          "label" : "Календари",
+          "spoken" : "Календари, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 46.666666666666686,
+            "x" : 322.3333333333333,
+            "y" : 803
+          },
+          "identifier" : "inbox-button",
+          "index" : 25,
+          "label" : "Входящие",
+          "spoken" : "Входящие, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 4",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "This element is missing useful accessibility information.",
+          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 4",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This element is missing useful accessibility information.",
+          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 4",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This element is missing useful accessibility information.",
+          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 4",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Экран 4",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 125,
+            "width" : 402,
+            "x" : 0,
+            "y" : -8
+          },
+          "index" : 0,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 315,
+            "x" : 16,
+            "y" : 58
+          },
+          "index" : 1,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 342,
+            "y" : 58
+          },
+          "index" : 2,
+          "label" : "Закрыть",
+          "spoken" : "Закрыть, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 90.33333333333331,
+            "x" : 156,
+            "y" : 803
+          },
+          "index" : 3,
+          "label" : "Сегодня",
+          "spoken" : "Сегодня, button",
           "traits" : [
             "button"
           ]

@@ -58,6 +58,128 @@
           ]
         }
       ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 314.6666666666667,
+            "width" : 402,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "SetUpAppleWatch",
+          "index" : 0,
+          "label" : "Фотографии Apple Watch, Apple Watch Sport и Apple Watch Edition",
+          "spoken" : "Фотографии Apple Watch, Apple Watch Sport и Apple Watch Edition, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333314,
+            "width" : 326,
+            "x" : 38,
+            "y" : 459
+          },
+          "index" : 1,
+          "label" : "Добрый вечер!",
+          "spoken" : "Добрый вечер!",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.33333333333331,
+            "width" : 326,
+            "x" : 38,
+            "y" : 486.3333333333333
+          },
+          "index" : 2,
+          "label" : "Если у Вас есть Apple Watch, Вы можете объединить их в пару с iPhone.",
+          "spoken" : "Если у Вас есть Apple Watch, Вы можете объединить их в пару с iPhone.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.66666666666663,
+            "width" : 247.33333333333337,
+            "x" : 38,
+            "y" : 584.6666666666667
+          },
+          "index" : 3,
+          "label" : "Подробнее об Apple Watch",
+          "spoken" : "Подробнее об Apple Watch, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 326,
+            "x" : 38,
+            "y" : 671
+          },
+          "identifier" : "StartPairingButton",
+          "index" : 4,
+          "label" : "Создать пару",
+          "spoken" : "Создать пару, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 50,
+            "y" : 795
+          },
+          "index" : 5,
+          "label" : "Мои часы",
+          "spoken" : "Мои часы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 148,
+            "y" : 795
+          },
+          "index" : 6,
+          "label" : "Циферблаты",
+          "spoken" : "Циферблаты, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 246,
+            "y" : 795
+          },
+          "index" : 7,
+          "label" : "Советы",
+          "spoken" : "Советы, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
     }
   ]
 }

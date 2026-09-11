@@ -151,36 +151,6 @@
           "traits" : [
 
           ]
-        },
-        {
-          "frame" : {
-            "height" : 68.73516393505099,
-            "width" : 68.0852958475086,
-            "x" : 8.47726568115926,
-            "y" : 805.6989567998571
-          },
-          "index" : 7,
-          "label" : "Next keyboard",
-          "spoken" : "Next keyboard, English (US), button",
-          "traits" : [
-            "button"
-          ],
-          "value" : "English (US)"
-        },
-        {
-          "frame" : {
-            "height" : 68.73516393505099,
-            "width" : 68.08529584750863,
-            "x" : 325.43743847133214,
-            "y" : 805.3656234665239
-          },
-          "identifier" : "dictation",
-          "index" : 8,
-          "label" : "Dictate",
-          "spoken" : "Dictate, button",
-          "traits" : [
-            "button"
-          ]
         }
       ]
     },
@@ -194,7 +164,7 @@
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
+          "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
@@ -204,7 +174,7 @@
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
+          "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",

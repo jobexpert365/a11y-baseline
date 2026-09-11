@@ -560,6 +560,504 @@
           ]
         }
       ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 92.66666666666666,
+            "x" : 233.33333333333334,
+            "y" : 66
+          },
+          "identifier" : "sidebar.button.edit",
+          "index" : 0,
+          "label" : "Изменить",
+          "spoken" : "Изменить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66
+          },
+          "identifier" : "sidebar.button.newfolder",
+          "index" : 1,
+          "label" : "Добавить новую папку",
+          "spoken" : "Добавить новую папку, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 185.66666666666666,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 2,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 168
+          },
+          "index" : 3,
+          "label" : "Все быстрые команды",
+          "spoken" : "Все быстрые команды, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 11,
+            "width" : 6.6666669845581055,
+            "x" : 362.66666666666663,
+            "y" : 188.66666666666666
+          },
+          "identifier" : "chevron.forward",
+          "index" : 4,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 220
+          },
+          "index" : 5,
+          "label" : "Страница экспорта",
+          "spoken" : "Страница экспорта, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 11,
+            "width" : 6.6666669845581055,
+            "x" : 362.66666666666663,
+            "y" : 240.66666666666666
+          },
+          "identifier" : "chevron.forward",
+          "index" : 6,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 272
+          },
+          "index" : 7,
+          "label" : "Apple Watch",
+          "spoken" : "Apple Watch, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 11,
+            "width" : 6.6666669845581055,
+            "x" : 362.66666666666663,
+            "y" : 292.6666666666667
+          },
+          "identifier" : "chevron.forward",
+          "index" : 8,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 341.66666666666663
+          },
+          "index" : 9,
+          "label" : "Приложения",
+          "spoken" : "Приложения",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 385.66666666666663
+          },
+          "index" : 10,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 446
+          },
+          "index" : 11,
+          "label" : "Ice Cubes",
+          "spoken" : "Ice Cubes, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 506.3333333333333
+          },
+          "index" : 12,
+          "label" : "Sonava",
+          "spoken" : "Sonava, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 566.6666666666667
+          },
+          "index" : 13,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 627
+          },
+          "index" : 14,
+          "label" : "Файлы",
+          "spoken" : "Файлы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 687.3333333333334
+          },
+          "index" : 15,
+          "label" : "Фото",
+          "spoken" : "Фото, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 30,
+            "y" : 795
+          },
+          "index" : 16,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 141.33333333333331,
+            "y" : 795
+          },
+          "index" : 17,
+          "label" : "Автоматизация",
+          "spoken" : "Автоматизация, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333334,
+            "x" : 252.66666666666666,
+            "y" : 795
+          },
+          "index" : 18,
+          "label" : "Галерея",
+          "spoken" : "Галерея, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 3",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66
+          },
+          "identifier" : "sidebar.button.done",
+          "index" : 0,
+          "label" : "Готово",
+          "spoken" : "Готово, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 185.66666666666666,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 1,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 168
+          },
+          "index" : 2,
+          "label" : "Все быстрые команды",
+          "spoken" : "Все быстрые команды, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 220
+          },
+          "index" : 3,
+          "label" : "Страница экспорта",
+          "spoken" : "Страница экспорта, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 272
+          },
+          "index" : 4,
+          "label" : "Apple Watch",
+          "spoken" : "Apple Watch, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 341.66666666666663
+          },
+          "index" : 5,
+          "label" : "Приложения",
+          "spoken" : "Приложения",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 385.66666666666663
+          },
+          "index" : 6,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 446
+          },
+          "index" : 7,
+          "label" : "Ice Cubes",
+          "spoken" : "Ice Cubes, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 506.3333333333333
+          },
+          "index" : 8,
+          "label" : "Sonava",
+          "spoken" : "Sonava, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 566.6666666666667
+          },
+          "index" : 9,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 627
+          },
+          "index" : 10,
+          "label" : "Файлы",
+          "spoken" : "Файлы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 687.3333333333334
+          },
+          "index" : 11,
+          "label" : "Фото",
+          "spoken" : "Фото, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 30,
+            "y" : 795
+          },
+          "index" : 12,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 141.33333333333331,
+            "y" : 795
+          },
+          "index" : 13,
+          "label" : "Автоматизация",
+          "spoken" : "Автоматизация, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333334,
+            "x" : 252.66666666666666,
+            "y" : 795
+          },
+          "index" : 14,
+          "label" : "Галерея",
+          "spoken" : "Галерея, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
     }
   ]
 }

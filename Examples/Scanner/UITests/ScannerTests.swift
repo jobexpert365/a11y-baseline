@@ -20,6 +20,14 @@ import A11yBaselineXCUI
 ///   A11Y_APP_NAME    — как называть в отчёте
 ///   A11Y_LOCALE      — язык интерфейса приложения
 ///   A11Y_MAX_SCREENS — сколько экранов обойти
+/// Ошибки обхода. Отдельный тип, а не XCTSkip: XCTSkip прерывает весь тест
+/// и выбрасывает уже снятые экраны, а недостижимый раздел — это меньшее
+/// покрытие, а не провал прогона.
+enum ScanError: Error {
+    case tabUnavailable(String)
+    case nowhereToGo
+}
+
 final class ScannerTests: XCTestCase {
 
     @MainActor

@@ -154,6 +154,173 @@
           ]
         }
       ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 72.00000000000003
+          },
+          "index" : 0,
+          "label" : "Выбрать",
+          "spoken" : "Выбрать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 62,
+            "width" : 250,
+            "x" : 141,
+            "y" : 114.00000000000003
+          },
+          "index" : 1,
+          "label" : "Отсканировать документы",
+          "spoken" : "Отсканировать документы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 62,
+            "width" : 250,
+            "x" : 141,
+            "y" : 176.00000000000003
+          },
+          "index" : 2,
+          "label" : "Подключиться к серверу",
+          "spoken" : "Подключиться к серверу, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 259
+          },
+          "index" : 3,
+          "label" : "Значки",
+          "spoken" : "Значки, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 301
+          },
+          "index" : 4,
+          "label" : "Список",
+          "spoken" : "Список, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 364
+          },
+          "identifier" : "DOC.sortMenuButton.name",
+          "index" : 5,
+          "label" : "Название",
+          "spoken" : "Название, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 406
+          },
+          "identifier" : "DOC.sortMenuButton.kind",
+          "index" : 6,
+          "label" : "Тип",
+          "spoken" : "Тип, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 250,
+            "x" : 141,
+            "y" : 448
+          },
+          "identifier" : "DOC.sortMenuButton.dateLastOpened.descending",
+          "index" : 7,
+          "label" : "Дата, От новых к старым",
+          "spoken" : "Дата, От новых к старым, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 508
+          },
+          "identifier" : "DOC.sortMenuButton.size",
+          "index" : 8,
+          "label" : "Размер",
+          "spoken" : "Размер, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 550
+          },
+          "identifier" : "DOC.sortMenuButton.tags",
+          "index" : 9,
+          "label" : "Теги",
+          "spoken" : "Теги, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42,
+            "width" : 250,
+            "x" : 141,
+            "y" : 613
+          },
+          "index" : 10,
+          "label" : "Параметры вида",
+          "spoken" : "Параметры вида, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
     }
   ]
 }

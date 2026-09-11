@@ -93,6 +93,7 @@ public final class AccessibilityTreeSource: SpeechSource {
         // приложения: разработчик его не писал и починить не может,
         // а отчёт с чужими дефектами обесценивает все остальные.
         if Self.isSystemChrome(node.elementType) { return false }
+        if Self.isSystemControl(identifier: node.identifier, label: node.label) { return false }
 
         // Контейнеры не озвучиваются сами — озвучивается их содержимое.
         // Первая версия этого не различала и глотала всё дерево: у окна
@@ -185,6 +186,28 @@ public final class AccessibilityTreeSource: SpeechSource {
     static func isCellAccessory(_ label: String) -> Bool {
         let normalized = label.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         return ["chevron", "chevron.forward", "chevron.right", "detail", "reorder", "delete"].contains(normalized)
+    }
+
+    /// Системные органы управления вводом, опознаваемые по идентификатору.
+    ///
+    /// Исключения по ТИПУ узла недостаточно, и это выяснилось прогоном по
+    /// «Фото»: кнопки диктовки лежат не внутри узла клавиатуры, а рядом с ним,
+    /// в обычном контейнере. По типу они обычные кнопки, по сути — часть
+    /// клавиатуры системы.
+    ///
+    /// Опознаём по идентификатору, потому что он задан системой и не зависит
+    /// от языка интерфейса: подпись будет «Диктовать» или «Dictate»,
+    /// а идентификатор всегда «dictation».
+    static func isSystemControl(identifier: String, label: String) -> Bool {
+        let knownIdentifiers: Set<String> = [
+            "dictation", "Dictate", "shift", "emoji", "more", "Return",
+            "delete", "space", "International", "Next keyboard",
+        ]
+        if knownIdentifiers.contains(identifier) { return true }
+
+        // Переключатель раскладки подписи имеет, а идентификатора нет.
+        let keyboardSwitchLabels: Set<String> = ["следующая клавиатура", "next keyboard"]
+        return keyboardSwitchLabels.contains(label.lowercased())
     }
 
     /// Части интерфейса операционной системы, наложенные поверх приложения.

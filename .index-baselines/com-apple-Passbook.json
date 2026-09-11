@@ -80,28 +80,13 @@
         },
         {
           "frame" : {
-            "height" : 36,
-            "width" : 38,
-            "x" : 344.00000000000006,
-            "y" : 66
-          },
-          "identifier" : "more",
-          "index" : 3,
-          "label" : "Еще",
-          "spoken" : "Еще, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
             "height" : 30,
             "width" : 30,
             "x" : 336,
             "y" : 144
           },
           "identifier" : "dismiss",
-          "index" : 4,
+          "index" : 3,
           "label" : "Закрыть",
           "spoken" : "Закрыть, button",
           "traits" : [
@@ -116,7 +101,7 @@
             "y" : 23
           },
           "identifier" : "PassesTicketsExpanded",
-          "index" : 5,
+          "index" : 4,
           "spoken" : "image",
           "traits" : [
             "image"
@@ -130,7 +115,7 @@
             "y" : 353
           },
           "identifier" : "title",
-          "index" : 6,
+          "index" : 5,
           "label" : "Карты и билеты",
           "spoken" : "Карты и билеты",
           "traits" : [
@@ -145,7 +130,7 @@
             "y" : 375.3333333333333
           },
           "identifier" : "message",
-          "index" : 7,
+          "index" : 6,
           "label" : "Найдите подходящие приложения и начните собирать все свои карты вместе.",
           "spoken" : "Найдите подходящие приложения и начните собирать все свои карты вместе.",
           "traits" : [
@@ -160,7 +145,7 @@
             "y" : 367
           },
           "identifier" : "primary",
-          "index" : 8,
+          "index" : 7,
           "label" : "Загрузить",
           "spoken" : "Загрузить, button",
           "traits" : [
@@ -175,7 +160,7 @@
             "y" : 144
           },
           "identifier" : "dismiss",
-          "index" : 9,
+          "index" : 8,
           "label" : "Закрыть",
           "spoken" : "Закрыть, button",
           "traits" : [
@@ -190,7 +175,7 @@
             "y" : 353
           },
           "identifier" : "title",
-          "index" : 10,
+          "index" : 9,
           "label" : "Карты и билеты",
           "spoken" : "Карты и билеты",
           "traits" : [
@@ -205,7 +190,7 @@
             "y" : 375.3333333333333
           },
           "identifier" : "message",
-          "index" : 11,
+          "index" : 10,
           "label" : "Найдите подходящие приложения и начните собирать все свои карты вместе.",
           "spoken" : "Найдите подходящие приложения и начните собирать все свои карты вместе.",
           "traits" : [
@@ -220,9 +205,89 @@
             "y" : 367
           },
           "identifier" : "primary",
-          "index" : 12,
+          "index" : 11,
           "label" : "Загрузить",
           "spoken" : "Загрузить, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        }
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 260,
+            "x" : 71,
+            "y" : 387
+          },
+          "index" : 0,
+          "label" : "Сбой настройки Apple Pay",
+          "spoken" : "Сбой настройки Apple Pay",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 260,
+            "x" : 71,
+            "y" : 414.6666666666667
+          },
+          "index" : 1,
+          "label" : "При настройке Apple Pay произошла ошибка.",
+          "spoken" : "При настройке Apple Pay произошла ошибка.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 48,
+            "width" : 288,
+            "x" : 57,
+            "y" : 473
+          },
+          "identifier" : "dismiss",
+          "index" : 2,
+          "label" : "ОК",
+          "spoken" : "ОК, button",
           "traits" : [
             "button"
           ]

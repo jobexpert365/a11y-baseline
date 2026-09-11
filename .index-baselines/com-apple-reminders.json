@@ -44,6 +44,565 @@
           ]
         }
       ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        }
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Назад",
+          "spoken" : "Назад, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66
+          },
+          "index" : 1,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 39.66666666666667,
+            "width" : 224.33333333333331,
+            "x" : 15.999999999999986,
+            "y" : 120.66666666666667
+          },
+          "index" : 2,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 163.66666666666663,
+            "x" : 118.99999999999999,
+            "y" : 425
+          },
+          "index" : 3,
+          "label" : "Напоминаний нет",
+          "spoken" : "Напоминаний нет",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 38,
+            "x" : 331,
+            "y" : 803
+          },
+          "index" : 4,
+          "label" : "Напоминание",
+          "spoken" : "Напоминание, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Экран 5",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 39.66666666666666,
+            "x" : 173.33333333333334,
+            "y" : 66
+          },
+          "index" : 0,
+          "label" : "Искать",
+          "spoken" : "Искать, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 40.333333333333314,
+            "x" : 229,
+            "y" : 66
+          },
+          "index" : 1,
+          "label" : "Добавить",
+          "spoken" : "Добавить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 92.66666666666669,
+            "x" : 289.33333333333337,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "Изменить",
+          "spoken" : "Изменить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 80.33333333333331,
+            "width" : 181,
+            "x" : 16,
+            "y" : 122
+          },
+          "index" : 3,
+          "label" : "Сегодня, 0 напоминаний, 12 сентября",
+          "spoken" : "Сегодня, 0 напоминаний, 12 сентября, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 80.33333333333331,
+            "width" : 181,
+            "x" : 205,
+            "y" : 122
+          },
+          "index" : 4,
+          "label" : "В планах, 0 напоминаний",
+          "spoken" : "В планах, 0 напоминаний, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 80.33333333333334,
+            "width" : 181,
+            "x" : 16,
+            "y" : 210.33333333333334
+          },
+          "index" : 5,
+          "label" : "Все, 0 напоминаний",
+          "spoken" : "Все, 0 напоминаний, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 80.33333333333334,
+            "width" : 181,
+            "x" : 205,
+            "y" : 210.33333333333334
+          },
+          "index" : 6,
+          "label" : "Завершено",
+          "spoken" : "Завершено, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25,
+            "width" : 38,
+            "x" : 38,
+            "y" : 330.33333333333337
+          },
+          "identifier" : "cloud",
+          "index" : 7,
+          "label" : "Преимущественно Облачно",
+          "spoken" : "Преимущественно Облачно, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.33333333333337,
+            "width" : 182.33333333333331,
+            "x" : 88,
+            "y" : 326.22908528645837
+          },
+          "index" : 8,
+          "label" : "Синхронизация напоминаний с iCloud",
+          "spoken" : "Синхронизация напоминаний с iCloud",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 78,
+            "width" : 271.3333333333333,
+            "x" : 88,
+            "y" : 372.56241861979174
+          },
+          "index" : 9,
+          "label" : "Чтобы получать доступ к напоминаниям со всех своих устройств, войдите в iCloud и включите Напоминания.",
+          "spoken" : "Чтобы получать доступ к напоминаниям со всех своих устройств, войдите в iCloud и включите Напоминания.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 338,
+            "x" : 32,
+            "y" : 472.6666666666667
+          },
+          "index" : 10,
+          "label" : "Перейти в Настройки",
+          "spoken" : "Перейти в Настройки, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26,
+            "width" : 26,
+            "x" : 345.66666666666663,
+            "y" : 322.00000000000006
+          },
+          "identifier" : "xmark.circle.fill",
+          "index" : 11,
+          "label" : "Закрыть",
+          "spoken" : "Закрыть, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.33333333333337,
+            "width" : 128.33333333333334,
+            "x" : 32,
+            "y" : 566.3333333333333
+          },
+          "index" : 12,
+          "label" : "Мои списки",
+          "spoken" : "Мои списки",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 108.66666666666666,
+            "x" : 80,
+            "y" : 623.6666666666667
+          },
+          "index" : 13,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 32,
+            "x" : 32,
+            "y" : 617.6666666666667
+          },
+          "index" : 14,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 32,
+            "x" : 32,
+            "y" : 617.6666666666667
+          },
+          "identifier" : "ListBadgeDefault",
+          "index" : 15,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 11,
+            "x" : 337,
+            "y" : 623.6666666666667
+          },
+          "index" : 16,
+          "label" : "0",
+          "spoken" : "0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 626.6666666666667
+          },
+          "identifier" : "chevron.forward",
+          "index" : 17,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 38,
+            "x" : 331,
+            "y" : 803
+          },
+          "index" : 18,
+          "label" : "Напоминание",
+          "spoken" : "Напоминание, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 6",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 6",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "This element is missing useful accessibility information.",
+          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 6",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This element is missing useful accessibility information.",
+          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 6",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This element is missing useful accessibility information.",
+          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 6",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Экран 6",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 45,
+            "width" : 317,
+            "x" : 16,
+            "y" : 484
+          },
+          "index" : 0,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 45,
+            "width" : 45,
+            "x" : 341,
+            "y" : 484
+          },
+          "index" : 1,
+          "label" : "Закрыть",
+          "spoken" : "Закрыть, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
     }
   ]
 }

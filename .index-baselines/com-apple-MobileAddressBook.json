@@ -344,6 +344,525 @@
           ]
         }
       ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 92.66666666666667,
+            "x" : 20.000000000000004,
+            "y" : 66
+          },
+          "index" : 0,
+          "label" : "Изменить",
+          "spoken" : "Изменить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 62,
+            "x" : 128.66666666666666,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Списки",
+          "spoken" : "Списки",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 164.66666666666663,
+            "x" : 217.33333333333337,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "Добавить список",
+          "spoken" : "Добавить список, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 10.666666666666686,
+            "x" : 337.3333333333333,
+            "y" : 167
+          },
+          "index" : 3,
+          "label" : "6",
+          "spoken" : "6",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 170
+          },
+          "identifier" : "chevron.forward",
+          "index" : 4,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 54.66666666666667,
+            "x" : 32,
+            "y" : 230.66666666666669
+          },
+          "index" : 5,
+          "label" : "iPhone",
+          "spoken" : "iPhone",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10.333333333333343,
+            "width" : 14,
+            "x" : 356.1666666666667,
+            "y" : 235.83333333333334
+          },
+          "identifier" : "chevron.forward",
+          "index" : 6,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10.333333333333343,
+            "width" : 14,
+            "x" : 356.1666666666667,
+            "y" : 235.83333333333334
+          },
+          "identifier" : "chevron.forward",
+          "index" : 7,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 10.666666666666686,
+            "x" : 337.3333333333333,
+            "y" : 277
+          },
+          "index" : 8,
+          "label" : "6",
+          "spoken" : "6",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 280
+          },
+          "identifier" : "chevron.forward",
+          "index" : 9,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 7.666666666666686,
+            "x" : 340.3333333333333,
+            "y" : 329
+          },
+          "index" : 10,
+          "label" : "1",
+          "spoken" : "1",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 332
+          },
+          "identifier" : "chevron.forward",
+          "index" : 11,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 10.333333333333314,
+            "x" : 337.6666666666667,
+            "y" : 381
+          },
+          "index" : 12,
+          "label" : "0",
+          "spoken" : "0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 384
+          },
+          "identifier" : "chevron.forward",
+          "index" : 13,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Экран 3",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        }
+      ],
+      "screen" : "Экран 3",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 20,
+            "y" : 66
+          },
+          "index" : 0,
+          "label" : "Готово",
+          "spoken" : "Готово, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 62,
+            "x" : 72,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Списки",
+          "spoken" : "Списки",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 164.66666666666663,
+            "x" : 217.33333333333337,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "Добавить список",
+          "spoken" : "Добавить список, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 10.666666666666686,
+            "x" : 337.3333333333333,
+            "y" : 167
+          },
+          "index" : 3,
+          "label" : "6",
+          "spoken" : "6",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 170
+          },
+          "identifier" : "chevron.forward",
+          "index" : 4,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 54.66666666666667,
+            "x" : 32,
+            "y" : 230.66666666666669
+          },
+          "index" : 5,
+          "label" : "iPhone",
+          "spoken" : "iPhone",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10.333333333333343,
+            "width" : 14,
+            "x" : 356.1666666666667,
+            "y" : 235.83333333333334
+          },
+          "identifier" : "chevron.forward",
+          "index" : 6,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10.333333333333343,
+            "width" : 14,
+            "x" : 356.1666666666667,
+            "y" : 235.83333333333334
+          },
+          "identifier" : "chevron.forward",
+          "index" : 7,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 10.666666666666686,
+            "x" : 337.3333333333333,
+            "y" : 277
+          },
+          "index" : 8,
+          "label" : "6",
+          "spoken" : "6",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 280
+          },
+          "identifier" : "chevron.forward",
+          "index" : 9,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.666666666666686,
+            "width" : 25.666666666666664,
+            "x" : 31.166666666666664,
+            "y" : 326
+          },
+          "identifier" : "minus.circle.fill",
+          "index" : 10,
+          "label" : "удалить",
+          "spoken" : "удалить, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 7.666666666666686,
+            "x" : 340.3333333333333,
+            "y" : 329
+          },
+          "index" : 11,
+          "label" : "1",
+          "spoken" : "1",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 332
+          },
+          "identifier" : "chevron.forward",
+          "index" : 12,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.666666666666686,
+            "width" : 25.666666666666664,
+            "x" : 31.166666666666664,
+            "y" : 326
+          },
+          "identifier" : "minus.circle.fill",
+          "index" : 13,
+          "label" : "удалить",
+          "spoken" : "удалить, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.666666666666686,
+            "width" : 25.666666666666664,
+            "x" : 31.166666666666664,
+            "y" : 378
+          },
+          "identifier" : "minus.circle.fill",
+          "index" : 14,
+          "label" : "удалить",
+          "spoken" : "удалить, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 10.333333333333314,
+            "x" : 337.6666666666667,
+            "y" : 381
+          },
+          "index" : 15,
+          "label" : "0",
+          "spoken" : "0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 384
+          },
+          "identifier" : "chevron.forward",
+          "index" : 16,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.666666666666686,
+            "width" : 25.666666666666664,
+            "x" : 31.166666666666664,
+            "y" : 378
+          },
+          "identifier" : "minus.circle.fill",
+          "index" : 17,
+          "label" : "удалить",
+          "spoken" : "удалить, image",
+          "traits" : [
+            "image"
+          ]
+        }
+      ]
     }
   ]
 }
