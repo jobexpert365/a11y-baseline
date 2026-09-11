@@ -27,7 +27,8 @@ public struct RuleRegistry: Sendable {
         RuleRegistry(rules: [
             EmptyUtteranceRule(),
             GenericLabelRule(),
-            SymbolDerivedLabelRule(),
+            SymbolNameLabelRule(),
+            UntranslatedLabelRule(),
             FilenameLabelRule(),
             DuplicateLabelRule(),
             LabelInNameRule(),

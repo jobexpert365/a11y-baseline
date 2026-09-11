@@ -62,7 +62,7 @@ final class BaselineUITests: XCTestCase {
         // VoiceOver произносит «Send» в русском приложении. Настоящий дефект
         // здесь — не отсутствие подписи, а подпись из кода вместо текста для
         // человека, и ловит его symbol-derived-label.
-        XCTAssertTrue(rules.contains("symbol-derived-label"), "не найдена подпись, выведенная из имени символа")
+        XCTAssertTrue(rules.contains("untranslated-label"), "не найдена подпись на чужом языке")
         XCTAssertTrue(rules.contains("generic-label"), "не найдена подпись-заглушка")
         XCTAssertTrue(rules.contains("filename-label"), "не найдено имя ресурса в подписи")
         XCTAssertTrue(rules.contains("duplicate-label"), "не найдены одинаково звучащие элементы")

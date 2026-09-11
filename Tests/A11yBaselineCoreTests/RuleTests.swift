@@ -71,6 +71,53 @@ struct GenericLabelRuleTests {
     }
 }
 
+@Suite("Имя символа в подписи")
+struct SymbolNameLabelRuleTests {
+
+    @Test("настоящие имена символов ловятся",
+          arguments: ["chevron.forward", "calendar.day.timeline.leading", "square.and.arrow.up"])
+    func flagsSymbolNames(label: String) {
+        // calendar.day.timeline.leading — не выдумка: это реальная подпись
+        // кнопки в «Календаре» iOS, найденная прогоном.
+        let u = Utterance(index: 0, spoken: "\(label), button", label: label, traits: ["button"])
+        #expect(SymbolNameLabelRule().evaluate(u, in: context(screen([u])))?.severity == .serious)
+    }
+
+    @Test("человеческие подписи и бренды проходят",
+          arguments: ["Отправить", "Sonava", "Send", "Календарь на день", "ОК"])
+    func ignoresHumanAndBrands(label: String) {
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["button"])
+        #expect(SymbolNameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+}
+
+@Suite("Непереведённая подпись")
+struct UntranslatedLabelRuleTests {
+
+    @Test("английское слово в русском приложении даёт мелкую находку-вопрос")
+    func asksAboutEnglishWord() {
+        let u = Utterance(index: 0, spoken: "Send, button", label: "Send", traits: ["button"])
+        let finding = UntranslatedLabelRule().evaluate(u, in: context(screen([u]), locale: "ru"))
+        // Уровень намеренно мелкий: бренд от непереведённой подписи машина
+        // не отличает, и обвинять здесь нельзя.
+        #expect(finding?.severity == .minor)
+        #expect(finding?.summary.contains("Проверьте") == true)
+    }
+
+    @Test("в англоязычном приложении правило молчит")
+    func silentInEnglishApp() {
+        let u = Utterance(index: 0, spoken: "Send, button", label: "Send", traits: ["button"])
+        #expect(UntranslatedLabelRule().evaluate(u, in: context(screen([u]), locale: "en")) == nil)
+    }
+
+    @Test("кнопка с видимым текстом не подозревается")
+    func ignoresButtonWithVisibleText() {
+        let u = Utterance(index: 0, spoken: "Sonava, button", label: "Sonava",
+                          traits: ["button"], visibleText: "Sonava")
+        #expect(UntranslatedLabelRule().evaluate(u, in: context(screen([u]), locale: "ru")) == nil)
+    }
+}
+
 @Suite("Имя файла в подписи")
 struct FilenameLabelRuleTests {
 
