@@ -1,0 +1,1144 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "IQKeyboardManager Example (UIKit)",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "en",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewCell",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewCell",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewCell",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewCell",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "Text of this UITableViewLabel may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 20,
+            "y" : 66
+          },
+          "index" : 0,
+          "label" : "Share",
+          "spoken" : "Share, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 85.66666666666666,
+            "x" : 240.33333333333334,
+            "y" : 66
+          },
+          "index" : 1,
+          "label" : "Present",
+          "spoken" : "Present, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "settings",
+          "spoken" : "settings, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 363.3333333333333,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 3,
+          "label" : "IQKeyboardManagerSwift",
+          "spoken" : "IQKeyboardManagerSwift",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 237.33333333333337,
+            "x" : 20.000000000000014,
+            "y" : 229.66666666666669
+          },
+          "index" : 4,
+          "label" : "UITextField/UITextView example",
+          "spoken" : "UITextField/UITextView example",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 143.33333333333331,
+            "width" : 263.6666666666667,
+            "x" : 20,
+            "y" : 251.66666666666669
+          },
+          "index" : 5,
+          "label" : "- enable - shouldToolbarUsesTextFieldTintColor - keyboardDistanceFromTextField - shouldShowToolbarPlaceholder - placeholderFont - keyboardDistanceFromTextField (Category) - IQTextView (Class) - setCustomPreviousTarget: action: (Category) - setCustomNextTarget: action: (Category) - setCustomDoneTarget: action: (Category)",
+          "spoken" : "- enable - shouldToolbarUsesTextFieldTintColor - keyboardDistanceFromTextField - shouldShowToolbarPlaceholder - placeholderFont - keyboardDistanceFromTextField (Category) - IQTextView (Class) - setCustomPreviousTarget: action: (Category) - setCustomNextTarget: action: (Category) - setCustomDoneTarget: action: (Category)",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333314,
+            "width" : 179.66666666666666,
+            "x" : 20,
+            "y" : 412.66666666666674
+          },
+          "index" : 6,
+          "label" : "NavigationBar & Toolbar",
+          "spoken" : "NavigationBar & Toolbar",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 157.66666666666669,
+            "width" : 245.33333333333337,
+            "x" : 20.000000000000014,
+            "y" : 434.6666666666667
+          },
+          "index" : 7,
+          "label" : "- enableAutoToolbar - toolbarManageBehaviour - overrideKeyboardAppearance - keyboardAppearance - shouldResignOnTouchOutside - IQKeyboardReturnKeyHandler (Class) - shouldHideToolbarPlaceholder (Category) - toolbarPlaceholder (Category) - toolbarTintColor - toolbarDoneBarButtonItemImage - toolbarDoneBarButtonItemText",
+          "spoken" : "- enableAutoToolbar - toolbarManageBehaviour - overrideKeyboardAppearance - keyboardAppearance - shouldResignOnTouchOutside - IQKeyboardReturnKeyHandler (Class) - shouldHideToolbarPlaceholder (Category) - toolbarPlaceholder (Category) - toolbarTintColor - toolbarDoneBarButtonItemImage - toolbarDoneBarButtonItemText",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 244.33333333333337,
+            "x" : 20.000000000000014,
+            "y" : 622.6666666666667
+          },
+          "index" : 8,
+          "label" : "Manual UIToolbar + No UIToolbar",
+          "spoken" : "Manual UIToolbar + No UIToolbar",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 57.33333333333337,
+            "width" : 297,
+            "x" : 20,
+            "y" : 644.6666666666667
+          },
+          "index" : 9,
+          "label" : "- addPreviousNextDoneOnKeyboardWithTarget: previousAction: nextAction: doneAction: - addDoneOnKeyboardWithTarget: action: - Use Toolbar title as button to do something special",
+          "spoken" : "- addPreviousNextDoneOnKeyboardWithTarget: previousAction: nextAction: doneAction: - addDoneOnKeyboardWithTarget: action: - Use Toolbar title as button to do something special",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 159.66666666666666,
+            "x" : 20,
+            "y" : 731.6666666666667
+          },
+          "index" : 10,
+          "label" : "CustomView example",
+          "spoken" : "CustomView example",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100.33333333333337,
+            "width" : 212,
+            "x" : 20,
+            "y" : 753.6666666666667
+          },
+          "index" : 11,
+          "label" : "- disabledDistanceHandlingClasses - enabledDistanceHandlingClasses - disabledToolbarClasses - enabledToolbarClasses - toolbarPreviousNextAllowedClasses - disabledTouchResignedClasses\n- enabledTouchResignedClasses",
+          "spoken" : "- disabledDistanceHandlingClasses - enabledDistanceHandlingClasses - disabledToolbarClasses - enabledToolbarClasses - toolbarPreviousNextAllowedClasses - disabledTouchResignedClasses\n- enabledTouchResignedClasses",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.33333333333337,
+            "width" : 208,
+            "x" : 20,
+            "y" : 872.3333333333334
+          },
+          "index" : 12,
+          "label" : "Refreshing Layout on the fly",
+          "spoken" : "Refreshing Layout on the fly",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 167,
+            "x" : 20,
+            "y" : 891.6666666666667
+          },
+          "index" : 13,
+          "label" : "- (void)reloadLayoutIfNeeded",
+          "spoken" : "- (void)reloadLayoutIfNeeded",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 72,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 14,
+          "label" : "Safe Area",
+          "spoken" : "Safe Area",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 133,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 15,
+          "label" : "Safe Area vs Superview",
+          "spoken" : "Safe Area vs Superview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 402,
+            "x" : 0,
+            "y" : 981.3333333333334
+          },
+          "index" : 16,
+          "label" : "UIScrollView & it's subclasses example",
+          "spoken" : "UIScrollView & it's subclasses example",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50,
+            "width" : 343.6666666666667,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 17,
+          "label" : "UITextView ContentInset adjustment",
+          "spoken" : "UITextView ContentInset adjustment",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 261.3333333333333,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 18,
+          "label" : "UIScrollView+UITableView example",
+          "spoken" : "UIScrollView+UITableView example",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 180.33333333333334,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 19,
+          "label" : "UITableView inside UIScrollView",
+          "spoken" : "UITableView inside UIScrollView",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 91,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 20,
+          "label" : "UITableView",
+          "spoken" : "UITableView",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 242,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 21,
+          "label" : "UITextField, UITextView inside UITableView",
+          "spoken" : "UITextField, UITextView inside UITableView",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 185,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 22,
+          "label" : "UITableView in Container",
+          "spoken" : "UITableView in Container",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 43,
+            "width" : 331.3333333333333,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 23,
+          "label" : "- shouldRestoreScrollViewContentOffset A UITableView as a child of UIViewController embedded in the storyboard using a container view.",
+          "spoken" : "- shouldRestoreScrollViewContentOffset A UITableView as a child of UIViewController embedded in the storyboard using a container view.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 165,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 24,
+          "label" : "UITableViewController",
+          "spoken" : "UITableViewController",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 57.33333333333334,
+            "width" : 323,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 25,
+          "label" : "IQKeyboardManager doesn't affet UITableViewController default scrolling implementation. UITableViewController class automatically resizes and repositions its table view when there is in-line editing of text fields",
+          "spoken" : "IQKeyboardManager doesn't affet UITableViewController default scrolling implementation. UITableViewController class automatically resizes and repositions its table view when there is in-line editing of text fields",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 192.33333333333334,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 26,
+          "label" : "UICollectionView example",
+          "spoken" : "UICollectionView example",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 204.66666666666666,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 27,
+          "label" : "Navigate next/prev in collectionView",
+          "spoken" : "Navigate next/prev in collectionView",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 402,
+            "x" : 0,
+            "y" : 1437.3333333333335
+          },
+          "index" : 28,
+          "label" : "Full Screen",
+          "spoken" : "Full Screen",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 227.66666666666666,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 29,
+          "label" : "Full Screen TextViewController",
+          "spoken" : "Full Screen TextViewController",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 237,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 30,
+          "label" : "- TextViewController using IQLayoutGuide",
+          "spoken" : "- TextViewController using IQLayoutGuide",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 402,
+            "x" : 0,
+            "y" : 1543.3333333333335
+          },
+          "index" : 31,
+          "label" : "Others",
+          "spoken" : "Others",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 104,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 32,
+          "label" : "Special Cases",
+          "spoken" : "Special Cases",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.666666666666657,
+            "width" : 261.3333333333333,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 33,
+          "label" : "- UISearchBar, UIAlertView, UITextField within different UIView",
+          "spoken" : "- UISearchBar, UIAlertView, UITextField within different UIView",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 78,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 34,
+          "label" : "StackView",
+          "spoken" : "StackView",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 166,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 35,
+          "label" : "UIStackView example in iOS9",
+          "spoken" : "UIStackView example in iOS9",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 161,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 36,
+          "label" : "WKWebView example",
+          "spoken" : "WKWebView example",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.666666666666657,
+            "width" : 261.6666666666667,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 37,
+          "label" : "- Doesn't affect WKWebView default scrolling implementation",
+          "spoken" : "- Doesn't affect WKWebView default scrolling implementation",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 142,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 38,
+          "label" : "UISearchController",
+          "spoken" : "UISearchController",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 99,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 39,
+          "label" : "Search Controller",
+          "spoken" : "Search Controller",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50,
+            "width" : 343.6666666666667,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 40,
+          "label" : "Popover",
+          "spoken" : "Popover",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50,
+            "width" : 343.6666666666667,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 41,
+          "label" : "UIPageViewController",
+          "spoken" : "UIPageViewController",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50,
+            "width" : 343.6666666666667,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 42,
+          "label" : "Test Screen",
+          "spoken" : "Test Screen",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 402,
+            "x" : 0,
+            "y" : 1969.3333333333335
+          },
+          "index" : 43,
+          "label" : "Test Cases",
+          "spoken" : "Test Cases",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 104.66666666666667,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 44,
+          "label" : "Text Selection",
+          "spoken" : "Text Selection",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 22.666666666666668,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 45,
+          "label" : "#56",
+          "spoken" : "#56",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 128.33333333333334,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 46,
+          "label" : "Autofill Password",
+          "spoken" : "Autofill Password",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 77.66666666666667,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 47,
+          "label" : "#1763, #1888",
+          "spoken" : "#1763, #1888",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 54,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 48,
+          "label" : "SwiftUI",
+          "spoken" : "SwiftUI",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 36,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 49,
+          "label" : "#1606",
+          "spoken" : "#1606",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 251.33333333333334,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 50,
+          "label" : "reloadLayoutIfNeeded positioning",
+          "spoken" : "reloadLayoutIfNeeded positioning",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 36,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 51,
+          "label" : "#1892",
+          "spoken" : "#1892",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 230,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 52,
+          "label" : "edgesForExtendedLayout = .all",
+          "spoken" : "edgesForExtendedLayout = .all",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 36,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 53,
+          "label" : "#1935",
+          "spoken" : "#1935",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 179.33333333333334,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 54,
+          "label" : "Non Scrollable TextView",
+          "spoken" : "Non Scrollable TextView",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 35,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 55,
+          "label" : "#1979",
+          "spoken" : "#1979",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333343,
+            "width" : 167.66666666666666,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 56,
+          "label" : "enableMode = .disable",
+          "spoken" : "enableMode = .disable",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 37.666666666666664,
+            "x" : 0,
+            "y" : 168
+          },
+          "index" : 57,
+          "label" : "#2000",
+          "spoken" : "#2000",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The accessibilityLabel of this element is not human-readable.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|LP.CaptionBar.BottomCaption",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        }
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 666.6666666666667,
+            "width" : 684,
+            "x" : -141,
+            "y" : 348
+          },
+          "index" : 0,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 64,
+            "width" : 64,
+            "x" : 24.333333333333343,
+            "y" : 24.33333333333333
+          },
+          "identifier" : "safari",
+          "index" : 1,
+          "label" : "safari",
+          "spoken" : "safari, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 82,
+            "x" : 18.33333333333334,
+            "y" : 196.33333333333331
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 2,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.333333333333343,
+            "width" : 32.66666666666666,
+            "x" : 18.33333333333334,
+            "y" : 196.33333333333331
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 3,
+          "label" : "Apple Inc",
+          "spoken" : "Apple Inc",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 67.99999999999999,
+            "width" : 68,
+            "x" : 25.33333333333334,
+            "y" : 120.33333333333333
+          },
+          "identifier" : "activityImageView",
+          "index" : 4,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 81.99999999999999,
+            "x" : 106.6666666666667,
+            "y" : 196.33333333333331
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 5,
+          "label" : "Ice Cubes",
+          "spoken" : "Ice Cubes",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.333333333333343,
+            "width" : 32.66666666666667,
+            "x" : 106.6666666666667,
+            "y" : 196.33333333333331
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 6,
+          "label" : "Apple Inc",
+          "spoken" : "Apple Inc",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 67.99999999999999,
+            "width" : 67.99999999999999,
+            "x" : 113.6666666666667,
+            "y" : 120.33333333333333
+          },
+          "identifier" : "activityImageView",
+          "index" : 7,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333343,
+            "width" : 82,
+            "x" : 195,
+            "y" : 196.33333333333331
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 8,
+          "label" : "Еще",
+          "spoken" : "Еще",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.333333333333343,
+            "width" : 32.66666666666666,
+            "x" : 195,
+            "y" : 196.33333333333331
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 9,
+          "label" : "Apple Inc",
+          "spoken" : "Apple Inc",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 67.99999999999999,
+            "width" : 68,
+            "x" : 202,
+            "y" : 120.33333333333333
+          },
+          "identifier" : "activityImageView",
+          "index" : 10,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.333333333333314,
+            "width" : 82,
+            "x" : 18.33333333333334,
+            "y" : 320.3333333333333
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 11,
+          "label" : "Add to Reading List",
+          "spoken" : "Add to Reading List",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.333333333333314,
+            "width" : 32.66666666666666,
+            "x" : 18.33333333333334,
+            "y" : 320.3333333333333
+          },
+          "identifier" : "cellTitleLabel",
+          "index" : 12,
+          "label" : "Apple Inc",
+          "spoken" : "Apple Inc",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 21,
+            "width" : 32,
+            "x" : 43.33333333333334,
+            "y" : 268.6666666666667
+          },
+          "identifier" : "activityImageView",
+          "index" : 13,
+          "label" : "список для чтения",
+          "spoken" : "список для чтения, image",
+          "traits" : [
+            "image"
+          ]
+        }
+      ]
+    }
+  ]
+}

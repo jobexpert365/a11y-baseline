@@ -51,7 +51,21 @@ public struct BaselineRecorder {
 
         var screens: [ScreenSnapshot] = []
         for step in plan.steps {
-            try step.navigate(app)
+            // Неудачная навигация ОСТАНАВЛИВАЕТ обход, но не отменяет прогон.
+            //
+            // Раньше шаг бросал ошибку наружу, и весь тест прерывался вместе
+            // с уже снятыми экранами. Прогон по примеру IQKeyboardManager
+            // показал это в чистом виде: с двумя экранами результат был,
+            // с тремя — пустой вывод, потому что третий шаг не нашёл, куда
+            // нажать, и выбросил всё.
+            //
+            // Экран, до которого не дошли, — это меньшее покрытие,
+            // а не отсутствие результата.
+            do {
+                try step.navigate(app)
+            } catch {
+                break
+            }
             var snapshot = try source.captureScreen(named: step.screen)
 
             if includePlatformAudit {

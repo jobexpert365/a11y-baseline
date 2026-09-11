@@ -1,0 +1,519 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Kingfisher Demo (UIKit)",
+  "appVersion" : "—",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "en",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        }
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 81.66666666666669,
+            "x" : 160,
+            "y" : 73.66666666666666
+          },
+          "index" : 0,
+          "label" : "Kingfisher",
+          "spoken" : "Kingfisher",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 74,
+            "x" : 308,
+            "y" : 66
+          },
+          "index" : 1,
+          "label" : "Action",
+          "spoken" : "Action, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 41.33333333333334,
+            "x" : 20.000000000000004,
+            "y" : 128
+          },
+          "index" : 2,
+          "label" : "Basic",
+          "spoken" : "Basic",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 86,
+            "x" : 20,
+            "y" : 172
+          },
+          "index" : 3,
+          "label" : "Auto Sizing",
+          "spoken" : "Auto Sizing",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 74.66666666666667,
+            "x" : 20,
+            "y" : 216
+          },
+          "index" : 4,
+          "label" : "Transition",
+          "spoken" : "Transition",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 51,
+            "x" : 20,
+            "y" : 260
+          },
+          "index" : 5,
+          "label" : "Infinity",
+          "spoken" : "Infinity",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 76.66666666666667,
+            "x" : 20,
+            "y" : 304
+          },
+          "index" : 6,
+          "label" : "Processor",
+          "spoken" : "Processor",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 119.66666666666669,
+            "x" : 20.000000000000007,
+            "y" : 348
+          },
+          "index" : 7,
+          "label" : "High Resolution",
+          "spoken" : "High Resolution",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 26,
+            "x" : 20,
+            "y" : 392
+          },
+          "index" : 8,
+          "label" : "GIF",
+          "spoken" : "GIF",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 78,
+            "x" : 20,
+            "y" : 436
+          },
+          "index" : 9,
+          "label" : "GIF Heavy",
+          "spoken" : "GIF Heavy",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 67,
+            "x" : 20,
+            "y" : 480
+          },
+          "index" : 10,
+          "label" : "Indicator",
+          "spoken" : "Indicator",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 154.33333333333334,
+            "x" : 20,
+            "y" : 524
+          },
+          "index" : 11,
+          "label" : "Image Data Provider",
+          "spoken" : "Image Data Provider",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 134.66666666666666,
+            "x" : 20,
+            "y" : 568
+          },
+          "index" : 12,
+          "label" : "Progressive JPEG",
+          "spoken" : "Progressive JPEG",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 125,
+            "x" : 20,
+            "y" : 612
+          },
+          "index" : 13,
+          "label" : "Text Attachment",
+          "spoken" : "Text Attachment",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 148.66666666666666,
+            "x" : 20,
+            "y" : 656
+          },
+          "index" : 14,
+          "label" : "Orientation Images",
+          "spoken" : "Orientation Images",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 194.66666666666666,
+            "x" : 20,
+            "y" : 700
+          },
+          "index" : 15,
+          "label" : "AVAsset Image Generator",
+          "spoken" : "AVAsset Image Generator",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 98.66666666666669,
+            "x" : 20.000000000000007,
+            "y" : 744
+          },
+          "index" : 16,
+          "label" : "Picker Result",
+          "spoken" : "Picker Result",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 80,
+            "x" : 20,
+            "y" : 788
+          },
+          "index" : 17,
+          "label" : "Live Photo",
+          "spoken" : "Live Photo",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 125.33333333333331,
+            "x" : 19.999999999999993,
+            "y" : 832
+          },
+          "index" : 18,
+          "label" : "Network Metrics",
+          "spoken" : "Network Metrics",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 54.66666666666666,
+            "x" : 19.999999999999996,
+            "y" : 876
+          },
+          "index" : 19,
+          "label" : "SwiftUI",
+          "spoken" : "SwiftUI",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран 2",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        }
+      ],
+      "screen" : "Экран 2",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 20.33333333333333,
+            "width" : 180,
+            "x" : 182,
+            "y" : 94.00000000000001
+          },
+          "index" : 0,
+          "label" : "Action",
+          "spoken" : "Action",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 48,
+            "width" : 208,
+            "x" : 168,
+            "y" : 132.33333333333334
+          },
+          "index" : 1,
+          "label" : "Clean Cache",
+          "spoken" : "Clean Cache, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 48,
+            "width" : 208,
+            "x" : 168,
+            "y" : 188.33333333333334
+          },
+          "index" : 2,
+          "label" : "Reload",
+          "spoken" : "Reload, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    }
+  ]
+}

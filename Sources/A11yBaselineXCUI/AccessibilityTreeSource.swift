@@ -103,13 +103,25 @@ public final class AccessibilityTreeSource: SpeechSource {
         if Self.isContainer(node.elementType) {
             var announcedInside = false
             for child in node.children {
-                // Картинка внутри ячейки — украшение, а не содержимое.
-                // VoiceOver сворачивает её в реплику ячейки: в «Настройках»
-                // строка читается как «Основные, кнопка», а стрелка-шеврон
-                // отдельно не произносится. Дерево XCUITest показывает её
-                // как самостоятельный узел, и без этого правила инструмент
-                // сообщал о несуществующем дефекте «chevron» у Apple.
-                if node.elementType == .cell, child.elementType == .image { continue }
+                // Служебные детали ячейки в обход не входят.
+                //
+                // Картинка внутри ячейки — украшение: VoiceOver сворачивает
+                // её в реплику ячейки, в «Настройках» строка читается как
+                // «Основные, кнопка», а стрелка отдельно не произносится.
+                //
+                // Отдельно — указатель раскрытия. В UIKit он приходит не
+                // картинкой, а КНОПКОЙ с подписью «chevron»: прогон по примеру
+                // IQKeyboardManager дал 27 таких кнопок в одной таблице.
+                // Двадцать семь одинаковых реплик — это не дефект приложения,
+                // а системная деталь оформления списка.
+                //
+                // Список имён закрытый и будет пополняться по мере встреч:
+                // это честнее широкой эвристики, которая заодно спрячет
+                // настоящие дефекты.
+                if node.elementType == .cell {
+                    if child.elementType == .image { continue }
+                    if Self.isCellAccessory(child.label) { continue }
+                }
                 if collect(node: child, parentIsAnnounced: false, into: &utterances) {
                     announcedInside = true
                 }
@@ -164,6 +176,15 @@ public final class AccessibilityTreeSource: SpeechSource {
                 height: node.frame.height
             )
         ))
+    }
+
+    /// Служебные имена указателей и аксессуаров ячейки.
+    ///
+    /// Это системные детали списка, а не элементы приложения: VoiceOver
+    /// их не произносит, а разработчик не может их переименовать.
+    static func isCellAccessory(_ label: String) -> Bool {
+        let normalized = label.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        return ["chevron", "chevron.forward", "chevron.right", "detail", "reorder", "delete"].contains(normalized)
     }
 
     /// Части интерфейса операционной системы, наложенные поверх приложения.

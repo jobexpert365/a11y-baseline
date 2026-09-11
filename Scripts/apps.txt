@@ -22,3 +22,5 @@ com.apple.DocumentsApp|Файлы|ru|1
 com.apple.mobileslideshow|Фото|ru|1
 com.apple.Bridge|Watch|ru|1
 com.apple.Preview|Просмотр|ru|1
+com.onevcat.Kingfisher-Demo|Kingfisher Demo (UIKit)|en|3
+com.iftekhar.IQKeyboardManagerSwiftExample|IQKeyboardManager Example (UIKit)|en|3
