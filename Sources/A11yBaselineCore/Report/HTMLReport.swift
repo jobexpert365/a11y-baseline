@@ -63,7 +63,7 @@ public struct HTMLReport: Sendable {
         <body>
         <main>
           <header>
-            <p class="eyebrow"><a href="\(escape(meta.indexURL))">Индекс доступности</a> · проверено \(escape(meta.generatedOn))</p>
+            <p class="eyebrow"><a href="\(escape(meta.indexURL))">Индекс доступности</a> · \(baseline.capturedOn.map { "проверено \(escape($0))" } ?? "дата проверки неизвестна")</p>
             <h1>\(escape(baseline.app))</h1>
             <p class="lede">
               Автоматическая проверка того, что произносит VoiceOver.

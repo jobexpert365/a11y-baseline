@@ -101,3 +101,30 @@ struct BaselineStoreTests {
         #expect(appIndex.lowerBound < localeIndex.lowerBound)
     }
 }
+
+@Suite("Дата проверки")
+struct CapturedOnTests {
+
+    @Test("дата съёма переживает запись и чтение")
+    func survivesRoundTrip() throws {
+        let baseline = Baseline(
+            app: "Demo", appVersion: "1.0", osVersion: "26.0", locale: "ru",
+            fidelity: .fixture, capturedOn: "2026-09-12", screens: []
+        )
+        let restored = try BaselineStore().decode(BaselineStore().encode(baseline))
+        #expect(restored.capturedOn == "2026-09-12")
+    }
+
+    @Test("старая базовая линия без даты читается")
+    func readsLegacyBaseline() throws {
+        // Базовые линии, снятые до появления поля, должны читаться,
+        // а не ломать сборку индекса: иначе одна правка схемы обнуляет
+        // всю накопленную историю.
+        let legacy = """
+        {"app":"Demo","appVersion":"1.0","osVersion":"26.0","locale":"ru",
+         "fidelity":"fixture","formatVersion":1,"screens":[],"acceptedFindingKeys":[]}
+        """
+        let restored = try BaselineStore().decode(Data(legacy.utf8))
+        #expect(restored.capturedOn == nil)
+    }
+}

@@ -90,6 +90,7 @@ public struct BaselineRecorder {
             osVersion: osVersion(),
             locale: locale,
             fidelity: source.fidelity,
+            capturedOn: Self.today(),
             screens: screens
         )
     }
@@ -121,6 +122,16 @@ public struct BaselineRecorder {
         }
         #endif
         return findings
+    }
+
+    /// Дата съёма в машинном виде. Именно машинном: она попадает в базовую
+    /// линию, которая лежит в репозитории и сравнивается между прогонами,
+    /// а локализованная дата ломала бы сравнение на другой машине.
+    static func today() -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.dateFormat = "yyyy-MM-dd"
+        return formatter.string(from: Date())
     }
 
     private func osVersion() -> String {

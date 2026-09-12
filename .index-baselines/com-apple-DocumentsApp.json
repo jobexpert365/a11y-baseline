@@ -4,6 +4,7 @@
   ],
   "app" : "Файлы",
   "appVersion" : "—",
+  "capturedOn" : "2026-09-13",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "ru",
@@ -165,7 +166,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 72.00000000000003
           },
           "index" : 0,
@@ -179,7 +180,7 @@
           "frame" : {
             "height" : 62,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 114.00000000000003
           },
           "index" : 1,
@@ -193,7 +194,7 @@
           "frame" : {
             "height" : 62,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 176.00000000000003
           },
           "index" : 2,
@@ -207,7 +208,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 259
           },
           "index" : 3,
@@ -221,7 +222,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 301
           },
           "index" : 4,
@@ -235,7 +236,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 364
           },
           "identifier" : "DOC.sortMenuButton.name",
@@ -250,7 +251,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 406
           },
           "identifier" : "DOC.sortMenuButton.kind",
@@ -265,7 +266,7 @@
           "frame" : {
             "height" : 60,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 448
           },
           "identifier" : "DOC.sortMenuButton.dateLastOpened.descending",
@@ -280,7 +281,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 508
           },
           "identifier" : "DOC.sortMenuButton.size",
@@ -295,7 +296,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 550
           },
           "identifier" : "DOC.sortMenuButton.tags",
@@ -310,7 +311,7 @@
           "frame" : {
             "height" : 42,
             "width" : 250,
-            "x" : 141,
+            "x" : 142,
             "y" : 613
           },
           "index" : 10,

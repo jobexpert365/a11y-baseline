@@ -4,6 +4,7 @@
   ],
   "app" : "Напоминания",
   "appVersion" : "—",
+  "capturedOn" : "2026-09-13",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "ru",
@@ -11,242 +12,88 @@
   "screens" : [
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
       ],
       "screen" : "Стартовый экран",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 26.333333333333343,
-            "width" : 326,
-            "x" : 38,
-            "y" : 140.66666666666669
-          },
-          "index" : 0,
-          "label" : "Встречайте Напоминания!",
-          "spoken" : "Встречайте Напоминания!",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 326,
-            "x" : 38,
-            "y" : 784
-          },
-          "index" : 1,
-          "label" : "Продолжить",
-          "spoken" : "Продолжить, button",
-          "traits" : [
-            "button"
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        }
-      ],
-      "screen" : "Экран 2",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 16,
-            "y" : 62
-          },
-          "identifier" : "BackButton",
-          "index" : 0,
-          "label" : "Назад",
-          "spoken" : "Назад, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 36,
-            "width" : 36,
-            "x" : 346,
-            "y" : 66
-          },
-          "index" : 1,
-          "label" : "Еще",
-          "spoken" : "Еще, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 39.66666666666667,
-            "width" : 224.33333333333331,
-            "x" : 15.999999999999986,
-            "y" : 120.66666666666667
-          },
-          "index" : 2,
-          "label" : "Напоминания",
-          "spoken" : "Напоминания",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 24,
-            "width" : 163.66666666666663,
-            "x" : 118.99999999999999,
-            "y" : 425
-          },
-          "index" : 3,
-          "label" : "Напоминаний нет",
-          "spoken" : "Напоминаний нет",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 38,
-            "width" : 38,
-            "x" : 331,
-            "y" : 803
-          },
-          "index" : 4,
-          "label" : "Напоминание",
-          "spoken" : "Напоминание, button",
-          "traits" : [
-            "button"
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Contrast is not high enough for element unless font size is larger.",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast nearly passed"
-        },
-        {
-          "evidence" : "Contrast is not high enough for element unless font size is larger.",
-          "key" : "Экран 5|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 5",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast nearly passed"
-        }
-      ],
-      "screen" : "Экран 5",
       "utterances" : [
         {
           "frame" : {
@@ -298,8 +145,8 @@
             "y" : 122
           },
           "index" : 3,
-          "label" : "Сегодня, 0 напоминаний, 12 сентября",
-          "spoken" : "Сегодня, 0 напоминаний, 12 сентября, button",
+          "label" : "Сегодня, 0 напоминаний, 13 сентября",
+          "spoken" : "Сегодня, 0 напоминаний, 13 сентября, button",
           "traits" : [
             "button"
           ]
@@ -522,56 +369,56 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Экран 6",
+          "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 6",
+          "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "This element is missing useful accessibility information.",
-          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Экран 6",
+          "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Element has no description"
         },
         {
           "evidence" : "This element is missing useful accessibility information.",
-          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Экран 6",
+          "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Element has no description"
         },
         {
           "evidence" : "This element is missing useful accessibility information.",
-          "key" : "Экран 6|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Экран 6",
+          "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Element has no description"
         }
       ],
-      "screen" : "Экран 6",
+      "screen" : "Экран 2",
       "utterances" : [
         {
           "frame" : {

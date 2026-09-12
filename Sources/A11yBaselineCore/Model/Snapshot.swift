@@ -57,6 +57,20 @@ public struct Baseline: Codable, Equatable, Sendable {
     public var osVersion: String
     public var locale: String
     public var fidelity: CaptureFidelity
+
+    /// Когда приложение реально просканировали, в формате «2026-09-12».
+    ///
+    /// Поле появилось после того, как я заметил тихую подмену: страница
+    /// показывала дату СБОРКИ СТРАНИЦ, а данные могли быть недельной
+    /// давности. Пересобрал сайт, не пересканировав ничего, — и все страницы
+    /// стали выглядеть свежими. Это ровно тот вид вранья, который незаметен
+    /// изнутри и очевиден снаружи, когда кто-то сверит цифры со своим
+    /// приложением.
+    ///
+    /// Необязательное: базовые линии, снятые до этой правки, даты не имеют,
+    /// и страница честно скажет, что дата неизвестна.
+    public var capturedOn: String?
+
     public var screens: [ScreenSnapshot]
 
     /// Ключи находок, которые команда осознанно приняла и не хочет видеть снова.
@@ -74,6 +88,7 @@ public struct Baseline: Codable, Equatable, Sendable {
         osVersion: String,
         locale: String,
         fidelity: CaptureFidelity,
+        capturedOn: String? = nil,
         screens: [ScreenSnapshot],
         acceptedFindingKeys: Set<String> = []
     ) {
@@ -83,6 +98,7 @@ public struct Baseline: Codable, Equatable, Sendable {
         self.osVersion = osVersion
         self.locale = locale
         self.fidelity = fidelity
+        self.capturedOn = capturedOn
         self.screens = screens
         self.acceptedFindingKeys = acceptedFindingKeys
     }

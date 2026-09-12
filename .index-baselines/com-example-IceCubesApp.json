@@ -4,6 +4,7 @@
   ],
   "app" : "Ice Cubes (клиент Mastodon)",
   "appVersion" : "—",
+  "capturedOn" : "2026-09-13",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "en",
@@ -164,7 +165,7 @@
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
+          "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
@@ -174,7 +175,7 @@
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
+          "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",

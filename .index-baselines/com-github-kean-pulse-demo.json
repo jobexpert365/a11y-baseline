@@ -4,6 +4,7 @@
   ],
   "app" : "Pulse (сетевой логгер)",
   "appVersion" : "—",
+  "capturedOn" : "2026-09-13",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "en",
@@ -34,6 +35,46 @@
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|exclamationmark.octagon",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
           "screen" : "Стартовый экран",
@@ -123,6 +164,46 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -133,47 +214,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Стартовый экран",
@@ -280,6 +321,36 @@
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
@@ -440,8 +511,8 @@
             "y" : 183.66666666666666
           },
           "index" : 9,
-          "label" : "01:06:16.985",
-          "spoken" : "01:06:16.985",
+          "label" : "01:15:24.589",
+          "spoken" : "01:15:24.589",
           "traits" : [
 
           ]
@@ -510,8 +581,8 @@
             "y" : 246.66666666666666
           },
           "index" : 14,
-          "label" : "01:06:16.985",
-          "spoken" : "01:06:16.985",
+          "label" : "01:15:24.589",
+          "spoken" : "01:15:24.589",
           "traits" : [
 
           ]
@@ -1698,8 +1769,8 @@
             "y" : 183.66666666666666
           },
           "index" : 10,
-          "label" : "01:06:28.182",
-          "spoken" : "01:06:28.182",
+          "label" : "01:15:35.730",
+          "spoken" : "01:15:35.730",
           "traits" : [
 
           ]
@@ -1768,8 +1839,8 @@
             "y" : 246.66666666666666
           },
           "index" : 15,
-          "label" : "01:06:28.182",
-          "spoken" : "01:06:28.182",
+          "label" : "01:15:35.730",
+          "spoken" : "01:15:35.730",
           "traits" : [
 
           ]
@@ -1838,8 +1909,8 @@
             "y" : 347.6666666666667
           },
           "index" : 20,
-          "label" : "01:06:24.721",
-          "spoken" : "01:06:24.721",
+          "label" : "01:15:32.222",
+          "spoken" : "01:15:32.222",
           "traits" : [
 
           ]
@@ -1937,8 +2008,8 @@
             "y" : 430.33333333333337
           },
           "index" : 27,
-          "label" : "01:06:24.721",
-          "spoken" : "01:06:24.721",
+          "label" : "01:15:32.222",
+          "spoken" : "01:15:32.222",
           "traits" : [
 
           ]
@@ -2036,8 +2107,8 @@
             "y" : 531.9999999999999
           },
           "index" : 34,
-          "label" : "01:06:23.659",
-          "spoken" : "01:06:23.659",
+          "label" : "01:15:31.255",
+          "spoken" : "01:15:31.255",
           "traits" : [
 
           ]
@@ -2135,8 +2206,8 @@
             "y" : 614.6666666666666
           },
           "index" : 41,
-          "label" : "01:06:21.864",
-          "spoken" : "01:06:21.864",
+          "label" : "01:15:29.410",
+          "spoken" : "01:15:29.410",
           "traits" : [
 
           ]
@@ -2234,8 +2305,8 @@
             "y" : 697.3333333333333
           },
           "index" : 48,
-          "label" : "01:06:21.863",
-          "spoken" : "01:06:21.863",
+          "label" : "01:15:29.410",
+          "spoken" : "01:15:29.410",
           "traits" : [
 
           ]
@@ -2333,8 +2404,8 @@
             "y" : 780
           },
           "index" : 55,
-          "label" : "01:06:20.134",
-          "spoken" : "01:06:20.134",
+          "label" : "01:15:27.717",
+          "spoken" : "01:15:27.717",
           "traits" : [
 
           ]
@@ -2432,8 +2503,8 @@
             "y" : 862.6666666666666
           },
           "index" : 62,
-          "label" : "01:06:20.134",
-          "spoken" : "01:06:20.134",
+          "label" : "01:15:27.717",
+          "spoken" : "01:15:27.717",
           "traits" : [
 
           ]
