@@ -75,6 +75,16 @@ public struct HTMLReport: Sendable {
               <div><dt>Встроенный аудит Apple</dt><dd>\(platform.count)</dd></div>
               <div><dt>Экранов</dt><dd>\(baseline.screens.count)</dd></div>
             </dl>
+
+            <!-- Список пройденных экранов с числом элементов.
+                 Без него страница непроверяема: читатель видит «найдено 6»
+                 и не может понять, смотрели ли мы вообще его раздел.
+                 С именами экранов он сам оценит, насколько покрытие
+                 относится к его приложению. -->
+            <p class="walked">
+              Пройдено:
+              \(baseline.screens.map { "<b>\(escape($0.screen))</b> (\($0.utterances.count))" }.joined(separator: ", "))
+            </p>
           </header>
 
           <section class="scope">
@@ -187,6 +197,8 @@ public struct HTMLReport: Sendable {
         .tally div { background: var(--surface); border: 1px solid var(--hair); border-radius: 6px; padding: 10px 14px; }
         .tally dt { font-size: 12px; color: var(--muted); margin: 0; }
         .tally dd { margin: 2px 0 0; font-size: 22px; font-variant-numeric: tabular-nums; }
+        .walked { font-size: 14px; color: var(--muted); margin: 12px 0 0; }
+        .walked b { color: var(--ink-2); font-weight: 600; }
         .scope { border-left: 3px solid var(--ok); padding: 4px 0 4px 16px; margin: 32px 0; color: var(--ink-2); }
         .scope h2 { margin-top: 0; }
         .count { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }

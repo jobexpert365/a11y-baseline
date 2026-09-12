@@ -31,6 +31,8 @@ h3 { font-size: 17px; margin: 0 0 6px; }
 .tally div { background: var(--surface); border: 1px solid var(--hair); border-radius: 6px; padding: 10px 14px; }
 .tally dt { font-size: 12px; color: var(--muted); margin: 0; }
 .tally dd { margin: 2px 0 0; font-size: 22px; font-variant-numeric: tabular-nums; }
+.walked { font-size: 14px; color: var(--muted); margin: 12px 0 0; }
+.walked b { color: var(--ink-2); font-weight: 600; }
 .scope { border-left: 3px solid var(--ok); padding: 4px 0 4px 16px; margin: 32px 0; color: var(--ink-2); }
 .scope h2 { margin-top: 0; }
 .count { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -60,6 +62,16 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
       <div><dt>Встроенный аудит Apple</dt><dd>7</dd></div>
       <div><dt>Экранов</dt><dd>1</dd></div>
     </dl>
+
+    <!-- Список пройденных экранов с числом элементов.
+         Без него страница непроверяема: читатель видит «найдено 6»
+         и не может понять, смотрели ли мы вообще его раздел.
+         С именами экранов он сам оценит, насколько покрытие
+         относится к его приложению. -->
+    <p class="walked">
+      Пройдено:
+      <b>Стартовый экран</b> (8)
+    </p>
   </header>
 
   <section class="scope">
