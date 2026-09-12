@@ -247,6 +247,50 @@ struct LabelInNameRuleTests {
     }
 }
 
+@Suite("Роль в подписи")
+struct RoleInLabelRuleTests {
+
+    @Test("роль последним словом ловится", arguments: ["Отправить кнопка", "Send button", "Профиль ссылка"])
+    func flagsTrailingRole(label: String) {
+        let trait = label.lowercased().hasSuffix("ссылка") ? "link" : "button"
+        let u = Utterance(index: 0, spoken: "\(label), \(trait)", label: label, traits: [trait])
+        #expect(RoleInLabelRule().evaluate(u, in: context(screen([u])))?.severity == .moderate)
+    }
+
+    @Test("роль не последним словом — законное название",
+          arguments: ["Кнопка вызова экстренных служб", "Кнопка отправить", "Красная кнопка тревоги"])
+    func ignoresRoleNotAtEnd(label: String) {
+        // Сужение по итогу провалившегося теста. «Кнопка вызова экстренных
+        // служб» — нормальное название, где слово несёт смысл. Отличить его
+        // от «Кнопка отправить» можно только грамматикой, поэтому правило
+        // молчит в обоих случаях: ложное обвинение дороже пропуска.
+        let u = Utterance(index: 0, spoken: "\(label), button", label: label, traits: ["button"])
+        #expect(RoleInLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("подпись из одного слова — не этот случай")
+    func ignoresSingleWord() {
+        // «Кнопка» целиком ловит GenericLabelRule: там роль стоит ВМЕСТО
+        // назначения, а не рядом с ним.
+        let u = Utterance(index: 0, spoken: "Кнопка, button", label: "Кнопка", traits: ["button"])
+        #expect(RoleInLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("роль не совпадает с признаком — молчим")
+    func ignoresMismatchedRole() {
+        // «Ссылка на профиль» на КНОПКЕ: слово «ссылка» роли кнопки
+        // не дублирует, VoiceOver скажет «Ссылка на профиль, кнопка».
+        let u = Utterance(index: 0, spoken: "Ссылка на профиль, button", label: "Ссылка на профиль", traits: ["button"])
+        #expect(RoleInLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("правка убирает слово роли с конца")
+    func fixStripsRole() {
+        #expect(RoleInLabelRule.stripRole(from: "Отправить кнопка", word: "кнопка") == "Отправить")
+        #expect(RoleInLabelRule.stripRole(from: "Send button", word: "button") == "Send")
+    }
+}
+
 @Suite("Размер цели нажатия")
 struct TargetSizeRuleTests {
 

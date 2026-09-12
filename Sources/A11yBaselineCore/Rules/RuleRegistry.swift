@@ -32,6 +32,7 @@ public struct RuleRegistry: Sendable {
             FilenameLabelRule(),
             DuplicateLabelRule(),
             LabelInNameRule(),
+            RoleInLabelRule(),
         ])
     }
 
