@@ -1,28 +1,28 @@
 # Приложения для индекса: bundle.id|Имя|локаль|экранов
 # Системные приложения симулятора — они сложные и хорошо сделаны,
 # поэтому служат проверкой на шум.
-com.apple.Preferences|Настройки iOS|ru|6
-com.apple.MobileAddressBook|Контакты|ru|6
-com.apple.mobilecal|Календарь|ru|6
-com.apple.Maps|Карты|ru|6
-com.apple.shortcuts|Быстрые команды|ru|6
-com.apple.reminders|Напоминания|ru|6
-com.apple.Passwords|Пароли|ru|6
+com.apple.Preferences|Настройки iOS|ru|10
+com.apple.MobileAddressBook|Контакты|ru|10
+com.apple.mobilecal|Календарь|ru|10
+com.apple.Maps|Карты|ru|10
+com.apple.shortcuts|Быстрые команды|ru|10
+com.apple.reminders|Напоминания|ru|10
+com.apple.Passwords|Пароли|ru|10
 # Собранные из исходников открытые приложения.
-com.example.IceCubesApp|Ice Cubes (клиент Mastodon)|en|6
-com.example.apple-samplecode.Food-Truck|Food Truck (пример Apple)|en|6
-com.github.kean.pulse-demo|Pulse (сетевой логгер)|en|6
-com.apple.Health|Здоровье|ru|6
-com.apple.Fitness|Фитнес|ru|6
-com.apple.news|Новости|ru|6
-com.apple.mobilesafari|Safari|ru|6
-com.apple.MobileSMS|Сообщения|ru|6
-com.apple.Passbook|Wallet|ru|6
-com.apple.DocumentsApp|Файлы|ru|6
-com.apple.mobileslideshow|Фото|ru|6
-com.apple.Bridge|Watch|ru|6
-com.apple.Preview|Просмотр|ru|6
-com.onevcat.Kingfisher-Demo|Kingfisher Demo (UIKit)|en|6
-com.iftekhar.IQKeyboardManagerSwiftExample|IQKeyboardManager Example (UIKit)|en|6
-com.exyte.PopupExample|PopupView Example (SwiftUI)|en|6
-com.dcg.ChartsDemo-iOS|Charts Demo (графики, UIKit)|en|5
+com.example.IceCubesApp|Ice Cubes (клиент Mastodon)|en|10
+com.example.apple-samplecode.Food-Truck|Food Truck (пример Apple)|en|10
+com.github.kean.pulse-demo|Pulse (сетевой логгер)|en|10
+com.apple.Health|Здоровье|ru|10
+com.apple.Fitness|Фитнес|ru|10
+com.apple.news|Новости|ru|10
+com.apple.mobilesafari|Safari|ru|10
+com.apple.MobileSMS|Сообщения|ru|10
+com.apple.Passbook|Wallet|ru|10
+com.apple.DocumentsApp|Файлы|ru|10
+com.apple.mobileslideshow|Фото|ru|10
+com.apple.Bridge|Watch|ru|10
+com.apple.Preview|Просмотр|ru|10
+com.onevcat.Kingfisher-Demo|Kingfisher Demo (UIKit)|en|10
+com.iftekhar.IQKeyboardManagerSwiftExample|IQKeyboardManager Example (UIKit)|en|10
+com.exyte.PopupExample|PopupView Example (SwiftUI)|en|10
+com.dcg.ChartsDemo-iOS|Charts Demo (графики, UIKit)|en|10

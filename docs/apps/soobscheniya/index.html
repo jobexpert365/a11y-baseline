@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Доступность Сообщения — проверка VoiceOver</title>
-<meta name="description" content="Что VoiceOver произносит в приложении Сообщения: результат автоматической проверки 36 элементов интерфейса.">
+<meta name="description" content="Что VoiceOver произносит в приложении Сообщения: результат автоматической проверки 34 элементов интерфейса.">
 <style>:root {
   --ground: #f6f7f9; --surface: #fff; --ink: #14181f; --ink-2: #444c5a;
   --muted: #6b7280; --hair: #e2e5ea; --accent: #8a3324; --ok: #1a6b5f;
@@ -55,10 +55,10 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
     <p class="lede">
       Автоматическая проверка того, что произносит VoiceOver.
       Версия —, iOS 26.4,
-      язык интерфейса «ru». Пройдено элементов: 36.
+      язык интерфейса «ru». Пройдено элементов: 34.
     </p>
     <dl class="tally">
-      <div><dt>Находки проверок</dt><dd>4</dd></div>
+      <div><dt>Находки проверок</dt><dd>3</dd></div>
       <div><dt>Встроенный аудит Apple</dt><dd>3</dd></div>
       <div><dt>Экранов</dt><dd>4</dd></div>
     </dl>
@@ -70,7 +70,7 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
          относится к его приложению. -->
     <p class="walked">
       Пройдено:
-      <b>Стартовый экран</b> (12), <b>+1 (888) 555-1212</b> (12), <b>+1 (555) 564-8583</b> (6), <b>+1 (888) 555-1212</b> (6)
+      <b>Стартовый экран</b> (10), <b>+1 (888) 555-1212</b> (12), <b>+1 (555) 564-8583</b> (6), <b>+1 (888) 555-1212</b> (6)
     </p>
   </header>
 
@@ -79,7 +79,11 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
     <p>
       Машина проверяет форму: есть ли подпись, не попало ли в неё имя файла,
       не звучат ли элементы одинаково, совпадает ли видимая надпись с озвучкой.
-      Всё это воспроизводимо — прогон можно повторить и получить тот же результат.
+      Проверки не зависят от вкуса: прогон можно повторить и сверить
+      результат с этой страницей. Совпадение измерено — два одинаковых
+      прогона подряд дали одно и то же число элементов в 20 приложениях
+      из 24. Там, где приложение догружает содержимое с задержкой,
+      обход может пройти разное число экранов.
     </p>
     <p>
       Машина <strong>не проверяет смысл</strong>. Подпись «Кнопка 2» пройдёт все
@@ -110,15 +114,6 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
   <p class="std">EN 301 549 п. 11.1.1.1 · WCAG 1.1.1 — Текстовая альтернатива нетекстовому содержимому</p>
 </article>
   </section>
-  <section class="group">
-    <h2>Понятно с усилием <span class="count">1</span></h2>
-    <article class="finding">
-  <h3>2 элемента звучат одинаково: «Фото контакта»</h3>
-  <p class="screen">Стартовый экран</p>
-  <p>Все они произносятся как «Фото контакта, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
-  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
-</article>
-  </section>
 
   <section class="group platform">
   <h2>Что нашли встроенные инструменты Apple <span class="count">3</span></h2>
@@ -137,7 +132,7 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
       Напишите, и страница будет исправлена: <a href="https://github.com/jobexpert365/a11y-baseline/issues/new">сообщить об ошибке</a>.
     </p>
     <p class="repro">
-      Проверка выполнена открытым инструментом, результат воспроизводим:
+      Проверка выполнена открытым инструментом, прогон можно повторить:
       <a href="https://github.com/jobexpert365/a11y-baseline">a11y-baseline</a>.
     </p>
   </footer>

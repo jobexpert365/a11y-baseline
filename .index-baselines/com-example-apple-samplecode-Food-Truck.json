@@ -13,6 +13,116 @@
     {
       "platformAuditFindings" : [
         {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
@@ -34,6 +144,215 @@
         }
       ],
       "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 175,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 168
+          },
+          "index" : 1,
+          "label" : "Truck",
+          "spoken" : "Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 220
+          },
+          "index" : 2,
+          "label" : "Orders",
+          "spoken" : "Orders, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 272
+          },
+          "index" : 3,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 324
+          },
+          "index" : 4,
+          "label" : "Sales History",
+          "spoken" : "Sales History, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 393.66666666666663
+          },
+          "index" : 5,
+          "label" : "Donuts",
+          "spoken" : "Donuts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 434
+          },
+          "index" : 6,
+          "label" : "Donuts",
+          "spoken" : "Donuts, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 486
+          },
+          "index" : 7,
+          "label" : "Donut Editor",
+          "spoken" : "Donut Editor, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 538
+          },
+          "index" : 8,
+          "label" : "Top 5",
+          "spoken" : "Top 5, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 607.3333333333333
+          },
+          "index" : 9,
+          "label" : "Cities",
+          "spoken" : "Cities",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 647.6666666666667
+          },
+          "index" : 10,
+          "label" : "Cupertino",
+          "spoken" : "Cupertino, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 699.6666666666666
+          },
+          "index" : 11,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 751.6666666666666
+          },
+          "index" : 12,
+          "label" : "London",
+          "spoken" : "London, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Truck|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Truck",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Truck|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Truck",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Truck",
       "utterances" : [
         {
           "frame" : {
@@ -80,42 +399,42 @@
         },
         {
           "frame" : {
-            "height" : 102.66666666666669,
-            "width" : 102.66666666666666,
-            "x" : 36,
-            "y" : 429.99999999999994
+            "height" : 158,
+            "width" : 158,
+            "x" : 32,
+            "y" : 438.66666666666663
           },
           "index" : 3,
-          "label" : "topping/zigzag-brown-thumb",
-          "spoken" : "topping/zigzag-brown-thumb, image",
+          "label" : "topping/zigzag-orange-full",
+          "spoken" : "topping/zigzag-orange-full, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 102.66666666666669,
-            "width" : 102.66666666666666,
-            "x" : 36,
-            "y" : 429.99999999999994
+            "height" : 158,
+            "width" : 158,
+            "x" : 32,
+            "y" : 438.66666666666663
           },
           "index" : 4,
-          "label" : "glaze/brown-thumb",
-          "spoken" : "glaze/brown-thumb, image",
+          "label" : "glaze/orange-full",
+          "spoken" : "glaze/orange-full, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 102.66666666666669,
-            "width" : 102.66666666666666,
-            "x" : 36,
-            "y" : 429.99999999999994
+            "height" : 158,
+            "width" : 158,
+            "x" : 32,
+            "y" : 438.66666666666663
           },
           "index" : 5,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
+          "label" : "dough/yellow-full",
+          "spoken" : "dough/yellow-full, image",
           "traits" : [
             "image"
           ]
@@ -128,8 +447,8 @@
             "y" : 434.99999999999994
           },
           "index" : 6,
-          "label" : "topping/sprinkles-thumb",
-          "spoken" : "topping/sprinkles-thumb, image",
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
           "traits" : [
             "image"
           ]
@@ -156,18 +475,18 @@
             "y" : 434.99999999999994
           },
           "index" : 8,
-          "label" : "dough/plain-thumb",
-          "spoken" : "dough/plain-thumb, image",
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 102.66666666666674,
-            "width" : 102.66666666666666,
-            "x" : 59.666666666666664,
-            "y" : 466.33333333333326
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 450.66666666666663
           },
           "index" : 9,
           "label" : "topping/zigzag-white-thumb",
@@ -178,10 +497,10 @@
         },
         {
           "frame" : {
-            "height" : 102.66666666666674,
-            "width" : 102.66666666666666,
-            "x" : 59.666666666666664,
-            "y" : 466.33333333333326
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 450.66666666666663
           },
           "index" : 10,
           "label" : "glaze/blue-thumb",
@@ -192,10 +511,10 @@
         },
         {
           "frame" : {
-            "height" : 102.66666666666674,
-            "width" : 102.66666666666666,
-            "x" : 59.666666666666664,
-            "y" : 466.33333333333326
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 450.66666666666663
           },
           "index" : 11,
           "label" : "dough/plain-thumb",
@@ -206,24 +525,24 @@
         },
         {
           "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 224,
-            "y" : 450.66666666666663
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
           },
           "index" : 12,
-          "label" : "topping/zigzag-brown-thumb",
-          "spoken" : "topping/zigzag-brown-thumb, image",
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 224,
-            "y" : 450.66666666666663
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
           },
           "index" : 13,
           "label" : "glaze/brown-thumb",
@@ -234,42 +553,42 @@
         },
         {
           "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 224,
-            "y" : 450.66666666666663
+            "height" : 44.00000000000006,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 434.99999999999994
           },
           "index" : 14,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44.00000000000006,
-            "width" : 44.333333333333314,
-            "x" : 303.6666666666667,
-            "y" : 434.99999999999994
-          },
-          "index" : 15,
-          "label" : "glaze/rainbow-thumb",
-          "spoken" : "glaze/rainbow-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44.00000000000006,
-            "width" : 44.333333333333314,
-            "x" : 303.6666666666667,
-            "y" : 434.99999999999994
-          },
-          "index" : 16,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 466.33333333333326
+          },
+          "index" : 15,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 466.33333333333326
+          },
+          "index" : 16,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
           "traits" : [
             "image"
           ]
@@ -282,8 +601,8 @@
             "y" : 466.33333333333326
           },
           "index" : 17,
-          "label" : "topping/zigzag-orange-thumb",
-          "spoken" : "topping/zigzag-orange-thumb, image",
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
           "traits" : [
             "image"
           ]
@@ -291,13 +610,13 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 234,
-            "y" : 466.33333333333326
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
           },
           "index" : 18,
-          "label" : "glaze/orange-thumb",
-          "spoken" : "glaze/orange-thumb, image",
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
           "traits" : [
             "image"
           ]
@@ -305,13 +624,13 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 234,
-            "y" : 466.33333333333326
+            "width" : 44,
+            "x" : 314,
+            "y" : 450.66666666666663
           },
           "index" : 19,
-          "label" : "dough/yellow-thumb",
-          "spoken" : "dough/yellow-thumb, image",
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
           "traits" : [
             "image"
           ]
@@ -324,8 +643,8 @@
             "y" : 450.66666666666663
           },
           "index" : 20,
-          "label" : "topping/straight-yellow-thumb",
-          "spoken" : "topping/straight-yellow-thumb, image",
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
           "traits" : [
             "image"
           ]
@@ -333,13 +652,13 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44,
-            "x" : 314,
-            "y" : 450.66666666666663
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
           },
           "index" : 21,
-          "label" : "glaze/orange-thumb",
-          "spoken" : "glaze/orange-thumb, image",
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
           "traits" : [
             "image"
           ]
@@ -347,13 +666,13 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44,
-            "x" : 314,
-            "y" : 450.66666666666663
+            "width" : 44.333333333333314,
+            "x" : 324,
+            "y" : 466.33333333333326
           },
           "index" : 22,
-          "label" : "dough/yellow-thumb",
-          "spoken" : "dough/yellow-thumb, image",
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
           "traits" : [
             "image"
           ]
@@ -366,8 +685,8 @@
             "y" : 466.33333333333326
           },
           "index" : 23,
-          "label" : "topping/crisscross-white-thumb",
-          "spoken" : "topping/crisscross-white-thumb, image",
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
           "traits" : [
             "image"
           ]
@@ -375,13 +694,13 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 324,
-            "y" : 466.33333333333326
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 525
           },
           "index" : 24,
-          "label" : "glaze/blue-thumb",
-          "spoken" : "glaze/blue-thumb, image",
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
           "traits" : [
             "image"
           ]
@@ -389,55 +708,55 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 324,
-            "y" : 466.33333333333326
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 525
           },
           "index" : 25,
-          "label" : "dough/blue-thumb",
-          "spoken" : "dough/blue-thumb, image",
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 102.66666666666663,
-            "width" : 102.66666666666667,
-            "x" : 83.33333333333333,
-            "y" : 502.66666666666663
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
           },
           "index" : 26,
-          "label" : "topping/sprinkles-stars-thumb",
-          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 102.66666666666663,
-            "width" : 102.66666666666667,
-            "x" : 83.33333333333333,
-            "y" : 502.66666666666663
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
           },
           "index" : 27,
-          "label" : "glaze/brown-thumb",
-          "spoken" : "glaze/brown-thumb, image",
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 102.66666666666663,
-            "width" : 102.66666666666667,
-            "x" : 83.33333333333333,
-            "y" : 502.66666666666663
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
           },
           "index" : 28,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
           "traits" : [
             "image"
           ]
@@ -445,8 +764,8 @@
         {
           "frame" : {
             "height" : 47.66666666666674,
-            "width" : 47.66666666666663,
-            "x" : 212,
+            "width" : 47.666666666666686,
+            "x" : 302,
             "y" : 525.3333333333333
           },
           "index" : 29,
@@ -459,8 +778,8 @@
         {
           "frame" : {
             "height" : 47.66666666666674,
-            "width" : 47.66666666666663,
-            "x" : 212,
+            "width" : 47.666666666666686,
+            "x" : 302,
             "y" : 525.3333333333333
           },
           "index" : 30,
@@ -473,8 +792,8 @@
         {
           "frame" : {
             "height" : 47.66666666666674,
-            "width" : 47.66666666666663,
-            "x" : 212,
+            "width" : 47.666666666666686,
+            "x" : 302,
             "y" : 525.3333333333333
           },
           "index" : 31,
@@ -488,12 +807,12 @@
           "frame" : {
             "height" : 44,
             "width" : 44.333333333333314,
-            "x" : 303.6666666666667,
-            "y" : 525
+            "x" : 234,
+            "y" : 556.3333333333333
           },
           "index" : 32,
-          "label" : "glaze/rainbow-thumb",
-          "spoken" : "glaze/rainbow-thumb, image",
+          "label" : "topping/crisscross-white-thumb",
+          "spoken" : "topping/crisscross-white-thumb, image",
           "traits" : [
             "image"
           ]
@@ -502,12 +821,26 @@
           "frame" : {
             "height" : 44,
             "width" : 44.333333333333314,
-            "x" : 303.6666666666667,
-            "y" : 525
+            "x" : 234,
+            "y" : 556.3333333333333
           },
           "index" : 33,
-          "label" : "dough/plain-thumb",
-          "spoken" : "dough/plain-thumb, image",
+          "label" : "glaze/blue-thumb",
+          "spoken" : "glaze/blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 556.3333333333333
+          },
+          "index" : 34,
+          "label" : "dough/blue-thumb",
+          "spoken" : "dough/blue-thumb, image",
           "traits" : [
             "image"
           ]
@@ -515,11 +848,11 @@
         {
           "frame" : {
             "height" : 47.66666666666674,
-            "width" : 47.66666666666666,
-            "x" : 232.33333333333334,
+            "width" : 47.666666666666686,
+            "x" : 322.3333333333333,
             "y" : 552.3333333333333
           },
-          "index" : 34,
+          "index" : 35,
           "label" : "topping/zigzag-brown-thumb",
           "spoken" : "topping/zigzag-brown-thumb, image",
           "traits" : [
@@ -529,11 +862,11 @@
         {
           "frame" : {
             "height" : 47.66666666666674,
-            "width" : 47.66666666666666,
-            "x" : 232.33333333333334,
+            "width" : 47.666666666666686,
+            "x" : 322.3333333333333,
             "y" : 552.3333333333333
           },
-          "index" : 35,
+          "index" : 36,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -543,69 +876,13 @@
         {
           "frame" : {
             "height" : 47.66666666666674,
-            "width" : 47.66666666666666,
-            "x" : 232.33333333333334,
+            "width" : 47.666666666666686,
+            "x" : 322.3333333333333,
             "y" : 552.3333333333333
           },
-          "index" : 36,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 314,
-            "y" : 540.6666666666666
-          },
           "index" : 37,
-          "label" : "topping/powdersugar-thumb",
-          "spoken" : "topping/powdersugar-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 314,
-            "y" : 540.6666666666666
-          },
-          "index" : 38,
           "label" : "dough/brown-thumb",
           "spoken" : "dough/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 324,
-            "y" : 556.3333333333333
-          },
-          "index" : 39,
-          "label" : "glaze/rainbow-thumb",
-          "spoken" : "glaze/rainbow-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 324,
-            "y" : 556.3333333333333
-          },
-          "index" : 40,
-          "label" : "dough/yellow-thumb",
-          "spoken" : "dough/yellow-thumb, image",
           "traits" : [
             "image"
           ]
@@ -613,13 +890,13 @@
         {
           "frame" : {
             "height" : 20.333333333333258,
-            "width" : 89.33333333333333,
-            "x" : 126.33333333333333,
+            "width" : 91.33333333333331,
+            "x" : 129,
             "y" : 609.40966796875
           },
-          "index" : 41,
-          "label" : "Order#1201",
-          "spoken" : "Order#1201",
+          "index" : 38,
+          "label" : "Order#1225",
+          "spoken" : "Order#1225",
           "traits" : [
 
           ]
@@ -628,10 +905,10 @@
           "frame" : {
             "height" : 19,
             "width" : 24,
-            "x" : 225,
+            "x" : 229.66666666666666,
             "y" : 610
           },
-          "index" : 42,
+          "index" : 39,
           "label" : "donut",
           "spoken" : "donut, image",
           "traits" : [
@@ -641,13 +918,13 @@
         {
           "frame" : {
             "height" : 20.333333333333258,
-            "width" : 17.333333333333314,
-            "x" : 258.3333333333333,
+            "width" : 10,
+            "x" : 263,
             "y" : 609.40966796875
           },
-          "index" : 43,
-          "label" : "12",
-          "spoken" : "12",
+          "index" : 40,
+          "label" : "2",
+          "spoken" : "2",
           "traits" : [
 
           ]
@@ -659,7 +936,7 @@
             "x" : 26,
             "y" : 662
           },
-          "index" : 44,
+          "index" : 41,
           "label" : "Forecast",
           "spoken" : "Forecast, button",
           "traits" : [
@@ -673,7 +950,7 @@
             "x" : 26,
             "y" : 911.3333333333333
           },
-          "index" : 45,
+          "index" : 42,
           "label" : "Donuts",
           "spoken" : "Donuts, button",
           "traits" : [
@@ -687,7 +964,7 @@
             "x" : 31,
             "y" : 954.3333333333333
           },
-          "index" : 46,
+          "index" : 43,
           "label" : "topping/sprinkles-thumb",
           "spoken" : "topping/sprinkles-thumb, image",
           "traits" : [
@@ -701,7 +978,7 @@
             "x" : 31,
             "y" : 954.3333333333333
           },
-          "index" : 47,
+          "index" : 44,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -715,7 +992,7 @@
             "x" : 31,
             "y" : 954.3333333333333
           },
-          "index" : 48,
+          "index" : 45,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -729,7 +1006,7 @@
             "x" : 101,
             "y" : 954.3333333333333
           },
-          "index" : 49,
+          "index" : 46,
           "label" : "topping/crisscross-white-thumb",
           "spoken" : "topping/crisscross-white-thumb, image",
           "traits" : [
@@ -743,7 +1020,7 @@
             "x" : 101,
             "y" : 954.3333333333333
           },
-          "index" : 50,
+          "index" : 47,
           "label" : "glaze/blue-thumb",
           "spoken" : "glaze/blue-thumb, image",
           "traits" : [
@@ -757,7 +1034,7 @@
             "x" : 101,
             "y" : 954.3333333333333
           },
-          "index" : 51,
+          "index" : 48,
           "label" : "dough/blue-thumb",
           "spoken" : "dough/blue-thumb, image",
           "traits" : [
@@ -771,7 +1048,7 @@
             "x" : 171,
             "y" : 954.3333333333333
           },
-          "index" : 52,
+          "index" : 49,
           "label" : "topping/zigzag-white-thumb",
           "spoken" : "topping/zigzag-white-thumb, image",
           "traits" : [
@@ -785,7 +1062,7 @@
             "x" : 171,
             "y" : 954.3333333333333
           },
-          "index" : 53,
+          "index" : 50,
           "label" : "glaze/pink-thumb",
           "spoken" : "glaze/pink-thumb, image",
           "traits" : [
@@ -799,7 +1076,7 @@
             "x" : 171,
             "y" : 954.3333333333333
           },
-          "index" : 54,
+          "index" : 51,
           "label" : "dough/pink-thumb",
           "spoken" : "dough/pink-thumb, image",
           "traits" : [
@@ -811,6 +1088,48 @@
             "height" : 60,
             "width" : 60,
             "x" : 241,
+            "y" : 954.3333333333333
+          },
+          "index" : 52,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 954.3333333333333
+          },
+          "index" : 53,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 241,
+            "y" : 954.3333333333333
+          },
+          "index" : 54,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 60,
+            "x" : 311,
             "y" : 954.3333333333333
           },
           "index" : 55,
@@ -824,52 +1143,10 @@
           "frame" : {
             "height" : 60,
             "width" : 60,
-            "x" : 241,
+            "x" : 311,
             "y" : 954.3333333333333
           },
           "index" : 56,
-          "label" : "glaze/brown-thumb",
-          "spoken" : "glaze/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60,
-            "width" : 60,
-            "x" : 241,
-            "y" : 954.3333333333333
-          },
-          "index" : 57,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60,
-            "width" : 60,
-            "x" : 311,
-            "y" : 954.3333333333333
-          },
-          "index" : 58,
-          "label" : "topping/sprinkles-stars-thumb",
-          "spoken" : "topping/sprinkles-stars-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60,
-            "width" : 60,
-            "x" : 311,
-            "y" : 954.3333333333333
-          },
-          "index" : 59,
           "label" : "glaze/pink-thumb",
           "spoken" : "glaze/pink-thumb, image",
           "traits" : [
@@ -883,7 +1160,7 @@
             "x" : 311,
             "y" : 954.3333333333333
           },
-          "index" : 60,
+          "index" : 57,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -897,7 +1174,7 @@
             "x" : 66,
             "y" : 1024.3333333333333
           },
-          "index" : 61,
+          "index" : 58,
           "label" : "topping/straight-yellow-thumb",
           "spoken" : "topping/straight-yellow-thumb, image",
           "traits" : [
@@ -911,7 +1188,7 @@
             "x" : 66,
             "y" : 1024.3333333333333
           },
-          "index" : 62,
+          "index" : 59,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -925,7 +1202,7 @@
             "x" : 66,
             "y" : 1024.3333333333333
           },
-          "index" : 63,
+          "index" : 60,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -939,7 +1216,7 @@
             "x" : 136,
             "y" : 1024.3333333333333
           },
-          "index" : 64,
+          "index" : 61,
           "label" : "glaze/rainbow-thumb",
           "spoken" : "glaze/rainbow-thumb, image",
           "traits" : [
@@ -953,7 +1230,7 @@
             "x" : 136,
             "y" : 1024.3333333333333
           },
-          "index" : 65,
+          "index" : 62,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -967,7 +1244,7 @@
             "x" : 206,
             "y" : 1024.3333333333333
           },
-          "index" : 66,
+          "index" : 63,
           "label" : "topping/crisscross-blue-thumb",
           "spoken" : "topping/crisscross-blue-thumb, image",
           "traits" : [
@@ -981,7 +1258,7 @@
             "x" : 206,
             "y" : 1024.3333333333333
           },
-          "index" : 67,
+          "index" : 64,
           "label" : "glaze/pink-thumb",
           "spoken" : "glaze/pink-thumb, image",
           "traits" : [
@@ -995,7 +1272,7 @@
             "x" : 206,
             "y" : 1024.3333333333333
           },
-          "index" : 68,
+          "index" : 65,
           "label" : "dough/brown-thumb",
           "spoken" : "dough/brown-thumb, image",
           "traits" : [
@@ -1009,7 +1286,7 @@
             "x" : 276,
             "y" : 1024.3333333333333
           },
-          "index" : 69,
+          "index" : 66,
           "label" : "topping/zigzag-white-thumb",
           "spoken" : "topping/zigzag-white-thumb, image",
           "traits" : [
@@ -1023,7 +1300,7 @@
             "x" : 276,
             "y" : 1024.3333333333333
           },
-          "index" : 70,
+          "index" : 67,
           "label" : "glaze/blue-thumb",
           "spoken" : "glaze/blue-thumb, image",
           "traits" : [
@@ -1037,7 +1314,7 @@
             "x" : 276,
             "y" : 1024.3333333333333
           },
-          "index" : 71,
+          "index" : 68,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -1051,7 +1328,7 @@
             "x" : 31,
             "y" : 1094.3333333333333
           },
-          "index" : 72,
+          "index" : 69,
           "label" : "topping/powdersugar-thumb",
           "spoken" : "topping/powdersugar-thumb, image",
           "traits" : [
@@ -1065,7 +1342,7 @@
             "x" : 31,
             "y" : 1094.3333333333333
           },
-          "index" : 73,
+          "index" : 70,
           "label" : "dough/brown-thumb",
           "spoken" : "dough/brown-thumb, image",
           "traits" : [
@@ -1079,7 +1356,7 @@
             "x" : 101,
             "y" : 1094.3333333333333
           },
-          "index" : 74,
+          "index" : 71,
           "label" : "topping/powdersugar-thumb",
           "spoken" : "topping/powdersugar-thumb, image",
           "traits" : [
@@ -1093,7 +1370,7 @@
             "x" : 101,
             "y" : 1094.3333333333333
           },
-          "index" : 75,
+          "index" : 72,
           "label" : "dough/pink-thumb",
           "spoken" : "dough/pink-thumb, image",
           "traits" : [
@@ -1107,7 +1384,7 @@
             "x" : 171,
             "y" : 1094.3333333333333
           },
-          "index" : 76,
+          "index" : 73,
           "label" : "topping/straight-yellow-thumb",
           "spoken" : "topping/straight-yellow-thumb, image",
           "traits" : [
@@ -1121,7 +1398,7 @@
             "x" : 171,
             "y" : 1094.3333333333333
           },
-          "index" : 77,
+          "index" : 74,
           "label" : "glaze/orange-thumb",
           "spoken" : "glaze/orange-thumb, image",
           "traits" : [
@@ -1135,7 +1412,7 @@
             "x" : 171,
             "y" : 1094.3333333333333
           },
-          "index" : 78,
+          "index" : 75,
           "label" : "dough/yellow-thumb",
           "spoken" : "dough/yellow-thumb, image",
           "traits" : [
@@ -1149,7 +1426,7 @@
             "x" : 241,
             "y" : 1094.3333333333333
           },
-          "index" : 79,
+          "index" : 76,
           "label" : "topping/sprinkles-thumb",
           "spoken" : "topping/sprinkles-thumb, image",
           "traits" : [
@@ -1163,7 +1440,7 @@
             "x" : 241,
             "y" : 1094.3333333333333
           },
-          "index" : 80,
+          "index" : 77,
           "label" : "glaze/yellow-thumb",
           "spoken" : "glaze/yellow-thumb, image",
           "traits" : [
@@ -1177,7 +1454,7 @@
             "x" : 241,
             "y" : 1094.3333333333333
           },
-          "index" : 81,
+          "index" : 78,
           "label" : "dough/yellow-thumb",
           "spoken" : "dough/yellow-thumb, image",
           "traits" : [
@@ -1191,7 +1468,7 @@
             "x" : 311,
             "y" : 1094.3333333333333
           },
-          "index" : 82,
+          "index" : 79,
           "label" : "topping/zigzag-orange-thumb",
           "spoken" : "topping/zigzag-orange-thumb, image",
           "traits" : [
@@ -1205,7 +1482,7 @@
             "x" : 311,
             "y" : 1094.3333333333333
           },
-          "index" : 83,
+          "index" : 80,
           "label" : "glaze/orange-thumb",
           "spoken" : "glaze/orange-thumb, image",
           "traits" : [
@@ -1219,7 +1496,7 @@
             "x" : 311,
             "y" : 1094.3333333333333
           },
-          "index" : 84,
+          "index" : 81,
           "label" : "dough/yellow-thumb",
           "spoken" : "dough/yellow-thumb, image",
           "traits" : [
@@ -1233,7 +1510,7 @@
             "x" : 26,
             "y" : 1191.3333333333333
           },
-          "index" : 85,
+          "index" : 82,
           "label" : "Social Feed",
           "spoken" : "Social Feed, button",
           "traits" : [
@@ -1247,7 +1524,7 @@
             "x" : 54,
             "y" : 1243.6666666666665
           },
-          "index" : 86,
+          "index" : 83,
           "label" : "Powdered Chocolate",
           "spoken" : "Powdered Chocolate",
           "traits" : [
@@ -1261,7 +1538,7 @@
             "x" : 213,
             "y" : 1243.6666666666665
           },
-          "index" : 87,
+          "index" : 84,
           "label" : "Blueberry Frosted",
           "spoken" : "Blueberry Frosted",
           "traits" : [
@@ -1275,7 +1552,7 @@
             "x" : 76,
             "y" : 1278
           },
-          "index" : 88,
+          "index" : 85,
           "label" : "Warmed Up",
           "spoken" : "Warmed Up",
           "traits" : [
@@ -1289,7 +1566,7 @@
             "x" : 184.66666666666666,
             "y" : 1278
           },
-          "index" : 89,
+          "index" : 86,
           "label" : "Room Temperature",
           "spoken" : "Room Temperature",
           "traits" : [
@@ -1303,7 +1580,7 @@
             "x" : 26.333333333333332,
             "y" : 1312.6666666666665
           },
-          "index" : 90,
+          "index" : 87,
           "label" : "San Francisco",
           "spoken" : "San Francisco",
           "traits" : [
@@ -1317,7 +1594,7 @@
             "x" : 148,
             "y" : 1313.3333333333333
           },
-          "index" : 91,
+          "index" : 88,
           "label" : "Rainbow",
           "spoken" : "Rainbow",
           "traits" : [
@@ -1331,7 +1608,7 @@
             "x" : 238,
             "y" : 1313
           },
-          "index" : 92,
+          "index" : 89,
           "label" : "Rainbow Sprinkles",
           "spoken" : "Rainbow Sprinkles",
           "traits" : [
@@ -1345,7 +1622,7 @@
             "x" : 26,
             "y" : 1348.6666666666665
           },
-          "index" : 93,
+          "index" : 90,
           "label" : "Strawberry Sprinkles",
           "spoken" : "Strawberry Sprinkles",
           "traits" : [
@@ -1359,7 +1636,7 @@
             "x" : 186,
             "y" : 1348.3333333333333
           },
-          "index" : 94,
+          "index" : 91,
           "label" : "Dairy Free",
           "spoken" : "Dairy Free",
           "traits" : [
@@ -1373,7 +1650,7 @@
             "x" : 286,
             "y" : 1348
           },
-          "index" : 95,
+          "index" : 92,
           "label" : "Cupertino",
           "spoken" : "Cupertino",
           "traits" : [
@@ -1387,7 +1664,7 @@
             "x" : 63.33333333333333,
             "y" : 1383.3333333333333
           },
-          "index" : 96,
+          "index" : 93,
           "label" : "London",
           "spoken" : "London",
           "traits" : [
@@ -1401,7 +1678,7 @@
             "x" : 147.66666666666666,
             "y" : 1383.6666666666665
           },
-          "index" : 97,
+          "index" : 94,
           "label" : "Gluten Free",
           "spoken" : "Gluten Free",
           "traits" : [
@@ -1415,7 +1692,7 @@
             "x" : 255.33333333333331,
             "y" : 1384
           },
-          "index" : 98,
+          "index" : 95,
           "label" : "Fire Zest",
           "spoken" : "Fire Zest",
           "traits" : [
@@ -1429,7 +1706,7 @@
             "x" : 96,
             "y" : 1419
           },
-          "index" : 99,
+          "index" : 96,
           "label" : "Black Raspberry",
           "spoken" : "Black Raspberry",
           "traits" : [
@@ -1443,7 +1720,7 @@
             "x" : 230.33333333333331,
             "y" : 1418.6666666666665
           },
-          "index" : 100,
+          "index" : 97,
           "label" : "Carrots",
           "spoken" : "Carrots",
           "traits" : [
@@ -1457,7 +1734,7 @@
             "x" : 129.33333333333331,
             "y" : 1453.3333333333333
           },
-          "index" : 101,
+          "index" : 98,
           "label" : "Donut vs Doughnut",
           "spoken" : "Donut vs Doughnut",
           "traits" : [
@@ -1471,9 +1748,3400 @@
             "x" : 152.83333333333334,
             "y" : 1484.8059895833333
           },
-          "index" : 102,
+          "index" : 99,
           "label" : "Trending Topics",
           "spoken" : "Trending Topics",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Orders|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Orders",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
+      ],
+      "screen" : "Orders",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 108.66666666666666,
+            "x" : 15.999999999999993,
+            "y" : 119.66666666666667
+          },
+          "index" : 1,
+          "label" : "Orders",
+          "spoken" : "Orders",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 168
+          },
+          "index" : 2,
+          "label" : "Truck",
+          "spoken" : "Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 220
+          },
+          "index" : 3,
+          "label" : "Orders",
+          "spoken" : "Orders, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 272
+          },
+          "index" : 4,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 324
+          },
+          "index" : 5,
+          "label" : "Sales History",
+          "spoken" : "Sales History, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : -105,
+            "y" : 393.66666666666663
+          },
+          "index" : 6,
+          "label" : "Donuts",
+          "spoken" : "Donuts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 434
+          },
+          "index" : 7,
+          "label" : "Donuts",
+          "spoken" : "Donuts, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 486
+          },
+          "index" : 8,
+          "label" : "Donut Editor",
+          "spoken" : "Donut Editor, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 538
+          },
+          "index" : 9,
+          "label" : "Top 5",
+          "spoken" : "Top 5, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.33333333333337,
+            "width" : 370,
+            "x" : -105,
+            "y" : 607.3333333333333
+          },
+          "index" : 10,
+          "label" : "Cities",
+          "spoken" : "Cities",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 647.6666666666667
+          },
+          "index" : 11,
+          "label" : "Cupertino",
+          "spoken" : "Cupertino, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 699.6666666666666
+          },
+          "index" : 12,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 751.6666666666666
+          },
+          "index" : 13,
+          "label" : "London",
+          "spoken" : "London, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 168
+          },
+          "index" : 14,
+          "label" : "New",
+          "spoken" : "New",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 212
+          },
+          "index" : 15,
+          "label" : "Order#1224",
+          "spoken" : "Order#1224, 6, 6, 6, 6, 6, 6, 6, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "6, 6, 6, 6, 6, 6, 6"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 282
+          },
+          "index" : 16,
+          "label" : "Order#1223",
+          "spoken" : "Order#1223, 12, 12, 12, 12, 12, 12, 12, 12, 12, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "12, 12, 12, 12, 12, 12, 12, 12, 12"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 352
+          },
+          "index" : 17,
+          "label" : "Order#1222",
+          "spoken" : "Order#1222, 7, 7, 7, 7, 7, 7, 7, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "7, 7, 7, 7, 7, 7, 7"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 422
+          },
+          "index" : 18,
+          "label" : "Order#1221",
+          "spoken" : "Order#1221, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "9, 9, 9, 9, 9, 9, 9, 9, 9, 9"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 492
+          },
+          "index" : 19,
+          "label" : "Order#1220",
+          "spoken" : "Order#1220, 3, 3, 3, 3, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "3, 3, 3, 3"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 562
+          },
+          "index" : 20,
+          "label" : "Order#1219",
+          "spoken" : "Order#1219, 14, 14, 14, 14, 14, 14, 14, 14, 14, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "14, 14, 14, 14, 14, 14, 14, 14, 14"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 632
+          },
+          "index" : 21,
+          "label" : "Order#1218",
+          "spoken" : "Order#1218, 12, 12, 12, 12, 12, 12, 12, 12, 12, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "12, 12, 12, 12, 12, 12, 12, 12, 12"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 702
+          },
+          "index" : 22,
+          "label" : "Order#1217",
+          "spoken" : "Order#1217, 4, 4, 4, 4, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "4, 4, 4, 4"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 772
+          },
+          "index" : 23,
+          "label" : "Order#1216",
+          "spoken" : "Order#1216, 2, 2, 2, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "2, 2, 2"
+        },
+        {
+          "frame" : {
+            "height" : 70,
+            "width" : 370,
+            "x" : 16,
+            "y" : 842
+          },
+          "index" : 24,
+          "label" : "Order#1225",
+          "spoken" : "Order#1225, 2, 2, 2, 2, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : "2, 2, 2, 2"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Social Feed|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Social Feed",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Social Feed|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Social Feed",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Social Feed|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Social Feed",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Social Feed|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Social Feed",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Social Feed|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Social Feed",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Social Feed",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 181.66666666666666,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 1,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333314,
+            "width" : 173.33333333333331,
+            "x" : 114.33333333333336,
+            "y" : 193
+          },
+          "index" : 2,
+          "label" : "Get Social Feed+",
+          "spoken" : "Get Social Feed+",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 252.66666666666669,
+            "x" : 74.66666666666669,
+            "y" : 224.33333333333331
+          },
+          "index" : 3,
+          "label" : "The definitive social-feed experience",
+          "spoken" : "The definitive social-feed experience",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38.333333333333314,
+            "width" : 116,
+            "x" : 143,
+            "y" : 263.3333333333333
+          },
+          "index" : 4,
+          "label" : "Get Started",
+          "spoken" : "Get Started, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 344.33333333333337
+          },
+          "index" : 5,
+          "label" : "Posts",
+          "spoken" : "Posts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 402.33333333333337
+          },
+          "index" : 6,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 402.33333333333337
+          },
+          "index" : 7,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 402.33333333333337
+          },
+          "index" : 8,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 49,
+            "width" : 285.3333333333333,
+            "x" : 67,
+            "y" : 396.83333333333337
+          },
+          "index" : 9,
+          "label" : "I can't wait for the Food Truck to make its way to London!",
+          "spoken" : "I can't wait for the Food Truck to make its way to London!",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 11.666666984558105,
+            "x" : 74.33333333333334,
+            "y" : 458.6666666666667
+          },
+          "identifier" : "building.2",
+          "index" : 10,
+          "label" : "Business",
+          "spoken" : "Business, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.33333333333337,
+            "width" : 76.33333333333331,
+            "x" : 67,
+            "y" : 452
+          },
+          "index" : 11,
+          "label" : "London",
+          "spoken" : "London",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116211,
+            "width" : 13.333333969116211,
+            "x" : 157.33333333333331,
+            "y" : 458.6666666666667
+          },
+          "identifier" : "tag",
+          "index" : 12,
+          "label" : "Tag",
+          "spoken" : "Tag, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.666666666666686,
+            "width" : 105.66666666666669,
+            "x" : 151.33333333333331,
+            "y" : 452
+          },
+          "index" : 13,
+          "label" : "I'm waiting...",
+          "spoken" : "I'm waiting...",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116211,
+            "width" : 13.333333969116211,
+            "x" : 73.33333333333333,
+            "y" : 494
+          },
+          "identifier" : "tag",
+          "index" : 14,
+          "label" : "Tag",
+          "spoken" : "Tag, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.33333333333337,
+            "width" : 140.33333333333331,
+            "x" : 67,
+            "y" : 487.33333333333337
+          },
+          "index" : 15,
+          "label" : "One of these days!",
+          "spoken" : "One of these days!",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 70,
+            "x" : 67,
+            "y" : 519.8333333333334
+          },
+          "index" : 16,
+          "label" : "Today, 19:18",
+          "spoken" : "Today, 19:18",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 563.9999999999999
+          },
+          "index" : 17,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 563.9999999999999
+          },
+          "index" : 18,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 563.9999999999999
+          },
+          "index" : 19,
+          "label" : "topping/zigzag-blue-thumb",
+          "spoken" : "topping/zigzag-blue-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 74,
+            "width" : 300,
+            "x" : 67,
+            "y" : 558.4999999999999
+          },
+          "index" : 20,
+          "label" : "I'm really looking forward to trying the new chocolate donuts next time the truck is in town.",
+          "spoken" : "I'm really looking forward to trying the new chocolate donuts next time the truck is in town.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 641.6666666666666
+          },
+          "index" : 21,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 641.6666666666666
+          },
+          "index" : 22,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 641.6666666666666
+          },
+          "index" : 23,
+          "label" : "topping/straight-yellow-thumb",
+          "spoken" : "topping/straight-yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333258,
+            "width" : 132.66666666666666,
+            "x" : 67,
+            "y" : 638.6666666666666
+          },
+          "index" : 24,
+          "label" : "Lemon Chocolate",
+          "spoken" : "Lemon Chocolate",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116211,
+            "width" : 13.333333969116211,
+            "x" : 214,
+            "y" : 645.3333333333333
+          },
+          "identifier" : "tag",
+          "index" : 25,
+          "label" : "Tag",
+          "spoken" : "Tag, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.66666666666663,
+            "width" : 102.66666666666666,
+            "x" : 207.66666666666666,
+            "y" : 638.6666666666666
+          },
+          "index" : 26,
+          "label" : "Chocolate!!!",
+          "spoken" : "Chocolate!!!",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 676.3333333333333
+          },
+          "index" : 27,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 676.3333333333333
+          },
+          "index" : 28,
+          "label" : "topping/powdersugar-thumb",
+          "spoken" : "topping/powdersugar-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26,
+            "width" : 151,
+            "x" : 67,
+            "y" : 673.3333333333333
+          },
+          "index" : 29,
+          "label" : "Powdered Chocolate",
+          "spoken" : "Powdered Chocolate",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 11.666666984558105,
+            "x" : 233.33333333333334,
+            "y" : 679.6666666666665
+          },
+          "identifier" : "building.2",
+          "index" : 30,
+          "label" : "Business",
+          "spoken" : "Business, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27,
+            "width" : 113.66666666666663,
+            "x" : 226,
+            "y" : 673.3333333333333
+          },
+          "index" : 31,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 70,
+            "x" : 67,
+            "y" : 706.4999999999999
+          },
+          "index" : 32,
+          "label" : "Today, 19:01",
+          "spoken" : "Today, 19:01",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 750.3333333333333
+          },
+          "index" : 33,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 750.3333333333333
+          },
+          "index" : 34,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 49,
+            "width" : 298.3333333333333,
+            "x" : 67,
+            "y" : 744.6666666666666
+          },
+          "index" : 35,
+          "label" : "Do you think there are any donuts in space?",
+          "spoken" : "Do you think there are any donuts in space?",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 803
+          },
+          "index" : 36,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 803
+          },
+          "index" : 37,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 20,
+            "x" : 70,
+            "y" : 803
+          },
+          "index" : 38,
+          "label" : "topping/sprinkles-stars-thumb",
+          "spoken" : "topping/sprinkles-stars-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.33333333333337,
+            "width" : 80,
+            "x" : 67,
+            "y" : 799.6666666666666
+          },
+          "index" : 39,
+          "label" : "Cosmos",
+          "spoken" : "Cosmos",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116211,
+            "width" : 13.333333969116211,
+            "x" : 161,
+            "y" : 806.3333333333333
+          },
+          "identifier" : "tag",
+          "index" : 40,
+          "label" : "Tag",
+          "spoken" : "Tag, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.66666666666663,
+            "width" : 69.33333333333331,
+            "x" : 155,
+            "y" : 799.6666666666666
+          },
+          "index" : 41,
+          "label" : "Space",
+          "spoken" : "Space",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 72,
+            "x" : 67,
+            "y" : 832.3333333333333
+          },
+          "index" : 42,
+          "label" : "Today, 18:54",
+          "spoken" : "Today, 18:54",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 876.6666666666666
+          },
+          "index" : 43,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 876.6666666666666
+          },
+          "index" : 44,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 23,
+            "x" : 30,
+            "y" : 876.6666666666666
+          },
+          "index" : 45,
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 74,
+            "width" : 302.66666666666663,
+            "x" : 67,
+            "y" : 871.1666666666666
+          },
+          "index" : 46,
+          "label" : "Thinking of checking out the Food Truck in its new location in SF today, anyone else down?",
+          "spoken" : "Thinking of checking out the Food Truck in its new location in SF today, anyone else down?",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 11.666666984558105,
+            "x" : 74.33333333333334,
+            "y" : 958
+          },
+          "identifier" : "building.2",
+          "index" : 47,
+          "label" : "Business",
+          "spoken" : "Business, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 27.333333333333258,
+            "width" : 113.66666666666666,
+            "x" : 67,
+            "y" : 951.3333333333334
+          },
+          "index" : 48,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116211,
+            "width" : 13.333333969116211,
+            "x" : 195,
+            "y" : 958
+          },
+          "identifier" : "tag",
+          "index" : 49,
+          "label" : "Tag",
+          "spoken" : "Tag, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.66666666666663,
+            "width" : 117.99999999999997,
+            "x" : 188.66666666666666,
+            "y" : 951.3333333333334
+          },
+          "index" : 50,
+          "label" : "Donuts for one",
+          "spoken" : "Donuts for one",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.333333969116211,
+            "width" : 13.333333969116211,
+            "x" : 73.33333333333333,
+            "y" : 993.3333333333333
+          },
+          "identifier" : "tag",
+          "index" : 51,
+          "label" : "Tag",
+          "spoken" : "Tag, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.33333333333337,
+            "width" : 89.33333333333331,
+            "x" : 67,
+            "y" : 986.6666666666666
+          },
+          "index" : 52,
+          "label" : "Unless...?",
+          "spoken" : "Unless...?",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 72.33333333333331,
+            "x" : 67,
+            "y" : 1019.1666666666666
+          },
+          "index" : 53,
+          "label" : "Today, 18:46",
+          "spoken" : "Today, 18:46",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Sales History|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Sales History",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Sales History",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 209.66666666666666,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 1,
+          "label" : "Sales History",
+          "spoken" : "Sales History",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 123,
+            "x" : 16,
+            "y" : 184
+          },
+          "identifier" : "calendar",
+          "index" : 2,
+          "label" : "2 Weeks",
+          "spoken" : "2 Weeks, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 123,
+            "x" : 139,
+            "y" : 184
+          },
+          "identifier" : "lock",
+          "index" : 3,
+          "label" : "Month",
+          "spoken" : "Month, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 124,
+            "x" : 262,
+            "y" : 184
+          },
+          "identifier" : "lock",
+          "index" : 4,
+          "label" : "Year",
+          "spoken" : "Year, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 74.33333333333333,
+            "x" : 16,
+            "y" : 230.6181640625
+          },
+          "index" : 5,
+          "label" : "Total Sales",
+          "spoken" : "Total Sales",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 107.33333333333333,
+            "x" : 16,
+            "y" : 250.6181640625
+          },
+          "index" : 6,
+          "label" : "8 049 donuts",
+          "spoken" : "8 049 donuts",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donuts",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
+      ],
+      "screen" : "Donuts",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 37.333333333333314,
+            "x" : 289.3333333333333,
+            "y" : 66
+          },
+          "index" : 1,
+          "label" : "Create Donut",
+          "spoken" : "Create Donut, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 39.333333333333314,
+            "x" : 342.66666666666663,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "Layout Options",
+          "spoken" : "Layout Options, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 114.33333333333331,
+            "x" : 15.999999999999993,
+            "y" : 119.66666666666667
+          },
+          "index" : 3,
+          "label" : "Donuts",
+          "spoken" : "Donuts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 168
+          },
+          "index" : 4,
+          "label" : "Truck",
+          "spoken" : "Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 220
+          },
+          "index" : 5,
+          "label" : "Orders",
+          "spoken" : "Orders, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 272
+          },
+          "index" : 6,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 324
+          },
+          "index" : 7,
+          "label" : "Sales History",
+          "spoken" : "Sales History, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : -105,
+            "y" : 393.66666666666663
+          },
+          "index" : 8,
+          "label" : "Donuts",
+          "spoken" : "Donuts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 434
+          },
+          "index" : 9,
+          "label" : "Donuts",
+          "spoken" : "Donuts, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 486
+          },
+          "index" : 10,
+          "label" : "Donut Editor",
+          "spoken" : "Donut Editor, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 538
+          },
+          "index" : 11,
+          "label" : "Top 5",
+          "spoken" : "Top 5, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.33333333333337,
+            "width" : 370,
+            "x" : -105,
+            "y" : 607.3333333333333
+          },
+          "index" : 12,
+          "label" : "Cities",
+          "spoken" : "Cities",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 647.6666666666667
+          },
+          "index" : 13,
+          "label" : "Cupertino",
+          "spoken" : "Cupertino, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 699.6666666666666
+          },
+          "index" : 14,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 751.6666666666666
+          },
+          "index" : 15,
+          "label" : "London",
+          "spoken" : "London, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 107.1005859375,
+            "width" : 62.66666793823242,
+            "x" : 39.66666793823242,
+            "y" : 184
+          },
+          "index" : 16,
+          "label" : "Daytime, Salty",
+          "spoken" : "Daytime, Salty, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Daytime"
+        },
+        {
+          "frame" : {
+            "height" : 107.26724243164062,
+            "width" : 66.66667175292969,
+            "x" : 167.6666717529297,
+            "y" : 184
+          },
+          "index" : 17,
+          "label" : "Fire Zest, Spicy",
+          "spoken" : "Fire Zest, Spicy, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Fire Zest"
+        },
+        {
+          "frame" : {
+            "height" : 107.1005859375,
+            "width" : 88,
+            "x" : 287,
+            "y" : 184
+          },
+          "index" : 18,
+          "label" : "The Classic, Savory",
+          "spoken" : "The Classic, Savory, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "The Classic"
+        },
+        {
+          "frame" : {
+            "height" : 129.201171875,
+            "width" : 78.66666412353516,
+            "x" : 31.66666603088379,
+            "y" : 311.3333435058594
+          },
+          "index" : 19,
+          "label" : "Black Raspberry, Savory",
+          "spoken" : "Black Raspberry, Savory, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Black Raspberry"
+        },
+        {
+          "frame" : {
+            "height" : 107.201171875,
+            "width" : 60.33332824707031,
+            "x" : 170.8333282470703,
+            "y" : 311.3333435058594
+          },
+          "index" : 20,
+          "label" : "Custard, Sour",
+          "spoken" : "Custard, Sour, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Custard"
+        },
+        {
+          "frame" : {
+            "height" : 129.201171875,
+            "width" : 84.66665649414062,
+            "x" : 288.6666564941406,
+            "y" : 311.3333435058594
+          },
+          "index" : 21,
+          "label" : "Powdered Strawberry, Sweet",
+          "spoken" : "Powdered Strawberry, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Powdered Strawberry"
+        },
+        {
+          "frame" : {
+            "height" : 106.96841430664062,
+            "width" : 101.66666412353516,
+            "x" : 20.16666603088379,
+            "y" : 460.6666564941406
+          },
+          "index" : 22,
+          "label" : "Picnic Basket, Sweet",
+          "spoken" : "Picnic Basket, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Picnic Basket"
+        },
+        {
+          "frame" : {
+            "height" : 106.96841430664062,
+            "width" : 66.49998474121094,
+            "x" : 168.6666717529297,
+            "y" : 460.6666564941406
+          },
+          "index" : 23,
+          "label" : "Cosmos, Sweet",
+          "spoken" : "Cosmos, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Cosmos"
+        },
+        {
+          "frame" : {
+            "height" : 106.96841430664062,
+            "width" : 65,
+            "x" : 298.5,
+            "y" : 460.6666564941406
+          },
+          "index" : 24,
+          "label" : "Rainbow, Salty",
+          "spoken" : "Rainbow, Salty, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Rainbow"
+        },
+        {
+          "frame" : {
+            "height" : 129.0689697265625,
+            "width" : 88.33333587646484,
+            "x" : 26.83333396911621,
+            "y" : 587.6666870117188
+          },
+          "index" : 25,
+          "label" : "Strawberry Drizzle, Sweet",
+          "spoken" : "Strawberry Drizzle, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Strawberry Drizzle"
+        },
+        {
+          "frame" : {
+            "height" : 129.0689697265625,
+            "width" : 77.33332824707031,
+            "x" : 162.3333282470703,
+            "y" : 587.6666870117188
+          },
+          "index" : 26,
+          "label" : "Lemon Chocolate, Bitter",
+          "spoken" : "Lemon Chocolate, Bitter, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Lemon Chocolate"
+        },
+        {
+          "frame" : {
+            "height" : 107.0689697265625,
+            "width" : 101,
+            "x" : 280.5,
+            "y" : 587.6666870117188
+          },
+          "index" : 27,
+          "label" : "Figure Skater, Sweet",
+          "spoken" : "Figure Skater, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Figure Skater"
+        },
+        {
+          "frame" : {
+            "height" : 107.1695556640625,
+            "width" : 74.66665649414062,
+            "x" : 33.66666793823242,
+            "y" : 736.6666870117188
+          },
+          "index" : 28,
+          "label" : "Nighttime, Sweet",
+          "spoken" : "Nighttime, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Nighttime"
+        },
+        {
+          "frame" : {
+            "height" : 129.1695556640625,
+            "width" : 88.33332824707031,
+            "x" : 156.8333282470703,
+            "y" : 736.6666870117188
+          },
+          "index" : 29,
+          "label" : "Strawberry Sprinkles, Sweet",
+          "spoken" : "Strawberry Sprinkles, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Strawberry Sprinkles"
+        },
+        {
+          "frame" : {
+            "height" : 129.1695556640625,
+            "width" : 78.33334350585938,
+            "x" : 291.8333435058594,
+            "y" : 736.6666870117188
+          },
+          "index" : 30,
+          "label" : "Blueberry Frosted, Sweet",
+          "spoken" : "Blueberry Frosted, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Blueberry Frosted"
+        },
+        {
+          "frame" : {
+            "height" : 128.93682861328125,
+            "width" : 81.33333587646484,
+            "x" : 30.33333396911621,
+            "y" : 886
+          },
+          "index" : 31,
+          "label" : "Powdered Chocolate, Sweet",
+          "spoken" : "Powdered Chocolate, Sweet, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Powdered Chocolate"
+        },
+        {
+          "frame" : {
+            "height" : 106.93682861328125,
+            "width" : 101.33332824707031,
+            "x" : 150.3333282470703,
+            "y" : 886
+          },
+          "index" : 32,
+          "label" : "Super Lemon, Sour",
+          "spoken" : "Super Lemon, Sour, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Super Lemon"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 8)|face.smiling",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Label not human-readable"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Donut Editor",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Donut Editor",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 88,
+            "x" : 72,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "New Donut",
+          "spoken" : "New Donut, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 168
+          },
+          "index" : 2,
+          "label" : "Truck",
+          "spoken" : "Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 220
+          },
+          "index" : 3,
+          "label" : "Orders",
+          "spoken" : "Orders, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 272
+          },
+          "index" : 4,
+          "label" : "Social Feed",
+          "spoken" : "Social Feed, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 324
+          },
+          "index" : 5,
+          "label" : "Sales History",
+          "spoken" : "Sales History, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : -105,
+            "y" : 393.66666666666663
+          },
+          "index" : 6,
+          "label" : "Donuts",
+          "spoken" : "Donuts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 434
+          },
+          "index" : 7,
+          "label" : "Donuts",
+          "spoken" : "Donuts, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 486
+          },
+          "index" : 8,
+          "label" : "Donut Editor",
+          "spoken" : "Donut Editor, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 538
+          },
+          "index" : 9,
+          "label" : "Top 5",
+          "spoken" : "Top 5, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.33333333333337,
+            "width" : 370,
+            "x" : -105,
+            "y" : 607.3333333333333
+          },
+          "index" : 10,
+          "label" : "Cities",
+          "spoken" : "Cities",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 647.6666666666667
+          },
+          "index" : 11,
+          "label" : "Cupertino",
+          "spoken" : "Cupertino, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 699.6666666666666
+          },
+          "index" : 12,
+          "label" : "San Francisco",
+          "spoken" : "San Francisco, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 751.6666666666666
+          },
+          "index" : 13,
+          "label" : "London",
+          "spoken" : "London, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100,
+            "width" : 100,
+            "x" : 151,
+            "y" : 167
+          },
+          "index" : 14,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100,
+            "width" : 100,
+            "x" : 151,
+            "y" : 167
+          },
+          "index" : 15,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100,
+            "width" : 100,
+            "x" : 151,
+            "y" : 167
+          },
+          "index" : 16,
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 300.66666666666663
+          },
+          "index" : 17,
+          "label" : "Donut",
+          "spoken" : "Donut",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 22,
+            "width" : 338,
+            "x" : 32,
+            "y" : 356
+          },
+          "index" : 18,
+          "placeholder" : "Donut Name",
+          "spoken" : "Donut Name, New Donut, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "New Donut"
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 410.3333333333333
+          },
+          "index" : 19,
+          "label" : "Flavor Profile",
+          "spoken" : "Flavor Profile",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.666667938232422,
+            "width" : 11.666666984558105,
+            "x" : 38.666666666666664,
+            "y" : 467
+          },
+          "index" : 20,
+          "label" : "salty",
+          "spoken" : "salty, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 38,
+            "x" : 64.66666666666667,
+            "y" : 465.6666666666667
+          },
+          "index" : 21,
+          "label" : "Salty",
+          "spoken" : "Salty",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 10,
+            "x" : 360,
+            "y" : 465.6666666666667
+          },
+          "index" : 22,
+          "label" : "2",
+          "spoken" : "2",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13,
+            "width" : 20.666667938232422,
+            "x" : 34,
+            "y" : 497.6666666666667
+          },
+          "index" : 23,
+          "label" : "sweet",
+          "spoken" : "sweet, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 47.33333333333333,
+            "x" : 64.66666666666667,
+            "y" : 494
+          },
+          "index" : 24,
+          "label" : "Sweet",
+          "spoken" : "Sweet",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 10.333333333333314,
+            "x" : 359.66666666666663,
+            "y" : 494
+          },
+          "index" : 25,
+          "label" : "5",
+          "spoken" : "5",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666984558105,
+            "width" : 20.33333396911621,
+            "x" : 34.33333333333333,
+            "y" : 524.6666666666667
+          },
+          "index" : 26,
+          "label" : "bitter",
+          "spoken" : "bitter, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 41.33333333333333,
+            "x" : 64.66666666666667,
+            "y" : 522.3333333333334
+          },
+          "index" : 27,
+          "label" : "Bitter",
+          "spoken" : "Bitter",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 10,
+            "x" : 360,
+            "y" : 522.3333333333334
+          },
+          "index" : 28,
+          "label" : "2",
+          "spoken" : "2",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12.333333969116211,
+            "width" : 20,
+            "x" : 34.33333333333333,
+            "y" : 554.6666666666667
+          },
+          "index" : 29,
+          "label" : "sour",
+          "spoken" : "sour, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 35.66666666666667,
+            "x" : 64.66666666666667,
+            "y" : 550.6666666666667
+          },
+          "index" : 30,
+          "label" : "Sour",
+          "spoken" : "Sour",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 10.333333333333314,
+            "x" : 359.66666666666663,
+            "y" : 550.6666666666667
+          },
+          "index" : 31,
+          "label" : "0",
+          "spoken" : "0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17,
+            "width" : 17,
+            "x" : 36,
+            "y" : 580.6666666666667
+          },
+          "identifier" : "face.smiling",
+          "index" : 32,
+          "label" : "face.smiling",
+          "spoken" : "face.smiling, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 52.33333333333333,
+            "x" : 64.66666666666667,
+            "y" : 579
+          },
+          "index" : 33,
+          "label" : "Savory",
+          "spoken" : "Savory",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 10.666666666666686,
+            "x" : 359.3333333333333,
+            "y" : 579
+          },
+          "index" : 34,
+          "label" : "6",
+          "spoken" : "6",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18.33333396911621,
+            "width" : 18,
+            "x" : 35,
+            "y" : 608.3333333333334
+          },
+          "index" : 35,
+          "label" : "spicy",
+          "spoken" : "spicy, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 42,
+            "x" : 64.66666666666667,
+            "y" : 607.3333333333334
+          },
+          "index" : 36,
+          "label" : "Spicy",
+          "spoken" : "Spicy",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 10.333333333333314,
+            "x" : 359.66666666666663,
+            "y" : 607.3333333333334
+          },
+          "index" : 37,
+          "label" : "0",
+          "spoken" : "0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.33333333333337,
+            "width" : 370,
+            "x" : 16,
+            "y" : 660.3333333333334
+          },
+          "index" : 38,
+          "label" : "Ingredients",
+          "spoken" : "Ingredients",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 50.66666666666666,
+            "x" : 32,
+            "y" : 716.5
+          },
+          "index" : 39,
+          "label" : "Dough",
+          "spoken" : "Dough",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.33331298828125,
+            "width" : 338,
+            "x" : 32,
+            "y" : 709.6666870117188
+          },
+          "index" : 40,
+          "label" : "Dough, Plain",
+          "spoken" : "Dough, Plain, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Plain"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 43,
+            "x" : 32,
+            "y" : 768.5
+          },
+          "index" : 41,
+          "label" : "Glaze",
+          "spoken" : "Glaze",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.33331298828125,
+            "width" : 338,
+            "x" : 32,
+            "y" : 761.6666870117188
+          },
+          "index" : 42,
+          "label" : "Glaze, Chocolate Glaze",
+          "spoken" : "Glaze, Chocolate Glaze, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Chocolate Glaze"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 61.66666666666666,
+            "x" : 32,
+            "y" : 820.5
+          },
+          "index" : 43,
+          "label" : "Topping",
+          "spoken" : "Topping",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.33331298828125,
+            "width" : 338,
+            "x" : 32,
+            "y" : 813.6666870117188
+          },
+          "index" : 44,
+          "label" : "Topping, Sprinkles",
+          "spoken" : "Topping, Sprinkles, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Sprinkles"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Top 5|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Top 5",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Top 5",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 105.33333333333331,
+            "x" : 72,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Top 5 Donuts",
+          "spoken" : "Top 5 Donuts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332,
+            "width" : 642,
+            "x" : -120,
+            "y" : -166
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 2,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 92,
+            "x" : 16,
+            "y" : 132
+          },
+          "index" : 3,
+          "label" : "Day",
+          "spoken" : "Day, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 93,
+            "x" : 108,
+            "y" : 132
+          },
+          "index" : 4,
+          "label" : "Week",
+          "spoken" : "Week, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 92,
+            "x" : 201,
+            "y" : 132
+          },
+          "index" : 5,
+          "label" : "Month",
+          "spoken" : "Month, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 93,
+            "x" : 293,
+            "y" : 132
+          },
+          "index" : 6,
+          "label" : "Year",
+          "spoken" : "Year, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 74.33333333333333,
+            "x" : 16,
+            "y" : 178.6181640625
+          },
+          "index" : 7,
+          "label" : "Total Sales",
+          "spoken" : "Total Sales",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 103.66666666666666,
+            "x" : 16,
+            "y" : 198.6181640625
+          },
+          "index" : 8,
+          "label" : "2 194 donuts",
+          "spoken" : "2 194 donuts",
           "traits" : [
 
           ]

@@ -89,8 +89,8 @@
             "y" : 459
           },
           "index" : 1,
-          "label" : "Добрый день!",
-          "spoken" : "Добрый день!",
+          "label" : "Добрый вечер!",
+          "spoken" : "Добрый вечер!",
           "traits" : [
 
           ]
@@ -703,6 +703,15 @@
             "button"
           ]
         }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Советы",
+      "utterances" : [
+
       ]
     }
   ]

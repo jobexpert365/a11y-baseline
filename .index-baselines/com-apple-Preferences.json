@@ -1933,15 +1933,1816 @@
           "traits" : [
 
           ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Ожидание",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Настройки",
+          "spoken" : "Настройки, button",
+          "traits" : [
+            "button"
+          ]
         },
         {
           "frame" : {
-            "height" : 38.83330065903169,
-            "width" : 337.70361436832775,
-            "x" : 32.14819281583608,
-            "y" : 802.5833496704842
+            "height" : 20.66666666666667,
+            "width" : 87.66666666666669,
+            "x" : 157,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Ожидание",
+          "spoken" : "Ожидание",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 330,
+            "x" : 36,
+            "y" : 146.3333282470703
+          },
+          "identifier" : "AMBIENT_MODE_ENABLED",
+          "index" : 2,
+          "label" : "Ожидание",
+          "spoken" : "Ожидание, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 69.66666666666666,
+            "x" : 36,
+            "y" : 282.66666348775226
           },
           "index" : 3,
+          "label" : "Дисплей",
+          "spoken" : "Дисплей",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 330,
+            "x" : 36,
+            "y" : 394.6666564941406
+          },
+          "identifier" : "NOTIFICATIONS_ENABLED",
+          "index" : 4,
+          "label" : "Показ уведомлений",
+          "spoken" : "Показ уведомлений, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 42.33331298828125,
+            "width" : 330,
+            "x" : 36,
+            "y" : 530.1666870117188
+          },
+          "identifier" : "NOTIFICATIONS_PREVIEW",
+          "index" : 5,
+          "label" : "Предпросмотр только по касанию",
+          "spoken" : "Предпросмотр только по касанию, 0, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "0"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Поиск",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Настройки",
+          "spoken" : "Настройки, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 52.33333333333334,
+            "x" : 174.66666666666666,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Поиск",
+          "spoken" : "Поиск",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 126.33333333333331,
+            "width" : 370,
+            "x" : -105,
+            "y" : 168
+          },
+          "identifier" : "com.apple.settings.primaryAppleAccount",
+          "index" : 2,
+          "label" : "Аккаунт Apple, Войдите, чтобы получить доступ к своим данным iCloud, настроить App Store, использовать сервисы Apple и многое другое.",
+          "spoken" : "Аккаунт Apple, Войдите, чтобы получить доступ к своим данным iCloud, настроить App Store, использовать сервисы Apple и многое другое., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Аккаунт Apple"
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 329.33333333333337
+          },
+          "identifier" : "com.apple.settings.general",
+          "index" : 3,
+          "label" : "Основные",
+          "spoken" : "Основные, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 381.33333333333337
+          },
+          "identifier" : "com.apple.settings.accessibility",
+          "index" : 4,
+          "label" : "Универсальный доступ",
+          "spoken" : "Универсальный доступ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 433.3333333333333
+          },
+          "identifier" : "com.apple.settings.camera",
+          "index" : 5,
+          "label" : "Камера",
+          "spoken" : "Камера, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.99999999999994,
+            "width" : 370,
+            "x" : -105,
+            "y" : 485.3333333333333
+          },
+          "identifier" : "com.apple.settings.actionButton",
+          "index" : 6,
+          "label" : "Кнопка действия",
+          "spoken" : "Кнопка действия, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 537.3333333333333
+          },
+          "identifier" : "com.apple.settings.standBy",
+          "index" : 7,
+          "label" : "Ожидание",
+          "spoken" : "Ожидание, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 589.3333333333333
+          },
+          "identifier" : "com.apple.settings.search",
+          "index" : 8,
+          "label" : "Поиск",
+          "spoken" : "Поиск, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333337,
+            "width" : 370,
+            "x" : -105,
+            "y" : 641.3333333333333
+          },
+          "identifier" : "com.apple.settings.homeScreen",
+          "index" : 9,
+          "label" : "Экран «Домой» и библиотека приложений",
+          "spoken" : "Экран «Домой» и библиотека приложений, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 713.6666666666666
+          },
+          "identifier" : "com.apple.settings.siri",
+          "index" : 10,
+          "label" : "Apple Intelligence и Siri",
+          "spoken" : "Apple Intelligence и Siri, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 800.6666666666666
+          },
+          "identifier" : "com.apple.settings.screenTime",
+          "index" : 11,
+          "label" : "Экранное время",
+          "spoken" : "Экранное время, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 330,
+            "x" : 36,
+            "y" : 166.6666717529297
+          },
+          "identifier" : "Недавние поиски",
+          "index" : 12,
+          "label" : "Недавние поиски",
+          "spoken" : "Недавние поиски, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 330,
+            "x" : 36,
+            "y" : 219.6666717529297
+          },
+          "identifier" : "Похожий контент",
+          "index" : 13,
+          "label" : "Похожий контент",
+          "spoken" : "Похожий контент, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 64,
+            "width" : 325.06982421875,
+            "x" : 36,
+            "y" : 268.0000006357829
+          },
+          "index" : 14,
+          "label" : "Разрешите контенту от Apple и других партнеров отображаться при поиске, в том числе при поиске текста или объектов на фото. О Поиске и конфиденциальности…",
+          "spoken" : "Разрешите контенту от Apple и других партнеров отображаться при поиске, в том числе при поиске текста или объектов на фото. О Поиске и конфиденциальности…",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 157,
+            "x" : 36,
+            "y" : 373.99999745686847
+          },
+          "index" : 15,
+          "label" : "Поисковая система",
+          "spoken" : "Поисковая система",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.333343505859375,
+            "width" : 330,
+            "x" : 36,
+            "y" : 461.1666564941406
+          },
+          "identifier" : "Помощь Apple в улучше­нии Поиска",
+          "index" : 16,
+          "label" : "Помощь Apple в улучше­нии Поиска",
+          "spoken" : "Помощь Apple в улучше­нии Поиска, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 80,
+            "width" : 333.18212890625,
+            "x" : 36,
+            "y" : 526.9999980926514
+          },
+          "index" : 17,
+          "label" : "Помогайте улучшать Поиск, разрешив Apple хранить Ваши поисковые запросы в Safari, Spotlight и при обращении к Siri. Поисковые запросы хранятся в форме, которая не дает возможности установить Вашу личность.",
+          "spoken" : "Помогайте улучшать Поиск, разрешив Apple хранить Ваши поисковые запросы в Safari, Spotlight и при обращении к Siri. Поисковые запросы хранятся в форме, которая не дает возможности установить Вашу личность.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 80,
+            "width" : 308.318359375,
+            "x" : 36,
+            "y" : 622.9999980926514
+          },
+          "index" : 18,
+          "label" : "К поисковым запросам относятся как поиск информации общего характера, так и запросы на выполнение различных действий, например воспроизвести музыку или построить маршрут. О Поиске и конфиденциальности…",
+          "spoken" : "К поисковым запросам относятся как поиск информации общего характера, так и запросы на выполнение различных действий, например воспроизвести музыку или построить маршрут. О Поиске и конфиденциальности…",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 80,
+            "y" : 728.6666692097981
+          },
+          "identifier" : "Блиц-приложения",
+          "index" : 19,
+          "label" : "Блиц-приложения",
+          "spoken" : "Блиц-приложения",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 80,
+            "y" : 780.6666692097981
+          },
+          "identifier" : "com.apple.Health",
+          "index" : 20,
+          "label" : "Здоровье",
+          "spoken" : "Здоровье",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 80,
+            "y" : 832.6666692097981
+          },
+          "identifier" : "com.apple.mobilecal",
+          "index" : 21,
+          "label" : "Календарь",
+          "spoken" : "Календарь",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 80,
+            "y" : 884.6666692097981
+          },
+          "identifier" : "com.apple.Maps",
+          "index" : 22,
+          "label" : "Карты",
+          "spoken" : "Карты",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.shortcuts",
+          "index" : 23,
+          "label" : "Команды",
+          "spoken" : "Команды",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.MobileAddressBook",
+          "index" : 24,
+          "label" : "Контакты",
+          "spoken" : "Контакты",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.reminders",
+          "index" : 25,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.Preferences",
+          "index" : 26,
+          "label" : "Настройки",
+          "spoken" : "Настройки",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.Passwords",
+          "index" : 27,
+          "label" : "Пароли",
+          "spoken" : "Пароли",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.Preview",
+          "index" : 28,
+          "label" : "Просмотр",
+          "spoken" : "Просмотр",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.MobileSMS",
+          "index" : 29,
+          "label" : "Сообщения",
+          "spoken" : "Сообщения",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.DocumentsApp",
+          "index" : 30,
+          "label" : "Файлы",
+          "spoken" : "Файлы",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.mobileslideshow",
+          "index" : 31,
+          "label" : "Фото",
+          "spoken" : "Фото",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "dev.a11ybaseline.demo",
+          "index" : 32,
+          "label" : "A11yDemo",
+          "spoken" : "A11yDemo",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "dev.a11ybaseline.demo.uitests.xctrunner",
+          "index" : 33,
+          "label" : "A11yDemoUITests-Runner",
+          "spoken" : "A11yDemoUITests-Runner",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.probe.A11yProbe",
+          "index" : 34,
+          "label" : "A11yProbe",
+          "spoken" : "A11yProbe",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.probe.A11yProbeUITests.xctrunner",
+          "index" : 35,
+          "label" : "A11yProbeUITests-Runner",
+          "spoken" : "A11yProbeUITests-Runner",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "dev.a11ybaseline.scanner.uitests.xctrunner",
+          "index" : 36,
+          "label" : "A11yScannerUITests-Runner",
+          "spoken" : "A11yScannerUITests-Runner",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "stiks.AudioPlayer-test",
+          "index" : 37,
+          "label" : "AudioPlayer_test",
+          "spoken" : "AudioPlayer_test",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.dcg.ChartsDemo-iOS",
+          "index" : 38,
+          "label" : "ChartsDemo-iOS",
+          "spoken" : "ChartsDemo-iOS",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.Fitness",
+          "index" : 39,
+          "label" : "Fitness",
+          "spoken" : "Fitness",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.example.apple-samplecode.Food-Truck",
+          "index" : 40,
+          "label" : "Food Truck",
+          "spoken" : "Food Truck",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.example.IceCubesApp",
+          "index" : 41,
+          "label" : "Ice Cubes",
+          "spoken" : "Ice Cubes",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.iftekhar.IQKeyboardManagerSwiftExample",
+          "index" : 42,
+          "label" : "IQKB Swift",
+          "spoken" : "IQKB Swift",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.onevcat.Kingfisher-Demo",
+          "index" : 43,
+          "label" : "Kingfisher-Demo",
+          "spoken" : "Kingfisher-Demo",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.news",
+          "index" : 44,
+          "label" : "News",
+          "spoken" : "News",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.exyte.PopupExample",
+          "index" : 45,
+          "label" : "PopupExample",
+          "spoken" : "PopupExample",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.github.kean.pulse-demo",
+          "index" : 46,
+          "label" : "Pulse Demo iOS",
+          "spoken" : "Pulse Demo iOS",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.mobilesafari",
+          "index" : 47,
+          "label" : "Safari",
+          "spoken" : "Safari",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.sonava.player",
+          "index" : 48,
+          "label" : "Sonava",
+          "spoken" : "Sonava",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.sonava.player.uitests.xctrunner",
+          "index" : 49,
+          "label" : "SonavaUITests-Runner",
+          "spoken" : "SonavaUITests-Runner",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.Passbook",
+          "index" : 50,
+          "label" : "Wallet",
+          "spoken" : "Wallet",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.Bridge",
+          "index" : 51,
+          "label" : "Watch",
+          "spoken" : "Watch",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 336,
+            "x" : 32.99999999999994,
+            "y" : 803
+          },
+          "index" : 52,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран «Домой» и библиотека приложений|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран «Домой» и библиотека приложений",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран «Домой» и библиотека приложений|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран «Домой» и библиотека приложений",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Экран «Домой» и библиотека приложений|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Экран «Домой» и библиотека приложений",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран «Домой» и библиотека приложений|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Экран «Домой» и библиотека приложений",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Экран «Домой» и библиотека приложений|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран «Домой» и библиотека приложений",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Экран «Домой» и библиотека приложений|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран «Домой» и библиотека приложений",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Экран «Домой» и библиотека приложений|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Экран «Домой» и библиотека приложений",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Экран «Домой» и библиотека приложений",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Настройки",
+          "spoken" : "Настройки, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 314,
+            "x" : 72,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Экран «Домой» и библиотека приложений",
+          "spoken" : "Экран «Домой» и библиотека приложений",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 126.33333333333331,
+            "width" : 370,
+            "x" : -105,
+            "y" : 168
+          },
+          "identifier" : "com.apple.settings.primaryAppleAccount",
+          "index" : 2,
+          "label" : "Аккаунт Apple, Войдите, чтобы получить доступ к своим данным iCloud, настроить App Store, использовать сервисы Apple и многое другое.",
+          "spoken" : "Аккаунт Apple, Войдите, чтобы получить доступ к своим данным iCloud, настроить App Store, использовать сервисы Apple и многое другое., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Аккаунт Apple"
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 329.33333333333337
+          },
+          "identifier" : "com.apple.settings.general",
+          "index" : 3,
+          "label" : "Основные",
+          "spoken" : "Основные, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 381.33333333333337
+          },
+          "identifier" : "com.apple.settings.accessibility",
+          "index" : 4,
+          "label" : "Универсальный доступ",
+          "spoken" : "Универсальный доступ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 433.3333333333333
+          },
+          "identifier" : "com.apple.settings.camera",
+          "index" : 5,
+          "label" : "Камера",
+          "spoken" : "Камера, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.99999999999994,
+            "width" : 370,
+            "x" : -105,
+            "y" : 485.3333333333333
+          },
+          "identifier" : "com.apple.settings.actionButton",
+          "index" : 6,
+          "label" : "Кнопка действия",
+          "spoken" : "Кнопка действия, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 537.3333333333333
+          },
+          "identifier" : "com.apple.settings.standBy",
+          "index" : 7,
+          "label" : "Ожидание",
+          "spoken" : "Ожидание, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 589.3333333333333
+          },
+          "identifier" : "com.apple.settings.search",
+          "index" : 8,
+          "label" : "Поиск",
+          "spoken" : "Поиск, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333337,
+            "width" : 370,
+            "x" : -105,
+            "y" : 641.3333333333333
+          },
+          "identifier" : "com.apple.settings.homeScreen",
+          "index" : 9,
+          "label" : "Экран «Домой» и библиотека приложений",
+          "spoken" : "Экран «Домой» и библиотека приложений, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 713.6666666666666
+          },
+          "identifier" : "com.apple.settings.siri",
+          "index" : 10,
+          "label" : "Apple Intelligence и Siri",
+          "spoken" : "Apple Intelligence и Siri, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 800.6666666666666
+          },
+          "identifier" : "com.apple.settings.screenTime",
+          "index" : 11,
+          "label" : "Экранное время",
+          "spoken" : "Экранное время, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.33333333333334,
+            "width" : 370,
+            "x" : 16,
+            "y" : 116
+          },
+          "index" : 12,
+          "label" : "Недавно загруженные приложения",
+          "spoken" : "Недавно загруженные приложения",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 156.33333333333334
+          },
+          "identifier" : "APP_DOWNLOADS_HOME_SCREEN",
+          "index" : 13,
+          "label" : "Также на экране «Домой»",
+          "spoken" : "Также на экране «Домой», button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 208.33333333333331
+          },
+          "identifier" : "APP_DOWNLOADS_LIBRARY",
+          "index" : 14,
+          "label" : "Только в библиотеке приложений",
+          "spoken" : "Только в библиотеке приложений, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 278
+          },
+          "index" : 15,
+          "label" : "Значки уведомлений",
+          "spoken" : "Значки уведомлений",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 318.33333333333337
+          },
+          "identifier" : "BADGES_IN_APP_LIBRARY",
+          "index" : 16,
+          "label" : "В библиотеке приложений",
+          "spoken" : "В библиотеке приложений, 0, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "0"
+        },
+        {
+          "frame" : {
+            "height" : 40.333333333333314,
+            "width" : 370,
+            "x" : 16,
+            "y" : 387.6666666666667
+          },
+          "index" : 17,
+          "label" : "Поиск",
+          "spoken" : "Поиск",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : 16,
+            "y" : 428
+          },
+          "identifier" : "SHOW_SPOTLIGHT",
+          "index" : 18,
+          "label" : "На экране «Домой»",
+          "spoken" : "На экране «Домой», 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 336,
+            "x" : 32.99999999999994,
+            "y" : 803
+          },
+          "index" : 19,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Apple Intelligence и Siri|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Apple Intelligence и Siri",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Apple Intelligence и Siri|platform|XCUIAccessibilityAuditType(rawValue: 1)|Сбросить скрытые предложения",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Apple Intelligence и Siri",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Apple Intelligence и Siri|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Apple Intelligence и Siri",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Apple Intelligence и Siri|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Apple Intelligence и Siri",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Apple Intelligence и Siri",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Настройки",
+          "spoken" : "Настройки, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 126.33333333333331,
+            "width" : 370,
+            "x" : -105,
+            "y" : 168
+          },
+          "identifier" : "com.apple.settings.primaryAppleAccount",
+          "index" : 1,
+          "label" : "Аккаунт Apple, Войдите, чтобы получить доступ к своим данным iCloud, настроить App Store, использовать сервисы Apple и многое другое.",
+          "spoken" : "Аккаунт Apple, Войдите, чтобы получить доступ к своим данным iCloud, настроить App Store, использовать сервисы Apple и многое другое., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Аккаунт Apple"
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 329.33333333333337
+          },
+          "identifier" : "com.apple.settings.general",
+          "index" : 2,
+          "label" : "Основные",
+          "spoken" : "Основные, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 381.33333333333337
+          },
+          "identifier" : "com.apple.settings.accessibility",
+          "index" : 3,
+          "label" : "Универсальный доступ",
+          "spoken" : "Универсальный доступ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 433.3333333333333
+          },
+          "identifier" : "com.apple.settings.camera",
+          "index" : 4,
+          "label" : "Камера",
+          "spoken" : "Камера, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.99999999999994,
+            "width" : 370,
+            "x" : -105,
+            "y" : 485.3333333333333
+          },
+          "identifier" : "com.apple.settings.actionButton",
+          "index" : 5,
+          "label" : "Кнопка действия",
+          "spoken" : "Кнопка действия, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 537.3333333333333
+          },
+          "identifier" : "com.apple.settings.standBy",
+          "index" : 6,
+          "label" : "Ожидание",
+          "spoken" : "Ожидание, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 589.3333333333333
+          },
+          "identifier" : "com.apple.settings.search",
+          "index" : 7,
+          "label" : "Поиск",
+          "spoken" : "Поиск, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333337,
+            "width" : 370,
+            "x" : -105,
+            "y" : 641.3333333333333
+          },
+          "identifier" : "com.apple.settings.homeScreen",
+          "index" : 8,
+          "label" : "Экран «Домой» и библиотека приложений",
+          "spoken" : "Экран «Домой» и библиотека приложений, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 713.6666666666666
+          },
+          "identifier" : "com.apple.settings.siri",
+          "index" : 9,
+          "label" : "Apple Intelligence и Siri",
+          "spoken" : "Apple Intelligence и Siri, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 370,
+            "x" : -105,
+            "y" : 800.6666666666666
+          },
+          "identifier" : "com.apple.settings.screenTime",
+          "index" : 10,
+          "label" : "Экранное время",
+          "spoken" : "Экранное время, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60.00000000000003,
+            "width" : 60,
+            "x" : 36,
+            "y" : 149.33333269755045
+          },
+          "index" : 11,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 34.66666666666666,
+            "x" : 72.33333333333334,
+            "y" : 194.00000190734863
+          },
+          "index" : 12,
+          "label" : "БЕТА-ВЕРСИЯ",
+          "spoken" : "БЕТА-ВЕРСИЯ",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333314,
+            "width" : 241,
+            "x" : 36,
+            "y" : 224.16666857401532
+          },
+          "index" : 13,
+          "label" : "Apple Intelligence и Siri",
+          "spoken" : "Apple Intelligence и Siri",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 86.33333333333331,
+            "width" : 308,
+            "x" : 36,
+            "y" : 254.50000190734863
+          },
+          "index" : 14,
+          "label" : "Ваш собственный интеллектуальный помощник, глубоко интегрированный с iPhone, приложениями и Siri. Подробнее…",
+          "spoken" : "Ваш собственный интеллектуальный помощник, глубоко интегрированный с iPhone, приложениями и Siri. Подробнее…",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 40.33333333333334,
+            "x" : 36,
+            "y" : 427.6666717529297
+          },
+          "identifier" : "LANGUAGE_ID",
+          "index" : 15,
+          "label" : "Язык",
+          "spoken" : "Язык",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 66.33333333333331,
+            "x" : 277.33333333333337,
+            "y" : 427.6666717529297
+          },
+          "index" : 16,
+          "label" : "Русский",
+          "spoken" : "Русский",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333343505859375,
+            "width" : 307.66668701171875,
+            "x" : 36,
+            "y" : 480
+          },
+          "identifier" : "VOICE_ID",
+          "index" : 17,
+          "label" : "Голос, Русский (Голос 2)",
+          "spoken" : "Голос, Русский (Голос 2), button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Голос"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 87.33333333333333,
+            "x" : 36,
+            "y" : 533.0000050862631
+          },
+          "index" : 18,
+          "label" : "Ответы Siri",
+          "spoken" : "Ответы Siri",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 153.66666666666666,
+            "x" : 36,
+            "y" : 586.0000050862631
+          },
+          "index" : 19,
+          "label" : "Сообщения для Siri",
+          "spoken" : "Сообщения для Siri",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 190,
+            "x" : 36,
+            "y" : 639.0000050862631
+          },
+          "index" : 20,
+          "label" : "История Siri и Диктовки",
+          "spoken" : "История Siri и Диктовки",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33331298828125,
+            "width" : 307.66668701171875,
+            "x" : 36,
+            "y" : 692
+          },
+          "identifier" : "MY_INFO",
+          "index" : 21,
+          "label" : "Моя информация, Нет",
+          "spoken" : "Моя информация, Нет, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Моя информация"
+        },
+        {
+          "frame" : {
+            "height" : 42.33331298828125,
+            "width" : 330,
+            "x" : 36,
+            "y" : 853.5
+          },
+          "identifier" : "Предлагаемые приложения перед поиском",
+          "index" : 22,
+          "label" : "Предлагаемые приложения перед поиском",
+          "spoken" : "Предлагаемые приложения перед поиском, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333258,
+            "width" : 264,
+            "x" : 36,
+            "y" : 927.6666711171468
+          },
+          "identifier" : "Сбросить скрытые предложения",
+          "index" : 23,
+          "label" : "Сбросить скрытые предложения",
+          "spoken" : "Сбросить скрытые предложения, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "identifier" : "Допуск уведомлений",
+          "index" : 24,
+          "label" : "Допуск уведомлений",
+          "spoken" : "Допуск уведомлений, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "identifier" : "В библиотеке приложений",
+          "index" : 25,
+          "label" : "В библиотеке приложений",
+          "spoken" : "В библиотеке приложений, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "identifier" : "При отправке контента",
+          "index" : 26,
+          "label" : "При отправке контента",
+          "spoken" : "При отправке контента, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "identifier" : "При реагировании на речь",
+          "index" : 27,
+          "label" : "При реагировании на речь",
+          "spoken" : "При реагировании на речь, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 78,
+            "width" : 402,
+            "x" : 0,
+            "y" : 838.0000019073486
+          },
+          "index" : 28,
+          "label" : "Предложения от Apple могут появляться в Поиске, на экране «Домой» и экране блокировки, при отправке контента, а также в случаях, когда Вам может быть уместно послушать медиаконтент.",
+          "spoken" : "Предложения от Apple могут появляться в Поиске, на экране «Домой» и экране блокировки, при отправке контента, а также в случаях, когда Вам может быть уместно послушать медиаконтент.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 402,
+            "x" : 0,
+            "y" : 1254.3333358764648
+          },
+          "index" : 29,
+          "label" : "Доступ к Apple Intelligence и Siri для приложений",
+          "spoken" : "Доступ к Apple Intelligence и Siri для приложений",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "identifier" : "ASSISTANT_APP_CLIPS_SETTINGS_ID",
+          "index" : 30,
+          "label" : "Блиц-приложения",
+          "spoken" : "Блиц-приложения, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
+          },
+          "identifier" : "ASSISTANT_APPS_SETTINGS_ID",
+          "index" : 31,
+          "label" : "Приложения",
+          "spoken" : "Приложения, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 336,
+            "x" : 32.99999999999994,
+            "y" : 803
+          },
+          "index" : 32,
           "label" : "Поиск",
           "placeholder" : "Поиск",
           "spoken" : "Поиск, searchField",

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Доступность Файлы — проверка VoiceOver</title>
-<meta name="description" content="Что VoiceOver произносит в приложении Файлы: результат автоматической проверки 31 элементов интерфейса.">
+<meta name="description" content="Что VoiceOver произносит в приложении Файлы: результат автоматической проверки 150 элементов интерфейса.">
 <style>:root {
   --ground: #f6f7f9; --surface: #fff; --ink: #14181f; --ink-2: #444c5a;
   --muted: #6b7280; --hair: #e2e5ea; --accent: #8a3324; --ok: #1a6b5f;
@@ -55,12 +55,12 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
     <p class="lede">
       Автоматическая проверка того, что произносит VoiceOver.
       Версия —, iOS 26.4,
-      язык интерфейса «ru». Пройдено элементов: 31.
+      язык интерфейса «ru». Пройдено элементов: 150.
     </p>
     <dl class="tally">
-      <div><dt>Находки проверок</dt><dd>1</dd></div>
-      <div><dt>Встроенный аудит Apple</dt><dd>3</dd></div>
-      <div><dt>Экранов</dt><dd>3</dd></div>
+      <div><dt>Находки проверок</dt><dd>0</dd></div>
+      <div><dt>Встроенный аудит Apple</dt><dd>5</dd></div>
+      <div><dt>Экранов</dt><dd>5</dd></div>
     </dl>
 
     <!-- Список пройденных экранов с числом элементов.
@@ -70,7 +70,7 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
          относится к его приложению. -->
     <p class="walked">
       Пройдено:
-      <b>Стартовый экран</b> (9), <b>Общие</b> (9), <b>Обзор</b> (13)
+      <b>Стартовый экран</b> (43), <b>Недавние</b> (9), <b>Общие</b> (9), <b>Обзор</b> (43), <b>FullDocumentManagerViewControllerNavigationBar</b> (46)
     </p>
   </header>
 
@@ -79,7 +79,11 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
     <p>
       Машина проверяет форму: есть ли подпись, не попало ли в неё имя файла,
       не звучат ли элементы одинаково, совпадает ли видимая надпись с озвучкой.
-      Всё это воспроизводимо — прогон можно повторить и получить тот же результат.
+      Проверки не зависят от вкуса: прогон можно повторить и сверить
+      результат с этой страницей. Совпадение измерено — два одинаковых
+      прогона подряд дали одно и то же число элементов в 20 приложениях
+      из 24. Там, где приложение догружает содержимое с задержкой,
+      обход может пройти разное число экранов.
     </p>
     <p>
       Машина <strong>не проверяет смысл</strong>. Подпись «Кнопка 2» пройдёт все
@@ -89,24 +93,16 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
     </p>
   </section>
 
-    <section class="group">
-    <h2>Понятно с усилием <span class="count">1</span></h2>
-    <article class="finding">
-  <h3>2 элемента звучат одинаково: «Обзор»</h3>
-  <p class="screen">Обзор</p>
-  <p>Все они произносятся как «Обзор, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
-  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
-</article>
-  </section>
+  
 
   <section class="group platform">
-  <h2>Что нашли встроенные инструменты Apple <span class="count">3</span></h2>
+  <h2>Что нашли встроенные инструменты Apple <span class="count">5</span></h2>
   <p class="note">
     Эти находки выдаёт <code>performAccessibilityAudit</code> — он входит
     в Xcode и доступен любой команде бесплатно. Раздел показан отдельно,
     чтобы было видно, где заканчивается бесплатное.
   </p>
-  <ul><li>Hit area is too small</li><li>Hit area is too small</li><li>Hit area is too small</li></ul>
+  <ul><li>Hit area is too small</li><li>Hit area is too small</li><li>Hit area is too small</li><li>Hit area is too small</li><li>Hit area is too small</li></ul>
 </section>
 
   <footer>
@@ -116,7 +112,7 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
       Напишите, и страница будет исправлена: <a href="https://github.com/jobexpert365/a11y-baseline/issues/new">сообщить об ошибке</a>.
     </p>
     <p class="repro">
-      Проверка выполнена открытым инструментом, результат воспроизводим:
+      Проверка выполнена открытым инструментом, прогон можно повторить:
       <a href="https://github.com/jobexpert365/a11y-baseline">a11y-baseline</a>.
     </p>
   </footer>

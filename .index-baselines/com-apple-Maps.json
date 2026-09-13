@@ -83,16 +83,6 @@
           "summary" : "Contrast failed"
         },
         {
-          "evidence" : "Contrast failed for element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast failed"
-        },
-        {
           "evidence" : "Contrast is not high enough for element unless font size is larger.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
           "occurrences" : 1,
@@ -409,16 +399,6 @@
           "summary" : "Contrast failed"
         },
         {
-          "evidence" : "Contrast failed for element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast failed"
-        },
-        {
           "evidence" : "Contrast is not high enough for element unless font size is larger.",
           "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
           "occurrences" : 1,
@@ -433,10 +413,10 @@
       "utterances" : [
         {
           "frame" : {
-            "height" : 20.33333333333333,
-            "width" : 266,
-            "x" : 62.33333333333334,
-            "y" : 76
+            "height" : 18,
+            "width" : 238.66666666666663,
+            "x" : 76.99999999999999,
+            "y" : 69
           },
           "identifier" : "StatusIndicatorLabel",
           "index" : 0,
@@ -450,8 +430,8 @@
           "frame" : {
             "height" : 12.666666666666671,
             "width" : 9.333333333333314,
-            "x" : 332.33333333333337,
-            "y" : 79.66666666666667
+            "x" : 317.66666666666674,
+            "y" : 71.66666666666667
           },
           "identifier" : "StatusIndicatorDisclosure",
           "index" : 1,

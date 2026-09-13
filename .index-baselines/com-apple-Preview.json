@@ -16,7 +16,2271 @@
       ],
       "screen" : "Стартовый экран",
       "utterances" : [
+        {
+          "frame" : {
+            "height" : 9.235653543307023,
+            "width" : 475.6129133858268,
+            "x" : 27.748031496062993,
+            "y" : 175.46929133858276
+          },
+          "index" : 0,
+          "label" : "Apple Inc. Preview",
+          "spoken" : "Apple Inc. Preview",
+          "traits" : [
 
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 71.57631496062993,
+            "width" : 451.6153228346456,
+            "x" : 40.6765905511811,
+            "y" : 211.64291338582677
+          },
+          "index" : 1,
+          "label" : "TODA Y’S NEWS",
+          "spoken" : "TODA Y’S NEWS",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.780220472440988,
+            "width" : 65.54834645669291,
+            "x" : 27.748031496062993,
+            "y" : 304.52244094488185
+          },
+          "index" : 2,
+          "label" : "Preview",
+          "spoken" : "Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100.70503937007874,
+            "width" : 368.03537007874024,
+            "x" : 27.748031496062993,
+            "y" : 331.76258267716537
+          },
+          "index" : 3,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.853480314960564,
+            "width" : 70.18554330708656,
+            "x" : 407.4015748031496,
+            "y" : 341.18031496063
+          },
+          "index" : 4,
+          "label" : "Here’s to the",
+          "spoken" : "Here’s to the",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.85348031496062,
+            "width" : 63.293669291338574,
+            "x" : 407.4015748031496,
+            "y" : 358.6133858267717
+          },
+          "index" : 5,
+          "label" : "crazy ones.",
+          "spoken" : "crazy ones.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.58576377952761,
+            "width" : 90.41952755905515,
+            "x" : 407.4015748031496,
+            "y" : 626.8889763779528
+          },
+          "index" : 6,
+          "label" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "spoken" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.27196850393705,
+            "width" : 476.5039370078742,
+            "x" : 27.748031496062993,
+            "y" : 732.7232125984252
+          },
+          "index" : 7,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.235653543306967,
+            "width" : 477.116031496063,
+            "x" : 27.748031496062993,
+            "y" : 859.2330708661418
+          },
+          "index" : 8,
+          "label" : "Issue 1 Cupertino, CA",
+          "spoken" : "Issue 1 Cupertino, CA",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.8,
+            "width" : 400,
+            "x" : -10,
+            "y" : 140
+          },
+          "index" : 9,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.80000000000007,
+            "width" : 400,
+            "x" : -10,
+            "y" : 472.80000000000007
+          },
+          "index" : 10,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333334,
+            "width" : 289.33333333333337,
+            "x" : 56.33333333333334,
+            "y" : 164
+          },
+          "index" : 11,
+          "label" : "Просмотр",
+          "spoken" : "Просмотр",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 280,
+            "x" : 61,
+            "y" : 272.33333333333337
+          },
+          "index" : 12,
+          "label" : "Новый документ",
+          "spoken" : "Новый документ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.33333333333337,
+            "width" : 280,
+            "x" : 61,
+            "y" : 334.66666666666663
+          },
+          "index" : 13,
+          "label" : "Отсканировать документы",
+          "spoken" : "Отсканировать документы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.56716417910445,
+            "width" : 34.56716417910445,
+            "x" : 340.228855721393,
+            "y" : 479.03980099502485
+          },
+          "index" : 14,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.24875621890544,
+            "width" : 355.27363184079604,
+            "x" : 23.36318407960199,
+            "y" : 528.0099502487562
+          },
+          "index" : 15,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 274.61691542288565,
+            "width" : 616.4477611940298,
+            "x" : -107.22388059701493,
+            "y" : 728.6915422885572
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 16,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.044776119402968,
+            "width" : 57.932006633499164,
+            "x" : 38.72636815920398,
+            "y" : 594.2636815920398
+          },
+          "index" : 17,
+          "label" : "Места",
+          "spoken" : "Места",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 600.8250414593698
+          },
+          "identifier" : "chevron.forward",
+          "index" : 18,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 600.8250414593698
+          },
+          "identifier" : "chevron.forward",
+          "index" : 19,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 21.444444444444457,
+            "width" : 29.446102819237154,
+            "x" : 35.52570480928689,
+            "y" : 641.3134328358209
+          },
+          "identifier" : "icloud",
+          "index" : 20,
+          "label" : "iCloud",
+          "spoken" : "iCloud, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 88.65837479270316,
+            "x" : 77.13432835820895,
+            "y" : 642.273631840796
+          },
+          "index" : 21,
+          "label" : "iCloud Drive",
+          "spoken" : "iCloud Drive",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 645.1542288557214
+          },
+          "identifier" : "chevron.forward",
+          "index" : 22,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.28524046434495,
+            "width" : 20.48424543946932,
+            "x" : 40.00663349917081,
+            "y" : 689.3233830845771
+          },
+          "identifier" : "iphone",
+          "index" : 23,
+          "label" : "iphone",
+          "spoken" : "iphone, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 74.89552238805969,
+            "x" : 77.13432835820895,
+            "y" : 692.2039800995025
+          },
+          "index" : 24,
+          "label" : "На iPhone",
+          "spoken" : "На iPhone",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 695.0845771144278
+          },
+          "identifier" : "chevron.forward",
+          "index" : 25,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.885572139303463,
+            "width" : 23.044776119402982,
+            "x" : 38.72636815920398,
+            "y" : 738.2935323383084
+          },
+          "identifier" : "trash",
+          "index" : 26,
+          "label" : "корзина",
+          "spoken" : "корзина, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 154.91210613598673,
+            "x" : 77.13432835820896,
+            "y" : 742.1343283582089
+          },
+          "index" : 27,
+          "label" : "Недавно удаленные",
+          "spoken" : "Недавно удаленные",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 745.0149253731342
+          },
+          "identifier" : "chevron.forward",
+          "index" : 28,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.044776119402968,
+            "width" : 41.92868988391376,
+            "x" : 38.72636815920397,
+            "y" : 803.2669983416251
+          },
+          "index" : 29,
+          "label" : "Теги",
+          "spoken" : "Теги",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 809.8283582089553
+          },
+          "identifier" : "chevron.forward",
+          "index" : 30,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 809.8283582089553
+          },
+          "identifier" : "chevron.forward",
+          "index" : 31,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.32338308457713,
+            "width" : 16.643449419568817,
+            "x" : 41.927031509121065,
+            "y" : 852.87728026534
+          },
+          "index" : 32,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 68.17412935323382,
+            "x" : 77.13432835820895,
+            "y" : 851.2769485903814
+          },
+          "index" : 33,
+          "label" : "Красный",
+          "spoken" : "Красный",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 854.1575456053067
+          },
+          "identifier" : "chevron.forward",
+          "index" : 34,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.2587064676617,
+            "x" : 73.29353233830845,
+            "y" : 790.1442786069651
+          },
+          "index" : 35,
+          "label" : "Недавние",
+          "spoken" : "Недавние, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 155.87064676616916,
+            "y" : 790.1442786069651
+          },
+          "index" : 36,
+          "label" : "Общие",
+          "spoken" : "Общие, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 238.44776119402985,
+            "y" : 790.1442786069651
+          },
+          "index" : 37,
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Недавние",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 9.235653543307023,
+            "width" : 475.6129133858268,
+            "x" : 27.748031496062993,
+            "y" : 175.46929133858276
+          },
+          "index" : 0,
+          "label" : "Apple Inc. Preview",
+          "spoken" : "Apple Inc. Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 71.57631496062993,
+            "width" : 451.6153228346456,
+            "x" : 40.6765905511811,
+            "y" : 211.64291338582677
+          },
+          "index" : 1,
+          "label" : "TODA Y’S NEWS",
+          "spoken" : "TODA Y’S NEWS",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.780220472440988,
+            "width" : 65.54834645669291,
+            "x" : 27.748031496062993,
+            "y" : 304.52244094488185
+          },
+          "index" : 2,
+          "label" : "Preview",
+          "spoken" : "Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100.70503937007874,
+            "width" : 368.03537007874024,
+            "x" : 27.748031496062993,
+            "y" : 331.76258267716537
+          },
+          "index" : 3,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.853480314960564,
+            "width" : 70.18554330708656,
+            "x" : 407.4015748031496,
+            "y" : 341.18031496063
+          },
+          "index" : 4,
+          "label" : "Here’s to the",
+          "spoken" : "Here’s to the",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.85348031496062,
+            "width" : 63.293669291338574,
+            "x" : 407.4015748031496,
+            "y" : 358.6133858267717
+          },
+          "index" : 5,
+          "label" : "crazy ones.",
+          "spoken" : "crazy ones.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.58576377952761,
+            "width" : 90.41952755905515,
+            "x" : 407.4015748031496,
+            "y" : 626.8889763779528
+          },
+          "index" : 6,
+          "label" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "spoken" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.27196850393705,
+            "width" : 476.5039370078742,
+            "x" : 27.748031496062993,
+            "y" : 732.7232125984252
+          },
+          "index" : 7,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.235653543306967,
+            "width" : 477.116031496063,
+            "x" : 27.748031496062993,
+            "y" : 859.2330708661418
+          },
+          "index" : 8,
+          "label" : "Issue 1 Cupertino, CA",
+          "spoken" : "Issue 1 Cupertino, CA",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.8,
+            "width" : 400,
+            "x" : -10,
+            "y" : 140
+          },
+          "index" : 9,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.80000000000007,
+            "width" : 400,
+            "x" : -10,
+            "y" : 472.80000000000007
+          },
+          "index" : 10,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333334,
+            "width" : 289.33333333333337,
+            "x" : 56.33333333333334,
+            "y" : 164
+          },
+          "index" : 11,
+          "label" : "Просмотр",
+          "spoken" : "Просмотр",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 280,
+            "x" : 61,
+            "y" : 272.33333333333337
+          },
+          "index" : 12,
+          "label" : "Новый документ",
+          "spoken" : "Новый документ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.33333333333337,
+            "width" : 280,
+            "x" : 61,
+            "y" : 334.66666666666663
+          },
+          "index" : 13,
+          "label" : "Отсканировать документы",
+          "spoken" : "Отсканировать документы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.56716417910445,
+            "width" : 34.56716417910445,
+            "x" : 286.45771144278604,
+            "y" : 479.03980099502485
+          },
+          "identifier" : "OverflowBarButtonItem",
+          "index" : 14,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.56716417910445,
+            "width" : 34.56716417910445,
+            "x" : 340.228855721393,
+            "y" : 479.03980099502485
+          },
+          "index" : 15,
+          "label" : "Поиск",
+          "spoken" : "Поиск, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52.81094527363189,
+            "width" : 54.4112769485904,
+            "x" : 173.7943615257048,
+            "y" : 593.6235489220563
+          },
+          "identifier" : "clock.fill",
+          "index" : 16,
+          "label" : "часы",
+          "spoken" : "часы, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.60530679933663,
+            "width" : 142.10945273631842,
+            "x" : 129.9452736318408,
+            "y" : 660.5174129353234
+          },
+          "index" : 17,
+          "label" : "Нет недавних",
+          "spoken" : "Нет недавних",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.603648424543962,
+            "width" : 322.6268656716418,
+            "x" : 39.6865671641791,
+            "y" : 688.6832504145937
+          },
+          "index" : 18,
+          "label" : "Здесь появятся недавно открытые документы.",
+          "spoken" : "Здесь появятся недавно открытые документы.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.2587064676617,
+            "x" : 73.29353233830845,
+            "y" : 790.1442786069651
+          },
+          "index" : 19,
+          "label" : "Недавние",
+          "spoken" : "Недавние, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 155.87064676616916,
+            "y" : 790.1442786069651
+          },
+          "index" : 20,
+          "label" : "Общие",
+          "spoken" : "Общие, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 238.44776119402985,
+            "y" : 790.1442786069651
+          },
+          "index" : 21,
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Общие",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 9.235653543307023,
+            "width" : 475.6129133858268,
+            "x" : 27.748031496062993,
+            "y" : 175.46929133858276
+          },
+          "index" : 0,
+          "label" : "Apple Inc. Preview",
+          "spoken" : "Apple Inc. Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 71.57631496062993,
+            "width" : 451.6153228346456,
+            "x" : 40.6765905511811,
+            "y" : 211.64291338582677
+          },
+          "index" : 1,
+          "label" : "TODA Y’S NEWS",
+          "spoken" : "TODA Y’S NEWS",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.780220472440988,
+            "width" : 65.54834645669291,
+            "x" : 27.748031496062993,
+            "y" : 304.52244094488185
+          },
+          "index" : 2,
+          "label" : "Preview",
+          "spoken" : "Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100.70503937007874,
+            "width" : 368.03537007874024,
+            "x" : 27.748031496062993,
+            "y" : 331.76258267716537
+          },
+          "index" : 3,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.853480314960564,
+            "width" : 70.18554330708656,
+            "x" : 407.4015748031496,
+            "y" : 341.18031496063
+          },
+          "index" : 4,
+          "label" : "Here’s to the",
+          "spoken" : "Here’s to the",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.85348031496062,
+            "width" : 63.293669291338574,
+            "x" : 407.4015748031496,
+            "y" : 358.6133858267717
+          },
+          "index" : 5,
+          "label" : "crazy ones.",
+          "spoken" : "crazy ones.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.58576377952761,
+            "width" : 90.41952755905515,
+            "x" : 407.4015748031496,
+            "y" : 626.8889763779528
+          },
+          "index" : 6,
+          "label" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "spoken" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.27196850393705,
+            "width" : 476.5039370078742,
+            "x" : 27.748031496062993,
+            "y" : 732.7232125984252
+          },
+          "index" : 7,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.235653543306967,
+            "width" : 477.116031496063,
+            "x" : 27.748031496062993,
+            "y" : 859.2330708661418
+          },
+          "index" : 8,
+          "label" : "Issue 1 Cupertino, CA",
+          "spoken" : "Issue 1 Cupertino, CA",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.8,
+            "width" : 400,
+            "x" : -10,
+            "y" : 140
+          },
+          "index" : 9,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.80000000000007,
+            "width" : 400,
+            "x" : -10,
+            "y" : 472.80000000000007
+          },
+          "index" : 10,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333334,
+            "width" : 289.33333333333337,
+            "x" : 56.33333333333334,
+            "y" : 164
+          },
+          "index" : 11,
+          "label" : "Просмотр",
+          "spoken" : "Просмотр",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 280,
+            "x" : 61,
+            "y" : 272.33333333333337
+          },
+          "index" : 12,
+          "label" : "Новый документ",
+          "spoken" : "Новый документ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.33333333333337,
+            "width" : 280,
+            "x" : 61,
+            "y" : 334.66666666666663
+          },
+          "index" : 13,
+          "label" : "Отсканировать документы",
+          "spoken" : "Отсканировать документы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.56716417910445,
+            "width" : 34.56716417910445,
+            "x" : 286.45771144278604,
+            "y" : 479.03980099502485
+          },
+          "identifier" : "OverflowBarButtonItem",
+          "index" : 14,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.56716417910445,
+            "width" : 34.56716417910445,
+            "x" : 340.228855721393,
+            "y" : 479.03980099502485
+          },
+          "index" : 15,
+          "label" : "Поиск",
+          "spoken" : "Поиск, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.530679933665056,
+            "width" : 69.77446102819238,
+            "x" : 166.1127694859038,
+            "y" : 594.2636815920398
+          },
+          "identifier" : "folder.fill.badge.person.crop",
+          "index" : 16,
+          "label" : "Общая папка",
+          "spoken" : "Общая папка, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.28524046434495,
+            "width" : 320.70646766169153,
+            "x" : 40.646766169154226,
+            "y" : 660.1973466003317
+          },
+          "index" : 17,
+          "label" : "Нет файлов с общим доступом",
+          "spoken" : "Нет файлов с общим доступом",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.283582089552283,
+            "width" : 293.18076285240465,
+            "x" : 54.40961857379769,
+            "y" : 688.363184079602
+          },
+          "index" : 18,
+          "label" : "Здесь появятся файлы с общим доступом.",
+          "spoken" : "Здесь появятся файлы с общим доступом.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.2587064676617,
+            "x" : 73.29353233830845,
+            "y" : 790.1442786069651
+          },
+          "index" : 19,
+          "label" : "Недавние",
+          "spoken" : "Недавние, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 155.87064676616916,
+            "y" : 790.1442786069651
+          },
+          "index" : 20,
+          "label" : "Общие",
+          "spoken" : "Общие, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 238.44776119402985,
+            "y" : 790.1442786069651
+          },
+          "index" : 21,
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Обзор",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 9.235653543307023,
+            "width" : 475.6129133858268,
+            "x" : 27.748031496062993,
+            "y" : 175.46929133858276
+          },
+          "index" : 0,
+          "label" : "Apple Inc. Preview",
+          "spoken" : "Apple Inc. Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 71.57631496062993,
+            "width" : 451.6153228346456,
+            "x" : 40.6765905511811,
+            "y" : 211.64291338582677
+          },
+          "index" : 1,
+          "label" : "TODA Y’S NEWS",
+          "spoken" : "TODA Y’S NEWS",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.780220472440988,
+            "width" : 65.54834645669291,
+            "x" : 27.748031496062993,
+            "y" : 304.52244094488185
+          },
+          "index" : 2,
+          "label" : "Preview",
+          "spoken" : "Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100.70503937007874,
+            "width" : 368.03537007874024,
+            "x" : 27.748031496062993,
+            "y" : 331.76258267716537
+          },
+          "index" : 3,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.853480314960564,
+            "width" : 70.18554330708656,
+            "x" : 407.4015748031496,
+            "y" : 341.18031496063
+          },
+          "index" : 4,
+          "label" : "Here’s to the",
+          "spoken" : "Here’s to the",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.85348031496062,
+            "width" : 63.293669291338574,
+            "x" : 407.4015748031496,
+            "y" : 358.6133858267717
+          },
+          "index" : 5,
+          "label" : "crazy ones.",
+          "spoken" : "crazy ones.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.58576377952761,
+            "width" : 90.41952755905515,
+            "x" : 407.4015748031496,
+            "y" : 626.8889763779528
+          },
+          "index" : 6,
+          "label" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "spoken" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.27196850393705,
+            "width" : 476.5039370078742,
+            "x" : 27.748031496062993,
+            "y" : 732.7232125984252
+          },
+          "index" : 7,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.235653543306967,
+            "width" : 477.116031496063,
+            "x" : 27.748031496062993,
+            "y" : 859.2330708661418
+          },
+          "index" : 8,
+          "label" : "Issue 1 Cupertino, CA",
+          "spoken" : "Issue 1 Cupertino, CA",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.8,
+            "width" : 400,
+            "x" : -10,
+            "y" : 140
+          },
+          "index" : 9,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.80000000000007,
+            "width" : 400,
+            "x" : -10,
+            "y" : 472.80000000000007
+          },
+          "index" : 10,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333334,
+            "width" : 289.33333333333337,
+            "x" : 56.33333333333334,
+            "y" : 164
+          },
+          "index" : 11,
+          "label" : "Просмотр",
+          "spoken" : "Просмотр",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 280,
+            "x" : 61,
+            "y" : 272.33333333333337
+          },
+          "index" : 12,
+          "label" : "Новый документ",
+          "spoken" : "Новый документ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.33333333333337,
+            "width" : 280,
+            "x" : 61,
+            "y" : 334.66666666666663
+          },
+          "index" : 13,
+          "label" : "Отсканировать документы",
+          "spoken" : "Отсканировать документы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.56716417910445,
+            "width" : 34.56716417910445,
+            "x" : 340.228855721393,
+            "y" : 479.03980099502485
+          },
+          "index" : 14,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.24875621890544,
+            "width" : 355.27363184079604,
+            "x" : 23.36318407960199,
+            "y" : 528.0099502487562
+          },
+          "index" : 15,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 274.61691542288565,
+            "width" : 616.4477611940298,
+            "x" : -107.22388059701493,
+            "y" : 728.6915422885572
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 16,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.044776119402968,
+            "width" : 57.932006633499164,
+            "x" : 38.72636815920398,
+            "y" : 594.2636815920398
+          },
+          "index" : 17,
+          "label" : "Места",
+          "spoken" : "Места",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 600.8250414593698
+          },
+          "identifier" : "chevron.forward",
+          "index" : 18,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 600.8250414593698
+          },
+          "identifier" : "chevron.forward",
+          "index" : 19,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 88.65837479270316,
+            "x" : 77.13432835820895,
+            "y" : 642.273631840796
+          },
+          "index" : 20,
+          "label" : "iCloud Drive",
+          "spoken" : "iCloud Drive",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 21.444444444444457,
+            "width" : 29.446102819237154,
+            "x" : 35.52570480928689,
+            "y" : 641.3134328358209
+          },
+          "identifier" : "icloud",
+          "index" : 21,
+          "label" : "iCloud",
+          "spoken" : "iCloud, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 645.1542288557214
+          },
+          "identifier" : "chevron.forward",
+          "index" : 22,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 74.89552238805969,
+            "x" : 77.13432835820895,
+            "y" : 692.2039800995025
+          },
+          "index" : 23,
+          "label" : "На iPhone",
+          "spoken" : "На iPhone",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 25.28524046434495,
+            "width" : 20.48424543946932,
+            "x" : 40.00663349917081,
+            "y" : 689.3233830845771
+          },
+          "identifier" : "iphone",
+          "index" : 24,
+          "label" : "iphone",
+          "spoken" : "iphone, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 695.0845771144278
+          },
+          "identifier" : "chevron.forward",
+          "index" : 25,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 154.91210613598673,
+            "x" : 77.13432835820896,
+            "y" : 742.1343283582089
+          },
+          "index" : 26,
+          "label" : "Недавно удаленные",
+          "spoken" : "Недавно удаленные",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.885572139303463,
+            "width" : 23.044776119402982,
+            "x" : 38.72636815920398,
+            "y" : 738.2935323383084
+          },
+          "identifier" : "trash",
+          "index" : 27,
+          "label" : "корзина",
+          "spoken" : "корзина, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 745.0149253731342
+          },
+          "identifier" : "chevron.forward",
+          "index" : 28,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.044776119402968,
+            "width" : 41.92868988391376,
+            "x" : 38.72636815920397,
+            "y" : 803.2669983416251
+          },
+          "index" : 29,
+          "label" : "Теги",
+          "spoken" : "Теги",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 809.8283582089553
+          },
+          "identifier" : "chevron.forward",
+          "index" : 30,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 809.8283582089553
+          },
+          "identifier" : "chevron.forward",
+          "index" : 31,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.32338308457713,
+            "width" : 16.643449419568817,
+            "x" : 41.927031509121065,
+            "y" : 852.87728026534
+          },
+          "index" : 32,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 68.17412935323382,
+            "x" : 77.13432835820895,
+            "y" : 851.2769485903814
+          },
+          "index" : 33,
+          "label" : "Красный",
+          "spoken" : "Красный",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 854.1575456053067
+          },
+          "identifier" : "chevron.forward",
+          "index" : 34,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.2587064676617,
+            "x" : 73.29353233830845,
+            "y" : 790.1442786069651
+          },
+          "index" : 35,
+          "label" : "Недавние",
+          "spoken" : "Недавние, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 155.87064676616916,
+            "y" : 790.1442786069651
+          },
+          "index" : 36,
+          "label" : "Общие",
+          "spoken" : "Общие, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 238.44776119402985,
+            "y" : 790.1442786069651
+          },
+          "index" : 37,
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "FullDocumentManagerViewControllerNavigationBar",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 9.235653543307023,
+            "width" : 475.6129133858268,
+            "x" : 27.748031496062993,
+            "y" : 175.46929133858276
+          },
+          "index" : 0,
+          "label" : "Apple Inc. Preview",
+          "spoken" : "Apple Inc. Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 71.57631496062993,
+            "width" : 451.6153228346456,
+            "x" : 40.6765905511811,
+            "y" : 211.64291338582677
+          },
+          "index" : 1,
+          "label" : "TODA Y’S NEWS",
+          "spoken" : "TODA Y’S NEWS",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.780220472440988,
+            "width" : 65.54834645669291,
+            "x" : 27.748031496062993,
+            "y" : 304.52244094488185
+          },
+          "index" : 2,
+          "label" : "Preview",
+          "spoken" : "Preview",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 100.70503937007874,
+            "width" : 368.03537007874024,
+            "x" : 27.748031496062993,
+            "y" : 331.76258267716537
+          },
+          "index" : 3,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers.\nThe round pegs in the square holes. The ones who see things\ndiﬀerently. They’re not fond of rules. And they have no respect for the\nstatus quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do\nis ignore them. Because they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.853480314960564,
+            "width" : 70.18554330708656,
+            "x" : 407.4015748031496,
+            "y" : 341.18031496063
+          },
+          "index" : 4,
+          "label" : "Here’s to the",
+          "spoken" : "Here’s to the",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.85348031496062,
+            "width" : 63.293669291338574,
+            "x" : 407.4015748031496,
+            "y" : 358.6133858267717
+          },
+          "index" : 5,
+          "label" : "crazy ones.",
+          "spoken" : "crazy ones.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.58576377952761,
+            "width" : 90.41952755905515,
+            "x" : 407.4015748031496,
+            "y" : 626.8889763779528
+          },
+          "index" : 6,
+          "label" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "spoken" : "They’re not fond\nof rules. And\nthey have no\nrespect for the\nstatus quo.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 83.27196850393705,
+            "width" : 476.5039370078742,
+            "x" : 27.748031496062993,
+            "y" : 732.7232125984252
+          },
+          "index" : 7,
+          "label" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "spoken" : "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the\nsquare holes. The ones who see things diﬀerently. They’re not fond of rules. And they have\nno respect for the status quo. You can praise them, disagree with them, quote them,\ndisbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.\nBecause they change things.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.235653543306967,
+            "width" : 477.116031496063,
+            "x" : 27.748031496062993,
+            "y" : 859.2330708661418
+          },
+          "index" : 8,
+          "label" : "Issue 1 Cupertino, CA",
+          "spoken" : "Issue 1 Cupertino, CA",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.8,
+            "width" : 400,
+            "x" : -10,
+            "y" : 140
+          },
+          "index" : 9,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 332.80000000000007,
+            "width" : 400,
+            "x" : -10,
+            "y" : 472.80000000000007
+          },
+          "index" : 10,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 72.33333333333334,
+            "width" : 289.33333333333337,
+            "x" : 56.33333333333334,
+            "y" : 164
+          },
+          "index" : 11,
+          "label" : "Просмотр",
+          "spoken" : "Просмотр",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.333333333333314,
+            "width" : 280,
+            "x" : 61,
+            "y" : 272.33333333333337
+          },
+          "index" : 12,
+          "label" : "Новый документ",
+          "spoken" : "Новый документ, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 50.33333333333337,
+            "width" : 280,
+            "x" : 61,
+            "y" : 334.66666666666663
+          },
+          "index" : 13,
+          "label" : "Отсканировать документы",
+          "spoken" : "Отсканировать документы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34.56716417910445,
+            "width" : 34.56716417910445,
+            "x" : 340.228855721393,
+            "y" : 479.03980099502485
+          },
+          "index" : 14,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.24875621890544,
+            "width" : 355.27363184079604,
+            "x" : 23.36318407960199,
+            "y" : 528.0099502487562
+          },
+          "index" : 15,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 274.61691542288565,
+            "width" : 616.4477611940298,
+            "x" : -107.22388059701493,
+            "y" : 728.6915422885572
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 16,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.044776119402968,
+            "width" : 57.932006633499164,
+            "x" : 38.72636815920398,
+            "y" : 594.2636815920398
+          },
+          "index" : 17,
+          "label" : "Места",
+          "spoken" : "Места",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.7512437810945,
+            "y" : 599.0646766169154
+          },
+          "identifier" : "chevron.forward",
+          "index" : 18,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.7512437810945,
+            "y" : 599.0646766169154
+          },
+          "identifier" : "chevron.forward",
+          "index" : 19,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.044776119402968,
+            "width" : 41.92868988391376,
+            "x" : 38.72636815920397,
+            "y" : 653.4759535655057
+          },
+          "index" : 20,
+          "label" : "Теги",
+          "spoken" : "Теги",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 660.0373134328358
+          },
+          "identifier" : "chevron.forward",
+          "index" : 21,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 9.922056384742973,
+            "width" : 13.442786069651731,
+            "x" : 349.99087893864015,
+            "y" : 660.0373134328358
+          },
+          "identifier" : "chevron.forward",
+          "index" : 22,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.32338308457713,
+            "width" : 16.643449419568817,
+            "x" : 41.927031509121065,
+            "y" : 703.0862354892206
+          },
+          "index" : 23,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 68.17412935323382,
+            "x" : 77.13432835820895,
+            "y" : 701.485903814262
+          },
+          "index" : 24,
+          "label" : "Красный",
+          "spoken" : "Красный",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 704.3665008291874
+          },
+          "identifier" : "chevron.forward",
+          "index" : 25,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.32338308457713,
+            "width" : 16.643449419568817,
+            "x" : 41.927031509121065,
+            "y" : 753.0165837479269
+          },
+          "index" : 26,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 91.21890547263682,
+            "x" : 77.13432835820895,
+            "y" : 751.4162520729684
+          },
+          "index" : 27,
+          "label" : "Оранжевый",
+          "spoken" : "Оранжевый",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 754.2968490878939
+          },
+          "identifier" : "chevron.forward",
+          "index" : 28,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.32338308457713,
+            "width" : 16.643449419568817,
+            "x" : 41.927031509121065,
+            "y" : 802.9469320066335
+          },
+          "index" : 29,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 62.73300165837479,
+            "x" : 77.13432835820895,
+            "y" : 801.3466003316748
+          },
+          "index" : 30,
+          "label" : "Желтый",
+          "spoken" : "Желтый",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 804.2271973466003
+          },
+          "identifier" : "chevron.forward",
+          "index" : 31,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 16.32338308457713,
+            "width" : 16.643449419568817,
+            "x" : 41.927031509121065,
+            "y" : 852.87728026534
+          },
+          "index" : 32,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.524046434494153,
+            "width" : 67.2139303482587,
+            "x" : 77.13432835820895,
+            "y" : 851.2769485903814
+          },
+          "index" : 33,
+          "label" : "Зеленый",
+          "spoken" : "Зеленый",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 13.442786069651788,
+            "width" : 9.922056384742973,
+            "x" : 351.4311774461028,
+            "y" : 854.1575456053067
+          },
+          "identifier" : "chevron.forward",
+          "index" : 34,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.2587064676617,
+            "x" : 73.29353233830845,
+            "y" : 790.1442786069651
+          },
+          "index" : 35,
+          "label" : "Недавние",
+          "spoken" : "Недавние, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 155.87064676616916,
+            "y" : 790.1442786069651
+          },
+          "index" : 36,
+          "label" : "Общие",
+          "spoken" : "Общие, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 51.850746268656735,
+            "width" : 90.25870646766168,
+            "x" : 238.44776119402985,
+            "y" : 790.1442786069651
+          },
+          "index" : 37,
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
+          "traits" : [
+            "button"
+          ]
+        }
       ]
     }
   ]

@@ -12,681 +12,9 @@
   "screens" : [
     {
       "platformAuditFindings" : [
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        }
+
       ],
       "screen" : "Стартовый экран",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 16,
-            "y" : 62
-          },
-          "identifier" : "BackButton",
-          "index" : 0,
-          "label" : "Назад",
-          "spoken" : "Назад, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.66666666666667,
-            "width" : 79.66666666666669,
-            "x" : 161,
-            "y" : 73.66666666666666
-          },
-          "index" : 1,
-          "label" : "Контакты",
-          "spoken" : "Контакты",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 10,
-            "x" : 18,
-            "y" : 126
-          },
-          "index" : 2,
-          "label" : "A",
-          "spoken" : "A",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 164
-          },
-          "index" : 3,
-          "label" : "Фото контакта для John Appleseed",
-          "spoken" : "Фото контакта для John Appleseed, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333343,
-            "width" : 126.66666666666666,
-            "x" : 68,
-            "y" : 174
-          },
-          "index" : 4,
-          "label" : "John Appleseed",
-          "spoken" : "John Appleseed",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 9.666666666666668,
-            "x" : 18,
-            "y" : 224
-          },
-          "index" : 5,
-          "label" : "B",
-          "spoken" : "B",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 262
-          },
-          "index" : 6,
-          "label" : "Фото контакта для Kate Bell",
-          "spoken" : "Фото контакта для Kate Bell, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333314,
-            "width" : 68.33333333333331,
-            "x" : 68,
-            "y" : 272
-          },
-          "index" : 7,
-          "label" : "Kate Bell",
-          "spoken" : "Kate Bell",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 11,
-            "x" : 18,
-            "y" : 322
-          },
-          "index" : 8,
-          "label" : "H",
-          "spoken" : "H",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 360
-          },
-          "index" : 9,
-          "label" : "Фото контакта для Anna Haro",
-          "spoken" : "Фото контакта для Anna Haro, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333314,
-            "width" : 81.66666666666669,
-            "x" : 68,
-            "y" : 370
-          },
-          "index" : 10,
-          "label" : "Anna Haro",
-          "spoken" : "Anna Haro",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 420
-          },
-          "index" : 11,
-          "label" : "Фото контакта для Daniel Higgins Jr.",
-          "spoken" : "Фото контакта для Daniel Higgins Jr., button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333314,
-            "width" : 135,
-            "x" : 68,
-            "y" : 430
-          },
-          "index" : 12,
-          "label" : "Daniel Higgins Jr.",
-          "spoken" : "Daniel Higgins Jr.",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 9.333333333333332,
-            "x" : 18,
-            "y" : 480
-          },
-          "index" : 13,
-          "label" : "T",
-          "spoken" : "T",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 518
-          },
-          "index" : 14,
-          "label" : "Фото контакта для David Taylor",
-          "spoken" : "Фото контакта для David Taylor, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.33333333333337,
-            "width" : 96,
-            "x" : 68,
-            "y" : 528
-          },
-          "index" : 15,
-          "label" : "David Taylor",
-          "spoken" : "David Taylor",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 10,
-            "x" : 18,
-            "y" : 578
-          },
-          "index" : 16,
-          "label" : "Z",
-          "spoken" : "Z",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 616
-          },
-          "index" : 17,
-          "label" : "Фото контакта для Hank M. Zakroff",
-          "spoken" : "Фото контакта для Hank M. Zakroff, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.33333333333337,
-            "width" : 126,
-            "x" : 68,
-            "y" : 626
-          },
-          "index" : 18,
-          "label" : "Hank M. Zakroff",
-          "spoken" : "Hank M. Zakroff",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 402,
-            "x" : 0,
-            "y" : 666
-          },
-          "index" : 19,
-          "spoken" : "cell",
-          "traits" : [
-            "cell"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 38,
-            "width" : 276,
-            "x" : 33.00000000000006,
-            "y" : 803
-          },
-          "index" : 20,
-          "label" : "Поиск",
-          "placeholder" : "Поиск",
-          "spoken" : "Поиск, searchField",
-          "traits" : [
-            "searchField"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 38,
-            "width" : 38,
-            "x" : 331,
-            "y" : 803
-          },
-          "index" : 21,
-          "label" : "Добавить",
-          "spoken" : "Добавить, button",
-          "traits" : [
-            "button"
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "A|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "A",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "A|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "A",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        }
-      ],
-      "screen" : "A",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 16,
-            "y" : 62
-          },
-          "identifier" : "BackButton",
-          "index" : 0,
-          "label" : "Списки",
-          "spoken" : "Списки, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.66666666666667,
-            "width" : 79.66666666666669,
-            "x" : 161,
-            "y" : 73.66666666666666
-          },
-          "index" : 1,
-          "label" : "Контакты",
-          "spoken" : "Контакты",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 10,
-            "x" : 18,
-            "y" : 126
-          },
-          "index" : 2,
-          "label" : "A",
-          "spoken" : "A",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 164
-          },
-          "index" : 3,
-          "label" : "Фото контакта для John Appleseed",
-          "spoken" : "Фото контакта для John Appleseed, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333343,
-            "width" : 126.66666666666666,
-            "x" : 68,
-            "y" : 172
-          },
-          "index" : 4,
-          "label" : "John Appleseed",
-          "spoken" : "John Appleseed",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 9.666666666666668,
-            "x" : 18,
-            "y" : 224
-          },
-          "index" : 5,
-          "label" : "B",
-          "spoken" : "B",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 262
-          },
-          "index" : 6,
-          "label" : "Фото контакта для Kate Bell",
-          "spoken" : "Фото контакта для Kate Bell, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333314,
-            "width" : 68.33333333333331,
-            "x" : 68,
-            "y" : 270
-          },
-          "index" : 7,
-          "label" : "Kate Bell",
-          "spoken" : "Kate Bell",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 11,
-            "x" : 18,
-            "y" : 322
-          },
-          "index" : 8,
-          "label" : "H",
-          "spoken" : "H",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 360
-          },
-          "index" : 9,
-          "label" : "Фото контакта для Anna Haro",
-          "spoken" : "Фото контакта для Anna Haro, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333314,
-            "width" : 81.66666666666669,
-            "x" : 68,
-            "y" : 368
-          },
-          "index" : 10,
-          "label" : "Anna Haro",
-          "spoken" : "Anna Haro",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 420
-          },
-          "index" : 11,
-          "label" : "Фото контакта для Daniel Higgins Jr.",
-          "spoken" : "Фото контакта для Daniel Higgins Jr., button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333314,
-            "width" : 135,
-            "x" : 68,
-            "y" : 428
-          },
-          "index" : 12,
-          "label" : "Daniel Higgins Jr.",
-          "spoken" : "Daniel Higgins Jr.",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 9.333333333333332,
-            "x" : 18,
-            "y" : 480
-          },
-          "index" : 13,
-          "label" : "T",
-          "spoken" : "T",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 518
-          },
-          "index" : 14,
-          "label" : "Фото контакта для David Taylor",
-          "spoken" : "Фото контакта для David Taylor, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.33333333333337,
-            "width" : 96,
-            "x" : 68,
-            "y" : 526
-          },
-          "index" : 15,
-          "label" : "David Taylor",
-          "spoken" : "David Taylor",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 10,
-            "x" : 18,
-            "y" : 578
-          },
-          "index" : 16,
-          "label" : "Z",
-          "spoken" : "Z",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 18,
-            "y" : 616
-          },
-          "index" : 17,
-          "label" : "Фото контакта для Hank M. Zakroff",
-          "spoken" : "Фото контакта для Hank M. Zakroff, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.33333333333337,
-            "width" : 126,
-            "x" : 68,
-            "y" : 624
-          },
-          "index" : 18,
-          "label" : "Hank M. Zakroff",
-          "spoken" : "Hank M. Zakroff",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 30,
-            "width" : 402,
-            "x" : 0,
-            "y" : 666
-          },
-          "index" : 19,
-          "spoken" : "cell",
-          "traits" : [
-            "cell"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 38,
-            "width" : 276,
-            "x" : 33.00000000000006,
-            "y" : 803
-          },
-          "index" : 20,
-          "label" : "Поиск",
-          "placeholder" : "Поиск",
-          "spoken" : "Поиск, searchField",
-          "traits" : [
-            "searchField"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 38,
-            "width" : 38,
-            "x" : 331,
-            "y" : 803
-          },
-          "index" : 21,
-          "label" : "Добавить",
-          "spoken" : "Добавить, button",
-          "traits" : [
-            "button"
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-
-      ],
-      "screen" : "John Appleseed",
       "utterances" : [
         {
           "frame" : {
@@ -775,10 +103,10 @@
         },
         {
           "frame" : {
-            "height" : 14,
-            "width" : 10.333333333333314,
-            "x" : 358,
-            "y" : 234
+            "height" : 10.333333333333343,
+            "width" : 14,
+            "x" : 356.1666666666667,
+            "y" : 235.83333333333334
           },
           "identifier" : "chevron.forward",
           "index" : 6,
@@ -790,13 +118,100 @@
         },
         {
           "frame" : {
-            "height" : 14,
-            "width" : 10.333333333333314,
-            "x" : 358,
-            "y" : 234
+            "height" : 10.333333333333343,
+            "width" : 14,
+            "x" : 356.1666666666667,
+            "y" : 235.83333333333334
           },
           "identifier" : "chevron.forward",
           "index" : 7,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 10.666666666666686,
+            "x" : 337.3333333333333,
+            "y" : 277
+          },
+          "index" : 8,
+          "label" : "6",
+          "spoken" : "6",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 280
+          },
+          "identifier" : "chevron.forward",
+          "index" : 9,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 7.666666666666686,
+            "x" : 340.3333333333333,
+            "y" : 329
+          },
+          "index" : 10,
+          "label" : "1",
+          "spoken" : "1",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 332
+          },
+          "identifier" : "chevron.forward",
+          "index" : 11,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 10.333333333333314,
+            "x" : 337.6666666666667,
+            "y" : 381
+          },
+          "index" : 12,
+          "label" : "0",
+          "spoken" : "0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 384
+          },
+          "identifier" : "chevron.forward",
+          "index" : 13,
           "label" : "Вперед",
           "spoken" : "Вперед, image",
           "traits" : [
@@ -809,46 +224,46 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "B|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "B",
+          "screen" : "6",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "B|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "B",
+          "screen" : "6",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "B|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "B",
+          "screen" : "6",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "B|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "B",
+          "screen" : "6",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         }
       ],
-      "screen" : "B",
+      "screen" : "6",
       "utterances" : [
         {
           "frame" : {
@@ -1116,18 +531,141 @@
     },
     {
       "platformAuditFindings" : [
+
+      ],
+      "screen" : "iPhone",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 92.66666666666667,
+            "x" : 20.000000000000004,
+            "y" : 66
+          },
+          "index" : 0,
+          "label" : "Изменить",
+          "spoken" : "Изменить, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 62,
+            "x" : 128.66666666666666,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Списки",
+          "spoken" : "Списки",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 164.66666666666663,
+            "x" : 217.33333333333337,
+            "y" : 66
+          },
+          "index" : 2,
+          "label" : "Добавить список",
+          "spoken" : "Добавить список, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 10.666666666666686,
+            "x" : 337.3333333333333,
+            "y" : 167
+          },
+          "index" : 3,
+          "label" : "6",
+          "spoken" : "6",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 357.6666666666667,
+            "y" : 170
+          },
+          "identifier" : "chevron.forward",
+          "index" : 4,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 54.66666666666667,
+            "x" : 32,
+            "y" : 230.66666666666669
+          },
+          "index" : 5,
+          "label" : "iPhone",
+          "spoken" : "iPhone",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 358,
+            "y" : 234
+          },
+          "identifier" : "chevron.forward",
+          "index" : 6,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14,
+            "width" : 10.333333333333314,
+            "x" : 358,
+            "y" : 234
+          },
+          "identifier" : "chevron.forward",
+          "index" : 7,
+          "label" : "Вперед",
+          "spoken" : "Вперед, image",
+          "traits" : [
+            "image"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Kate Bell|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "key" : "1|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Kate Bell",
+          "screen" : "1",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         }
       ],
-      "screen" : "Kate Bell",
+      "screen" : "1",
       "utterances" : [
         {
           "frame" : {
@@ -1177,7 +715,7 @@
             "height" : 20.333333333333343,
             "width" : 135,
             "x" : 68,
-            "y" : 134
+            "y" : 136
           },
           "index" : 3,
           "label" : "Daniel Higgins Jr.",
@@ -1234,16 +772,16 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "H|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "key" : "0|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "H",
+          "screen" : "0",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         }
       ],
-      "screen" : "H",
+      "screen" : "0",
       "utterances" : [
         {
           "frame" : {

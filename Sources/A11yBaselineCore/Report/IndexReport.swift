@@ -73,7 +73,7 @@ public struct IndexReport: Sendable {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Индекс доступности iOS-приложений</title>
-        <meta name="description" content="Что произносит VoiceOver в \(entries.count) приложениях: результаты автоматической проверки, воспроизводимые открытым инструментом.">
+        <meta name="description" content="Что произносит VoiceOver в \(entries.count) приложениях: результаты автоматической проверки открытым инструментом.">
         <style>\(css)</style>
         </head>
         <body>
@@ -126,7 +126,7 @@ public struct IndexReport: Sendable {
               и страница будет исправлена.
             </p>
             <p class="repro">
-              Инструмент открыт, результат воспроизводим:
+              Инструмент открыт, прогон можно повторить:
               <a href="https://github.com/jobexpert365/a11y-baseline">a11y-baseline</a>.
             </p>
           </footer>

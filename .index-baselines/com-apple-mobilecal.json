@@ -364,7 +364,8 @@
           },
           "identifier" : "calendars-button",
           "index" : 24,
-          "spoken" : "button",
+          "label" : "Календари",
+          "spoken" : "Календари, button",
           "traits" : [
             "button"
           ]

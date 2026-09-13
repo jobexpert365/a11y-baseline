@@ -180,6 +180,36 @@ struct FilenameLabelRuleTests {
         let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
         #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
     }
+
+    @Test("слово через дефис именем ресурса не считается",
+          arguments: ["Блиц-приложения", "БЕТА-ВЕРСИЯ", "Что-нибудь", "по-русски", "up-to-date"])
+    func ignoresHyphenatedWords(label: String) {
+        // Регрессионный тест из Настроек: проверка «нет пробелов плюс есть
+        // разделитель» принимала за имя ассета любое слово через дефис.
+        // В русском языке это обычная типографика, а не утёкший идентификатор.
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
+        #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("название приложения именем ресурса не считается",
+          arguments: ["Kingfisher-Demo", "ChartsDemo-iOS", "A11yScannerUITests-Runner"])
+    func ignoresAppNames(label: String) {
+        // Регрессионный тест из Настроек: углублённый обход дошёл до списка
+        // установленных приложений, и правило обвинило их собственные имена.
+        // Имя приложения выглядит как идентификатор, но оно и есть то, что
+        // человек должен услышать.
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
+        #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("косая черта остаётся признаком пути",
+          arguments: ["dough/brown-thumb", "topping/sprinkles-stars-thumb", "glaze/rainbow-thumb"])
+    func keepsSlashPaths(label: String) {
+        // Обратная страховка к правке выше: 77 настоящих находок Food Truck
+        // держатся именно на косой черте. Один раз это уже ломалось молча.
+        let u = Utterance(index: 0, spoken: label, label: label, traits: ["image"])
+        #expect(FilenameLabelRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
 }
 
 @Suite("Дубликаты подписей")

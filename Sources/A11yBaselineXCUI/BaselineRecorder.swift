@@ -13,10 +13,41 @@ import A11yBaselineCore
 public struct WalkPlan {
     public struct Step {
         public let screen: String
+
+        /// Шаг сам приводит приложение в нужное состояние, откуда бы
+        /// ни стартовал.
+        ///
+        /// Различие не косметическое, оно решает, что делать с упавшим шагом.
+        /// Нажатие вкладки самодостаточно: вкладка доступна с любого экрана,
+        /// поэтому провал одной вкладки ничего не говорит о следующей и обход
+        /// должен идти дальше. Шаг, который углубляется от текущего места,
+        /// самодостаточным не является: после его провала мы не знаем, где
+        /// находимся, и все дальнейшие шаги снимали бы случайный экран.
+        public let anchored: Bool
+
         public let navigate: (XCUIApplication) throws -> Void
 
-        public init(screen: String, navigate: @escaping (XCUIApplication) throws -> Void) {
+        /// Уточняет имя экрана уже ПОСЛЕ перехода.
+        ///
+        /// Нужно там, где имя заранее неизвестно: при обходе чужого
+        /// приложения мы не знаем, как называется раздел, пока в него
+        /// не вошли. Первая попытка решала это разведкой — обход прогонялся
+        /// дважды, первый раз ради названий. Разведка сломала «Фото»: она
+        /// оставляла приложение на вкладке «Поиск» с поднятой клавиатурой,
+        /// после чего вкладки переставали быть доступны и обход снимал
+        /// НОЛЬ экранов вместо трёх. Считывание имени после перехода даёт
+        /// тот же результат без второго прохода и без порчи состояния.
+        public let resolveName: ((XCUIApplication) -> String?)?
+
+        public init(
+            screen: String,
+            anchored: Bool = false,
+            resolveName: ((XCUIApplication) -> String?)? = nil,
+            navigate: @escaping (XCUIApplication) throws -> Void
+        ) {
             self.screen = screen
+            self.anchored = anchored
+            self.resolveName = resolveName
             self.navigate = navigate
         }
     }
@@ -64,12 +95,19 @@ public struct BaselineRecorder {
             do {
                 try step.navigate(app)
             } catch {
+                // Самодостаточный шаг пропускаем и идём дальше: его провал
+                // не портит состояние для следующих. Зависимый — обрываем,
+                // иначе дальше снимался бы неизвестно какой экран под чужим
+                // именем, а это хуже, чем меньшее покрытие.
+                if step.anchored { continue }
                 break
             }
-            var snapshot = try source.captureScreen(named: step.screen)
+            let resolved = step.resolveName?(app)?.trimmingCharacters(in: .whitespacesAndNewlines)
+            let screenName = (resolved?.isEmpty == false) ? resolved! : step.screen
+            var snapshot = try source.captureScreen(named: screenName)
 
             if includePlatformAudit {
-                snapshot.platformAuditFindings = platformAudit(screen: step.screen)
+                snapshot.platformAuditFindings = platformAudit(screen: screenName)
             }
             // Экран, совпадающий с уже снятым, в базовую линию не попадает.
             //

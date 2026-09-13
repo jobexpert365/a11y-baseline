@@ -293,64 +293,24 @@
           "summary" : "Label not human-readable"
         },
         {
-          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
           "screen" : "Стартовый экран",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Label not human-readable"
+          "summary" : "Contrast nearly passed"
         },
         {
-          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
           "screen" : "Стартовый экран",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Label not human-readable"
-        },
-        {
-          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Label not human-readable"
-        },
-        {
-          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Label not human-readable"
-        },
-        {
-          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Label not human-readable"
-        },
-        {
-          "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Label not human-readable"
+          "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
@@ -383,14 +343,14 @@
           "summary" : "Contrast nearly passed"
         },
         {
-          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
           "screen" : "Стартовый экран",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Contrast failed"
+          "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
@@ -428,13 +388,13 @@
         {
           "frame" : {
             "height" : 34,
-            "width" : 87.33333333333331,
-            "x" : 157.33333333333334,
+            "width" : 61,
+            "x" : 170.33333333333334,
             "y" : 67
           },
           "index" : 0,
-          "label" : "Console, 2 Items",
-          "spoken" : "Console, 2 Items, button",
+          "label" : "Logs, 3 Logs",
+          "spoken" : "Logs, 3 Logs, button",
           "traits" : [
             "button"
           ]
@@ -542,13 +502,13 @@
         {
           "frame" : {
             "height" : 15.666666666666657,
-            "width" : 103.33333333333333,
+            "width" : 107.66666666666666,
             "x" : 20,
             "y" : 183
           },
           "index" : 8,
-          "label" : "Info・Application",
-          "spoken" : "Info・Application",
+          "label" : "Debug・Analytics",
+          "spoken" : "Debug・Analytics",
           "traits" : [
 
           ]
@@ -561,8 +521,8 @@
             "y" : 183.66666666666666
           },
           "index" : 9,
-          "label" : "13:01:27.143",
-          "spoken" : "13:01:27.143",
+          "label" : "19:45:03.331",
+          "spoken" : "19:45:03.331",
           "traits" : [
 
           ]
@@ -585,13 +545,13 @@
         {
           "frame" : {
             "height" : 19.333333333333343,
-            "width" : 245.66666666666663,
+            "width" : 194,
             "x" : 20,
             "y" : 202.66666666666666
           },
           "index" : 11,
-          "label" : "UIApplication.willEnterForeground",
-          "spoken" : "UIApplication.willEnterForeground",
+          "label" : "Will navigate to Dashboard",
+          "spoken" : "Will navigate to Dashboard",
           "traits" : [
 
           ]
@@ -631,8 +591,8 @@
             "y" : 246.66666666666666
           },
           "index" : 14,
-          "label" : "13:01:27.143",
-          "spoken" : "13:01:27.143",
+          "label" : "19:45:02.191",
+          "spoken" : "19:45:02.191",
           "traits" : [
 
           ]
@@ -655,11 +615,81 @@
         {
           "frame" : {
             "height" : 19.333333333333314,
-            "width" : 241,
+            "width" : 245.66666666666663,
             "x" : 20,
             "y" : 265.6666666666667
           },
           "index" : 16,
+          "label" : "UIApplication.willEnterForeground",
+          "spoken" : "UIApplication.willEnterForeground",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 12,
+            "width" : 7,
+            "x" : 376.6666666666667,
+            "y" : 322.6666666666667
+          },
+          "index" : 17,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 15.666666666666686,
+            "width" : 103.33333333333333,
+            "x" : 20,
+            "y" : 309
+          },
+          "index" : 18,
+          "label" : "Info・Application",
+          "spoken" : "Info・Application",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 73,
+            "x" : 310,
+            "y" : 309.6666666666667
+          },
+          "index" : 19,
+          "label" : "19:45:02.191",
+          "spoken" : "19:45:02.191",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 10,
+            "width" : 6,
+            "x" : 387.3333333333333,
+            "y" : 312
+          },
+          "identifier" : "chevron.right",
+          "index" : 20,
+          "label" : "Forward",
+          "spoken" : "Forward, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 19.333333333333314,
+            "width" : 241,
+            "x" : 20,
+            "y" : 328.6666666666667
+          },
+          "index" : 21,
           "label" : "UIApplication.didFinishLaunching",
           "spoken" : "UIApplication.didFinishLaunching",
           "traits" : [
@@ -673,7 +703,7 @@
             "x" : 32.99999999999994,
             "y" : 803
           },
-          "index" : 17,
+          "index" : 22,
           "label" : "Search",
           "placeholder" : "Search",
           "spoken" : "Search, searchField",
@@ -1728,7 +1758,7 @@
         },
         {
           "frame" : {
-            "height" : 15.666666666666686,
+            "height" : 15.666666666666657,
             "width" : 103,
             "x" : 20,
             "y" : 183
@@ -1742,14 +1772,14 @@
         },
         {
           "frame" : {
-            "height" : 14.333333333333314,
+            "height" : 14.333333333333343,
             "width" : 73,
             "x" : 310,
-            "y" : 183.66666666666669
+            "y" : 183.66666666666666
           },
           "index" : 10,
-          "label" : "13:01:34.853",
-          "spoken" : "13:01:34.853",
+          "label" : "19:45:09.864",
+          "spoken" : "19:45:09.864",
           "traits" : [
 
           ]
@@ -1786,10 +1816,10 @@
         },
         {
           "frame" : {
-            "height" : 38.333333333333314,
+            "height" : 38.33333333333334,
             "width" : 350.66666666666663,
             "x" : 20,
-            "y" : 202.66666666666669
+            "y" : 202.66666666666666
           },
           "index" : 13,
           "label" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
@@ -1800,7 +1830,7 @@
         },
         {
           "frame" : {
-            "height" : 15.666666666666629,
+            "height" : 15.666666666666686,
             "width" : 229.33333333333331,
             "x" : 20,
             "y" : 245
@@ -1847,8 +1877,8 @@
             "y" : 285.3333333333333
           },
           "index" : 17,
-          "label" : "13:01:34.853",
-          "spoken" : "13:01:34.853",
+          "label" : "19:45:09.864",
+          "spoken" : "19:45:09.864",
           "traits" : [
 
           ]
@@ -1946,8 +1976,8 @@
             "y" : 368.00000000000006
           },
           "index" : 24,
-          "label" : "13:01:33.802",
-          "spoken" : "13:01:33.802",
+          "label" : "19:45:08.837",
+          "spoken" : "19:45:08.837",
           "traits" : [
 
           ]
@@ -2045,8 +2075,8 @@
             "y" : 450.6666666666667
           },
           "index" : 31,
-          "label" : "13:01:31.842",
-          "spoken" : "13:01:31.842",
+          "label" : "19:45:06.870",
+          "spoken" : "19:45:06.870",
           "traits" : [
 
           ]
@@ -2144,8 +2174,8 @@
             "y" : 533.3333333333334
           },
           "index" : 38,
-          "label" : "13:01:31.842",
-          "spoken" : "13:01:31.842",
+          "label" : "19:45:06.835",
+          "spoken" : "19:45:06.835",
           "traits" : [
 
           ]
@@ -2224,13 +2254,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 219,
+            "width" : 154.33333333333331,
             "x" : 20,
             "y" : 615.3333333333333
           },
           "index" : 44,
-          "label" : "404 Not Found · 955 bytes · 227 ms",
-          "spoken" : "404 Not Found · 955 bytes · 227 ms",
+          "label" : "200 OK · 165 KB · 527 ms",
+          "spoken" : "200 OK · 165 KB · 527 ms",
           "traits" : [
 
           ]
@@ -2243,8 +2273,8 @@
             "y" : 615.9999999999999
           },
           "index" : 45,
-          "label" : "13:01:30.276",
-          "spoken" : "13:01:30.276",
+          "label" : "19:45:05.340",
+          "spoken" : "19:45:05.340",
           "traits" : [
 
           ]
@@ -2282,13 +2312,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 125,
+            "width" : 76.66666666666666,
             "x" : 20,
             "y" : 634.9999999999999
           },
           "index" : 48,
-          "label" : "GET /profile/valdo",
-          "spoken" : "GET /profile/valdo",
+          "label" : "GET /repos",
+          "spoken" : "GET /repos",
           "traits" : [
 
           ]
@@ -2323,13 +2353,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 154.33333333333331,
+            "width" : 219,
             "x" : 20,
             "y" : 698
           },
           "index" : 51,
-          "label" : "200 OK · 165 KB · 527 ms",
-          "spoken" : "200 OK · 165 KB · 527 ms",
+          "label" : "404 Not Found · 955 bytes · 227 ms",
+          "spoken" : "404 Not Found · 955 bytes · 227 ms",
           "traits" : [
 
           ]
@@ -2342,8 +2372,8 @@
             "y" : 698.6666666666666
           },
           "index" : 52,
-          "label" : "13:01:30.276",
-          "spoken" : "13:01:30.276",
+          "label" : "19:45:05.340",
+          "spoken" : "19:45:05.340",
           "traits" : [
 
           ]
@@ -2381,13 +2411,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 76.66666666666666,
+            "width" : 125,
             "x" : 20,
             "y" : 717.6666666666666
           },
           "index" : 55,
-          "label" : "GET /repos",
-          "spoken" : "GET /repos",
+          "label" : "GET /profile/valdo",
+          "spoken" : "GET /profile/valdo",
           "traits" : [
 
           ]
@@ -2441,8 +2471,8 @@
             "y" : 781.3333333333333
           },
           "index" : 59,
-          "label" : "13:01:28.700",
-          "spoken" : "13:01:28.700",
+          "label" : "19:45:03.738",
+          "spoken" : "19:45:03.738",
           "traits" : [
 
           ]
@@ -2540,8 +2570,8 @@
             "y" : 864
           },
           "index" : 66,
-          "label" : "13:01:28.269",
-          "spoken" : "13:01:28.269",
+          "label" : "19:45:03.331",
+          "spoken" : "19:45:03.331",
           "traits" : [
 
           ]
@@ -2596,526 +2626,526 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|list.bullet.clipboard",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|list.bullet.clipboard",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|exclamationmark.octagon",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|exclamationmark.octagon",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|chevron.right",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|chevron.right",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|list.bullet.clipboard",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|list.bullet.clipboard",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|exclamationmark.octagon",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|exclamationmark.octagon",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Info・Application|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Debug・Analytics|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Info・Application",
+          "screen" : "Debug・Analytics",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         }
       ],
-      "screen" : "Info・Application",
+      "screen" : "Debug・Analytics",
       "utterances" : [
         {
           "frame" : {
@@ -3253,8 +3283,8 @@
             "y" : 183.66666666666666
           },
           "index" : 9,
-          "label" : "13:01:38.306",
-          "spoken" : "13:01:38.306",
+          "label" : "19:45:13.340",
+          "spoken" : "19:45:13.340",
           "traits" : [
 
           ]
@@ -3323,8 +3353,8 @@
             "y" : 246.66666666666666
           },
           "index" : 14,
-          "label" : "13:01:38.306",
-          "spoken" : "13:01:38.306",
+          "label" : "19:45:13.340",
+          "spoken" : "19:45:13.340",
           "traits" : [
 
           ]
@@ -3393,8 +3423,8 @@
             "y" : 347.6666666666667
           },
           "index" : 19,
-          "label" : "13:01:28.269",
-          "spoken" : "13:01:28.269",
+          "label" : "19:45:03.331",
+          "spoken" : "19:45:03.331",
           "traits" : [
 
           ]
@@ -3463,8 +3493,8 @@
             "y" : 410.6666666666667
           },
           "index" : 24,
-          "label" : "13:01:27.143",
-          "spoken" : "13:01:27.143",
+          "label" : "19:45:02.191",
+          "spoken" : "19:45:02.191",
           "traits" : [
 
           ]
@@ -3533,8 +3563,8 @@
             "y" : 473.6666666666667
           },
           "index" : 29,
-          "label" : "13:01:27.143",
-          "spoken" : "13:01:27.143",
+          "label" : "19:45:02.191",
+          "spoken" : "19:45:02.191",
           "traits" : [
 
           ]
@@ -4700,8 +4730,8 @@
             "y" : 183.66666666666666
           },
           "index" : 10,
-          "label" : "13:01:34.853",
-          "spoken" : "13:01:34.853",
+          "label" : "19:45:09.864",
+          "spoken" : "19:45:09.864",
           "traits" : [
 
           ]
@@ -4799,8 +4829,8 @@
             "y" : 285.3333333333333
           },
           "index" : 17,
-          "label" : "13:01:34.853",
-          "spoken" : "13:01:34.853",
+          "label" : "19:45:09.864",
+          "spoken" : "19:45:09.864",
           "traits" : [
 
           ]
@@ -4898,8 +4928,8 @@
             "y" : 368.00000000000006
           },
           "index" : 24,
-          "label" : "13:01:33.802",
-          "spoken" : "13:01:33.802",
+          "label" : "19:45:08.837",
+          "spoken" : "19:45:08.837",
           "traits" : [
 
           ]
@@ -4997,8 +5027,8 @@
             "y" : 450.6666666666667
           },
           "index" : 31,
-          "label" : "13:01:31.842",
-          "spoken" : "13:01:31.842",
+          "label" : "19:45:06.870",
+          "spoken" : "19:45:06.870",
           "traits" : [
 
           ]
@@ -5096,8 +5126,8 @@
             "y" : 533.3333333333334
           },
           "index" : 38,
-          "label" : "13:01:31.842",
-          "spoken" : "13:01:31.842",
+          "label" : "19:45:06.835",
+          "spoken" : "19:45:06.835",
           "traits" : [
 
           ]
@@ -5176,13 +5206,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 219,
+            "width" : 154.33333333333331,
             "x" : 20,
             "y" : 615.3333333333333
           },
           "index" : 44,
-          "label" : "404 Not Found · 955 bytes · 227 ms",
-          "spoken" : "404 Not Found · 955 bytes · 227 ms",
+          "label" : "200 OK · 165 KB · 527 ms",
+          "spoken" : "200 OK · 165 KB · 527 ms",
           "traits" : [
 
           ]
@@ -5195,8 +5225,8 @@
             "y" : 615.9999999999999
           },
           "index" : 45,
-          "label" : "13:01:30.276",
-          "spoken" : "13:01:30.276",
+          "label" : "19:45:05.340",
+          "spoken" : "19:45:05.340",
           "traits" : [
 
           ]
@@ -5234,13 +5264,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 125,
+            "width" : 76.66666666666666,
             "x" : 20,
             "y" : 634.9999999999999
           },
           "index" : 48,
-          "label" : "GET /profile/valdo",
-          "spoken" : "GET /profile/valdo",
+          "label" : "GET /repos",
+          "spoken" : "GET /repos",
           "traits" : [
 
           ]
@@ -5275,13 +5305,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 154.33333333333331,
+            "width" : 219,
             "x" : 20,
             "y" : 698
           },
           "index" : 51,
-          "label" : "200 OK · 165 KB · 527 ms",
-          "spoken" : "200 OK · 165 KB · 527 ms",
+          "label" : "404 Not Found · 955 bytes · 227 ms",
+          "spoken" : "404 Not Found · 955 bytes · 227 ms",
           "traits" : [
 
           ]
@@ -5294,8 +5324,8 @@
             "y" : 698.6666666666666
           },
           "index" : 52,
-          "label" : "13:01:30.276",
-          "spoken" : "13:01:30.276",
+          "label" : "19:45:05.340",
+          "spoken" : "19:45:05.340",
           "traits" : [
 
           ]
@@ -5333,13 +5363,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 76.66666666666666,
+            "width" : 125,
             "x" : 20,
             "y" : 717.6666666666666
           },
           "index" : 55,
-          "label" : "GET /repos",
-          "spoken" : "GET /repos",
+          "label" : "GET /profile/valdo",
+          "spoken" : "GET /profile/valdo",
           "traits" : [
 
           ]
@@ -5393,8 +5423,8 @@
             "y" : 781.3333333333333
           },
           "index" : 59,
-          "label" : "13:01:28.700",
-          "spoken" : "13:01:28.700",
+          "label" : "19:45:03.738",
+          "spoken" : "19:45:03.738",
           "traits" : [
 
           ]
