@@ -54,6 +54,20 @@ public struct RoleInLabelRule: Rule {
         // стоит ВМЕСТО назначения, а не рядом с ним.
         guard words.count >= 2 else { return nil }
 
+        // Верхняя граница длины, и она появилась после первого же
+        // срабатывания правила на живом приложении.
+        //
+        // В примере PopupView есть подпись «Top float with a picture and one
+        // button». Она заканчивается словом «button», и правило объявило это
+        // дублированием роли. Но «one button» здесь — часть ОПИСАНИЯ того,
+        // как выглядит попап, а не название элемента.
+        //
+        // Дублирование роли — это всегда короткая подпись: «Отправить кнопка»,
+        // «Send button». Длинная фраза, случайно оканчивающаяся на слово роли,
+        // дублированием не является. Три слова — граница, за которой подпись
+        // перестаёт быть названием и становится описанием.
+        guard words.count <= 3 else { return nil }
+
         for trait in utterance.traits {
             guard let roleVariants = Self.roleWords[trait] else { continue }
             guard let last = words.last, roleVariants.contains(last) else { continue }

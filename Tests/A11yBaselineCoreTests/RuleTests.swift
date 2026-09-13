@@ -257,6 +257,18 @@ struct RoleInLabelRuleTests {
         #expect(RoleInLabelRule().evaluate(u, in: context(screen([u])))?.severity == .moderate)
     }
 
+    @Test("длинное описание, случайно оканчивающееся на роль, не ловится",
+          arguments: ["Top float with a picture and one button",
+                      "Всплывающее окно с картинкой и одной кнопкой",
+                      "Выбор действия через нижнюю кнопку"])
+    func ignoresLongDescription(label: String) {
+        // Регрессионный тест на первое же срабатывание правила в живом
+        // приложении — и оно оказалось ложным. «one button» в этой фразе
+        // описывает устройство попапа, а не роль элемента.
+        let u = Utterance(index: 0, spoken: "\(label), button", label: label, traits: ["button"])
+        #expect(RoleInLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
     @Test("роль не последним словом — законное название",
           arguments: ["Кнопка вызова экстренных служб", "Кнопка отправить", "Красная кнопка тревоги"])
     func ignoresRoleNotAtEnd(label: String) {

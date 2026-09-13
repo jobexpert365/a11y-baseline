@@ -44,46 +44,6 @@
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
@@ -194,7 +154,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Стартовый экран",
@@ -204,7 +164,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Стартовый экран",
@@ -321,36 +281,6 @@
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
-        },
-        {
-          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast nearly passed"
-        },
-        {
-          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast nearly passed"
-        },
-        {
-          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
@@ -511,8 +441,8 @@
             "y" : 183.66666666666666
           },
           "index" : 9,
-          "label" : "01:15:24.589",
-          "spoken" : "01:15:24.589",
+          "label" : "06:55:02.675",
+          "spoken" : "06:55:02.675",
           "traits" : [
 
           ]
@@ -581,8 +511,8 @@
             "y" : 246.66666666666666
           },
           "index" : 14,
-          "label" : "01:15:24.589",
-          "spoken" : "01:15:24.589",
+          "label" : "06:55:02.675",
+          "spoken" : "06:55:02.675",
           "traits" : [
 
           ]
@@ -1769,8 +1699,8 @@
             "y" : 183.66666666666666
           },
           "index" : 10,
-          "label" : "01:15:35.730",
-          "spoken" : "01:15:35.730",
+          "label" : "06:55:13.824",
+          "spoken" : "06:55:13.824",
           "traits" : [
 
           ]
@@ -1839,8 +1769,8 @@
             "y" : 246.66666666666666
           },
           "index" : 15,
-          "label" : "01:15:35.730",
-          "spoken" : "01:15:35.730",
+          "label" : "06:55:13.824",
+          "spoken" : "06:55:13.824",
           "traits" : [
 
           ]
@@ -1909,8 +1839,8 @@
             "y" : 347.6666666666667
           },
           "index" : 20,
-          "label" : "01:15:32.222",
-          "spoken" : "01:15:32.222",
+          "label" : "06:55:10.341",
+          "spoken" : "06:55:10.341",
           "traits" : [
 
           ]
@@ -2008,8 +1938,8 @@
             "y" : 430.33333333333337
           },
           "index" : 27,
-          "label" : "01:15:32.222",
-          "spoken" : "01:15:32.222",
+          "label" : "06:55:10.341",
+          "spoken" : "06:55:10.341",
           "traits" : [
 
           ]
@@ -2107,8 +2037,8 @@
             "y" : 531.9999999999999
           },
           "index" : 34,
-          "label" : "01:15:31.255",
-          "spoken" : "01:15:31.255",
+          "label" : "06:55:09.338",
+          "spoken" : "06:55:09.338",
           "traits" : [
 
           ]
@@ -2206,8 +2136,8 @@
             "y" : 614.6666666666666
           },
           "index" : 41,
-          "label" : "01:15:29.410",
-          "spoken" : "01:15:29.410",
+          "label" : "06:55:07.532",
+          "spoken" : "06:55:07.532",
           "traits" : [
 
           ]
@@ -2305,8 +2235,8 @@
             "y" : 697.3333333333333
           },
           "index" : 48,
-          "label" : "01:15:29.410",
-          "spoken" : "01:15:29.410",
+          "label" : "06:55:07.532",
+          "spoken" : "06:55:07.532",
           "traits" : [
 
           ]
@@ -2404,8 +2334,8 @@
             "y" : 780
           },
           "index" : 55,
-          "label" : "01:15:27.717",
-          "spoken" : "01:15:27.717",
+          "label" : "06:55:05.809",
+          "spoken" : "06:55:05.809",
           "traits" : [
 
           ]
@@ -2503,8 +2433,8 @@
             "y" : 862.6666666666666
           },
           "index" : 62,
-          "label" : "01:15:27.717",
-          "spoken" : "01:15:27.717",
+          "label" : "06:55:05.809",
+          "spoken" : "06:55:05.809",
           "traits" : [
 
           ]

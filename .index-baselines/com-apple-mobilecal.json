@@ -397,36 +397,6 @@
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "This element is missing useful accessibility information.",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Element has no description"
-        },
-        {
-          "evidence" : "This element is missing useful accessibility information.",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Element has no description"
-        },
-        {
-          "evidence" : "This element is missing useful accessibility information.",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Element has no description"
         }
       ],
       "screen" : "Экран 2",

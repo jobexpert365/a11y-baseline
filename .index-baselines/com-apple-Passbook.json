@@ -229,7 +229,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Экран 2",
@@ -239,7 +239,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Экран 2",

@@ -249,10 +249,10 @@
         },
         {
           "frame" : {
-            "height" : 32.33333333333334,
+            "height" : 32.33333333333333,
             "width" : 187.33333333333334,
             "x" : 107.33333333333334,
-            "y" : 116.99999999999997
+            "y" : 116.99999999999999
           },
           "identifier" : "ConversationTitle",
           "index" : 2,
@@ -264,134 +264,12 @@
         },
         {
           "frame" : {
-            "height" : 418.66666666666663,
-            "width" : 642,
-            "x" : -241,
-            "y" : -209.33333333333331
-          },
-          "identifier" : "AdditionalDimmingOverlay",
-          "index" : 3,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333343,
-            "width" : 207.66666666666663,
-            "x" : -38,
-            "y" : 180
-          },
-          "index" : 4,
-          "label" : "+1 (888) 555-1212",
-          "spoken" : "+1 (888) 555-1212",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 73,
-            "x" : 171.66666666666669,
-            "y" : 182
-          },
-          "index" : 5,
-          "label" : "01.01.2001",
-          "spoken" : "01.01.2001",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20,
-            "width" : 18,
-            "x" : 250.66666666666669,
-            "y" : 202
-          },
-          "index" : 6,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20,
-            "width" : 18,
-            "x" : 232.66666666666669,
-            "y" : 202
-          },
-          "index" : 7,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20.333333333333314,
-            "width" : 207.66666666666663,
-            "x" : -38,
-            "y" : 266.66666666666663
-          },
-          "index" : 8,
-          "label" : "+1 (555) 564-8583",
-          "spoken" : "+1 (555) 564-8583",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 73,
-            "x" : 171.66666666666669,
-            "y" : 268.66666666666663
-          },
-          "index" : 9,
-          "label" : "01.01.2001",
-          "spoken" : "01.01.2001",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20,
-            "width" : 18,
-            "x" : 250.66666666666669,
-            "y" : 288.66666666666663
-          },
-          "index" : 10,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 20,
-            "width" : 18,
-            "x" : 232.66666666666669,
-            "y" : 288.66666666666663
-          },
-          "index" : 11,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
             "height" : 40,
             "width" : 40,
             "x" : 28,
             "y" : 806
           },
-          "index" : 12,
+          "index" : 3,
           "label" : "добавить",
           "spoken" : "добавить, button",
           "traits" : [
@@ -406,7 +284,7 @@
             "y" : 805.6666666666666
           },
           "identifier" : "messageBodyField",
-          "index" : 13,
+          "index" : 4,
           "label" : "Сообщение",
           "placeholder" : "iMessage",
           "spoken" : "Сообщение, textField",
@@ -421,25 +299,10 @@
             "x" : 342,
             "y" : 815
           },
-          "index" : 14,
+          "index" : 5,
           "spoken" : "button",
           "traits" : [
             "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 38,
-            "width" : 336,
-            "x" : 32.99999999999994,
-            "y" : 803
-          },
-          "index" : 15,
-          "label" : "Поиск",
-          "placeholder" : "Поиск",
-          "spoken" : "Поиск, searchField",
-          "traits" : [
-            "searchField"
           ]
         }
       ]
@@ -526,7 +389,7 @@
             "height" : 20,
             "width" : 18,
             "x" : 371.6666666666667,
-            "y" : 150
+            "y" : 150.33333333333334
           },
           "index" : 3,
           "spoken" : "image",
@@ -539,7 +402,7 @@
             "height" : 20,
             "width" : 18,
             "x" : 353.6666666666667,
-            "y" : 150
+            "y" : 150.33333333333334
           },
           "index" : 4,
           "spoken" : "image",
@@ -577,10 +440,10 @@
         },
         {
           "frame" : {
-            "height" : 19.99999999999997,
+            "height" : 20,
             "width" : 18,
             "x" : 371.6666666666667,
-            "y" : 236.66666666666666
+            "y" : 237
           },
           "index" : 7,
           "spoken" : "image",
@@ -590,10 +453,10 @@
         },
         {
           "frame" : {
-            "height" : 19.99999999999997,
+            "height" : 20,
             "width" : 18,
             "x" : 353.6666666666667,
-            "y" : 236.66666666666666
+            "y" : 237
           },
           "index" : 8,
           "spoken" : "image",
@@ -603,10 +466,10 @@
         },
         {
           "frame" : {
-            "height" : 37.972897671685246,
-            "width" : 335.94459152836174,
-            "x" : 33.027704235819066,
-            "y" : 803.0135511641573
+            "height" : 37.98337154330534,
+            "width" : 335.96600449376683,
+            "x" : 33.016997753116506,
+            "y" : 803.0083142283473
           },
           "index" : 9,
           "label" : "Поиск",
@@ -614,101 +477,6 @@
           "spoken" : "Поиск, searchField",
           "traits" : [
             "searchField"
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-
-      ],
-      "screen" : "Экран 4",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 44.00000000000001,
-            "width" : 44,
-            "x" : 16,
-            "y" : 61.99999999999999
-          },
-          "identifier" : "BackButton",
-          "index" : 0,
-          "label" : "Сообщения",
-          "spoken" : "Сообщения, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60.00000000000001,
-            "width" : 60,
-            "x" : 171,
-            "y" : 61.99999999999999
-          },
-          "index" : 1,
-          "label" : "Фото контакта",
-          "spoken" : "Фото контакта, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 32.33333333333333,
-            "width" : 187.33333333333334,
-            "x" : 107.33333333333334,
-            "y" : 116.99999999999999
-          },
-          "identifier" : "ConversationTitle",
-          "index" : 2,
-          "label" : "+1 (888) 555-1212",
-          "spoken" : "+1 (888) 555-1212, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40,
-            "width" : 40,
-            "x" : 28,
-            "y" : 806
-          },
-          "index" : 3,
-          "label" : "добавить",
-          "spoken" : "добавить, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.33333333333337,
-            "width" : 238.66666666666663,
-            "x" : 90.99999999999999,
-            "y" : 805.6666666666666
-          },
-          "identifier" : "messageBodyField",
-          "index" : 4,
-          "label" : "Сообщение",
-          "placeholder" : "iMessage",
-          "spoken" : "Сообщение, textField",
-          "traits" : [
-            "textField"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 22,
-            "width" : 22,
-            "x" : 342,
-            "y" : 815
-          },
-          "index" : 5,
-          "spoken" : "button",
-          "traits" : [
-            "button"
           ]
         }
       ]

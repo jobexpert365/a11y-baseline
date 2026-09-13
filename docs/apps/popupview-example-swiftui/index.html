@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Доступность Календарь — проверка VoiceOver</title>
-<meta name="description" content="Что VoiceOver произносит в приложении Календарь: результат автоматической проверки 30 элементов интерфейса.">
+<title>Доступность PopupView Example (SwiftUI) — проверка VoiceOver</title>
+<meta name="description" content="Что VoiceOver произносит в приложении PopupView Example (SwiftUI): результат автоматической проверки 26 элементов интерфейса.">
 <style>:root {
   --ground: #f6f7f9; --surface: #fff; --ink: #14181f; --ink-2: #444c5a;
   --muted: #6b7280; --hair: #e2e5ea; --accent: #8a3324; --ok: #1a6b5f;
@@ -51,15 +51,15 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
 <main>
   <header>
     <p class="eyebrow"><a href="../../">Индекс доступности</a> · проверено 2026-09-13</p>
-    <h1>Календарь</h1>
+    <h1>PopupView Example (SwiftUI)</h1>
     <p class="lede">
       Автоматическая проверка того, что произносит VoiceOver.
       Версия —, iOS 26.4,
-      язык интерфейса «ru». Пройдено элементов: 30.
+      язык интерфейса «en». Пройдено элементов: 26.
     </p>
     <dl class="tally">
       <div><dt>Находки проверок</dt><dd>1</dd></div>
-      <div><dt>Встроенный аудит Apple</dt><dd>1</dd></div>
+      <div><dt>Встроенный аудит Apple</dt><dd>26</dd></div>
       <div><dt>Экранов</dt><dd>2</dd></div>
     </dl>
 
@@ -70,7 +70,7 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
          относится к его приложению. -->
     <p class="walked">
       Пройдено:
-      <b>Стартовый экран</b> (26), <b>Экран 2</b> (4)
+      <b>Стартовый экран</b> (6), <b>Экран 2</b> (20)
     </p>
   </header>
 
@@ -90,23 +90,23 @@ code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-siz
   </section>
 
     <section class="group">
-    <h2>Задача невыполнима <span class="count">1</span></h2>
+    <h2>Понятно с усилием <span class="count">1</span></h2>
     <article class="finding">
-  <h3>Интерактивный элемент без подписи — пользователь не узнает, что это</h3>
-  <p class="screen">Стартовый экран</p>
-  <p>VoiceOver произносит: «button». Назначения элемента в реплике нет.</p>
-  <p class="std">EN 301 549 п. 11.1.1.1 · WCAG 1.1.1 — Текстовая альтернатива нетекстовому содержимому</p>
+  <h3>2 элемента звучат одинаково: «Bottom version 2, Bottom float with a picture»</h3>
+  <p class="screen">Экран 2</p>
+  <p>Все они произносятся как «Bottom version 2, Bottom float with a picture, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
 </article>
   </section>
 
   <section class="group platform">
-  <h2>Что нашли встроенные инструменты Apple <span class="count">1</span></h2>
+  <h2>Что нашли встроенные инструменты Apple <span class="count">26</span></h2>
   <p class="note">
     Эти находки выдаёт <code>performAccessibilityAudit</code> — он входит
     в Xcode и доступен любой команде бесплатно. Раздел показан отдельно,
     чтобы было видно, где заканчивается бесплатное.
   </p>
-  <ul><li>Hit area is too small</li></ul>
+  <ul><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Label duplicates traits</li><li>Contrast failed</li><li>Contrast failed</li><li>Contrast failed</li><li>Contrast failed</li><li>Contrast failed</li><li>Contrast failed</li><li>Contrast failed</li><li>Contrast failed</li></ul>
 </section>
 
   <footer>

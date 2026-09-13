@@ -173,9 +173,10 @@
             "x" : 154.91044776119404,
             "y" : 483.5207296849089
           },
+          "identifier" : "Card grabber",
           "index" : 4,
-          "label" : "Точка захвата листа",
-          "spoken" : "Точка захвата листа, На пол-экрана, button",
+          "label" : "Контроллер карты",
+          "spoken" : "Контроллер карты, На пол-экрана, button",
           "traits" : [
             "button"
           ],
@@ -219,8 +220,8 @@
           },
           "identifier" : "userProfileButton",
           "index" : 7,
-          "label" : "учетная запись",
-          "spoken" : "учетная запись, button",
+          "label" : "профиль",
+          "spoken" : "профиль, button",
           "traits" : [
             "button"
           ]
