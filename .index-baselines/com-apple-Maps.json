@@ -349,64 +349,54 @@
           "summary" : "Hit area is too small"
         },
         {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
+          "summary" : "Text clipped"
         },
         {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
+          "summary" : "Text clipped"
         },
         {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
+          "summary" : "Text clipped"
         },
         {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
+          "summary" : "Text clipped"
         },
         {
-          "evidence" : "Contrast failed for element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Экран 2",
           "severity" : "moderate",
           "source" : "platformAudit",
-          "summary" : "Contrast failed"
-        },
-        {
-          "evidence" : "Contrast failed for element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast failed"
+          "summary" : "Text clipped"
         },
         {
           "evidence" : "Contrast failed for element",
@@ -420,7 +410,7 @@
         },
         {
           "evidence" : "Contrast failed for element",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
+          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
           "screen" : "Экран 2",
@@ -443,282 +433,10 @@
       "utterances" : [
         {
           "frame" : {
-            "height" : 25,
-            "width" : 96,
-            "x" : 153,
-            "y" : 105
-          },
-          "identifier" : "Card grabber",
-          "index" : 0,
-          "label" : "Контроллер карты",
-          "spoken" : "Контроллер карты, Развернуто, button",
-          "traits" : [
-            "button"
-          ],
-          "value" : "Развернуто"
-        },
-        {
-          "frame" : {
-            "height" : 1064,
-            "width" : 702,
-            "x" : -150,
-            "y" : -40
-          },
-          "index" : 1,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 76,
-            "width" : 402,
-            "x" : 0,
-            "y" : 110
-          },
-          "index" : 2,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 318,
-            "x" : 16,
-            "y" : 126
-          },
-          "identifier" : "MapsSearchTextField",
-          "index" : 3,
-          "label" : "Карты Apple",
-          "placeholder" : "Карты Apple",
-          "spoken" : "Карты Apple, searchField",
-          "traits" : [
-            "searchField"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 342,
-            "y" : 126
-          },
-          "identifier" : "userProfileButton",
-          "index" : 4,
-          "label" : "профиль",
-          "spoken" : "профиль, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 240,
-            "width" : 642,
-            "x" : -120,
-            "y" : -10
-          },
-          "identifier" : "AdditionalDimmingOverlay",
-          "index" : 5,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 24,
-            "width" : 78,
-            "x" : 20,
-            "y" : 196
-          },
-          "identifier" : "SectionHeader",
-          "index" : 6,
-          "label" : "Места",
-          "spoken" : "Места, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 125.83331298828125,
-            "width" : 86.66666412353516,
-            "x" : 16,
-            "y" : 230
-          },
-          "identifier" : "PinnedTile",
-          "index" : 7,
-          "label" : "Дом, Добавить",
-          "spoken" : "Дом, Добавить, button",
-          "traits" : [
-            "button"
-          ],
-          "visibleText" : "Дом"
-        },
-        {
-          "frame" : {
-            "height" : 125.83331298828125,
-            "width" : 86.33333587646484,
-            "x" : 110.66666412353516,
-            "y" : 230
-          },
-          "identifier" : "PinnedTile",
-          "index" : 8,
-          "label" : "Работа, Добавить",
-          "spoken" : "Работа, Добавить, button",
-          "traits" : [
-            "button"
-          ],
-          "visibleText" : "Работа"
-        },
-        {
-          "frame" : {
-            "height" : 110.16665649414062,
-            "width" : 86.66665649414062,
-            "x" : 205,
-            "y" : 230
-          },
-          "identifier" : "PinnedTile",
-          "index" : 9,
-          "label" : "Добавить",
-          "spoken" : "Добавить, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 24,
-            "width" : 209,
-            "x" : 20,
-            "y" : 386
-          },
-          "identifier" : "SectionHeader",
-          "index" : 10,
-          "label" : "Ваши путеводители",
-          "spoken" : "Ваши путеводители, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 28,
-            "width" : 28,
-            "x" : 157,
-            "y" : 432
-          },
-          "identifier" : "MoreButton",
-          "index" : 11,
-          "label" : "Еще",
-          "spoken" : "Еще, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 116.66666666666663,
-            "width" : 181,
-            "x" : 16,
-            "y" : 544.6666666666666
-          },
-          "identifier" : "TitleLabel-SubtitleLabel",
-          "index" : 12,
-          "label" : "Избранное, 0 мест",
-          "spoken" : "Избранное, 0 мест, button",
-          "traits" : [
-            "button"
-          ],
-          "visibleText" : "Избранное"
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 699.6666666666667
-          },
-          "identifier" : "IconImage-TitleLabel",
-          "index" : 13,
-          "label" : "Поделиться геопозицией",
-          "spoken" : "Поделиться геопозицией, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 761.6666666666667
-          },
-          "identifier" : "IconImage-TitleLabel",
-          "index" : 14,
-          "label" : "Отметить мою геопозицию",
-          "spoken" : "Отметить мою геопозицию, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 823.6666666666667
-          },
-          "identifier" : "GridButton",
-          "index" : 15,
-          "label" : "Сообщить о проблеме",
-          "spoken" : "Сообщить о проблеме, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 13.333333333333371,
-            "width" : 135.3333333333333,
-            "x" : 129.33333333333334,
-            "y" : 891.6666666666667
-          },
-          "identifier" : "TermsAndConditionsButton",
-          "index" : 16,
-          "label" : "Положения и условия Вперед",
-          "spoken" : "Положения и условия Вперед, button",
-          "traits" : [
-            "button"
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Экран 3|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Экран 3",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        }
-      ],
-      "screen" : "Экран 3",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 238.66666666666663,
-            "x" : 76.99999999999999,
-            "y" : 69
+            "height" : 20.33333333333333,
+            "width" : 266,
+            "x" : 62.33333333333334,
+            "y" : 76
           },
           "identifier" : "StatusIndicatorLabel",
           "index" : 0,
@@ -732,225 +450,8 @@
           "frame" : {
             "height" : 12.666666666666671,
             "width" : 9.333333333333314,
-            "x" : 317.66666666666674,
-            "y" : 71.66666666666667
-          },
-          "identifier" : "StatusIndicatorDisclosure",
-          "index" : 1,
-          "label" : "Вперед",
-          "spoken" : "Вперед, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 48,
-            "width" : 48,
-            "x" : 338,
-            "y" : 674.6666666666666
-          },
-          "identifier" : "SettingsButton.Explore",
-          "index" : 2,
-          "label" : "Режимы карт",
-          "spoken" : "Режимы карт, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 48,
-            "width" : 48,
-            "x" : 338,
-            "y" : 722.6666666666666
-          },
-          "identifier" : "UserLocationButton",
-          "index" : 3,
-          "label" : "Отслеживание",
-          "spoken" : "Отслеживание, Выключена, button",
-          "traits" : [
-            "button"
-          ],
-          "value" : "Выключена"
-        },
-        {
-          "frame" : {
-            "height" : 21.517412935323364,
-            "width" : 82.62686567164181,
-            "x" : 159.68656716417908,
-            "y" : 776.2835820895523
-          },
-          "identifier" : "Card grabber",
-          "index" : 4,
-          "label" : "Контроллер карты",
-          "spoken" : "Контроллер карты, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 65.41293532338307,
-            "width" : 346,
-            "x" : 28,
-            "y" : 780.5870646766169
-          },
-          "index" : 5,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 37.8706467661691,
-            "width" : 273.7014925373134,
-            "x" : 41.77114427860697,
-            "y" : 794.3582089552239
-          },
-          "identifier" : "MapsSearchTextField",
-          "index" : 6,
-          "label" : "Карты Apple",
-          "placeholder" : "Карты Apple",
-          "spoken" : "Карты Apple, searchField",
-          "traits" : [
-            "searchField"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 37.8706467661691,
-            "width" : 37.87064676616916,
-            "x" : 322.35820895522386,
-            "y" : 794.3582089552239
-          },
-          "identifier" : "userProfileButton",
-          "index" : 7,
-          "label" : "профиль",
-          "spoken" : "профиль, button",
-          "traits" : [
-            "button"
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-        {
-          "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Contrast failed for element",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast failed"
-        },
-        {
-          "evidence" : "Contrast failed for element",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 1)|TitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast failed"
-        },
-        {
-          "evidence" : "Contrast is not high enough for element unless font size is larger.",
-          "key" : "Экран 4|platform|XCUIAccessibilityAuditType(rawValue: 1)|SubtitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 4",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Contrast nearly passed"
-        }
-      ],
-      "screen" : "Экран 4",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 18,
-            "width" : 238.66666666666663,
-            "x" : 76.99999999999999,
-            "y" : 69
-          },
-          "identifier" : "StatusIndicatorLabel",
-          "index" : 0,
-          "label" : "Службы геолокации выключены",
-          "spoken" : "Службы геолокации выключены",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 12.666666666666671,
-            "width" : 9.333333333333314,
-            "x" : 317.66666666666674,
-            "y" : 71.66666666666667
+            "x" : 332.33333333333337,
+            "y" : 79.66666666666667
           },
           "identifier" : "StatusIndicatorDisclosure",
           "index" : 1,
@@ -1172,6 +673,194 @@
             "button"
           ],
           "visibleText" : "Избранное"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Дом",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|SecondTitle",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Дом",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|TitleLabel",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Дом",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|MainTitle",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Дом",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Дом",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        }
+      ],
+      "screen" : "Дом",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 1070,
+            "width" : 702,
+            "x" : -150,
+            "y" : -46
+          },
+          "index" : 0,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 342,
+            "y" : 120
+          },
+          "identifier" : "CardButtonTypeTrailingButton",
+          "index" : 1,
+          "label" : "Готово",
+          "spoken" : "Готово, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 206.33333333333331,
+            "x" : 98,
+            "y" : 130
+          },
+          "identifier" : "TitleLabel",
+          "index" : 2,
+          "label" : "Добавление булавки",
+          "spoken" : "Добавление булавки",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 76,
+            "width" : 402,
+            "x" : 0,
+            "y" : 166
+          },
+          "index" : 3,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 182
+          },
+          "identifier" : "MapsSearchTextField",
+          "index" : 4,
+          "label" : "Карты Apple",
+          "placeholder" : "Карты Apple",
+          "spoken" : "Карты Apple, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 131.33333333333334,
+            "x" : 20,
+            "y" : 243
+          },
+          "index" : 5,
+          "label" : "Предложения Siri",
+          "spoken" : "Предложения Siri",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 250,
+            "x" : 78,
+            "y" : 287
+          },
+          "identifier" : "MainTitle",
+          "index" : 6,
+          "label" : "Транспорт рядом",
+          "spoken" : "Транспорт рядом",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 250,
+            "x" : 78,
+            "y" : 309.33333333333337
+          },
+          "identifier" : "SecondTitle",
+          "index" : 7,
+          "label" : "Все варианты отправлений поблизости",
+          "spoken" : "Все варианты отправлений поблизости",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 30,
+            "x" : 335,
+            "y" : 303
+          },
+          "identifier" : "AccessoryPinButton",
+          "index" : 8,
+          "label" : "булавка",
+          "spoken" : "булавка, button",
+          "traits" : [
+            "button"
+          ]
         }
       ]
     }

@@ -158,165 +158,345 @@
     },
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Общие|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Общие",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        }
       ],
-      "screen" : "Экран 2",
+      "screen" : "Общие",
       "utterances" : [
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 72
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66
           },
+          "identifier" : "OverflowBarButtonItem",
           "index" : 0,
-          "label" : "Выбрать",
-          "spoken" : "Выбрать, button",
+          "label" : "Еще",
+          "spoken" : "Еще, button",
           "traits" : [
             "button"
           ]
         },
         {
           "frame" : {
-            "height" : 62,
-            "width" : 250,
-            "x" : 142,
-            "y" : 114
+            "height" : 40.66666666666667,
+            "width" : 116.66666666666666,
+            "x" : 15.999999999999993,
+            "y" : 119.66666666666667
           },
           "index" : 1,
-          "label" : "Отсканировать документы",
-          "spoken" : "Отсканировать документы, button",
+          "label" : "Общие",
+          "spoken" : "Общие",
           "traits" : [
-            "button"
+
           ]
         },
         {
           "frame" : {
-            "height" : 62,
-            "width" : 250,
-            "x" : 142,
-            "y" : 176
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 169
           },
           "index" : 2,
-          "label" : "Подключиться к серверу",
-          "spoken" : "Подключиться к серверу, button",
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
           "traits" : [
-            "button"
+            "searchField"
           ]
         },
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 259
+            "height" : 53.99999999999994,
+            "width" : 72.66666666666669,
+            "x" : 164.66666666666666,
+            "y" : 451.3333333333333
           },
+          "identifier" : "folder.fill.badge.person.crop",
           "index" : 3,
-          "label" : "Значки",
-          "spoken" : "Значки, button",
+          "label" : "Общая папка",
+          "spoken" : "Общая папка, image",
           "traits" : [
-            "button"
+            "image"
           ]
         },
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 301
+            "height" : 26.666666666666742,
+            "width" : 334,
+            "x" : 34,
+            "y" : 520
           },
           "index" : 4,
-          "label" : "Список",
-          "spoken" : "Список, button",
+          "label" : "Нет файлов с общим доступом",
+          "spoken" : "Нет файлов с общим доступом",
           "traits" : [
-            "button"
+
           ]
         },
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 364
+            "height" : 18.33333333333337,
+            "width" : 305.33333333333337,
+            "x" : 48.33333333333334,
+            "y" : 549.3333333333333
           },
-          "identifier" : "DOC.sortMenuButton.name",
           "index" : 5,
-          "label" : "Название",
-          "spoken" : "Название, button",
+          "label" : "Здесь появятся файлы с общим доступом.",
+          "spoken" : "Здесь появятся файлы с общим доступом.",
           "traits" : [
-            "button"
+
           ]
         },
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 406
+            "height" : 54,
+            "width" : 94,
+            "x" : 68,
+            "y" : 795
           },
-          "identifier" : "DOC.sortMenuButton.kind",
           "index" : 6,
-          "label" : "Тип",
-          "spoken" : "Тип, button",
+          "label" : "Недавние",
+          "spoken" : "Недавние, button",
           "traits" : [
             "button"
           ]
         },
         {
           "frame" : {
-            "height" : 60,
-            "width" : 250,
-            "x" : 142,
-            "y" : 448
+            "height" : 54,
+            "width" : 94,
+            "x" : 154,
+            "y" : 795
           },
-          "identifier" : "DOC.sortMenuButton.dateLastOpened.descending",
           "index" : 7,
-          "label" : "Дата, От новых к старым",
-          "spoken" : "Дата, От новых к старым, button",
+          "label" : "Общие",
+          "spoken" : "Общие, button",
           "traits" : [
             "button"
           ]
         },
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 508
+            "height" : 54,
+            "width" : 94,
+            "x" : 240,
+            "y" : 795
           },
-          "identifier" : "DOC.sortMenuButton.size",
           "index" : 8,
-          "label" : "Размер",
-          "spoken" : "Размер, button",
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
           "traits" : [
             "button"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Обзор|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Обзор",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        }
+      ],
+      "screen" : "Обзор",
+      "utterances" : [
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 550
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
           },
-          "identifier" : "DOC.sortMenuButton.tags",
-          "index" : 9,
-          "label" : "Теги",
-          "spoken" : "Теги, button",
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
           "traits" : [
             "button"
           ]
         },
         {
           "frame" : {
-            "height" : 42,
-            "width" : 250,
-            "x" : 142,
-            "y" : 613
+            "height" : 20.66666666666667,
+            "width" : 81,
+            "x" : 160.33333333333334,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "На iPhone",
+          "spoken" : "На iPhone",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 346,
+            "y" : 66
+          },
+          "identifier" : "OverflowBarButtonItem",
+          "index" : 2,
+          "label" : "Еще",
+          "spoken" : "Еще, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 117
+          },
+          "index" : 3,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 442,
+            "width" : 642,
+            "x" : -120,
+            "y" : -221
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 4,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 286,
+            "width" : 642,
+            "x" : -120,
+            "y" : 731
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 5,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 84,
+            "width" : 84,
+            "x" : 29,
+            "y" : 190
+          },
+          "index" : 6,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20,
+            "width" : 116,
+            "x" : 13,
+            "y" : 279
+          },
+          "index" : 7,
+          "label" : "Sonava",
+          "spoken" : "Sonava",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 116,
+            "x" : 13,
+            "y" : 302
+          },
+          "index" : 8,
+          "label" : "2 объекта",
+          "spoken" : "2 объекта",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 64.33333333333331,
+            "x" : 169,
+            "y" : 753
+          },
+          "index" : 9,
+          "label" : "1 объект",
+          "spoken" : "1 объект",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 94,
+            "x" : 68,
+            "y" : 795
           },
           "index" : 10,
-          "label" : "Параметры вида",
-          "spoken" : "Параметры вида, button",
+          "label" : "Недавние",
+          "spoken" : "Недавние, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 94,
+            "x" : 154,
+            "y" : 795
+          },
+          "index" : 11,
+          "label" : "Общие",
+          "spoken" : "Общие, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 94,
+            "x" : 240,
+            "y" : 795
+          },
+          "index" : 12,
+          "label" : "Обзор",
+          "spoken" : "Обзор, button",
           "traits" : [
             "button"
           ]

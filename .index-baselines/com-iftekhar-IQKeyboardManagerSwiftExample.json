@@ -13,18 +13,8 @@
     {
       "platformAuditFindings" : [
         {
-          "evidence" : "User will not be able to change the font size of this UITableViewCell",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this UITableViewCell",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Стартовый экран",
@@ -43,6 +33,26 @@
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
+          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
           "evidence" : "User will not be able to change the font size of this UITableViewCell",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
           "occurrences" : 1,
@@ -63,8 +73,8 @@
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
-          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "evidence" : "User will not be able to change the font size of this UITableViewCell",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Стартовый экран",
@@ -73,18 +83,8 @@
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
-          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this UITableViewLabel",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "evidence" : "User will not be able to change the font size of this UITableViewCell",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Стартовый экран",
@@ -915,228 +915,6 @@
           "spoken" : "#2000",
           "traits" : [
 
-          ]
-        }
-      ]
-    },
-    {
-      "platformAuditFindings" : [
-        {
-          "evidence" : "The accessibilityLabel of this element is not human-readable.",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 8)|LP.CaptionBar.BottomCaption",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Label not human-readable"
-        }
-      ],
-      "screen" : "Экран 2",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 666.6666666666667,
-            "width" : 684,
-            "x" : -141,
-            "y" : 348
-          },
-          "index" : 0,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 64,
-            "width" : 64,
-            "x" : 24.333333333333343,
-            "y" : 24.33333333333333
-          },
-          "identifier" : "safari",
-          "index" : 1,
-          "label" : "safari",
-          "spoken" : "safari, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 14.333333333333343,
-            "width" : 82,
-            "x" : 18.33333333333334,
-            "y" : 196.33333333333331
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 2,
-          "label" : "Напоминания",
-          "spoken" : "Напоминания",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 30.333333333333343,
-            "width" : 32.66666666666666,
-            "x" : 18.33333333333334,
-            "y" : 196.33333333333331
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 3,
-          "label" : "Apple Inc",
-          "spoken" : "Apple Inc",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 67.99999999999999,
-            "width" : 68,
-            "x" : 25.33333333333334,
-            "y" : 120.33333333333333
-          },
-          "identifier" : "activityImageView",
-          "index" : 4,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 14.333333333333343,
-            "width" : 81.99999999999999,
-            "x" : 106.6666666666667,
-            "y" : 196.33333333333331
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 5,
-          "label" : "Ice Cubes",
-          "spoken" : "Ice Cubes",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 30.333333333333343,
-            "width" : 32.66666666666667,
-            "x" : 106.6666666666667,
-            "y" : 196.33333333333331
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 6,
-          "label" : "Apple Inc",
-          "spoken" : "Apple Inc",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 67.99999999999999,
-            "width" : 67.99999999999999,
-            "x" : 113.6666666666667,
-            "y" : 120.33333333333333
-          },
-          "identifier" : "activityImageView",
-          "index" : 7,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 14.333333333333343,
-            "width" : 82,
-            "x" : 195,
-            "y" : 196.33333333333331
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 8,
-          "label" : "Еще",
-          "spoken" : "Еще",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 30.333333333333343,
-            "width" : 32.66666666666666,
-            "x" : 195,
-            "y" : 196.33333333333331
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 9,
-          "label" : "Apple Inc",
-          "spoken" : "Apple Inc",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 67.99999999999999,
-            "width" : 68,
-            "x" : 202,
-            "y" : 120.33333333333333
-          },
-          "identifier" : "activityImageView",
-          "index" : 10,
-          "spoken" : "image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 30.333333333333314,
-            "width" : 82,
-            "x" : 18.33333333333334,
-            "y" : 320.3333333333333
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 11,
-          "label" : "Add to Reading List",
-          "spoken" : "Add to Reading List",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 30.333333333333314,
-            "width" : 32.66666666666666,
-            "x" : 18.33333333333334,
-            "y" : 320.3333333333333
-          },
-          "identifier" : "cellTitleLabel",
-          "index" : 12,
-          "label" : "Apple Inc",
-          "spoken" : "Apple Inc",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 21,
-            "width" : 32,
-            "x" : 43.33333333333334,
-            "y" : 268.6666666666667
-          },
-          "identifier" : "activityImageView",
-          "index" : 13,
-          "label" : "список для чтения",
-          "spoken" : "список для чтения, image",
-          "traits" : [
-            "image"
           ]
         }
       ]

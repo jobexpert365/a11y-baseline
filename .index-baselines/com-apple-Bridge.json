@@ -64,7 +64,7 @@
       "platformAuditFindings" : [
 
       ],
-      "screen" : "Экран 2",
+      "screen" : "Мои часы",
       "utterances" : [
         {
           "frame" : {
@@ -89,8 +89,8 @@
             "y" : 459
           },
           "index" : 1,
-          "label" : "Доброе утро!",
-          "spoken" : "Доброе утро!",
+          "label" : "Добрый день!",
+          "spoken" : "Добрый день!",
           "traits" : [
 
           ]
@@ -174,6 +174,529 @@
             "y" : 795
           },
           "index" : 7,
+          "label" : "Советы",
+          "spoken" : "Советы, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Циферблаты|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Циферблаты",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Циферблаты|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Циферблаты",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Циферблаты|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Циферблаты",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
+      ],
+      "screen" : "Циферблаты",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 217.33333333333331,
+            "x" : 15.999999999999986,
+            "y" : 119.66666666666667
+          },
+          "index" : 0,
+          "label" : "Циферблаты",
+          "spoken" : "Циферблаты",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 286,
+            "width" : 642,
+            "x" : -120,
+            "y" : 731
+          },
+          "identifier" : "AdditionalDimmingOverlay",
+          "index" : 1,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 256,
+            "width" : 370,
+            "x" : 16,
+            "y" : 184
+          },
+          "index" : 2,
+          "label" : "Новые циферблаты, Новейшие циферблаты Apple Watch.",
+          "spoken" : "Новые циферблаты, Новейшие циферблаты Apple Watch., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Новые циферблаты"
+        },
+        {
+          "frame" : {
+            "height" : 287,
+            "width" : 177,
+            "x" : 16,
+            "y" : 456
+          },
+          "index" : 3,
+          "label" : "Здоровье и спорт, Все для здорового образа жизни.",
+          "spoken" : "Здоровье и спорт, Все для здорового образа жизни., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Здоровье и спорт"
+        },
+        {
+          "frame" : {
+            "height" : 267,
+            "width" : 177,
+            "x" : 209,
+            "y" : 456
+          },
+          "index" : 4,
+          "label" : "Минима­листичные, Только самое важное.",
+          "spoken" : "Минима­листичные, Только самое важное., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Минима­листичные"
+        },
+        {
+          "frame" : {
+            "height" : 307,
+            "width" : 177,
+            "x" : 16,
+            "y" : 759
+          },
+          "index" : 5,
+          "label" : "Информативные, Функциональность и удобные расширения.",
+          "spoken" : "Информативные, Функциональность и удобные расширения., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Информативные"
+        },
+        {
+          "frame" : {
+            "height" : 287,
+            "width" : 177,
+            "x" : 209,
+            "y" : 759
+          },
+          "index" : 6,
+          "label" : "Для особых случаев, Циферблаты для делового стиля.",
+          "spoken" : "Для особых случаев, Циферблаты для делового стиля., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Для особых случаев"
+        },
+        {
+          "frame" : {
+            "height" : 307.33333333333326,
+            "width" : 177,
+            "x" : 16,
+            "y" : 1082
+          },
+          "index" : 7,
+          "label" : "Специальные, Идеальны для конкретных задач.",
+          "spoken" : "Специальные, Идеальны для конкретных задач., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Специальные"
+        },
+        {
+          "frame" : {
+            "height" : 287.33333333333326,
+            "width" : 177,
+            "x" : 209,
+            "y" : 1082
+          },
+          "index" : 8,
+          "label" : "Эффектные, Наглядные и привлекательные.",
+          "spoken" : "Эффектные, Наглядные и привлекательные., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Эффектные"
+        },
+        {
+          "frame" : {
+            "height" : 256,
+            "width" : 370,
+            "x" : 16,
+            "y" : 1405.3333333333333
+          },
+          "index" : 9,
+          "label" : "Забавные, Веселые и забавные.",
+          "spoken" : "Забавные, Веселые и забавные., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Забавные"
+        },
+        {
+          "frame" : {
+            "height" : 276,
+            "width" : 370,
+            "x" : 16,
+            "y" : 1677.3333333333333
+          },
+          "index" : 10,
+          "label" : "Коллекция «Единство», В честь африканской и афроамериканской истории и культуры.",
+          "spoken" : "Коллекция «Единство», В честь африканской и афроамериканской истории и культуры., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Коллекция «Единство»"
+        },
+        {
+          "frame" : {
+            "height" : 286.9999999999998,
+            "width" : 177,
+            "x" : 16,
+            "y" : 1969.3333333333333
+          },
+          "index" : 11,
+          "label" : "Разноцветные, Яркие цвета и контраст.",
+          "spoken" : "Разноцветные, Яркие цвета и контраст., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Разноцветные"
+        },
+        {
+          "frame" : {
+            "height" : 286.9999999999998,
+            "width" : 177,
+            "x" : 209,
+            "y" : 1969.3333333333333
+          },
+          "index" : 12,
+          "label" : "Астрономия, Красота небесных тел.",
+          "spoken" : "Астрономия, Красота небесных тел., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Астрономия"
+        },
+        {
+          "frame" : {
+            "height" : 307,
+            "width" : 177,
+            "x" : 16,
+            "y" : 2272.333333333333
+          },
+          "index" : 13,
+          "label" : "Шрифты мира, Цифры, набранные шрифтами со всего мира.",
+          "spoken" : "Шрифты мира, Цифры, набранные шрифтами со всего мира., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Шрифты мира"
+        },
+        {
+          "frame" : {
+            "height" : 287,
+            "width" : 177,
+            "x" : 209,
+            "y" : 2272.333333333333
+          },
+          "index" : 14,
+          "label" : "Движение, Анимация и красивое движение.",
+          "spoken" : "Движение, Анимация и красивое движение., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Движение"
+        },
+        {
+          "frame" : {
+            "height" : 256,
+            "width" : 370,
+            "x" : 16,
+            "y" : 2595.333333333333
+          },
+          "index" : 15,
+          "label" : "Коллекция Nike, Мир спорта и активности.",
+          "spoken" : "Коллекция Nike, Мир спорта и активности., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Коллекция Nike"
+        },
+        {
+          "frame" : {
+            "height" : 287,
+            "width" : 177,
+            "x" : 16,
+            "y" : 2867.333333333333
+          },
+          "index" : 16,
+          "label" : "Время (цифровые), Точное время — ясно и наглядно.",
+          "spoken" : "Время (цифровые), Точное время — ясно и наглядно., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Время (цифровые)"
+        },
+        {
+          "frame" : {
+            "height" : 307,
+            "width" : 177,
+            "x" : 209,
+            "y" : 2867.333333333333
+          },
+          "index" : 17,
+          "label" : "Время (аналоговые), Красивые циферблаты со стрелками.",
+          "spoken" : "Время (аналоговые), Красивые циферблаты со стрелками., button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Время (аналоговые)"
+        },
+        {
+          "frame" : {
+            "height" : 52.333333333333485,
+            "width" : 370,
+            "x" : 16,
+            "y" : 3190.333333333333
+          },
+          "index" : 18,
+          "label" : "См. все циферблаты",
+          "spoken" : "См. все циферблаты, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 50,
+            "y" : 795
+          },
+          "index" : 19,
+          "label" : "Мои часы",
+          "spoken" : "Мои часы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 148,
+            "y" : 795
+          },
+          "index" : 20,
+          "label" : "Циферблаты",
+          "spoken" : "Циферблаты, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 246,
+            "y" : 795
+          },
+          "index" : 21,
+          "label" : "Советы",
+          "spoken" : "Советы, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Советы",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 126,
+            "x" : 16,
+            "y" : 119.66666666666667
+          },
+          "index" : 0,
+          "label" : "Советы",
+          "spoken" : "Советы",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 26.333333333333343,
+            "width" : 362,
+            "x" : 20,
+            "y" : 178
+          },
+          "index" : 1,
+          "label" : "Для начала",
+          "spoken" : "Для начала",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 264,
+            "x" : 130,
+            "y" : 251
+          },
+          "index" : 2,
+          "label" : "Познакомьтесь с Apple Watch",
+          "spoken" : "Познакомьтесь с Apple Watch",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 264,
+            "x" : 130,
+            "y" : 271.33333333333337
+          },
+          "index" : 3,
+          "label" : "Смотреть на Apple.com",
+          "spoken" : "Смотреть на Apple.com",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 42.333333333333314,
+            "width" : 264,
+            "x" : 130,
+            "y" : 367.33333333333337
+          },
+          "index" : 4,
+          "label" : "Руководство пользователя Apple Watch",
+          "spoken" : "Руководство пользователя Apple Watch",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54.333333333333314,
+            "width" : 362,
+            "x" : 20,
+            "y" : 478.3333333333333
+          },
+          "index" : 5,
+          "label" : "Получите максимум от своих часов",
+          "spoken" : "Получите максимум от своих часов",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 264,
+            "x" : 130,
+            "y" : 579.3333333333334
+          },
+          "index" : 6,
+          "label" : "Галерея приложений для часов",
+          "spoken" : "Галерея приложений для часов",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 264,
+            "x" : 130,
+            "y" : 599.6666666666667
+          },
+          "index" : 7,
+          "label" : "Просмотреть в App Store",
+          "spoken" : "Просмотреть в App Store",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 50,
+            "y" : 795
+          },
+          "index" : 8,
+          "label" : "Мои часы",
+          "spoken" : "Мои часы, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 148,
+            "y" : 795
+          },
+          "index" : 9,
+          "label" : "Циферблаты",
+          "spoken" : "Циферблаты, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 106,
+            "x" : 246,
+            "y" : 795
+          },
+          "index" : 10,
           "label" : "Советы",
           "spoken" : "Советы, button",
           "traits" : [

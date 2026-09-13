@@ -1,0 +1,1343 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Charts Demo (графики, UIKit)",
+  "appVersion" : "—",
+  "capturedOn" : "2026-09-13",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "en",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 175.66666666666663,
+            "x" : 113,
+            "y" : 73.66666666666666
+          },
+          "index" : 0,
+          "label" : "Charts Demonstration",
+          "spoken" : "Charts Demonstration",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 78.33333333333333,
+            "x" : 20,
+            "y" : 129
+          },
+          "index" : 1,
+          "label" : "Line Chart",
+          "spoken" : "Line Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 273.6666666666667,
+            "x" : 20,
+            "y" : 152.33333333333331
+          },
+          "index" : 2,
+          "label" : "A simple demonstration of the linechart.",
+          "spoken" : "A simple demonstration of the linechart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 174.66666666666666,
+            "x" : 20,
+            "y" : 199
+          },
+          "index" : 3,
+          "label" : "Line Chart (Dual YAxis)",
+          "spoken" : "Line Chart (Dual YAxis)",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 324,
+            "x" : 20,
+            "y" : 222.33333333333331
+          },
+          "index" : 4,
+          "label" : "Demonstration of the linechart with dual y-axis.",
+          "spoken" : "Demonstration of the linechart with dual y-axis.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 72.33333333333333,
+            "x" : 20,
+            "y" : 269
+          },
+          "index" : 5,
+          "label" : "Bar Chart",
+          "spoken" : "Bar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 276.3333333333333,
+            "x" : 20,
+            "y" : 292.3333333333333
+          },
+          "index" : 6,
+          "label" : "A simple demonstration of the bar chart.",
+          "spoken" : "A simple demonstration of the bar chart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 154.66666666666666,
+            "x" : 20,
+            "y" : 339
+          },
+          "index" : 7,
+          "label" : "Horizontal Bar Chart",
+          "spoken" : "Horizontal Bar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 348,
+            "x" : 20,
+            "y" : 362.3333333333333
+          },
+          "index" : 8,
+          "label" : "A simple demonstration of the horizontal bar chart.",
+          "spoken" : "A simple demonstration of the horizontal bar chart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 125,
+            "x" : 20,
+            "y" : 399
+          },
+          "index" : 9,
+          "label" : "Combined Chart",
+          "spoken" : "Combined Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 353.3333333333333,
+            "x" : 20,
+            "y" : 422.3333333333333
+          },
+          "index" : 10,
+          "label" : "Demonstrates how to create a combined chart (bar and line in this case).",
+          "spoken" : "Demonstrates how to create a combined chart (bar and line in this case).",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 70,
+            "x" : 20,
+            "y" : 479
+          },
+          "index" : 11,
+          "label" : "Pie Chart",
+          "spoken" : "Pie Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.999999999999943,
+            "width" : 274.6666666666667,
+            "x" : 20,
+            "y" : 502.3333333333333
+          },
+          "index" : 12,
+          "label" : "A simple demonstration of the pie chart.",
+          "spoken" : "A simple demonstration of the pie chart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 190,
+            "x" : 20,
+            "y" : 539
+          },
+          "index" : 13,
+          "label" : "Pie Chart with value lines",
+          "spoken" : "Pie Chart with value lines",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 362,
+            "x" : 20,
+            "y" : 562.3333333333333
+          },
+          "index" : 14,
+          "label" : "A simple demonstration of the pie chart with polyline notes.",
+          "spoken" : "A simple demonstration of the pie chart with polyline notes.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 102,
+            "x" : 20,
+            "y" : 619
+          },
+          "index" : 15,
+          "label" : "Scatter Chart",
+          "spoken" : "Scatter Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 301.6666666666667,
+            "x" : 20,
+            "y" : 642.3333333333334
+          },
+          "index" : 16,
+          "label" : "A simple demonstration of the scatter chart.",
+          "spoken" : "A simple demonstration of the scatter chart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 100,
+            "x" : 20,
+            "y" : 689
+          },
+          "index" : 17,
+          "label" : "Bubble Chart",
+          "spoken" : "Bubble Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 301.3333333333333,
+            "x" : 20,
+            "y" : 712.3333333333334
+          },
+          "index" : 18,
+          "label" : "A simple demonstration of the bubble chart.",
+          "spoken" : "A simple demonstration of the bubble chart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 138.66666666666666,
+            "x" : 20,
+            "y" : 749
+          },
+          "index" : 19,
+          "label" : "Stacked Bar Chart",
+          "spoken" : "Stacked Bar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 352.3333333333333,
+            "x" : 20,
+            "y" : 772.3333333333334
+          },
+          "index" : 20,
+          "label" : "A simple demonstration of a bar chart with stacked bars.",
+          "spoken" : "A simple demonstration of a bar chart with stacked bars.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 210.66666666666666,
+            "x" : 20,
+            "y" : 819
+          },
+          "index" : 21,
+          "label" : "Stacked Bar Chart Negative",
+          "spoken" : "Stacked Bar Chart Negative",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 308.3333333333333,
+            "x" : 20,
+            "y" : 842.3333333333334
+          },
+          "index" : 22,
+          "label" : "A simple demonstration of stacked bars with negative and positive values.",
+          "spoken" : "A simple demonstration of stacked bars with negative and positive values.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 137.66666666666666,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 23,
+          "label" : "Another Bar Chart",
+          "spoken" : "Another Bar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 362,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 24,
+          "label" : "Implementation of a BarChart that only shows values at the bottom.",
+          "spoken" : "Implementation of a BarChart that only shows values at the bottom.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 151.66666666666666,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 25,
+          "label" : "Multiple Lines Chart",
+          "spoken" : "Multiple Lines Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 360.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 26,
+          "label" : "A line chart with multiple DataSet objects. One color per DataSet.",
+          "spoken" : "A line chart with multiple DataSet objects. One color per DataSet.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 145.33333333333334,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 27,
+          "label" : "Multiple Bars Chart",
+          "spoken" : "Multiple Bars Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 320.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 28,
+          "label" : "A bar chart with multiple DataSet objects. One multiple colors per DataSet.",
+          "spoken" : "A bar chart with multiple DataSet objects. One multiple colors per DataSet.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 142.33333333333334,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 29,
+          "label" : "Candle Stick Chart",
+          "spoken" : "Candle Stick Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 314,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 30,
+          "label" : "Demonstrates usage of the CandleStickChart.",
+          "spoken" : "Demonstrates usage of the CandleStickChart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 127,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 31,
+          "label" : "Cubic Line Chart",
+          "spoken" : "Cubic Line Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 18,
+            "width" : 276,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 32,
+          "label" : "Demonstrates cubic lines in a LineChart.",
+          "spoken" : "Demonstrates cubic lines in a LineChart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 91.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 33,
+          "label" : "Radar Chart",
+          "spoken" : "Radar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 330,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 34,
+          "label" : "Demonstrates the use of a spider-web like (net) chart.",
+          "spoken" : "Demonstrates the use of a spider-web like (net) chart.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 142.66666666666666,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 35,
+          "label" : "Colored Line Chart",
+          "spoken" : "Colored Line Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 341.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 36,
+          "label" : "Shows a LineChart with different background and line color.",
+          "spoken" : "Shows a LineChart with different background and line color.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 118.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 37,
+          "label" : "Sinus Bar Chart",
+          "spoken" : "Sinus Bar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 342.3333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 38,
+          "label" : "A Bar Chart plotting the sinus function with 8.000 values.",
+          "spoken" : "A Bar Chart plotting the sinus function with 8.000 values.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 209.66666666666666,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 39,
+          "label" : "BarChart positive / negative",
+          "spoken" : "BarChart positive / negative",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 338.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 40,
+          "label" : "This demonstrates how to create a BarChart with positive and negative values in different colors.",
+          "spoken" : "This demonstrates how to create a BarChart with positive and negative values in different colors.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 120.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 41,
+          "label" : "Time Line Chart",
+          "spoken" : "Time Line Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 58,
+            "width" : 342.3333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 42,
+          "label" : "Simple demonstration of a time-chart. This chart draws one line entry per hour originating from the current time in milliseconds.",
+          "spoken" : "Simple demonstration of a time-chart. This chart draws one line entry per hour originating from the current time in milliseconds.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 123,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 43,
+          "label" : "Filled Line Chart",
+          "spoken" : "Filled Line Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 347.3333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 44,
+          "label" : "This demonstrates how to fill an area between two LineDataSets.",
+          "spoken" : "This demonstrates how to fill an area between two LineDataSets.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 105.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 45,
+          "label" : "Half Pie Chart",
+          "spoken" : "Half Pie Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 322.3333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 46,
+          "label" : "This demonstrates how to create a 180 degree PieChart.",
+          "spoken" : "This demonstrates how to create a 180 degree PieChart.",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Line Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Line Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Line Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Line Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Line Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Line Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        }
+      ],
+      "screen" : "Line Chart",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Charts Demonstration",
+          "spoken" : "Charts Demonstration, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 94,
+            "x" : 154,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Line Chart 1",
+          "spoken" : "Line Chart 1",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 35,
+            "width" : 78,
+            "x" : 316,
+            "y" : 120
+          },
+          "index" : 2,
+          "label" : "Options",
+          "spoken" : "Options, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 772
+          },
+          "index" : 3,
+          "spoken" : "3 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "3 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 774
+          },
+          "index" : 4,
+          "spoken" : "45, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "45"
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 814
+          },
+          "index" : 5,
+          "spoken" : "66 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "66 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 816
+          },
+          "index" : 6,
+          "spoken" : "100, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "100"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Line Chart (Dual YAxis)|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Line Chart (Dual YAxis)",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Line Chart (Dual YAxis)|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Line Chart (Dual YAxis)",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Line Chart (Dual YAxis)|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Line Chart (Dual YAxis)",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        }
+      ],
+      "screen" : "Line Chart (Dual YAxis)",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Charts Demonstration",
+          "spoken" : "Charts Demonstration, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 96.33333333333334,
+            "x" : 152.66666666666666,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Line Chart 2",
+          "spoken" : "Line Chart 2",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 35,
+            "width" : 78,
+            "x" : 316,
+            "y" : 120
+          },
+          "index" : 2,
+          "label" : "Options",
+          "spoken" : "Options, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 772
+          },
+          "index" : 3,
+          "spoken" : "4 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "4 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 774
+          },
+          "index" : 4,
+          "spoken" : "20, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "20"
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 814
+          },
+          "index" : 5,
+          "spoken" : "15 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "15 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 816
+          },
+          "index" : 6,
+          "spoken" : "30, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "30"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this DGCharts.NSUIAccessibilityElement is too small for user to interact.",
+          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "The size of this DGCharts.NSUIAccessibilityElement is too small for user to interact.",
+          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        }
+      ],
+      "screen" : "Bar Chart",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Charts Demonstration",
+          "spoken" : "Charts Demonstration, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 76,
+            "x" : 163,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Bar Chart",
+          "spoken" : "Bar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 35,
+            "width" : 78,
+            "x" : 316,
+            "y" : 120
+          },
+          "index" : 2,
+          "label" : "Options",
+          "spoken" : "Options, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 772
+          },
+          "index" : 3,
+          "spoken" : "2 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "2 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 774
+          },
+          "index" : 4,
+          "spoken" : "14, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "14"
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 814
+          },
+          "index" : 5,
+          "spoken" : "25 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "25 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 816
+          },
+          "index" : 6,
+          "spoken" : "50, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "50"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Horizontal Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Horizontal Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Horizontal Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Horizontal Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
+          "key" : "Horizontal Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Horizontal Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        }
+      ],
+      "screen" : "Horizontal Bar Chart",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Charts Demonstration",
+          "spoken" : "Charts Demonstration, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 162,
+            "x" : 120,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Horizontal Bar Chart",
+          "spoken" : "Horizontal Bar Chart",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 35,
+            "width" : 78,
+            "x" : 316,
+            "y" : 120
+          },
+          "index" : 2,
+          "label" : "Options",
+          "spoken" : "Options, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 772
+          },
+          "index" : 3,
+          "spoken" : "2 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "2 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 774
+          },
+          "index" : 4,
+          "spoken" : "12, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "12"
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 308,
+            "x" : 8,
+            "y" : 814
+          },
+          "index" : 5,
+          "spoken" : "25 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "25 %"
+        },
+        {
+          "frame" : {
+            "height" : 30,
+            "width" : 70,
+            "x" : 324,
+            "y" : 816
+          },
+          "index" : 6,
+          "spoken" : "50, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "50"
+        }
+      ]
+    }
+  ]
+}

@@ -25,3 +25,4 @@ com.apple.Preview|Просмотр|ru|6
 com.onevcat.Kingfisher-Demo|Kingfisher Demo (UIKit)|en|6
 com.iftekhar.IQKeyboardManagerSwiftExample|IQKeyboardManager Example (UIKit)|en|6
 com.exyte.PopupExample|PopupView Example (SwiftUI)|en|6
+com.dcg.ChartsDemo-iOS|Charts Demo (графики, UIKit)|en|5

@@ -564,19 +564,106 @@
     },
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Медиатека|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Медиатека",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Медиатека|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Медиатека",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Медиатека|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Медиатека",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Медиатека|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Медиатека",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Медиатека|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Медиатека",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast failed for element",
+          "key" : "Медиатека|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Медиатека",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
       ],
-      "screen" : "Экран 2",
+      "screen" : "Медиатека",
       "utterances" : [
         {
           "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 133,
+            "x" : 72,
+            "y" : 73.66666666666666
+          },
+          "index" : 1,
+          "label" : "Все быстрые команды",
+          "spoken" : "Все быстрые команды",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
             "height" : 36,
-            "width" : 92.66666666666666,
-            "x" : 233.33333333333334,
+            "width" : 105,
+            "x" : 221,
             "y" : 66
           },
-          "identifier" : "sidebar.button.edit",
-          "index" : 0,
+          "index" : 2,
           "label" : "Изменить",
           "spoken" : "Изменить, button",
           "traits" : [
@@ -590,165 +677,151 @@
             "x" : 346,
             "y" : 66
           },
-          "identifier" : "sidebar.button.newfolder",
-          "index" : 1,
-          "label" : "Добавить новую папку",
-          "spoken" : "Добавить новую папку, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.66666666666667,
-            "width" : 185.66666666666666,
-            "x" : 16,
-            "y" : 119.66666666666667
-          },
-          "index" : 2,
-          "label" : "Медиатека",
-          "spoken" : "Медиатека",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 168
-          },
           "index" : 3,
-          "label" : "Все быстрые команды",
-          "spoken" : "Все быстрые команды, button",
+          "label" : "Создать быструю команду",
+          "spoken" : "Создать быструю команду, button",
           "traits" : [
             "button"
           ]
         },
         {
           "frame" : {
-            "height" : 11,
-            "width" : 6.6666669845581055,
-            "x" : 362.66666666666663,
-            "y" : 188.66666666666666
+            "height" : 56,
+            "width" : 56,
+            "x" : 32,
+            "y" : -106.66666666666669
           },
-          "identifier" : "chevron.forward",
+          "identifier" : "square.and.pencil",
           "index" : 4,
-          "label" : "Вперед",
-          "spoken" : "Вперед, image",
+          "label" : "Создать",
+          "spoken" : "Создать, button",
           "traits" : [
-            "image"
+            "button"
           ]
         },
         {
           "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 220
+            "height" : 30.33333333333333,
+            "width" : 57.33333333333332,
+            "x" : 31.333333333333336,
+            "y" : -41.666666666666686
           },
           "index" : 5,
-          "label" : "Страница экспорта",
-          "spoken" : "Страница экспорта, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 11,
-            "width" : 6.6666669845581055,
-            "x" : 362.66666666666663,
-            "y" : 240.66666666666666
-          },
-          "identifier" : "chevron.forward",
-          "index" : 6,
-          "label" : "Вперед",
-          "spoken" : "Вперед, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 272
-          },
-          "index" : 7,
-          "label" : "Apple Watch",
-          "spoken" : "Apple Watch, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 11,
-            "width" : 6.6666669845581055,
-            "x" : 362.66666666666663,
-            "y" : 292.6666666666667
-          },
-          "identifier" : "chevron.forward",
-          "index" : 8,
-          "label" : "Вперед",
-          "spoken" : "Вперед, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 370,
-            "x" : 16,
-            "y" : 341.66666666666663
-          },
-          "index" : 9,
-          "label" : "Приложения",
-          "spoken" : "Приложения",
+          "label" : "Compose a post",
+          "spoken" : "Compose a post",
           "traits" : [
 
           ]
         },
         {
           "frame" : {
-            "height" : 60.333333333333314,
-            "width" : 370,
-            "x" : 16,
-            "y" : 385.66666666666663
+            "height" : 56,
+            "width" : 56,
+            "x" : 126,
+            "y" : -106.66666666666669
           },
-          "index" : 10,
-          "label" : "Food Truck",
-          "spoken" : "Food Truck, button",
+          "identifier" : "square.and.pencil",
+          "index" : 6,
+          "label" : "Создать",
+          "spoken" : "Создать, button",
           "traits" : [
             "button"
           ]
         },
         {
           "frame" : {
-            "height" : 60.333333333333314,
-            "width" : 370,
-            "x" : 16,
-            "y" : 446
+            "height" : 14.333333333333329,
+            "width" : 67.33333333333334,
+            "x" : 120.33333333333334,
+            "y" : -41.666666666666686
+          },
+          "index" : 7,
+          "label" : "Send a post",
+          "spoken" : "Send a post",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 220,
+            "y" : -106.66666666666669
+          },
+          "identifier" : "photo.on.rectangle.angled",
+          "index" : 8,
+          "label" : "photo.on.rectangle.angled",
+          "spoken" : "photo.on.rectangle.angled, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.33333333333333,
+            "width" : 65.66666666666669,
+            "x" : 215.16666666666669,
+            "y" : -41.666666666666686
+          },
+          "index" : 9,
+          "label" : "Send image(s) (background)",
+          "spoken" : "Send image(s) (background)",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 314,
+            "y" : -106.66666666666669
+          },
+          "identifier" : "cube",
+          "index" : 10,
+          "label" : "Эффект Глубины",
+          "spoken" : "Эффект Глубины, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.33333333333333,
+            "width" : 54,
+            "x" : 315,
+            "y" : -41.666666666666686
           },
           "index" : 11,
-          "label" : "Ice Cubes",
-          "spoken" : "Ice Cubes, button",
+          "label" : "Open Ice Cubes",
+          "spoken" : "Open Ice Cubes",
           "traits" : [
-            "button"
+
           ]
         },
         {
           "frame" : {
-            "height" : 60.333333333333314,
-            "width" : 370,
-            "x" : 16,
-            "y" : 506.3333333333333
+            "height" : 332,
+            "width" : 642,
+            "x" : -120,
+            "y" : -166
           },
+          "identifier" : "AdditionalDimmingOverlay",
           "index" : 12,
+          "spoken" : "image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24.000001907348633,
+            "width" : 119,
+            "x" : 20,
+            "y" : 31.33333396911621
+          },
+          "index" : 13,
           "label" : "Sonava",
           "spoken" : "Sonava, button",
           "traits" : [
@@ -757,12 +830,99 @@
         },
         {
           "frame" : {
-            "height" : 60.33333333333337,
-            "width" : 370,
-            "x" : 16,
-            "y" : 566.6666666666667
+            "height" : 56,
+            "width" : 56,
+            "x" : 32,
+            "y" : 87.33333333333337
           },
-          "index" : 13,
+          "identifier" : "heart.fill",
+          "index" : 14,
+          "label" : "Любовь",
+          "spoken" : "Любовь, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 65.33333333333331,
+            "x" : 27.333333333333336,
+            "y" : 152.33333333333337
+          },
+          "index" : 15,
+          "label" : "Избранное",
+          "spoken" : "Избранное",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 126,
+            "y" : 87.33333333333337
+          },
+          "identifier" : "dot.radiowaves.left.and.right",
+          "index" : 16,
+          "label" : "Радио",
+          "spoken" : "Радио, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333314,
+            "width" : 64.33333333333334,
+            "x" : 121.83333333333334,
+            "y" : 152.33333333333337
+          },
+          "index" : 17,
+          "label" : "Моё радио",
+          "spoken" : "Моё радио",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 220,
+            "y" : 87.33333333333337
+          },
+          "identifier" : "play.fill",
+          "index" : 18,
+          "label" : "Воспроизвести",
+          "spoken" : "Воспроизвести, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.333333333333314,
+            "width" : 50.66666666666666,
+            "x" : 222.66666666666666,
+            "y" : 152.33333333333337
+          },
+          "index" : 19,
+          "label" : "Продолжить",
+          "spoken" : "Продолжить",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 185,
+            "x" : 20,
+            "y" : 225.3333282470703
+          },
+          "index" : 20,
           "label" : "Напоминания",
           "spoken" : "Напоминания, button",
           "traits" : [
@@ -771,12 +931,39 @@
         },
         {
           "frame" : {
-            "height" : 60.33333333333337,
-            "width" : 370,
-            "x" : 16,
-            "y" : 627
+            "height" : 56,
+            "width" : 56,
+            "x" : 32,
+            "y" : 281.00000000000006
           },
-          "index" : 14,
+          "index" : 21,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.333333333333314,
+            "width" : 66,
+            "x" : 27,
+            "y" : 346.00000000000006
+          },
+          "index" : 22,
+          "label" : "Напоминания",
+          "spoken" : "Напоминания",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 118,
+            "x" : 20,
+            "y" : 419
+          },
+          "index" : 23,
           "label" : "Файлы",
           "spoken" : "Файлы, button",
           "traits" : [
@@ -785,16 +972,72 @@
         },
         {
           "frame" : {
-            "height" : 60.33333333333337,
-            "width" : 370,
-            "x" : 16,
-            "y" : 687.3333333333334
+            "height" : 56,
+            "width" : 56,
+            "x" : 32,
+            "y" : 475
           },
-          "index" : 15,
+          "identifier" : "doc.viewfinder.fill",
+          "index" : 24,
+          "label" : "doc.viewfinder.fill",
+          "spoken" : "doc.viewfinder.fill, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.33333333333337,
+            "width" : 66.33333333333331,
+            "x" : 26.833333333333336,
+            "y" : 540
+          },
+          "index" : 25,
+          "label" : "Отсканировать документ",
+          "spoken" : "Отсканировать документ",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 24,
+            "width" : 100.66667175292969,
+            "x" : 20,
+            "y" : 613
+          },
+          "index" : 26,
           "label" : "Фото",
           "spoken" : "Фото, button",
           "traits" : [
             "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 56,
+            "width" : 56,
+            "x" : 32,
+            "y" : 669
+          },
+          "index" : 27,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 14.333333333333371,
+            "width" : 37,
+            "x" : 41.5,
+            "y" : 734.0000000000002
+          },
+          "index" : 28,
+          "label" : "Места",
+          "spoken" : "Места",
+          "traits" : [
+
           ]
         },
         {
@@ -804,7 +1047,7 @@
             "x" : 30,
             "y" : 795
           },
-          "index" : 16,
+          "index" : 29,
           "label" : "Медиатека",
           "spoken" : "Медиатека, button",
           "traits" : [
@@ -818,7 +1061,7 @@
             "x" : 141.33333333333331,
             "y" : 795
           },
-          "index" : 17,
+          "index" : 30,
           "label" : "Автоматизация",
           "spoken" : "Автоматизация, button",
           "traits" : [
@@ -832,7 +1075,7 @@
             "x" : 252.66666666666666,
             "y" : 795
           },
-          "index" : 18,
+          "index" : 31,
           "label" : "Галерея",
           "spoken" : "Галерея, button",
           "traits" : [
@@ -843,175 +1086,155 @@
     },
     {
       "platformAuditFindings" : [
-
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Автоматизация|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Автоматизация",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
       ],
-      "screen" : "Экран 3",
+      "screen" : "Автоматизация",
       "utterances" : [
         {
           "frame" : {
-            "height" : 36,
-            "width" : 36,
-            "x" : 346,
-            "y" : 66
-          },
-          "identifier" : "sidebar.button.done",
-          "index" : 0,
-          "label" : "Готово",
-          "spoken" : "Готово, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
             "height" : 40.66666666666667,
-            "width" : 185.66666666666666,
-            "x" : 16,
+            "width" : 261,
+            "x" : 15.999999999999972,
             "y" : 119.66666666666667
           },
-          "index" : 1,
-          "label" : "Медиатека",
-          "spoken" : "Медиатека",
+          "index" : 0,
+          "label" : "Автоматизация",
+          "spoken" : "Автоматизация",
           "traits" : [
 
           ]
         },
         {
           "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 168
+            "height" : 53.66666793823242,
+            "width" : 43.66666793823242,
+            "x" : 179.33333333333331,
+            "y" : 376.3333333333333
+          },
+          "index" : 1,
+          "label" : "custom.sparkles",
+          "spoken" : "custom.sparkles, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 99.33334350585938,
+            "width" : 211,
+            "x" : 95.5,
+            "y" : 376.3333435058594
           },
           "index" : 2,
-          "label" : "Все быстрые команды",
-          "spoken" : "Все быстрые команды, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 220
-          },
-          "index" : 3,
-          "label" : "Страница экспорта",
-          "spoken" : "Страница экспорта, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : 16,
-            "y" : 272
-          },
-          "index" : 4,
-          "label" : "Apple Watch",
-          "spoken" : "Apple Watch, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 370,
-            "x" : 16,
-            "y" : 341.66666666666663
-          },
-          "index" : 5,
-          "label" : "Приложения",
-          "spoken" : "Приложения",
+          "label" : "Нет автоматизаций",
+          "spoken" : "Нет автоматизаций",
           "traits" : [
 
           ]
         },
         {
           "frame" : {
-            "height" : 60.333333333333314,
-            "width" : 370,
-            "x" : 16,
-            "y" : 385.66666666666663
+            "height" : 38.00000000000006,
+            "width" : 321,
+            "x" : 40.5,
+            "y" : 478.6666666666667
           },
-          "index" : 6,
-          "label" : "Food Truck",
-          "spoken" : "Food Truck, button",
+          "index" : 3,
+          "label" : "Настройте автоматический запуск быстрых команд.",
+          "spoken" : "Настройте автоматический запуск быстрых команд.",
           "traits" : [
-            "button"
+
           ]
         },
         {
           "frame" : {
-            "height" : 60.333333333333314,
-            "width" : 370,
-            "x" : 16,
-            "y" : 446
+            "height" : 50.33333333333337,
+            "width" : 222,
+            "x" : 90,
+            "y" : 536.6666666666666
           },
-          "index" : 7,
-          "label" : "Ice Cubes",
-          "spoken" : "Ice Cubes, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60.333333333333314,
-            "width" : 370,
-            "x" : 16,
-            "y" : 506.3333333333333
-          },
-          "index" : 8,
-          "label" : "Sonava",
-          "spoken" : "Sonava, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60.33333333333337,
-            "width" : 370,
-            "x" : 16,
-            "y" : 566.6666666666667
-          },
-          "index" : 9,
-          "label" : "Напоминания",
-          "spoken" : "Напоминания, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60.33333333333337,
-            "width" : 370,
-            "x" : 16,
-            "y" : 627
-          },
-          "index" : 10,
-          "label" : "Файлы",
-          "spoken" : "Файлы, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 60.33333333333337,
-            "width" : 370,
-            "x" : 16,
-            "y" : 687.3333333333334
-          },
-          "index" : 11,
-          "label" : "Фото",
-          "spoken" : "Фото, button",
+          "index" : 4,
+          "label" : "Новая автоматизация",
+          "spoken" : "Новая автоматизация, button",
           "traits" : [
             "button"
           ]
@@ -1023,7 +1246,7 @@
             "x" : 30,
             "y" : 795
           },
-          "index" : 12,
+          "index" : 5,
           "label" : "Медиатека",
           "spoken" : "Медиатека, button",
           "traits" : [
@@ -1037,7 +1260,7 @@
             "x" : 141.33333333333331,
             "y" : 795
           },
-          "index" : 13,
+          "index" : 6,
           "label" : "Автоматизация",
           "spoken" : "Автоматизация, button",
           "traits" : [
@@ -1051,7 +1274,143 @@
             "x" : 252.66666666666666,
             "y" : 795
           },
-          "index" : 14,
+          "index" : 7,
+          "label" : "Галерея",
+          "spoken" : "Галерея, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "The size of this element is too small for user to interact.",
+          "key" : "Галерея|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
+          "screen" : "Галерея",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Hit area is too small"
+        },
+        {
+          "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
+          "key" : "Галерея|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Галерея",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Contrast is not high enough for element unless font size is larger.",
+          "key" : "Галерея|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Галерея",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "Галерея",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 40.66666666666667,
+            "width" : 134.66666666666669,
+            "x" : 16.000000000000014,
+            "y" : 119.66666666666667
+          },
+          "index" : 0,
+          "label" : "Галерея",
+          "spoken" : "Галерея",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 370,
+            "x" : 16,
+            "y" : 169
+          },
+          "index" : 1,
+          "label" : "Поиск",
+          "placeholder" : "Поиск",
+          "spoken" : "Поиск, searchField",
+          "traits" : [
+            "searchField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 82.33333333333331,
+            "width" : 342,
+            "x" : 30,
+            "y" : 453.1666666666667
+          },
+          "index" : 2,
+          "label" : "Для доступа к Галерее включите сотовые данные или используйте Wi‑Fi.",
+          "spoken" : "Для доступа к Галерее включите сотовые данные или используйте Wi‑Fi.",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 159.66666666666669,
+            "x" : 121.33333333333333,
+            "y" : 545.6666666666666
+          },
+          "index" : 3,
+          "label" : "Открыть Настройки",
+          "spoken" : "Открыть Настройки, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 30,
+            "y" : 795
+          },
+          "index" : 4,
+          "label" : "Медиатека",
+          "spoken" : "Медиатека, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333331,
+            "x" : 141.33333333333331,
+            "y" : 795
+          },
+          "index" : 5,
+          "label" : "Автоматизация",
+          "spoken" : "Автоматизация, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 54,
+            "width" : 119.33333333333334,
+            "x" : 252.66666666666666,
+            "y" : 795
+          },
+          "index" : 6,
           "label" : "Галерея",
           "spoken" : "Галерея, button",
           "traits" : [

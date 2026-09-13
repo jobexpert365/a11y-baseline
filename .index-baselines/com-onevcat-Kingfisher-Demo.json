@@ -456,65 +456,6 @@
           ]
         }
       ]
-    },
-    {
-      "platformAuditFindings" : [
-        {
-          "evidence" : "User will not be able to change the font size of this UILabel",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are partially unsupported"
-        }
-      ],
-      "screen" : "Экран 2",
-      "utterances" : [
-        {
-          "frame" : {
-            "height" : 20.33333333333333,
-            "width" : 180,
-            "x" : 182,
-            "y" : 94.00000000000001
-          },
-          "index" : 0,
-          "label" : "Action",
-          "spoken" : "Action",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 48,
-            "width" : 208,
-            "x" : 168,
-            "y" : 132.33333333333334
-          },
-          "index" : 1,
-          "label" : "Clean Cache",
-          "spoken" : "Clean Cache, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 48,
-            "width" : 208,
-            "x" : 168,
-            "y" : 188.33333333333334
-          },
-          "index" : 2,
-          "label" : "Reload",
-          "spoken" : "Reload, button",
-          "traits" : [
-            "button"
-          ]
-        }
-      ]
     }
   ]
 }

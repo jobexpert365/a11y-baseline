@@ -106,266 +106,266 @@
       "platformAuditFindings" : [
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode duplicates information that is available in the traits.",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 262144)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 262144)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 262144)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label duplicates traits"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         },
         {
           "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
-          "key" : "Экран 2|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Github example|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Экран 2",
+          "screen" : "Github example",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast failed"
         }
       ],
-      "screen" : "Экран 2",
+      "screen" : "Github example",
       "utterances" : [
         {
           "frame" : {
@@ -661,6 +661,1069 @@
             "button"
           ],
           "visibleText" : "Bottom Input"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Position examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Position examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
+      ],
+      "screen" : "Position examples",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Popup examples",
+          "spoken" : "Popup examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 61.33333333333333,
+            "x" : 24,
+            "y" : 136
+          },
+          "index" : 1,
+          "label" : "Window",
+          "spoken" : "Window, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 57.999999999999986,
+            "x" : 109.33333333333333,
+            "y" : 136
+          },
+          "index" : 2,
+          "label" : "Overlay",
+          "spoken" : "Overlay, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 44.333333333333314,
+            "x" : 191.33333333333331,
+            "y" : 136
+          },
+          "index" : 3,
+          "label" : "Sheet",
+          "spoken" : "Sheet, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 55,
+            "x" : 24,
+            "y" : 176.33333333333331
+          },
+          "index" : 4,
+          "label" : "Default",
+          "spoken" : "Default, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 41.66666666666666,
+            "x" : 103,
+            "y" : 176.33333333333331
+          },
+          "index" : 5,
+          "label" : "Toast",
+          "spoken" : "Toast, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 53,
+            "x" : 168.66666666666666,
+            "y" : 176.33333333333331
+          },
+          "index" : 6,
+          "label" : "Floater",
+          "spoken" : "Floater, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 86.99999999999997,
+            "x" : 245.66666666666666,
+            "y" : 176.33333333333331
+          },
+          "index" : 7,
+          "label" : "Nosafearea",
+          "spoken" : "Nosafearea, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 133,
+            "y" : 262.66666666666663
+          },
+          "index" : 8,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 181,
+            "y" : 262.66666666666663
+          },
+          "index" : 9,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 229,
+            "y" : 262.66666666666663
+          },
+          "index" : 10,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 133,
+            "y" : 310.66666666666663
+          },
+          "index" : 11,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 181,
+            "y" : 310.66666666666663
+          },
+          "index" : 12,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 229,
+            "y" : 310.66666666666663
+          },
+          "index" : 13,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 133,
+            "y" : 358.66666666666663
+          },
+          "index" : 14,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 181,
+            "y" : 358.66666666666663
+          },
+          "index" : 15,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 229,
+            "y" : 358.66666666666663
+          },
+          "index" : 16,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 181,
+            "y" : 460.66666666666663
+          },
+          "index" : 17,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 133,
+            "y" : 508.66666666666663
+          },
+          "index" : 18,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 181,
+            "y" : 508.66666666666663
+          },
+          "index" : 19,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 229,
+            "y" : 508.66666666666663
+          },
+          "index" : 20,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 181,
+            "y" : 556.6666666666666
+          },
+          "index" : 21,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "BG taps examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "BG taps examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "BG taps examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "BG taps examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "BG taps examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "BG taps examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        },
+        {
+          "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
+          "key" : "BG taps examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "BG taps examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast nearly passed"
+        }
+      ],
+      "screen" : "BG taps examples",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Popup examples",
+          "spoken" : "Popup examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 55.66666666666666,
+            "x" : 173.33333333333331,
+            "y" : 150
+          },
+          "index" : 1,
+          "label" : "Tap me",
+          "spoken" : "Tap me, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 158.66666666666663,
+            "x" : 151,
+            "y" : 260.7672526041667
+          },
+          "index" : 2,
+          "label" : "allowTapThroughBG",
+          "spoken" : "allowTapThroughBG",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 36.33333333333334,
+            "x" : 141.33333333333334,
+            "y" : 289.1005859375
+          },
+          "index" : 3,
+          "label" : "false",
+          "spoken" : "false",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 30.666666666666686,
+            "x" : 285.83333333333337,
+            "y" : 289.1005859375
+          },
+          "index" : 4,
+          "label" : "true",
+          "spoken" : "true",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 154.66665649414062,
+            "width" : 20.333332061767578,
+            "x" : 30,
+            "y" : 383.6666564941406
+          },
+          "index" : 5,
+          "label" : "closeOnTapOutside",
+          "spoken" : "closeOnTapOutside",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.66668701171875,
+            "width" : 20.333332061767578,
+            "x" : 58.33333206176758,
+            "y" : 516.5
+          },
+          "index" : 6,
+          "label" : "true",
+          "spoken" : "true",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36.333343505859375,
+            "width" : 20.333332061767578,
+            "x" : 58.33333206176758,
+            "y" : 372
+          },
+          "index" : 7,
+          "label" : "false",
+          "spoken" : "false",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.333333333333314,
+            "width" : 77.33333333333331,
+            "x" : 121,
+            "y" : 339.66666666666663
+          },
+          "index" : 8,
+          "label" : "Window",
+          "spoken" : "Window, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.333333333333314,
+            "width" : 60.333333333333314,
+            "x" : 129.33333333333331,
+            "y" : 376
+          },
+          "index" : 9,
+          "label" : "Sheet",
+          "spoken" : "Sheet, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.333333333333314,
+            "width" : 74,
+            "x" : 122.66666666666666,
+            "y" : 412.3333333333333
+          },
+          "index" : 10,
+          "label" : "Overlay",
+          "spoken" : "Overlay, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.333333333333314,
+            "width" : 77.33333333333331,
+            "x" : 262.66666666666663,
+            "y" : 358
+          },
+          "index" : 11,
+          "label" : "Window",
+          "spoken" : "Window, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.333333333333314,
+            "width" : 74,
+            "x" : 264.3333333333333,
+            "y" : 394.3333333333333
+          },
+          "index" : 12,
+          "label" : "Overlay",
+          "spoken" : "Overlay, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.333333333333314,
+            "width" : 77.33333333333331,
+            "x" : 121,
+            "y" : 481.3333333333333
+          },
+          "index" : 13,
+          "label" : "Window",
+          "spoken" : "Window, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.33333333333337,
+            "width" : 60.333333333333314,
+            "x" : 129.33333333333331,
+            "y" : 517.6666666666666
+          },
+          "index" : 14,
+          "label" : "Sheet",
+          "spoken" : "Sheet, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.33333333333337,
+            "width" : 74,
+            "x" : 122.66666666666666,
+            "y" : 554
+          },
+          "index" : 15,
+          "label" : "Overlay",
+          "spoken" : "Overlay, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.33333333333337,
+            "width" : 77.33333333333331,
+            "x" : 262.66666666666663,
+            "y" : 517.6666666666666
+          },
+          "index" : 16,
+          "label" : "Window",
+          "spoken" : "Window, button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Scroll examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Scroll examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Scroll examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Scroll examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Scroll examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Scroll examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This SwiftUI.AccessibilityNode is missing useful accessibility information.",
+          "key" : "Scroll examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Scroll examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Scroll examples",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Popup examples",
+          "spoken" : "Popup examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 132.66666666666663,
+            "x" : 164,
+            "y" : 207
+          },
+          "index" : 1,
+          "label" : "needsScrollToFit",
+          "spoken" : "needsScrollToFit",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 36.33333333333334,
+            "x" : 141.33333333333334,
+            "y" : 235.33333333333334
+          },
+          "index" : 2,
+          "label" : "false",
+          "spoken" : "false",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 30.666666666666686,
+            "x" : 285.83333333333337,
+            "y" : 235.33333333333334
+          },
+          "index" : 3,
+          "label" : "true",
+          "spoken" : "true",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 118,
+            "width" : 20.333332061767578,
+            "x" : 30,
+            "y" : 348.3333435058594
+          },
+          "index" : 4,
+          "label" : "dragToDismiss",
+          "spoken" : "dragToDismiss",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 30.666656494140625,
+            "width" : 20.333332061767578,
+            "x" : 58.33333206176758,
+            "y" : 462.8333435058594
+          },
+          "index" : 5,
+          "label" : "true",
+          "spoken" : "true",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 36.33331298828125,
+            "width" : 20.333332061767578,
+            "x" : 58.33333206176758,
+            "y" : 318.3333435058594
+          },
+          "index" : 6,
+          "label" : "false",
+          "spoken" : "false",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 139.66666666666666,
+            "y" : 316.66666666666663
+          },
+          "index" : 7,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 281.3333333333333,
+            "y" : 316.66666666666663
+          },
+          "index" : 8,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 139.66666666666666,
+            "y" : 458.3333333333333
+          },
+          "index" : 9,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 40,
+            "width" : 40,
+            "x" : 281.3333333333333,
+            "y" : 458.3333333333333
+          },
+          "index" : 10,
+          "spoken" : "button",
+          "traits" : [
+            "button"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Misc examples|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Misc examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
+          "key" : "Misc examples|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Misc examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "Contrast failed for SwiftUI.AccessibilityNode",
+          "key" : "Misc examples|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
+          "screen" : "Misc examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Contrast failed"
+        }
+      ],
+      "screen" : "Misc examples",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Popup examples",
+          "spoken" : "Popup examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 85,
+            "width" : 362,
+            "x" : 20,
+            "y" : 116
+          },
+          "index" : 1,
+          "label" : "Scroll + Keyboard (issue #281), Scroll popup with TextField - popup should stay at bottom",
+          "spoken" : "Scroll + Keyboard (issue #281), Scroll popup with TextField - popup should stay at bottom, button",
+          "traits" : [
+            "button"
+          ],
+          "visibleText" : "Scroll + Keyboard (issue #281)"
         }
       ]
     }
