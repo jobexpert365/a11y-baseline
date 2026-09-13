@@ -4,7 +4,7 @@
   ],
   "app" : "Фитнес",
   "appVersion" : "—",
-  "capturedOn" : "2026-09-13",
+  "capturedOn" : "2026-09-14",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "ru",
@@ -97,13 +97,13 @@
         {
           "frame" : {
             "height" : 13.666666666666671,
-            "width" : 82,
+            "width" : 84.66666666666667,
             "x" : 16,
             "y" : 90.33333333333333
           },
           "index" : 2,
-          "label" : "Sunday, 13 Sep",
-          "spoken" : "Sunday, 13 Sep",
+          "label" : "Monday, 14 Sep",
+          "spoken" : "Monday, 14 Sep",
           "traits" : [
 
           ]

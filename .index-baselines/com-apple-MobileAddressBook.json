@@ -4,7 +4,7 @@
   ],
   "app" : "Контакты",
   "appVersion" : "—",
-  "capturedOn" : "2026-09-13",
+  "capturedOn" : "2026-09-14",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "ru",
@@ -224,46 +224,46 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Списки|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "6",
+          "screen" : "Списки",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Списки|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "6",
+          "screen" : "Списки",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Списки|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "6",
+          "screen" : "Списки",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "6|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "Списки|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "6",
+          "screen" : "Списки",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         }
       ],
-      "screen" : "6",
+      "screen" : "Списки",
       "utterances" : [
         {
           "frame" : {
@@ -533,7 +533,7 @@
       "platformAuditFindings" : [
 
       ],
-      "screen" : "iPhone",
+      "screen" : "Списки",
       "utterances" : [
         {
           "frame" : {
@@ -656,16 +656,16 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "1|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "key" : "Friends|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "1",
+          "screen" : "Friends",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         }
       ],
-      "screen" : "1",
+      "screen" : "Friends",
       "utterances" : [
         {
           "frame" : {
@@ -772,16 +772,16 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this element is too small for user to interact.",
-          "key" : "0|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
+          "key" : "Work|platform|XCUIAccessibilityAuditType(rawValue: 4)|Dictate",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "0",
+          "screen" : "Work",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         }
       ],
-      "screen" : "0",
+      "screen" : "Work",
       "utterances" : [
         {
           "frame" : {

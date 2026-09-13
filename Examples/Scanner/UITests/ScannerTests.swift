@@ -55,6 +55,19 @@ final class ScannerTests: XCTestCase {
         app.launch()
         XCTAssertTrue(app.wait(for: .runningForeground, timeout: 20), "приложение \(bundleID) не запустилось")
 
+        // Профиль загрузки под флагом. Оставлено в боевом коде: именно эта
+        // трассировка показала, что у Pulse длинное ложное плато в начале
+        // (2,2,2,2,2,2,4,4,4,6,6,6,6,7,7,7,9,...), и объяснила, почему правило
+        // «два одинаковых замера подряд» строило сценарий на двух строках
+        // вместо девяти. Включается TEST_RUNNER_A11Y_TRACE_LOAD=1.
+        if ProcessInfo.processInfo.environment["A11Y_TRACE_LOAD"] != nil {
+            var series: [Int] = []
+            for _ in 0..<30 {
+                series.append(app.cells.count)
+                RunLoop.current.run(until: Date().addingTimeInterval(0.4))
+            }
+            print("A11Y_LOAD_TRACE=\(series.map(String.init).joined(separator: ","))")
+        }
         waitForContent(app)
         goToRoot(app)
         probe(app)
@@ -83,34 +96,44 @@ final class ScannerTests: XCTestCase {
 
     /// Ждёт, пока приложение дорисует содержимое, и только потом строит сценарий.
     ///
-    /// Без этого обход был НЕВОСПРОИЗВОДИМ, и поймать это удалось только
-    /// повторными прогонами: «Контакты» на одном и том же коде давали
-    /// то 6 экранов и 85 элементов, то 2 и 30. Проба дерева в момент сбоя
-    /// показала причину — на экране была одна ячейка без текста и четыре
-    /// кнопки вместо двенадцати ячеек и девяти кнопок. Приложение ещё
-    /// рисовалось: `launch()` возвращается, когда оно вышло на передний план,
-    /// а не когда нарисовало список.
+    /// Без этого обход был НЕВОСПРОИЗВОДИМ. Замер профиля загрузки показал,
+    /// почему простого «счётчик не изменился» мало. Pulse набирает строки
+    /// семь секунд, и в начале у него ДЛИННОЕ ЛОЖНОЕ ПЛАТО:
     ///
-    /// Для индекса это принципиально: на каждой странице написано, что
-    /// результат воспроизводим. Пока число экранов зависело от того, успел ли
-    /// список прийти, это было неправдой.
+    ///     2,2,2,2,2,2,4,4,4,6,6,6,6,7,7,7,9,9,9,9,9,...
     ///
-    /// Ждём именно СТАБИЛИЗАЦИИ: два одинаковых замера подряд. Первая версия
-    /// ждала «появилась строка с текстом» и возвращалась на середине отрисовки,
-    /// когда первая строка уже есть, а остальных одиннадцати ещё нет.
+    /// Первые шесть замеров подряд дают двойку — прежнее правило «два
+    /// одинаковых замера подряд» срабатывало здесь и строило сценарий
+    /// на двух строках вместо девяти. Отсюда и брались 3 экрана против 4
+    /// между прогонами.
+    ///
+    /// Поэтому условий ДВА, и нужны оба: счётчик держится `stableFor` секунд
+    /// И с запуска прошло не меньше `minimumElapsed`. Нижняя граница
+    /// проламывает ложные плато, верхняя — не даёт ждать вечно приложение,
+    /// которое грузит бесконечно.
     @MainActor
-    private func waitForContent(_ app: XCUIApplication, timeout: TimeInterval = 15) {
-        // Нижняя граница нужна приложениям без списка вообще: у них счётчик
-        // стабилен с нуля, и без неё мы вернулись бы мгновенно, не дав
-        // приложению ни шанса нарисоваться.
-        let earliest = Date().addingTimeInterval(1.5)
-        let deadline = Date().addingTimeInterval(timeout)
+    private func waitForContent(
+        _ app: XCUIApplication,
+        minimumElapsed: TimeInterval = 5,
+        stableFor: TimeInterval = 3,
+        timeout: TimeInterval = 20
+    ) {
+        let started = Date()
+        let deadline = started.addingTimeInterval(timeout)
         var previous = -1
+        var unchangedSince = started
 
         while Date() < deadline {
             let count = app.cells.count
-            if count == previous, Date() >= earliest { return }
-            previous = count
+            if count != previous {
+                previous = count
+                unchangedSince = Date()
+            }
+
+            let held = Date().timeIntervalSince(unchangedSince)
+            let elapsed = Date().timeIntervalSince(started)
+            if held >= stableFor && elapsed >= minimumElapsed { return }
+
             // Пауза через RunLoop, а не sleep: главный поток остаётся живым,
             // иначе запросы XCUITest к приложению встают вместе с ним.
             RunLoop.current.run(until: Date().addingTimeInterval(0.4))
@@ -274,7 +297,19 @@ final class ScannerTests: XCTestCase {
             let text = cell.staticTexts.allElementsBoundByIndex.first?.label ?? ""
             let name = text.isEmpty ? "Экран \(index + 2)" : text
 
-            steps.append(.init(screen: name, anchored: true) { app in
+            // Имя уточняем ПОСЛЕ перехода, по заголовку самого экрана.
+            //
+            // Имя из ячейки — это лишь предположение о том, куда она ведёт.
+            // «Файлы» показали, чем это плохо: приложение чередует два
+            // состояния запуска, и содержимое разделов уезжало под чужие
+            // подписи — страница называла экран «Обзор», а показывала
+            // «iCloud Drive». Расхождение в числах при этом было мелкое
+            // (150 против 153), а подпись — прямо неверной.
+            steps.append(.init(
+                screen: name,
+                anchored: true,
+                resolveName: { Self.currentScreenTitle($0) }
+            ) { app in
                 // Возврат в корень: первая кнопка панели навигации —
                 // это «назад». Если её нет, мы уже в корне.
                 let back = app.navigationBars.buttons.element(boundBy: 0)

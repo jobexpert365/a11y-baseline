@@ -4,7 +4,7 @@
   ],
   "app" : "Food Truck (пример Apple)",
   "appVersion" : "—",
-  "capturedOn" : "2026-09-13",
+  "capturedOn" : "2026-09-14",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "en",
@@ -73,48 +73,48 @@
           "summary" : "Text clipped"
         },
         {
-          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
           "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Стартовый экран",
@@ -405,8 +405,8 @@
             "y" : 438.66666666666663
           },
           "index" : 3,
-          "label" : "topping/zigzag-orange-full",
-          "spoken" : "topping/zigzag-orange-full, image",
+          "label" : "topping/powdersugar-full",
+          "spoken" : "topping/powdersugar-full, image",
           "traits" : [
             "image"
           ]
@@ -419,22 +419,50 @@
             "y" : 438.66666666666663
           },
           "index" : 4,
-          "label" : "glaze/orange-full",
-          "spoken" : "glaze/orange-full, image",
+          "label" : "dough/pink-full",
+          "spoken" : "dough/pink-full, image",
           "traits" : [
             "image"
           ]
         },
         {
           "frame" : {
-            "height" : 158,
-            "width" : 158,
-            "x" : 32,
+            "height" : 68,
+            "width" : 68,
+            "x" : 212,
             "y" : 438.66666666666663
           },
           "index" : 5,
-          "label" : "dough/yellow-full",
-          "spoken" : "dough/yellow-full, image",
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 68,
+            "width" : 68,
+            "x" : 212,
+            "y" : 438.66666666666663
+          },
+          "index" : 6,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 68,
+            "width" : 68,
+            "x" : 212,
+            "y" : 438.66666666666663
+          },
+          "index" : 7,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
           "traits" : [
             "image"
           ]
@@ -442,11 +470,11 @@
         {
           "frame" : {
             "height" : 44.00000000000006,
-            "width" : 44.33333333333334,
-            "x" : 213.66666666666666,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
             "y" : 434.99999999999994
           },
-          "index" : 6,
+          "index" : 8,
           "label" : "topping/zigzag-brown-thumb",
           "spoken" : "topping/zigzag-brown-thumb, image",
           "traits" : [
@@ -456,11 +484,11 @@
         {
           "frame" : {
             "height" : 44.00000000000006,
-            "width" : 44.33333333333334,
-            "x" : 213.66666666666666,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
             "y" : 434.99999999999994
           },
-          "index" : 7,
+          "index" : 9,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -470,11 +498,11 @@
         {
           "frame" : {
             "height" : 44.00000000000006,
-            "width" : 44.33333333333334,
-            "x" : 213.66666666666666,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
             "y" : 434.99999999999994
           },
-          "index" : 8,
+          "index" : 10,
           "label" : "dough/brown-thumb",
           "spoken" : "dough/brown-thumb, image",
           "traits" : [
@@ -485,10 +513,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44,
-            "x" : 224,
+            "x" : 314,
             "y" : 450.66666666666663
           },
-          "index" : 9,
+          "index" : 11,
           "label" : "topping/zigzag-white-thumb",
           "spoken" : "topping/zigzag-white-thumb, image",
           "traits" : [
@@ -499,10 +527,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44,
-            "x" : 224,
+            "x" : 314,
             "y" : 450.66666666666663
           },
-          "index" : 10,
+          "index" : 12,
           "label" : "glaze/blue-thumb",
           "spoken" : "glaze/blue-thumb, image",
           "traits" : [
@@ -513,52 +541,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44,
-            "x" : 224,
+            "x" : 314,
             "y" : 450.66666666666663
           },
-          "index" : 11,
-          "label" : "dough/plain-thumb",
-          "spoken" : "dough/plain-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44.00000000000006,
-            "width" : 44.333333333333314,
-            "x" : 303.6666666666667,
-            "y" : 434.99999999999994
-          },
-          "index" : 12,
-          "label" : "topping/sprinkles-thumb",
-          "spoken" : "topping/sprinkles-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44.00000000000006,
-            "width" : 44.333333333333314,
-            "x" : 303.6666666666667,
-            "y" : 434.99999999999994
-          },
           "index" : 13,
-          "label" : "glaze/brown-thumb",
-          "spoken" : "glaze/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44.00000000000006,
-            "width" : 44.333333333333314,
-            "x" : 303.6666666666667,
-            "y" : 434.99999999999994
-          },
-          "index" : 14,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -569,10 +555,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44.333333333333314,
-            "x" : 234,
+            "x" : 324,
             "y" : 466.33333333333326
           },
-          "index" : 15,
+          "index" : 14,
           "label" : "topping/sprinkles-stars-thumb",
           "spoken" : "topping/sprinkles-stars-thumb, image",
           "traits" : [
@@ -583,12 +569,26 @@
           "frame" : {
             "height" : 44,
             "width" : 44.333333333333314,
-            "x" : 234,
+            "x" : 324,
+            "y" : 466.33333333333326
+          },
+          "index" : 15,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 324,
             "y" : 466.33333333333326
           },
           "index" : 16,
-          "label" : "glaze/brown-thumb",
-          "spoken" : "glaze/brown-thumb, image",
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
           "traits" : [
             "image"
           ]
@@ -596,13 +596,13 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 234,
-            "y" : 466.33333333333326
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 525
           },
           "index" : 17,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
+          "label" : "topping/sprinkles-thumb",
+          "spoken" : "topping/sprinkles-thumb, image",
           "traits" : [
             "image"
           ]
@@ -610,25 +610,11 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44,
-            "x" : 314,
-            "y" : 450.66666666666663
+            "width" : 44.33333333333334,
+            "x" : 213.66666666666666,
+            "y" : 525
           },
           "index" : 18,
-          "label" : "topping/zigzag-brown-thumb",
-          "spoken" : "topping/zigzag-brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44,
-            "x" : 314,
-            "y" : 450.66666666666663
-          },
-          "index" : 19,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -638,81 +624,11 @@
         {
           "frame" : {
             "height" : 44,
-            "width" : 44,
-            "x" : 314,
-            "y" : 450.66666666666663
-          },
-          "index" : 20,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 324,
-            "y" : 466.33333333333326
-          },
-          "index" : 21,
-          "label" : "topping/zigzag-orange-thumb",
-          "spoken" : "topping/zigzag-orange-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 324,
-            "y" : 466.33333333333326
-          },
-          "index" : 22,
-          "label" : "glaze/orange-thumb",
-          "spoken" : "glaze/orange-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44.333333333333314,
-            "x" : 324,
-            "y" : 466.33333333333326
-          },
-          "index" : 23,
-          "label" : "dough/yellow-thumb",
-          "spoken" : "dough/yellow-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
             "width" : 44.33333333333334,
             "x" : 213.66666666666666,
             "y" : 525
           },
-          "index" : 24,
-          "label" : "glaze/rainbow-thumb",
-          "spoken" : "glaze/rainbow-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 44,
-            "width" : 44.33333333333334,
-            "x" : 213.66666666666666,
-            "y" : 525
-          },
-          "index" : 25,
+          "index" : 19,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -726,7 +642,119 @@
             "x" : 224,
             "y" : 540.6666666666666
           },
+          "index" : 20,
+          "label" : "topping/zigzag-brown-thumb",
+          "spoken" : "topping/zigzag-brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
+          },
+          "index" : 21,
+          "label" : "glaze/brown-thumb",
+          "spoken" : "glaze/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 224,
+            "y" : 540.6666666666666
+          },
+          "index" : 22,
+          "label" : "dough/brown-thumb",
+          "spoken" : "dough/brown-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 525
+          },
+          "index" : 23,
+          "label" : "glaze/rainbow-thumb",
+          "spoken" : "glaze/rainbow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 303.6666666666667,
+            "y" : 525
+          },
+          "index" : 24,
+          "label" : "dough/plain-thumb",
+          "spoken" : "dough/plain-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 556.3333333333333
+          },
+          "index" : 25,
+          "label" : "topping/zigzag-orange-thumb",
+          "spoken" : "topping/zigzag-orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 556.3333333333333
+          },
           "index" : 26,
+          "label" : "glaze/orange-thumb",
+          "spoken" : "glaze/orange-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44.333333333333314,
+            "x" : 234,
+            "y" : 556.3333333333333
+          },
+          "index" : 27,
+          "label" : "dough/yellow-thumb",
+          "spoken" : "dough/yellow-thumb, image",
+          "traits" : [
+            "image"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 314,
+            "y" : 540.6666666666666
+          },
+          "index" : 28,
           "label" : "topping/straight-yellow-thumb",
           "spoken" : "topping/straight-yellow-thumb, image",
           "traits" : [
@@ -737,10 +765,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44,
-            "x" : 224,
+            "x" : 314,
             "y" : 540.6666666666666
           },
-          "index" : 27,
+          "index" : 29,
           "label" : "glaze/orange-thumb",
           "spoken" : "glaze/orange-thumb, image",
           "traits" : [
@@ -751,52 +779,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44,
-            "x" : 224,
+            "x" : 314,
             "y" : 540.6666666666666
           },
-          "index" : 28,
-          "label" : "dough/yellow-thumb",
-          "spoken" : "dough/yellow-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 47.66666666666674,
-            "width" : 47.666666666666686,
-            "x" : 302,
-            "y" : 525.3333333333333
-          },
-          "index" : 29,
-          "label" : "topping/sprinkles-thumb",
-          "spoken" : "topping/sprinkles-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 47.66666666666674,
-            "width" : 47.666666666666686,
-            "x" : 302,
-            "y" : 525.3333333333333
-          },
           "index" : 30,
-          "label" : "glaze/yellow-thumb",
-          "spoken" : "glaze/yellow-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 47.66666666666674,
-            "width" : 47.666666666666686,
-            "x" : 302,
-            "y" : 525.3333333333333
-          },
-          "index" : 31,
           "label" : "dough/yellow-thumb",
           "spoken" : "dough/yellow-thumb, image",
           "traits" : [
@@ -807,10 +793,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44.333333333333314,
-            "x" : 234,
+            "x" : 324,
             "y" : 556.3333333333333
           },
-          "index" : 32,
+          "index" : 31,
           "label" : "topping/crisscross-white-thumb",
           "spoken" : "topping/crisscross-white-thumb, image",
           "traits" : [
@@ -821,10 +807,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44.333333333333314,
-            "x" : 234,
+            "x" : 324,
             "y" : 556.3333333333333
           },
-          "index" : 33,
+          "index" : 32,
           "label" : "glaze/blue-thumb",
           "spoken" : "glaze/blue-thumb, image",
           "traits" : [
@@ -835,10 +821,10 @@
           "frame" : {
             "height" : 44,
             "width" : 44.333333333333314,
-            "x" : 234,
+            "x" : 324,
             "y" : 556.3333333333333
           },
-          "index" : 34,
+          "index" : 33,
           "label" : "dough/blue-thumb",
           "spoken" : "dough/blue-thumb, image",
           "traits" : [
@@ -847,56 +833,14 @@
         },
         {
           "frame" : {
-            "height" : 47.66666666666674,
-            "width" : 47.666666666666686,
-            "x" : 322.3333333333333,
-            "y" : 552.3333333333333
-          },
-          "index" : 35,
-          "label" : "topping/zigzag-brown-thumb",
-          "spoken" : "topping/zigzag-brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 47.66666666666674,
-            "width" : 47.666666666666686,
-            "x" : 322.3333333333333,
-            "y" : 552.3333333333333
-          },
-          "index" : 36,
-          "label" : "glaze/brown-thumb",
-          "spoken" : "glaze/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 47.66666666666674,
-            "width" : 47.666666666666686,
-            "x" : 322.3333333333333,
-            "y" : 552.3333333333333
-          },
-          "index" : 37,
-          "label" : "dough/brown-thumb",
-          "spoken" : "dough/brown-thumb, image",
-          "traits" : [
-            "image"
-          ]
-        },
-        {
-          "frame" : {
             "height" : 20.333333333333258,
-            "width" : 91.33333333333331,
-            "x" : 129,
+            "width" : 91.66666666666666,
+            "x" : 128.66666666666669,
             "y" : 609.40966796875
           },
-          "index" : 38,
-          "label" : "Order#1225",
-          "spoken" : "Order#1225",
+          "index" : 34,
+          "label" : "Order#1226",
+          "spoken" : "Order#1226",
           "traits" : [
 
           ]
@@ -908,7 +852,7 @@
             "x" : 229.66666666666666,
             "y" : 610
           },
-          "index" : 39,
+          "index" : 35,
           "label" : "donut",
           "spoken" : "donut, image",
           "traits" : [
@@ -918,13 +862,13 @@
         {
           "frame" : {
             "height" : 20.333333333333258,
-            "width" : 10,
+            "width" : 10.333333333333314,
             "x" : 263,
             "y" : 609.40966796875
           },
-          "index" : 40,
-          "label" : "2",
-          "spoken" : "2",
+          "index" : 36,
+          "label" : "5",
+          "spoken" : "5",
           "traits" : [
 
           ]
@@ -936,7 +880,7 @@
             "x" : 26,
             "y" : 662
           },
-          "index" : 41,
+          "index" : 37,
           "label" : "Forecast",
           "spoken" : "Forecast, button",
           "traits" : [
@@ -950,7 +894,7 @@
             "x" : 26,
             "y" : 911.3333333333333
           },
-          "index" : 42,
+          "index" : 38,
           "label" : "Donuts",
           "spoken" : "Donuts, button",
           "traits" : [
@@ -964,7 +908,7 @@
             "x" : 31,
             "y" : 954.3333333333333
           },
-          "index" : 43,
+          "index" : 39,
           "label" : "topping/sprinkles-thumb",
           "spoken" : "topping/sprinkles-thumb, image",
           "traits" : [
@@ -978,7 +922,7 @@
             "x" : 31,
             "y" : 954.3333333333333
           },
-          "index" : 44,
+          "index" : 40,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -992,7 +936,7 @@
             "x" : 31,
             "y" : 954.3333333333333
           },
-          "index" : 45,
+          "index" : 41,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -1006,7 +950,7 @@
             "x" : 101,
             "y" : 954.3333333333333
           },
-          "index" : 46,
+          "index" : 42,
           "label" : "topping/crisscross-white-thumb",
           "spoken" : "topping/crisscross-white-thumb, image",
           "traits" : [
@@ -1020,7 +964,7 @@
             "x" : 101,
             "y" : 954.3333333333333
           },
-          "index" : 47,
+          "index" : 43,
           "label" : "glaze/blue-thumb",
           "spoken" : "glaze/blue-thumb, image",
           "traits" : [
@@ -1034,7 +978,7 @@
             "x" : 101,
             "y" : 954.3333333333333
           },
-          "index" : 48,
+          "index" : 44,
           "label" : "dough/blue-thumb",
           "spoken" : "dough/blue-thumb, image",
           "traits" : [
@@ -1048,7 +992,7 @@
             "x" : 171,
             "y" : 954.3333333333333
           },
-          "index" : 49,
+          "index" : 45,
           "label" : "topping/zigzag-white-thumb",
           "spoken" : "topping/zigzag-white-thumb, image",
           "traits" : [
@@ -1062,7 +1006,7 @@
             "x" : 171,
             "y" : 954.3333333333333
           },
-          "index" : 50,
+          "index" : 46,
           "label" : "glaze/pink-thumb",
           "spoken" : "glaze/pink-thumb, image",
           "traits" : [
@@ -1076,7 +1020,7 @@
             "x" : 171,
             "y" : 954.3333333333333
           },
-          "index" : 51,
+          "index" : 47,
           "label" : "dough/pink-thumb",
           "spoken" : "dough/pink-thumb, image",
           "traits" : [
@@ -1090,7 +1034,7 @@
             "x" : 241,
             "y" : 954.3333333333333
           },
-          "index" : 52,
+          "index" : 48,
           "label" : "topping/sprinkles-stars-thumb",
           "spoken" : "topping/sprinkles-stars-thumb, image",
           "traits" : [
@@ -1104,7 +1048,7 @@
             "x" : 241,
             "y" : 954.3333333333333
           },
-          "index" : 53,
+          "index" : 49,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -1118,7 +1062,7 @@
             "x" : 241,
             "y" : 954.3333333333333
           },
-          "index" : 54,
+          "index" : 50,
           "label" : "dough/brown-thumb",
           "spoken" : "dough/brown-thumb, image",
           "traits" : [
@@ -1132,7 +1076,7 @@
             "x" : 311,
             "y" : 954.3333333333333
           },
-          "index" : 55,
+          "index" : 51,
           "label" : "topping/sprinkles-stars-thumb",
           "spoken" : "topping/sprinkles-stars-thumb, image",
           "traits" : [
@@ -1146,7 +1090,7 @@
             "x" : 311,
             "y" : 954.3333333333333
           },
-          "index" : 56,
+          "index" : 52,
           "label" : "glaze/pink-thumb",
           "spoken" : "glaze/pink-thumb, image",
           "traits" : [
@@ -1160,7 +1104,7 @@
             "x" : 311,
             "y" : 954.3333333333333
           },
-          "index" : 57,
+          "index" : 53,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -1174,7 +1118,7 @@
             "x" : 66,
             "y" : 1024.3333333333333
           },
-          "index" : 58,
+          "index" : 54,
           "label" : "topping/straight-yellow-thumb",
           "spoken" : "topping/straight-yellow-thumb, image",
           "traits" : [
@@ -1188,7 +1132,7 @@
             "x" : 66,
             "y" : 1024.3333333333333
           },
-          "index" : 59,
+          "index" : 55,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -1202,7 +1146,7 @@
             "x" : 66,
             "y" : 1024.3333333333333
           },
-          "index" : 60,
+          "index" : 56,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -1216,7 +1160,7 @@
             "x" : 136,
             "y" : 1024.3333333333333
           },
-          "index" : 61,
+          "index" : 57,
           "label" : "glaze/rainbow-thumb",
           "spoken" : "glaze/rainbow-thumb, image",
           "traits" : [
@@ -1230,7 +1174,7 @@
             "x" : 136,
             "y" : 1024.3333333333333
           },
-          "index" : 62,
+          "index" : 58,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -1244,7 +1188,7 @@
             "x" : 206,
             "y" : 1024.3333333333333
           },
-          "index" : 63,
+          "index" : 59,
           "label" : "topping/crisscross-blue-thumb",
           "spoken" : "topping/crisscross-blue-thumb, image",
           "traits" : [
@@ -1258,7 +1202,7 @@
             "x" : 206,
             "y" : 1024.3333333333333
           },
-          "index" : 64,
+          "index" : 60,
           "label" : "glaze/pink-thumb",
           "spoken" : "glaze/pink-thumb, image",
           "traits" : [
@@ -1272,7 +1216,7 @@
             "x" : 206,
             "y" : 1024.3333333333333
           },
-          "index" : 65,
+          "index" : 61,
           "label" : "dough/brown-thumb",
           "spoken" : "dough/brown-thumb, image",
           "traits" : [
@@ -1286,7 +1230,7 @@
             "x" : 276,
             "y" : 1024.3333333333333
           },
-          "index" : 66,
+          "index" : 62,
           "label" : "topping/zigzag-white-thumb",
           "spoken" : "topping/zigzag-white-thumb, image",
           "traits" : [
@@ -1300,7 +1244,7 @@
             "x" : 276,
             "y" : 1024.3333333333333
           },
-          "index" : 67,
+          "index" : 63,
           "label" : "glaze/blue-thumb",
           "spoken" : "glaze/blue-thumb, image",
           "traits" : [
@@ -1314,7 +1258,7 @@
             "x" : 276,
             "y" : 1024.3333333333333
           },
-          "index" : 68,
+          "index" : 64,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -1328,7 +1272,7 @@
             "x" : 31,
             "y" : 1094.3333333333333
           },
-          "index" : 69,
+          "index" : 65,
           "label" : "topping/powdersugar-thumb",
           "spoken" : "topping/powdersugar-thumb, image",
           "traits" : [
@@ -1342,7 +1286,7 @@
             "x" : 31,
             "y" : 1094.3333333333333
           },
-          "index" : 70,
+          "index" : 66,
           "label" : "dough/brown-thumb",
           "spoken" : "dough/brown-thumb, image",
           "traits" : [
@@ -1356,7 +1300,7 @@
             "x" : 101,
             "y" : 1094.3333333333333
           },
-          "index" : 71,
+          "index" : 67,
           "label" : "topping/powdersugar-thumb",
           "spoken" : "topping/powdersugar-thumb, image",
           "traits" : [
@@ -1370,7 +1314,7 @@
             "x" : 101,
             "y" : 1094.3333333333333
           },
-          "index" : 72,
+          "index" : 68,
           "label" : "dough/pink-thumb",
           "spoken" : "dough/pink-thumb, image",
           "traits" : [
@@ -1384,7 +1328,7 @@
             "x" : 171,
             "y" : 1094.3333333333333
           },
-          "index" : 73,
+          "index" : 69,
           "label" : "topping/straight-yellow-thumb",
           "spoken" : "topping/straight-yellow-thumb, image",
           "traits" : [
@@ -1398,7 +1342,7 @@
             "x" : 171,
             "y" : 1094.3333333333333
           },
-          "index" : 74,
+          "index" : 70,
           "label" : "glaze/orange-thumb",
           "spoken" : "glaze/orange-thumb, image",
           "traits" : [
@@ -1412,7 +1356,7 @@
             "x" : 171,
             "y" : 1094.3333333333333
           },
-          "index" : 75,
+          "index" : 71,
           "label" : "dough/yellow-thumb",
           "spoken" : "dough/yellow-thumb, image",
           "traits" : [
@@ -1426,7 +1370,7 @@
             "x" : 241,
             "y" : 1094.3333333333333
           },
-          "index" : 76,
+          "index" : 72,
           "label" : "topping/sprinkles-thumb",
           "spoken" : "topping/sprinkles-thumb, image",
           "traits" : [
@@ -1440,7 +1384,7 @@
             "x" : 241,
             "y" : 1094.3333333333333
           },
-          "index" : 77,
+          "index" : 73,
           "label" : "glaze/yellow-thumb",
           "spoken" : "glaze/yellow-thumb, image",
           "traits" : [
@@ -1454,7 +1398,7 @@
             "x" : 241,
             "y" : 1094.3333333333333
           },
-          "index" : 78,
+          "index" : 74,
           "label" : "dough/yellow-thumb",
           "spoken" : "dough/yellow-thumb, image",
           "traits" : [
@@ -1468,7 +1412,7 @@
             "x" : 311,
             "y" : 1094.3333333333333
           },
-          "index" : 79,
+          "index" : 75,
           "label" : "topping/zigzag-orange-thumb",
           "spoken" : "topping/zigzag-orange-thumb, image",
           "traits" : [
@@ -1482,7 +1426,7 @@
             "x" : 311,
             "y" : 1094.3333333333333
           },
-          "index" : 80,
+          "index" : 76,
           "label" : "glaze/orange-thumb",
           "spoken" : "glaze/orange-thumb, image",
           "traits" : [
@@ -1496,7 +1440,7 @@
             "x" : 311,
             "y" : 1094.3333333333333
           },
-          "index" : 81,
+          "index" : 77,
           "label" : "dough/yellow-thumb",
           "spoken" : "dough/yellow-thumb, image",
           "traits" : [
@@ -1510,7 +1454,7 @@
             "x" : 26,
             "y" : 1191.3333333333333
           },
-          "index" : 82,
+          "index" : 78,
           "label" : "Social Feed",
           "spoken" : "Social Feed, button",
           "traits" : [
@@ -1524,7 +1468,7 @@
             "x" : 54,
             "y" : 1243.6666666666665
           },
-          "index" : 83,
+          "index" : 79,
           "label" : "Powdered Chocolate",
           "spoken" : "Powdered Chocolate",
           "traits" : [
@@ -1538,7 +1482,7 @@
             "x" : 213,
             "y" : 1243.6666666666665
           },
-          "index" : 84,
+          "index" : 80,
           "label" : "Blueberry Frosted",
           "spoken" : "Blueberry Frosted",
           "traits" : [
@@ -1552,7 +1496,7 @@
             "x" : 76,
             "y" : 1278
           },
-          "index" : 85,
+          "index" : 81,
           "label" : "Warmed Up",
           "spoken" : "Warmed Up",
           "traits" : [
@@ -1566,7 +1510,7 @@
             "x" : 184.66666666666666,
             "y" : 1278
           },
-          "index" : 86,
+          "index" : 82,
           "label" : "Room Temperature",
           "spoken" : "Room Temperature",
           "traits" : [
@@ -1580,7 +1524,7 @@
             "x" : 26.333333333333332,
             "y" : 1312.6666666666665
           },
-          "index" : 87,
+          "index" : 83,
           "label" : "San Francisco",
           "spoken" : "San Francisco",
           "traits" : [
@@ -1594,7 +1538,7 @@
             "x" : 148,
             "y" : 1313.3333333333333
           },
-          "index" : 88,
+          "index" : 84,
           "label" : "Rainbow",
           "spoken" : "Rainbow",
           "traits" : [
@@ -1608,7 +1552,7 @@
             "x" : 238,
             "y" : 1313
           },
-          "index" : 89,
+          "index" : 85,
           "label" : "Rainbow Sprinkles",
           "spoken" : "Rainbow Sprinkles",
           "traits" : [
@@ -1622,7 +1566,7 @@
             "x" : 26,
             "y" : 1348.6666666666665
           },
-          "index" : 90,
+          "index" : 86,
           "label" : "Strawberry Sprinkles",
           "spoken" : "Strawberry Sprinkles",
           "traits" : [
@@ -1636,7 +1580,7 @@
             "x" : 186,
             "y" : 1348.3333333333333
           },
-          "index" : 91,
+          "index" : 87,
           "label" : "Dairy Free",
           "spoken" : "Dairy Free",
           "traits" : [
@@ -1650,7 +1594,7 @@
             "x" : 286,
             "y" : 1348
           },
-          "index" : 92,
+          "index" : 88,
           "label" : "Cupertino",
           "spoken" : "Cupertino",
           "traits" : [
@@ -1664,7 +1608,7 @@
             "x" : 63.33333333333333,
             "y" : 1383.3333333333333
           },
-          "index" : 93,
+          "index" : 89,
           "label" : "London",
           "spoken" : "London",
           "traits" : [
@@ -1678,7 +1622,7 @@
             "x" : 147.66666666666666,
             "y" : 1383.6666666666665
           },
-          "index" : 94,
+          "index" : 90,
           "label" : "Gluten Free",
           "spoken" : "Gluten Free",
           "traits" : [
@@ -1692,7 +1636,7 @@
             "x" : 255.33333333333331,
             "y" : 1384
           },
-          "index" : 95,
+          "index" : 91,
           "label" : "Fire Zest",
           "spoken" : "Fire Zest",
           "traits" : [
@@ -1706,7 +1650,7 @@
             "x" : 96,
             "y" : 1419
           },
-          "index" : 96,
+          "index" : 92,
           "label" : "Black Raspberry",
           "spoken" : "Black Raspberry",
           "traits" : [
@@ -1720,7 +1664,7 @@
             "x" : 230.33333333333331,
             "y" : 1418.6666666666665
           },
-          "index" : 97,
+          "index" : 93,
           "label" : "Carrots",
           "spoken" : "Carrots",
           "traits" : [
@@ -1734,7 +1678,7 @@
             "x" : 129.33333333333331,
             "y" : 1453.3333333333333
           },
-          "index" : 98,
+          "index" : 94,
           "label" : "Donut vs Doughnut",
           "spoken" : "Donut vs Doughnut",
           "traits" : [
@@ -1748,7 +1692,7 @@
             "x" : 152.83333333333334,
             "y" : 1484.8059895833333
           },
-          "index" : 99,
+          "index" : 95,
           "label" : "Trending Topics",
           "spoken" : "Trending Topics",
           "traits" : [
@@ -1913,170 +1857,16 @@
         },
         {
           "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 168
+            "height" : 272,
+            "width" : 642,
+            "x" : -120,
+            "y" : 738
           },
+          "identifier" : "AdditionalDimmingOverlay",
           "index" : 2,
-          "label" : "Truck",
-          "spoken" : "Truck, button",
+          "spoken" : "image",
           "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 220
-          },
-          "index" : 3,
-          "label" : "Orders",
-          "spoken" : "Orders, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 272
-          },
-          "index" : 4,
-          "label" : "Social Feed",
-          "spoken" : "Social Feed, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 324
-          },
-          "index" : 5,
-          "label" : "Sales History",
-          "spoken" : "Sales History, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.333333333333314,
-            "width" : 370,
-            "x" : -105,
-            "y" : 393.66666666666663
-          },
-          "index" : 6,
-          "label" : "Donuts",
-          "spoken" : "Donuts",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 434
-          },
-          "index" : 7,
-          "label" : "Donuts",
-          "spoken" : "Donuts, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 486
-          },
-          "index" : 8,
-          "label" : "Donut Editor",
-          "spoken" : "Donut Editor, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 538
-          },
-          "index" : 9,
-          "label" : "Top 5",
-          "spoken" : "Top 5, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.33333333333337,
-            "width" : 370,
-            "x" : -105,
-            "y" : 607.3333333333333
-          },
-          "index" : 10,
-          "label" : "Cities",
-          "spoken" : "Cities",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 647.6666666666667
-          },
-          "index" : 11,
-          "label" : "Cupertino",
-          "spoken" : "Cupertino, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 699.6666666666666
-          },
-          "index" : 12,
-          "label" : "San Francisco",
-          "spoken" : "San Francisco, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 751.6666666666666
-          },
-          "index" : 13,
-          "label" : "London",
-          "spoken" : "London, button",
-          "traits" : [
-            "button"
+            "image"
           ]
         },
         {
@@ -2086,7 +1876,7 @@
             "x" : 16,
             "y" : 168
           },
-          "index" : 14,
+          "index" : 3,
           "label" : "New",
           "spoken" : "New",
           "traits" : [
@@ -2100,7 +1890,7 @@
             "x" : 16,
             "y" : 212
           },
-          "index" : 15,
+          "index" : 4,
           "label" : "Order#1224",
           "spoken" : "Order#1224, 6, 6, 6, 6, 6, 6, 6, button",
           "traits" : [
@@ -2115,7 +1905,7 @@
             "x" : 16,
             "y" : 282
           },
-          "index" : 16,
+          "index" : 5,
           "label" : "Order#1223",
           "spoken" : "Order#1223, 12, 12, 12, 12, 12, 12, 12, 12, 12, button",
           "traits" : [
@@ -2130,7 +1920,7 @@
             "x" : 16,
             "y" : 352
           },
-          "index" : 17,
+          "index" : 6,
           "label" : "Order#1222",
           "spoken" : "Order#1222, 7, 7, 7, 7, 7, 7, 7, button",
           "traits" : [
@@ -2145,7 +1935,7 @@
             "x" : 16,
             "y" : 422
           },
-          "index" : 18,
+          "index" : 7,
           "label" : "Order#1221",
           "spoken" : "Order#1221, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, button",
           "traits" : [
@@ -2160,7 +1950,7 @@
             "x" : 16,
             "y" : 492
           },
-          "index" : 19,
+          "index" : 8,
           "label" : "Order#1220",
           "spoken" : "Order#1220, 3, 3, 3, 3, button",
           "traits" : [
@@ -2175,7 +1965,7 @@
             "x" : 16,
             "y" : 562
           },
-          "index" : 20,
+          "index" : 9,
           "label" : "Order#1219",
           "spoken" : "Order#1219, 14, 14, 14, 14, 14, 14, 14, 14, 14, button",
           "traits" : [
@@ -2190,7 +1980,7 @@
             "x" : 16,
             "y" : 632
           },
-          "index" : 21,
+          "index" : 10,
           "label" : "Order#1218",
           "spoken" : "Order#1218, 12, 12, 12, 12, 12, 12, 12, 12, 12, button",
           "traits" : [
@@ -2205,7 +1995,7 @@
             "x" : 16,
             "y" : 702
           },
-          "index" : 22,
+          "index" : 11,
           "label" : "Order#1217",
           "spoken" : "Order#1217, 4, 4, 4, 4, button",
           "traits" : [
@@ -2220,7 +2010,7 @@
             "x" : 16,
             "y" : 772
           },
-          "index" : 23,
+          "index" : 12,
           "label" : "Order#1216",
           "spoken" : "Order#1216, 2, 2, 2, button",
           "traits" : [
@@ -2235,13 +2025,28 @@
             "x" : 16,
             "y" : 842
           },
-          "index" : 24,
+          "index" : 13,
           "label" : "Order#1225",
           "spoken" : "Order#1225, 2, 2, 2, 2, button",
           "traits" : [
             "button"
           ],
           "value" : "2, 2, 2, 2"
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 336,
+            "x" : 32.99999999999994,
+            "y" : 803
+          },
+          "index" : 14,
+          "label" : "Search",
+          "placeholder" : "Search",
+          "spoken" : "Search, searchField",
+          "traits" : [
+            "searchField"
+          ]
         }
       ]
     },
@@ -2531,13 +2336,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 70,
+            "width" : 64,
             "x" : 67,
             "y" : 519.8333333333334
           },
           "index" : 16,
-          "label" : "Today, 19:18",
-          "spoken" : "Today, 19:18",
+          "label" : "Today, 1:24",
+          "spoken" : "Today, 1:24",
           "traits" : [
 
           ]
@@ -2757,13 +2562,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 70,
+            "width" : 60.33333333333333,
             "x" : 67,
             "y" : 706.4999999999999
           },
           "index" : 32,
-          "label" : "Today, 19:01",
-          "spoken" : "Today, 19:01",
+          "label" : "Today, 1:11",
+          "spoken" : "Today, 1:11",
           "traits" : [
 
           ]
@@ -2898,13 +2703,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 72,
+            "width" : 66,
             "x" : 67,
             "y" : 832.3333333333333
           },
           "index" : 42,
-          "label" : "Today, 18:54",
-          "spoken" : "Today, 18:54",
+          "label" : "Today, 0:52",
+          "spoken" : "Today, 0:52",
           "traits" : [
 
           ]
@@ -3055,13 +2860,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 72.33333333333331,
+            "width" : 65.66666666666666,
             "x" : 67,
             "y" : 1019.1666666666666
           },
           "index" : 53,
-          "label" : "Today, 18:46",
-          "spoken" : "Today, 18:46",
+          "label" : "Today, 0:47",
+          "spoken" : "Today, 0:47",
           "traits" : [
 
           ]
@@ -3177,13 +2982,13 @@
         {
           "frame" : {
             "height" : 20.333333333333314,
-            "width" : 107.33333333333333,
+            "width" : 105.66666666666666,
             "x" : 16,
             "y" : 250.6181640625
           },
           "index" : 6,
-          "label" : "8 049 donuts",
-          "spoken" : "8 049 donuts",
+          "label" : "8 070 donuts",
+          "spoken" : "8 070 donuts",
           "traits" : [
 
           ]
@@ -3192,106 +2997,6 @@
     },
     {
       "platformAuditFindings" : [
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donuts",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
           "key" : "Donuts|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
@@ -3714,170 +3419,16 @@
         },
         {
           "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 168
+            "height" : 272,
+            "width" : 642,
+            "x" : -120,
+            "y" : 738
           },
+          "identifier" : "AdditionalDimmingOverlay",
           "index" : 4,
-          "label" : "Truck",
-          "spoken" : "Truck, button",
+          "spoken" : "image",
           "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 220
-          },
-          "index" : 5,
-          "label" : "Orders",
-          "spoken" : "Orders, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 272
-          },
-          "index" : 6,
-          "label" : "Social Feed",
-          "spoken" : "Social Feed, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 324
-          },
-          "index" : 7,
-          "label" : "Sales History",
-          "spoken" : "Sales History, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.333333333333314,
-            "width" : 370,
-            "x" : -105,
-            "y" : 393.66666666666663
-          },
-          "index" : 8,
-          "label" : "Donuts",
-          "spoken" : "Donuts",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 434
-          },
-          "index" : 9,
-          "label" : "Donuts",
-          "spoken" : "Donuts, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 486
-          },
-          "index" : 10,
-          "label" : "Donut Editor",
-          "spoken" : "Donut Editor, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 538
-          },
-          "index" : 11,
-          "label" : "Top 5",
-          "spoken" : "Top 5, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.33333333333337,
-            "width" : 370,
-            "x" : -105,
-            "y" : 607.3333333333333
-          },
-          "index" : 12,
-          "label" : "Cities",
-          "spoken" : "Cities",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 647.6666666666667
-          },
-          "index" : 13,
-          "label" : "Cupertino",
-          "spoken" : "Cupertino, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 699.6666666666666
-          },
-          "index" : 14,
-          "label" : "San Francisco",
-          "spoken" : "San Francisco, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 751.6666666666666
-          },
-          "index" : 15,
-          "label" : "London",
-          "spoken" : "London, button",
-          "traits" : [
-            "button"
+            "image"
           ]
         },
         {
@@ -3887,7 +3438,7 @@
             "x" : 39.66666793823242,
             "y" : 184
           },
-          "index" : 16,
+          "index" : 5,
           "label" : "Daytime, Salty",
           "spoken" : "Daytime, Salty, button",
           "traits" : [
@@ -3902,7 +3453,7 @@
             "x" : 167.6666717529297,
             "y" : 184
           },
-          "index" : 17,
+          "index" : 6,
           "label" : "Fire Zest, Spicy",
           "spoken" : "Fire Zest, Spicy, button",
           "traits" : [
@@ -3917,7 +3468,7 @@
             "x" : 287,
             "y" : 184
           },
-          "index" : 18,
+          "index" : 7,
           "label" : "The Classic, Savory",
           "spoken" : "The Classic, Savory, button",
           "traits" : [
@@ -3932,7 +3483,7 @@
             "x" : 31.66666603088379,
             "y" : 311.3333435058594
           },
-          "index" : 19,
+          "index" : 8,
           "label" : "Black Raspberry, Savory",
           "spoken" : "Black Raspberry, Savory, button",
           "traits" : [
@@ -3947,7 +3498,7 @@
             "x" : 170.8333282470703,
             "y" : 311.3333435058594
           },
-          "index" : 20,
+          "index" : 9,
           "label" : "Custard, Sour",
           "spoken" : "Custard, Sour, button",
           "traits" : [
@@ -3962,7 +3513,7 @@
             "x" : 288.6666564941406,
             "y" : 311.3333435058594
           },
-          "index" : 21,
+          "index" : 10,
           "label" : "Powdered Strawberry, Sweet",
           "spoken" : "Powdered Strawberry, Sweet, button",
           "traits" : [
@@ -3977,7 +3528,7 @@
             "x" : 20.16666603088379,
             "y" : 460.6666564941406
           },
-          "index" : 22,
+          "index" : 11,
           "label" : "Picnic Basket, Sweet",
           "spoken" : "Picnic Basket, Sweet, button",
           "traits" : [
@@ -3992,7 +3543,7 @@
             "x" : 168.6666717529297,
             "y" : 460.6666564941406
           },
-          "index" : 23,
+          "index" : 12,
           "label" : "Cosmos, Sweet",
           "spoken" : "Cosmos, Sweet, button",
           "traits" : [
@@ -4007,7 +3558,7 @@
             "x" : 298.5,
             "y" : 460.6666564941406
           },
-          "index" : 24,
+          "index" : 13,
           "label" : "Rainbow, Salty",
           "spoken" : "Rainbow, Salty, button",
           "traits" : [
@@ -4022,7 +3573,7 @@
             "x" : 26.83333396911621,
             "y" : 587.6666870117188
           },
-          "index" : 25,
+          "index" : 14,
           "label" : "Strawberry Drizzle, Sweet",
           "spoken" : "Strawberry Drizzle, Sweet, button",
           "traits" : [
@@ -4037,7 +3588,7 @@
             "x" : 162.3333282470703,
             "y" : 587.6666870117188
           },
-          "index" : 26,
+          "index" : 15,
           "label" : "Lemon Chocolate, Bitter",
           "spoken" : "Lemon Chocolate, Bitter, button",
           "traits" : [
@@ -4052,7 +3603,7 @@
             "x" : 280.5,
             "y" : 587.6666870117188
           },
-          "index" : 27,
+          "index" : 16,
           "label" : "Figure Skater, Sweet",
           "spoken" : "Figure Skater, Sweet, button",
           "traits" : [
@@ -4067,7 +3618,7 @@
             "x" : 33.66666793823242,
             "y" : 736.6666870117188
           },
-          "index" : 28,
+          "index" : 17,
           "label" : "Nighttime, Sweet",
           "spoken" : "Nighttime, Sweet, button",
           "traits" : [
@@ -4082,7 +3633,7 @@
             "x" : 156.8333282470703,
             "y" : 736.6666870117188
           },
-          "index" : 29,
+          "index" : 18,
           "label" : "Strawberry Sprinkles, Sweet",
           "spoken" : "Strawberry Sprinkles, Sweet, button",
           "traits" : [
@@ -4097,7 +3648,7 @@
             "x" : 291.8333435058594,
             "y" : 736.6666870117188
           },
-          "index" : 30,
+          "index" : 19,
           "label" : "Blueberry Frosted, Sweet",
           "spoken" : "Blueberry Frosted, Sweet, button",
           "traits" : [
@@ -4112,7 +3663,7 @@
             "x" : 30.33333396911621,
             "y" : 886
           },
-          "index" : 31,
+          "index" : 20,
           "label" : "Powdered Chocolate, Sweet",
           "spoken" : "Powdered Chocolate, Sweet, button",
           "traits" : [
@@ -4127,13 +3678,28 @@
             "x" : 150.3333282470703,
             "y" : 886
           },
-          "index" : 32,
+          "index" : 21,
           "label" : "Super Lemon, Sour",
           "spoken" : "Super Lemon, Sour, button",
           "traits" : [
             "button"
           ],
           "visibleText" : "Super Lemon"
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 336,
+            "x" : 32.99999999999994,
+            "y" : 803
+          },
+          "index" : 22,
+          "label" : "Search",
+          "placeholder" : "Search",
+          "spoken" : "Search, searchField",
+          "traits" : [
+            "searchField"
+          ]
         }
       ]
     },
@@ -4141,226 +3707,226 @@
       "platformAuditFindings" : [
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "The size of this SwiftUI.AccessibilityNode is too small for user to interact.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 4)|Hit area is too small",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Hit area is too small"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "User will not be able to change the font size of this SwiftUI.AccessibilityNode",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
           "evidence" : "The accessibilityLabel of this SwiftUI.AccessibilityNode is not human-readable.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 8)|face.smiling",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 8)|face.smiling",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Label not human-readable"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         },
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Donut Editor|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "New Donut|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Donut Editor",
+          "screen" : "New Donut",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         }
       ],
-      "screen" : "Donut Editor",
+      "screen" : "New Donut",
       "utterances" : [
         {
           "frame" : {
@@ -4393,180 +3959,12 @@
         },
         {
           "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 168
-          },
-          "index" : 2,
-          "label" : "Truck",
-          "spoken" : "Truck, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 220
-          },
-          "index" : 3,
-          "label" : "Orders",
-          "spoken" : "Orders, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 272
-          },
-          "index" : 4,
-          "label" : "Social Feed",
-          "spoken" : "Social Feed, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 324
-          },
-          "index" : 5,
-          "label" : "Sales History",
-          "spoken" : "Sales History, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.333333333333314,
-            "width" : 370,
-            "x" : -105,
-            "y" : 393.66666666666663
-          },
-          "index" : 6,
-          "label" : "Donuts",
-          "spoken" : "Donuts",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 434
-          },
-          "index" : 7,
-          "label" : "Donuts",
-          "spoken" : "Donuts, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 486
-          },
-          "index" : 8,
-          "label" : "Donut Editor",
-          "spoken" : "Donut Editor, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 538
-          },
-          "index" : 9,
-          "label" : "Top 5",
-          "spoken" : "Top 5, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 40.33333333333337,
-            "width" : 370,
-            "x" : -105,
-            "y" : 607.3333333333333
-          },
-          "index" : 10,
-          "label" : "Cities",
-          "spoken" : "Cities",
-          "traits" : [
-
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 647.6666666666667
-          },
-          "index" : 11,
-          "label" : "Cupertino",
-          "spoken" : "Cupertino, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 699.6666666666666
-          },
-          "index" : 12,
-          "label" : "San Francisco",
-          "spoken" : "San Francisco, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
-            "height" : 52,
-            "width" : 370,
-            "x" : -105,
-            "y" : 751.6666666666666
-          },
-          "index" : 13,
-          "label" : "London",
-          "spoken" : "London, button",
-          "traits" : [
-            "button"
-          ]
-        },
-        {
-          "frame" : {
             "height" : 100,
             "width" : 100,
             "x" : 151,
             "y" : 167
           },
-          "index" : 14,
+          "index" : 2,
           "label" : "dough/plain-thumb",
           "spoken" : "dough/plain-thumb, image",
           "traits" : [
@@ -4580,7 +3978,7 @@
             "x" : 151,
             "y" : 167
           },
-          "index" : 15,
+          "index" : 3,
           "label" : "glaze/brown-thumb",
           "spoken" : "glaze/brown-thumb, image",
           "traits" : [
@@ -4594,7 +3992,7 @@
             "x" : 151,
             "y" : 167
           },
-          "index" : 16,
+          "index" : 4,
           "label" : "topping/sprinkles-thumb",
           "spoken" : "topping/sprinkles-thumb, image",
           "traits" : [
@@ -4608,7 +4006,7 @@
             "x" : 16,
             "y" : 300.66666666666663
           },
-          "index" : 17,
+          "index" : 5,
           "label" : "Donut",
           "spoken" : "Donut",
           "traits" : [
@@ -4622,7 +4020,7 @@
             "x" : 32,
             "y" : 356
           },
-          "index" : 18,
+          "index" : 6,
           "placeholder" : "Donut Name",
           "spoken" : "Donut Name, New Donut, textField",
           "traits" : [
@@ -4637,7 +4035,7 @@
             "x" : 16,
             "y" : 410.3333333333333
           },
-          "index" : 19,
+          "index" : 7,
           "label" : "Flavor Profile",
           "spoken" : "Flavor Profile",
           "traits" : [
@@ -4651,7 +4049,7 @@
             "x" : 38.666666666666664,
             "y" : 467
           },
-          "index" : 20,
+          "index" : 8,
           "label" : "salty",
           "spoken" : "salty, image",
           "traits" : [
@@ -4665,7 +4063,7 @@
             "x" : 64.66666666666667,
             "y" : 465.6666666666667
           },
-          "index" : 21,
+          "index" : 9,
           "label" : "Salty",
           "spoken" : "Salty",
           "traits" : [
@@ -4679,7 +4077,7 @@
             "x" : 360,
             "y" : 465.6666666666667
           },
-          "index" : 22,
+          "index" : 10,
           "label" : "2",
           "spoken" : "2",
           "traits" : [
@@ -4693,7 +4091,7 @@
             "x" : 34,
             "y" : 497.6666666666667
           },
-          "index" : 23,
+          "index" : 11,
           "label" : "sweet",
           "spoken" : "sweet, image",
           "traits" : [
@@ -4707,7 +4105,7 @@
             "x" : 64.66666666666667,
             "y" : 494
           },
-          "index" : 24,
+          "index" : 12,
           "label" : "Sweet",
           "spoken" : "Sweet",
           "traits" : [
@@ -4721,7 +4119,7 @@
             "x" : 359.66666666666663,
             "y" : 494
           },
-          "index" : 25,
+          "index" : 13,
           "label" : "5",
           "spoken" : "5",
           "traits" : [
@@ -4735,7 +4133,7 @@
             "x" : 34.33333333333333,
             "y" : 524.6666666666667
           },
-          "index" : 26,
+          "index" : 14,
           "label" : "bitter",
           "spoken" : "bitter, image",
           "traits" : [
@@ -4749,7 +4147,7 @@
             "x" : 64.66666666666667,
             "y" : 522.3333333333334
           },
-          "index" : 27,
+          "index" : 15,
           "label" : "Bitter",
           "spoken" : "Bitter",
           "traits" : [
@@ -4763,7 +4161,7 @@
             "x" : 360,
             "y" : 522.3333333333334
           },
-          "index" : 28,
+          "index" : 16,
           "label" : "2",
           "spoken" : "2",
           "traits" : [
@@ -4777,7 +4175,7 @@
             "x" : 34.33333333333333,
             "y" : 554.6666666666667
           },
-          "index" : 29,
+          "index" : 17,
           "label" : "sour",
           "spoken" : "sour, image",
           "traits" : [
@@ -4791,7 +4189,7 @@
             "x" : 64.66666666666667,
             "y" : 550.6666666666667
           },
-          "index" : 30,
+          "index" : 18,
           "label" : "Sour",
           "spoken" : "Sour",
           "traits" : [
@@ -4805,7 +4203,7 @@
             "x" : 359.66666666666663,
             "y" : 550.6666666666667
           },
-          "index" : 31,
+          "index" : 19,
           "label" : "0",
           "spoken" : "0",
           "traits" : [
@@ -4820,7 +4218,7 @@
             "y" : 580.6666666666667
           },
           "identifier" : "face.smiling",
-          "index" : 32,
+          "index" : 20,
           "label" : "face.smiling",
           "spoken" : "face.smiling, image",
           "traits" : [
@@ -4834,7 +4232,7 @@
             "x" : 64.66666666666667,
             "y" : 579
           },
-          "index" : 33,
+          "index" : 21,
           "label" : "Savory",
           "spoken" : "Savory",
           "traits" : [
@@ -4848,7 +4246,7 @@
             "x" : 359.3333333333333,
             "y" : 579
           },
-          "index" : 34,
+          "index" : 22,
           "label" : "6",
           "spoken" : "6",
           "traits" : [
@@ -4862,7 +4260,7 @@
             "x" : 35,
             "y" : 608.3333333333334
           },
-          "index" : 35,
+          "index" : 23,
           "label" : "spicy",
           "spoken" : "spicy, image",
           "traits" : [
@@ -4876,7 +4274,7 @@
             "x" : 64.66666666666667,
             "y" : 607.3333333333334
           },
-          "index" : 36,
+          "index" : 24,
           "label" : "Spicy",
           "spoken" : "Spicy",
           "traits" : [
@@ -4890,7 +4288,7 @@
             "x" : 359.66666666666663,
             "y" : 607.3333333333334
           },
-          "index" : 37,
+          "index" : 25,
           "label" : "0",
           "spoken" : "0",
           "traits" : [
@@ -4904,7 +4302,7 @@
             "x" : 16,
             "y" : 660.3333333333334
           },
-          "index" : 38,
+          "index" : 26,
           "label" : "Ingredients",
           "spoken" : "Ingredients",
           "traits" : [
@@ -4918,7 +4316,7 @@
             "x" : 32,
             "y" : 716.5
           },
-          "index" : 39,
+          "index" : 27,
           "label" : "Dough",
           "spoken" : "Dough",
           "traits" : [
@@ -4932,7 +4330,7 @@
             "x" : 32,
             "y" : 709.6666870117188
           },
-          "index" : 40,
+          "index" : 28,
           "label" : "Dough, Plain",
           "spoken" : "Dough, Plain, button",
           "traits" : [
@@ -4947,7 +4345,7 @@
             "x" : 32,
             "y" : 768.5
           },
-          "index" : 41,
+          "index" : 29,
           "label" : "Glaze",
           "spoken" : "Glaze",
           "traits" : [
@@ -4961,7 +4359,7 @@
             "x" : 32,
             "y" : 761.6666870117188
           },
-          "index" : 42,
+          "index" : 30,
           "label" : "Glaze, Chocolate Glaze",
           "spoken" : "Glaze, Chocolate Glaze, button",
           "traits" : [
@@ -4976,7 +4374,7 @@
             "x" : 32,
             "y" : 820.5
           },
-          "index" : 43,
+          "index" : 31,
           "label" : "Topping",
           "spoken" : "Topping",
           "traits" : [
@@ -4990,7 +4388,7 @@
             "x" : 32,
             "y" : 813.6666870117188
           },
-          "index" : 44,
+          "index" : 32,
           "label" : "Topping, Sprinkles",
           "spoken" : "Topping, Sprinkles, button",
           "traits" : [
@@ -5004,16 +4402,16 @@
       "platformAuditFindings" : [
         {
           "evidence" : "Contrast is not high enough for SwiftUI.AccessibilityNode unless font size is larger.",
-          "key" : "Top 5|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
+          "key" : "Top 5 Donuts|platform|XCUIAccessibilityAuditType(rawValue: 1)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 1)",
-          "screen" : "Top 5",
+          "screen" : "Top 5 Donuts",
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Contrast nearly passed"
         }
       ],
-      "screen" : "Top 5",
+      "screen" : "Top 5 Donuts",
       "utterances" : [
         {
           "frame" : {
@@ -5135,13 +4533,13 @@
         {
           "frame" : {
             "height" : 20.333333333333314,
-            "width" : 103.66666666666666,
+            "width" : 102,
             "x" : 16,
             "y" : 198.6181640625
           },
           "index" : 8,
-          "label" : "2 194 donuts",
-          "spoken" : "2 194 donuts",
+          "label" : "2 197 donuts",
+          "spoken" : "2 197 donuts",
           "traits" : [
 
           ]

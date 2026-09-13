@@ -4,7 +4,7 @@
   ],
   "app" : "Напоминания",
   "appVersion" : "—",
-  "capturedOn" : "2026-09-13",
+  "capturedOn" : "2026-09-14",
   "fidelity" : "accessibilityTree",
   "formatVersion" : 1,
   "locale" : "ru",
@@ -145,8 +145,8 @@
             "y" : 122
           },
           "index" : 3,
-          "label" : "Сегодня, 0 напоминаний, 13 сентября",
-          "spoken" : "Сегодня, 0 напоминаний, 13 сентября, button",
+          "label" : "Сегодня, 0 напоминаний, 14 сентября",
+          "spoken" : "Сегодня, 0 напоминаний, 14 сентября, button",
           "traits" : [
             "button"
           ]

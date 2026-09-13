@@ -104,7 +104,7 @@ public struct BaselineRecorder {
             }
             let resolved = step.resolveName?(app)?.trimmingCharacters(in: .whitespacesAndNewlines)
             let screenName = (resolved?.isEmpty == false) ? resolved! : step.screen
-            var snapshot = try source.captureScreen(named: screenName)
+            var snapshot = try captureStable(named: screenName)
 
             if includePlatformAudit {
                 snapshot.platformAuditFindings = platformAudit(screen: screenName)
@@ -131,6 +131,35 @@ public struct BaselineRecorder {
             capturedOn: Self.today(),
             screens: screens
         )
+    }
+
+    /// Снимает экран только после того, как он перестал меняться.
+    ///
+    /// Навигация возвращает управление, когда нажатие обработано, а не когда
+    /// переход дорисовался: `wait(for: .runningForeground)` срабатывает
+    /// мгновенно, потому что приложение и так на переднем плане. Снимок
+    /// попадал на середину анимации.
+    ///
+    /// Видно это было только сравнением двух одинаковых прогонов индекса:
+    /// у «Просмотра» совпадало число экранов, но не число элементов — 167
+    /// против 158, у «Файлов» 150 против 153. То есть обход шёл одинаково,
+    /// а снимал разное.
+    ///
+    /// Признак «дорисовалось» — два одинаковых снимка подряд. Сравниваем
+    /// по произносимому тексту: именно он и есть предмет проверки, а координаты
+    /// могут дрожать на последних кадрах анимации, ничего не меняя для
+    /// человека с VoiceOver.
+    private func captureStable(named screen: String, attempts: Int = 5) throws -> ScreenSnapshot {
+        var last = try source.captureScreen(named: screen)
+        for _ in 0..<attempts {
+            RunLoop.current.run(until: Date().addingTimeInterval(0.4))
+            let next = try source.captureScreen(named: screen)
+            if next.utterances.map(\.spoken) == last.utterances.map(\.spoken) { return next }
+            last = next
+        }
+        // Экран так и не устоялся — берём последний снимок и идём дальше.
+        // Это честнее, чем ронять весь прогон из-за одного живого экрана.
+        return last
     }
 
     /// Прогоняет встроенный аудит платформы и переводит его находки
