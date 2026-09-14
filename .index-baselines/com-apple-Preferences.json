@@ -2612,59 +2612,67 @@
         },
         {
           "frame" : {
-            "height" : 53,
-            "width" : 362,
-            "x" : 20,
-            "y" : 964.3333377838135
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
           },
           "identifier" : "Допуск уведомлений",
           "index" : 14,
-          "spoken" : "cell",
+          "label" : "Допуск уведомлений",
+          "spoken" : "Допуск уведомлений, 1, toggle",
           "traits" : [
-            "cell"
-          ]
+            "toggle"
+          ],
+          "value" : "1"
         },
         {
           "frame" : {
-            "height" : 53,
-            "width" : 362,
-            "x" : 20,
-            "y" : 1017.3333377838135
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
           },
           "identifier" : "В библиотеке приложений",
           "index" : 15,
-          "spoken" : "cell",
+          "label" : "В библиотеке приложений",
+          "spoken" : "В библиотеке приложений, 1, toggle",
           "traits" : [
-            "cell"
-          ]
+            "toggle"
+          ],
+          "value" : "1"
         },
         {
           "frame" : {
-            "height" : 53,
-            "width" : 362,
-            "x" : 20,
-            "y" : 1070.3333377838135
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
           },
           "identifier" : "При отправке контента",
           "index" : 16,
-          "spoken" : "cell",
+          "label" : "При отправке контента",
+          "spoken" : "При отправке контента, 1, toggle",
           "traits" : [
-            "cell"
-          ]
+            "toggle"
+          ],
+          "value" : "1"
         },
         {
           "frame" : {
-            "height" : 53,
-            "width" : 362,
-            "x" : 20,
-            "y" : 1123.3333377838135
+            "height" : 0,
+            "width" : 0,
+            "x" : 0,
+            "y" : 0
           },
           "identifier" : "При реагировании на речь",
           "index" : 17,
-          "spoken" : "cell",
+          "label" : "При реагировании на речь",
+          "spoken" : "При реагировании на речь, 1, toggle",
           "traits" : [
-            "cell"
-          ]
+            "toggle"
+          ],
+          "value" : "1"
         },
         {
           "frame" : {

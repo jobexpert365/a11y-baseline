@@ -914,7 +914,7 @@
     {
       "platformAuditFindings" : [
         {
-          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "evidence" : "User will not be able to change the font size of this UITextField",
           "key" : "Line Chart 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -924,7 +924,7 @@
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
-          "evidence" : "User will not be able to change the font size of this UITextField",
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
           "key" : "Line Chart 2|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -1050,26 +1050,6 @@
     {
       "platformAuditFindings" : [
         {
-          "evidence" : "The size of this DGCharts.NSUIAccessibilityElement is too small for user to interact.",
-          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Bar Chart",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this UITextField",
-          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Bar Chart",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
           "evidence" : "User will not be able to change the font size of this UITextField",
           "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
@@ -1081,6 +1061,16 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Bar Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
           "key" : "Bar Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -1538,7 +1528,7 @@
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
-          "evidence" : "User will not be able to change the font size of this UITextField",
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
           "key" : "Pie Poly Line Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -1548,7 +1538,7 @@
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
-          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "evidence" : "User will not be able to change the font size of this UITextField",
           "key" : "Pie Poly Line Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -1830,46 +1820,6 @@
           "summary" : "Hit area is too small"
         },
         {
-          "evidence" : "The size of this DGCharts.NSUIAccessibilityElement is too small for user to interact.",
-          "key" : "Bubble Chart|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Bubble Chart",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this DGCharts.NSUIAccessibilityElement is too small for user to interact.",
-          "key" : "Bubble Chart|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Bubble Chart",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "The size of this DGCharts.NSUIAccessibilityElement is too small for user to interact.",
-          "key" : "Bubble Chart|platform|XCUIAccessibilityAuditType(rawValue: 4)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 4)",
-          "screen" : "Bubble Chart",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Hit area is too small"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this UITextField",
-          "key" : "Bubble Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Bubble Chart",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
           "evidence" : "User will not be able to change the font size of this UITextField",
           "key" : "Bubble Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
@@ -1881,6 +1831,16 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Bubble Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Bubble Chart",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UITextField",
           "key" : "Bubble Chart|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",

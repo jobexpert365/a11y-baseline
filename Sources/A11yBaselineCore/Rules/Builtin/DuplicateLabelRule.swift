@@ -38,10 +38,28 @@ public struct DuplicateLabelRule: Rule {
         }
         guard !twins.isEmpty else { return nil }
 
+        // Считаем МЕСТА НА ЭКРАНЕ, а не узлы дерева.
+        //
+        // Правило спрашивает «может ли человек их спутать», а спутать можно
+        // только то, что занимает разные места. Два узла с одинаковой рамкой —
+        // это один и тот же элемент, попавший в дерево дважды (обычно
+        // контейнер вместе со своим ребёнком), и человеку он достаётся один.
+        //
+        // Замер по 25 приложениям: из 18 групп дубликатов три оказались
+        // целиком такими — «Закрыть» и «Загрузить» в Wallet, «Don't have
+        // an Apple Account?» в Настройках. У всех трёх рамки совпадали
+        // до сотых. И все три были у Apple, то есть попались по тому же
+        // признаку, по которому в прошлый раз попалось правило о переводе:
+        // срабатывание на самом вылизанном корпусе — повод проверить себя,
+        // а не приложение.
+        let group = ([utterance] + twins).sorted { $0.index < $1.index }
+        var seenPlaces: Set<String> = []
+        let distinct = group.filter { seenPlaces.insert(Self.placeKey(of: $0)).inserted }
+        guard distinct.count >= 2 else { return nil }
+
         // Сообщаем один раз — на первом из группы. Иначе отчёт распухает
         // шестью одинаковыми находками там, где проблема одна.
-        let isFirstOfGroup = twins.allSatisfy { $0.index > utterance.index }
-        guard isFirstOfGroup else { return nil }
+        guard distinct.first?.index == utterance.index else { return nil }
 
         return Finding(
             key: makeKey(screen: context.screen.screen, utterance: utterance),
@@ -49,7 +67,7 @@ public struct DuplicateLabelRule: Rule {
             source: .ruleEngine,
             severity: .moderate,
             screen: context.screen.screen,
-            summary: "\(twins.count + 1) элемента звучат одинаково: «\(label)»",
+            summary: "\(distinct.count) элемента звучат одинаково: «\(label)»",
             evidence: "Все они произносятся как «\(utterance.spoken)». На слух их невозможно различить, а глазами они различаются окружением.",
             standard: Self.standard,
             utteranceIndex: utterance.index,
@@ -59,5 +77,20 @@ public struct DuplicateLabelRule: Rule {
                 note: "Альтернатива без изменения подписи — объединить карточку в один элемент через .accessibilityElement(children: .combine)."
             )
         )
+    }
+
+    /// Ключ места на экране.
+    ///
+    /// Округляем до десятых: координаты приходят дробными из-за масштаба
+    /// экрана, и два узла одного элемента отличаются на уровне машинного нуля,
+    /// а не на уровне видимого положения.
+    ///
+    /// Элемент без рамки считается отдельным местом: без геометрии мы
+    /// не вправе утверждать, что это тот же самый элемент, а молчать
+    /// из-за отсутствия данных — значит пропускать настоящий дефект.
+    private static func placeKey(of u: Utterance) -> String {
+        guard let f = u.frame else { return "нет-рамки-\(u.index)" }
+        func r(_ v: Double) -> String { String(format: "%.1f", v) }
+        return "\(r(f.x)):\(r(f.y)):\(r(f.width)):\(r(f.height))"
     }
 }

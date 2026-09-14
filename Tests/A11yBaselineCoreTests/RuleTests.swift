@@ -493,3 +493,56 @@ struct UntranslatedLabelLocalizationTests {
         #expect(UntranslatedLabelRule().isLocalized(englishScreen("Summary")) == false)
     }
 }
+
+@Suite("Дубликаты считаются по местам на экране")
+struct DuplicateLabelPlacesTests {
+
+    private func button(_ index: Int, _ label: String, y: Double) -> Utterance {
+        Utterance(index: index, spoken: "\(label), button", label: label,
+                  traits: ["button"], frame: Rect(x: 20, y: y, width: 60, height: 30))
+    }
+
+    @Test("две кнопки в разных местах — находка")
+    func flagsDifferentPlaces() {
+        let us = [button(0, "Подробнее", y: 100), button(1, "Подробнее", y: 200)]
+        let f = DuplicateLabelRule().evaluate(us[0], in: context(screen(us)))
+        #expect(f != nil)
+        #expect(f?.summary.contains("2 элемента") == true)
+    }
+
+    @Test("два узла с одинаковой рамкой — не находка")
+    func ignoresSamePlace() {
+        // Регрессионный тест из Wallet и Настроек: контейнер и его ребёнок
+        // приходят в дерево двумя узлами с совпадающей до сотых рамкой.
+        // Человеку достаётся один элемент, спутать нечего.
+        let us = [button(0, "Закрыть", y: 144), button(1, "Закрыть", y: 144)]
+        #expect(DuplicateLabelRule().evaluate(us[0], in: context(screen(us))) == nil)
+        #expect(DuplicateLabelRule().evaluate(us[1], in: context(screen(us))) == nil)
+    }
+
+    @Test("из трёх узлов на двух местах находка считает два")
+    func countsPlacesNotNodes() {
+        let us = [button(0, "Открыть", y: 100), button(1, "Открыть", y: 100), button(2, "Открыть", y: 300)]
+        let f = DuplicateLabelRule().evaluate(us[0], in: context(screen(us)))
+        #expect(f?.summary.contains("2 элемента") == true)
+    }
+
+    @Test("находка сообщается на первом узле группы, а не на каждом")
+    func reportsOnceOnFirst() {
+        let us = [button(0, "Открыть", y: 100), button(1, "Открыть", y: 100), button(2, "Открыть", y: 300)]
+        #expect(DuplicateLabelRule().evaluate(us[1], in: context(screen(us))) == nil)
+        #expect(DuplicateLabelRule().evaluate(us[2], in: context(screen(us))) == nil)
+    }
+
+    @Test("без рамок правило работает как раньше")
+    func worksWithoutFrames() {
+        // Геометрии может не быть вовсе. Молчать из-за отсутствия данных —
+        // значит пропускать настоящий дефект, поэтому каждый элемент без
+        // рамки считается отдельным местом.
+        let us = (0..<3).map {
+            Utterance(index: $0, spoken: "Подробнее, button", label: "Подробнее", traits: ["button"])
+        }
+        let f = DuplicateLabelRule().evaluate(us[0], in: context(screen(us)))
+        #expect(f?.summary.contains("3 элемента") == true)
+    }
+}

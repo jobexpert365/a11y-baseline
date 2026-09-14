@@ -648,7 +648,7 @@
         },
         {
           "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Все быстрые команды|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "key" : "Все быстрые команды|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Все быстрые команды",
@@ -658,7 +658,7 @@
         },
         {
           "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
-          "key" : "Все быстрые команды|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "key" : "Все быстрые команды|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Все быстрые команды",
