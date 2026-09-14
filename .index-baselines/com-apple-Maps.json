@@ -690,7 +690,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|MainTitle",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|SecondTitle",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Дом",
@@ -710,7 +710,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|TitleLabel",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|MainTitle",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Дом",
@@ -720,7 +720,7 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|SecondTitle",
+          "key" : "Дом|platform|XCUIAccessibilityAuditType(rawValue: 65536)|TitleLabel",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
           "screen" : "Дом",

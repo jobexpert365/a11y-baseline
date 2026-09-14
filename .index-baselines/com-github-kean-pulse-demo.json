@@ -1095,7 +1095,7 @@
             "height" : 12,
             "width" : 7,
             "x" : 376.6666666666667,
-            "y" : 216
+            "y" : 206.33333333333331
           },
           "index" : 8,
           "spoken" : "button",
@@ -1106,13 +1106,13 @@
         {
           "frame" : {
             "height" : 15.666666666666657,
-            "width" : 177,
+            "width" : 173.33333333333331,
             "x" : 20,
             "y" : 183
           },
           "index" : 9,
-          "label" : "204 No Content · 0 KB · 2.2 s",
-          "spoken" : "204 No Content · 0 KB · 2.2 s",
+          "label" : "Decoding Failed · 1 KB · 1.3 s",
+          "spoken" : "Decoding Failed · 1 KB · 1.3 s",
           "traits" : [
 
           ]
@@ -1125,8 +1125,8 @@
             "y" : 183.66666666666666
           },
           "index" : 10,
-          "label" : "07:03:43.295",
-          "spoken" : "07:03:43.295",
+          "label" : "12:57:24.591",
+          "spoken" : "12:57:24.591",
           "traits" : [
 
           ]
@@ -1163,28 +1163,28 @@
         },
         {
           "frame" : {
-            "height" : 38.33333333333334,
-            "width" : 350.66666666666663,
+            "height" : 19.333333333333343,
+            "width" : 173,
             "x" : 20,
             "y" : 202.66666666666666
           },
           "index" : 13,
-          "label" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
-          "spoken" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "label" : "PATCH /repos/kean/nuke",
+          "spoken" : "PATCH /repos/kean/nuke",
           "traits" : [
 
           ]
         },
         {
           "frame" : {
-            "height" : 15.666666666666686,
-            "width" : 229.33333333333331,
+            "height" : 15.666666666666657,
+            "width" : 68.33333333333333,
             "x" : 20,
-            "y" : 245
+            "y" : 226
           },
           "index" : 14,
-          "label" : "objects-origin.githubusercontent.com",
-          "spoken" : "objects-origin.githubusercontent.com",
+          "label" : "github.com",
+          "spoken" : "github.com",
           "traits" : [
 
           ]
@@ -1194,7 +1194,7 @@
             "height" : 12,
             "width" : 7,
             "x" : 376.6666666666667,
-            "y" : 307.99999999999994
+            "y" : 298.66666666666663
           },
           "index" : 15,
           "spoken" : "button",
@@ -1205,13 +1205,13 @@
         {
           "frame" : {
             "height" : 15.666666666666686,
-            "width" : 173.33333333333331,
+            "width" : 177,
             "x" : 20,
-            "y" : 284.66666666666663
+            "y" : 265.66666666666663
           },
           "index" : 16,
-          "label" : "Decoding Failed · 1 KB · 1.3 s",
-          "spoken" : "Decoding Failed · 1 KB · 1.3 s",
+          "label" : "204 No Content · 0 KB · 2.2 s",
+          "spoken" : "204 No Content · 0 KB · 2.2 s",
           "traits" : [
 
           ]
@@ -1221,11 +1221,11 @@
             "height" : 14.333333333333314,
             "width" : 73,
             "x" : 310,
-            "y" : 285.3333333333333
+            "y" : 266.3333333333333
           },
           "index" : 17,
-          "label" : "07:03:43.294",
-          "spoken" : "07:03:43.294",
+          "label" : "12:57:24.591",
+          "spoken" : "12:57:24.591",
           "traits" : [
 
           ]
@@ -1235,7 +1235,7 @@
             "height" : 9,
             "width" : 9,
             "x" : 6.666666666666666,
-            "y" : 287.99999999999994
+            "y" : 269
           },
           "identifier" : "circle.fill",
           "index" : 18,
@@ -1250,7 +1250,7 @@
             "height" : 10,
             "width" : 6,
             "x" : 387.3333333333333,
-            "y" : 287.66666666666663
+            "y" : 268.66666666666663
           },
           "identifier" : "chevron.right",
           "index" : 19,
@@ -1262,28 +1262,28 @@
         },
         {
           "frame" : {
-            "height" : 19.333333333333314,
-            "width" : 173,
+            "height" : 38.333333333333314,
+            "width" : 350.66666666666663,
             "x" : 20,
-            "y" : 304.3333333333333
+            "y" : 285.3333333333333
           },
           "index" : 20,
-          "label" : "PATCH /repos/kean/nuke",
-          "spoken" : "PATCH /repos/kean/nuke",
+          "label" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "spoken" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
           "traits" : [
 
           ]
         },
         {
           "frame" : {
-            "height" : 15.666666666666629,
-            "width" : 68.33333333333333,
+            "height" : 15.666666666666686,
+            "width" : 229.33333333333331,
             "x" : 20,
             "y" : 327.66666666666663
           },
           "index" : 21,
-          "label" : "github.com",
-          "spoken" : "github.com",
+          "label" : "objects-origin.githubusercontent.com",
+          "spoken" : "objects-origin.githubusercontent.com",
           "traits" : [
 
           ]
@@ -1323,8 +1323,8 @@
             "y" : 368.00000000000006
           },
           "index" : 24,
-          "label" : "07:03:42.394",
-          "spoken" : "07:03:42.394",
+          "label" : "12:57:23.757",
+          "spoken" : "12:57:23.757",
           "traits" : [
 
           ]
@@ -1422,8 +1422,8 @@
             "y" : 450.6666666666667
           },
           "index" : 31,
-          "label" : "07:03:40.417",
-          "spoken" : "07:03:40.417",
+          "label" : "12:57:21.772",
+          "spoken" : "12:57:21.772",
           "traits" : [
 
           ]
@@ -1521,8 +1521,8 @@
             "y" : 533.3333333333334
           },
           "index" : 38,
-          "label" : "07:03:40.417",
-          "spoken" : "07:03:40.417",
+          "label" : "12:57:21.772",
+          "spoken" : "12:57:21.772",
           "traits" : [
 
           ]
@@ -1601,13 +1601,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 154.33333333333331,
+            "width" : 219,
             "x" : 20,
             "y" : 615.3333333333333
           },
           "index" : 44,
-          "label" : "200 OK · 165 KB · 527 ms",
-          "spoken" : "200 OK · 165 KB · 527 ms",
+          "label" : "404 Not Found · 955 bytes · 227 ms",
+          "spoken" : "404 Not Found · 955 bytes · 227 ms",
           "traits" : [
 
           ]
@@ -1620,8 +1620,8 @@
             "y" : 615.9999999999999
           },
           "index" : 45,
-          "label" : "07:03:38.833",
-          "spoken" : "07:03:38.833",
+          "label" : "12:57:20.181",
+          "spoken" : "12:57:20.181",
           "traits" : [
 
           ]
@@ -1659,13 +1659,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 76.66666666666666,
+            "width" : 125,
             "x" : 20,
             "y" : 634.9999999999999
           },
           "index" : 48,
-          "label" : "GET /repos",
-          "spoken" : "GET /repos",
+          "label" : "GET /profile/valdo",
+          "spoken" : "GET /profile/valdo",
           "traits" : [
 
           ]
@@ -1700,13 +1700,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 219,
+            "width" : 154.33333333333331,
             "x" : 20,
             "y" : 698
           },
           "index" : 51,
-          "label" : "404 Not Found · 955 bytes · 227 ms",
-          "spoken" : "404 Not Found · 955 bytes · 227 ms",
+          "label" : "200 OK · 165 KB · 527 ms",
+          "spoken" : "200 OK · 165 KB · 527 ms",
           "traits" : [
 
           ]
@@ -1719,8 +1719,8 @@
             "y" : 698.6666666666666
           },
           "index" : 52,
-          "label" : "07:03:38.833",
-          "spoken" : "07:03:38.833",
+          "label" : "12:57:20.181",
+          "spoken" : "12:57:20.181",
           "traits" : [
 
           ]
@@ -1758,13 +1758,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 125,
+            "width" : 76.66666666666666,
             "x" : 20,
             "y" : 717.6666666666666
           },
           "index" : 55,
-          "label" : "GET /profile/valdo",
-          "spoken" : "GET /profile/valdo",
+          "label" : "GET /repos",
+          "spoken" : "GET /repos",
           "traits" : [
 
           ]
@@ -1818,8 +1818,8 @@
             "y" : 781.3333333333333
           },
           "index" : 59,
-          "label" : "07:03:37.212",
-          "spoken" : "07:03:37.212",
+          "label" : "12:57:18.496",
+          "spoken" : "12:57:18.496",
           "traits" : [
 
           ]
@@ -2984,8 +2984,8 @@
             "y" : 183.66666666666666
           },
           "index" : 10,
-          "label" : "07:03:46.857",
-          "spoken" : "07:03:46.857",
+          "label" : "12:57:28.167",
+          "spoken" : "12:57:28.167",
           "traits" : [
 
           ]
@@ -3054,8 +3054,8 @@
             "y" : 246.66666666666666
           },
           "index" : 15,
-          "label" : "07:03:46.857",
-          "spoken" : "07:03:46.857",
+          "label" : "12:57:28.167",
+          "spoken" : "12:57:28.167",
           "traits" : [
 
           ]
@@ -3094,7 +3094,7 @@
             "height" : 12,
             "width" : 7,
             "x" : 376.6666666666667,
-            "y" : 380
+            "y" : 370.3333333333333
           },
           "index" : 18,
           "spoken" : "button",
@@ -3105,13 +3105,13 @@
         {
           "frame" : {
             "height" : 15.666666666666686,
-            "width" : 177,
+            "width" : 173.33333333333331,
             "x" : 20,
             "y" : 347
           },
           "index" : 19,
-          "label" : "204 No Content · 0 KB · 2.2 s",
-          "spoken" : "204 No Content · 0 KB · 2.2 s",
+          "label" : "Decoding Failed · 1 KB · 1.3 s",
+          "spoken" : "Decoding Failed · 1 KB · 1.3 s",
           "traits" : [
 
           ]
@@ -3124,8 +3124,8 @@
             "y" : 347.6666666666667
           },
           "index" : 20,
-          "label" : "07:03:43.295",
-          "spoken" : "07:03:43.295",
+          "label" : "12:57:24.591",
+          "spoken" : "12:57:24.591",
           "traits" : [
 
           ]
@@ -3162,28 +3162,28 @@
         },
         {
           "frame" : {
-            "height" : 38.333333333333314,
-            "width" : 350.66666666666663,
+            "height" : 19.333333333333314,
+            "width" : 173,
             "x" : 20,
             "y" : 366.6666666666667
           },
           "index" : 23,
-          "label" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
-          "spoken" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "label" : "PATCH /repos/kean/nuke",
+          "spoken" : "PATCH /repos/kean/nuke",
           "traits" : [
 
           ]
         },
         {
           "frame" : {
-            "height" : 15.666666666666686,
-            "width" : 229.33333333333331,
+            "height" : 15.666666666666629,
+            "width" : 68.33333333333333,
             "x" : 20,
-            "y" : 409
+            "y" : 390
           },
           "index" : 24,
-          "label" : "objects-origin.githubusercontent.com",
-          "spoken" : "objects-origin.githubusercontent.com",
+          "label" : "github.com",
+          "spoken" : "github.com",
           "traits" : [
 
           ]
@@ -3193,7 +3193,7 @@
             "height" : 12,
             "width" : 7,
             "x" : 376.6666666666667,
-            "y" : 472
+            "y" : 462.6666666666667
           },
           "index" : 25,
           "spoken" : "button",
@@ -3204,13 +3204,13 @@
         {
           "frame" : {
             "height" : 15.666666666666686,
-            "width" : 173.33333333333331,
+            "width" : 177,
             "x" : 20,
-            "y" : 448.6666666666667
+            "y" : 429.6666666666667
           },
           "index" : 26,
-          "label" : "Decoding Failed · 1 KB · 1.3 s",
-          "spoken" : "Decoding Failed · 1 KB · 1.3 s",
+          "label" : "204 No Content · 0 KB · 2.2 s",
+          "spoken" : "204 No Content · 0 KB · 2.2 s",
           "traits" : [
 
           ]
@@ -3220,11 +3220,11 @@
             "height" : 14.333333333333314,
             "width" : 73,
             "x" : 310,
-            "y" : 449.33333333333337
+            "y" : 430.33333333333337
           },
           "index" : 27,
-          "label" : "07:03:43.294",
-          "spoken" : "07:03:43.294",
+          "label" : "12:57:24.591",
+          "spoken" : "12:57:24.591",
           "traits" : [
 
           ]
@@ -3234,7 +3234,7 @@
             "height" : 9,
             "width" : 9,
             "x" : 6.666666666666666,
-            "y" : 452
+            "y" : 433
           },
           "identifier" : "circle.fill",
           "index" : 28,
@@ -3249,7 +3249,7 @@
             "height" : 10,
             "width" : 6,
             "x" : 387.3333333333333,
-            "y" : 451.6666666666667
+            "y" : 432.6666666666667
           },
           "identifier" : "chevron.right",
           "index" : 29,
@@ -3261,14 +3261,14 @@
         },
         {
           "frame" : {
-            "height" : 19.333333333333314,
-            "width" : 173,
+            "height" : 38.333333333333314,
+            "width" : 350.66666666666663,
             "x" : 20,
-            "y" : 468.33333333333337
+            "y" : 449.33333333333337
           },
           "index" : 30,
-          "label" : "PATCH /repos/kean/nuke",
-          "spoken" : "PATCH /repos/kean/nuke",
+          "label" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
+          "spoken" : "POST /github-production-release-asset-2e65be/upload-we9zs7v.zip",
           "traits" : [
 
           ]
@@ -3276,13 +3276,13 @@
         {
           "frame" : {
             "height" : 15.666666666666686,
-            "width" : 68.33333333333333,
+            "width" : 229.33333333333331,
             "x" : 20,
             "y" : 491.6666666666667
           },
           "index" : 31,
-          "label" : "github.com",
-          "spoken" : "github.com",
+          "label" : "objects-origin.githubusercontent.com",
+          "spoken" : "objects-origin.githubusercontent.com",
           "traits" : [
 
           ]
@@ -3322,8 +3322,8 @@
             "y" : 531.9999999999999
           },
           "index" : 34,
-          "label" : "07:03:42.394",
-          "spoken" : "07:03:42.394",
+          "label" : "12:57:23.757",
+          "spoken" : "12:57:23.757",
           "traits" : [
 
           ]
@@ -3421,8 +3421,8 @@
             "y" : 614.6666666666666
           },
           "index" : 41,
-          "label" : "07:03:40.417",
-          "spoken" : "07:03:40.417",
+          "label" : "12:57:21.772",
+          "spoken" : "12:57:21.772",
           "traits" : [
 
           ]
@@ -3520,8 +3520,8 @@
             "y" : 697.3333333333333
           },
           "index" : 48,
-          "label" : "07:03:40.417",
-          "spoken" : "07:03:40.417",
+          "label" : "12:57:21.772",
+          "spoken" : "12:57:21.772",
           "traits" : [
 
           ]
@@ -3600,13 +3600,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 154.33333333333331,
+            "width" : 219,
             "x" : 20,
             "y" : 779.3333333333334
           },
           "index" : 54,
-          "label" : "200 OK · 165 KB · 527 ms",
-          "spoken" : "200 OK · 165 KB · 527 ms",
+          "label" : "404 Not Found · 955 bytes · 227 ms",
+          "spoken" : "404 Not Found · 955 bytes · 227 ms",
           "traits" : [
 
           ]
@@ -3619,8 +3619,8 @@
             "y" : 780
           },
           "index" : 55,
-          "label" : "07:03:38.833",
-          "spoken" : "07:03:38.833",
+          "label" : "12:57:20.181",
+          "spoken" : "12:57:20.181",
           "traits" : [
 
           ]
@@ -3658,13 +3658,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 76.66666666666666,
+            "width" : 125,
             "x" : 20,
             "y" : 799
           },
           "index" : 58,
-          "label" : "GET /repos",
-          "spoken" : "GET /repos",
+          "label" : "GET /profile/valdo",
+          "spoken" : "GET /profile/valdo",
           "traits" : [
 
           ]
@@ -3699,13 +3699,13 @@
         {
           "frame" : {
             "height" : 15.666666666666629,
-            "width" : 219,
+            "width" : 154.33333333333331,
             "x" : 20,
             "y" : 862
           },
           "index" : 61,
-          "label" : "404 Not Found · 955 bytes · 227 ms",
-          "spoken" : "404 Not Found · 955 bytes · 227 ms",
+          "label" : "200 OK · 165 KB · 527 ms",
+          "spoken" : "200 OK · 165 KB · 527 ms",
           "traits" : [
 
           ]
@@ -3718,8 +3718,8 @@
             "y" : 862.6666666666666
           },
           "index" : 62,
-          "label" : "07:03:38.833",
-          "spoken" : "07:03:38.833",
+          "label" : "12:57:20.181",
+          "spoken" : "12:57:20.181",
           "traits" : [
 
           ]
@@ -3757,13 +3757,13 @@
         {
           "frame" : {
             "height" : 19.33333333333337,
-            "width" : 125,
+            "width" : 76.66666666666666,
             "x" : 20,
             "y" : 881.6666666666666
           },
           "index" : 65,
-          "label" : "GET /profile/valdo",
-          "spoken" : "GET /profile/valdo",
+          "label" : "GET /repos",
+          "spoken" : "GET /repos",
           "traits" : [
 
           ]
@@ -4460,8 +4460,8 @@
             "y" : 183.66666666666666
           },
           "index" : 9,
-          "label" : "07:03:46.857",
-          "spoken" : "07:03:46.857",
+          "label" : "12:57:28.167",
+          "spoken" : "12:57:28.167",
           "traits" : [
 
           ]
@@ -4530,8 +4530,8 @@
             "y" : 246.66666666666666
           },
           "index" : 14,
-          "label" : "07:03:46.857",
-          "spoken" : "07:03:46.857",
+          "label" : "12:57:28.167",
+          "spoken" : "12:57:28.167",
           "traits" : [
 
           ]
@@ -4600,8 +4600,8 @@
             "y" : 347.6666666666667
           },
           "index" : 19,
-          "label" : "07:03:36.778",
-          "spoken" : "07:03:36.778",
+          "label" : "12:57:18.082",
+          "spoken" : "12:57:18.082",
           "traits" : [
 
           ]
@@ -4670,8 +4670,8 @@
             "y" : 410.6666666666667
           },
           "index" : 24,
-          "label" : "07:03:35.640",
-          "spoken" : "07:03:35.640",
+          "label" : "12:57:16.968",
+          "spoken" : "12:57:16.968",
           "traits" : [
 
           ]
@@ -4740,8 +4740,8 @@
             "y" : 473.6666666666667
           },
           "index" : 29,
-          "label" : "07:03:35.640",
-          "spoken" : "07:03:35.640",
+          "label" : "12:57:16.968",
+          "spoken" : "12:57:16.968",
           "traits" : [
 
           ]

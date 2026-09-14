@@ -369,13 +369,13 @@
         {
           "frame" : {
             "height" : 20.333333333333314,
-            "width" : 143.33333333333337,
-            "x" : 238.66666666666663,
+            "width" : 143.66666666666663,
+            "x" : 238.33333333333337,
             "y" : 271
           },
           "index" : 6,
-          "label" : "7 hours 12 minutes",
-          "spoken" : "7 hours 12 minutes",
+          "label" : "13 hours 7 minutes",
+          "spoken" : "13 hours 7 minutes",
           "traits" : [
 
           ]
@@ -1637,13 +1637,13 @@
         {
           "frame" : {
             "height" : 20.333333333333314,
-            "width" : 135,
-            "x" : 247,
+            "width" : 135.66666666666663,
+            "x" : 246.33333333333337,
             "y" : 377
           },
           "index" : 7,
-          "label" : "15.09.2026, 07:12",
-          "spoken" : "15.09.2026, 07:12",
+          "label" : "15.09.2026, 13:07",
+          "spoken" : "15.09.2026, 13:07",
           "traits" : [
 
           ]
@@ -1665,13 +1665,13 @@
         {
           "frame" : {
             "height" : 20.333333333333314,
-            "width" : 136.66666666666663,
-            "x" : 245.33333333333337,
+            "width" : 136,
+            "x" : 246,
             "y" : 429
           },
           "index" : 9,
-          "label" : "15.09.2026, 08:12",
-          "spoken" : "15.09.2026, 08:12",
+          "label" : "15.09.2026, 14:07",
+          "spoken" : "15.09.2026, 14:07",
           "traits" : [
 
           ]
@@ -2204,16 +2204,6 @@
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
-          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
-          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Example.CustomCells",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
           "evidence" : "User will not be able to change the font size of this Example.FloatLabelTextField",
           "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
@@ -2234,7 +2224,7 @@
           "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
-          "evidence" : "User will not be able to change the font size of this Example.FloatLabelTextField",
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
           "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -2245,6 +2235,16 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this Example.FloatLabelTextField",
           "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -3056,7 +3056,7 @@
     {
       "platformAuditFindings" : [
         {
-          "evidence" : "Text of this Eureka.DecimalCell may be clipped at larger Dynamic Type sizes.",
+          "evidence" : "Text of this Eureka.IntCell may be clipped at larger Dynamic Type sizes.",
           "key" : "Example.FormatterExample|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
@@ -3066,7 +3066,7 @@
           "summary" : "Text clipped"
         },
         {
-          "evidence" : "Text of this Eureka.IntCell may be clipped at larger Dynamic Type sizes.",
+          "evidence" : "Text of this Eureka.DecimalCell may be clipped at larger Dynamic Type sizes.",
           "key" : "Example.FormatterExample|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
@@ -3444,13 +3444,13 @@
         {
           "frame" : {
             "height" : 20.333333333333314,
-            "width" : 41.666666666666686,
-            "x" : 340.3333333333333,
+            "width" : 43,
+            "x" : 339,
             "y" : 379.33333333333337
           },
           "index" : 8,
-          "label" : "07:14",
-          "spoken" : "07:14",
+          "label" : "13:08",
+          "spoken" : "13:08",
           "traits" : [
 
           ]
@@ -3472,13 +3472,13 @@
         {
           "frame" : {
             "height" : 20.333333333333314,
-            "width" : 136,
-            "x" : 246,
+            "width" : 137.33333333333337,
+            "x" : 244.66666666666663,
             "y" : 431.33333333333337
           },
           "index" : 10,
-          "label" : "14.09.2026, 07:14",
-          "spoken" : "14.09.2026, 07:14",
+          "label" : "14.09.2026, 13:08",
+          "spoken" : "14.09.2026, 13:08",
           "traits" : [
 
           ]

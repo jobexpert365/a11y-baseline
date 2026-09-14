@@ -20,6 +20,26 @@
           "screen" : "Стартовый экран",
           "severity" : "moderate",
           "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|SGBanner.subtitleLabel",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this element",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
         },
         {
@@ -44,16 +64,6 @@
         },
         {
           "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are partially unsupported",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
@@ -61,16 +71,6 @@
           "severity" : "moderate",
           "source" : "platformAudit",
           "summary" : "Dynamic Type font sizes are partially unsupported"
-        },
-        {
-          "evidence" : "User will not be able to change the font size of this element",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 65536)|SGBanner.subtitleLabel",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Dynamic Type font sizes are unsupported"
         },
         {
           "evidence" : "Contrast is not high enough for element unless font size is larger.",

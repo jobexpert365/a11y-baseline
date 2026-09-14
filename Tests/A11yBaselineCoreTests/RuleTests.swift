@@ -125,8 +125,15 @@ struct UntranslatedLabelRuleTests {
 
     @Test("английское слово в русском приложении даёт мелкую находку-вопрос")
     func asksAboutEnglishWord() {
-        let u = Utterance(index: 0, spoken: "Send, button", label: "Send", traits: ["button"])
-        let finding = UntranslatedLabelRule().evaluate(u, in: context(screen([u]), locale: "ru"))
+        // Экран собираем из русских подписей: правило судит о непереводе
+        // только там, где перевод доказанно есть. Одинокая реплика такого
+        // доказательства не даёт, и раньше этот тест проходил на ней зря.
+        var us = (0..<6).map {
+            Utterance(index: $0, spoken: "Кнопка \($0), button", label: "Кнопка \($0)", traits: ["button"])
+        }
+        let u = Utterance(index: 6, spoken: "Send, button", label: "Send", traits: ["button"])
+        us.append(u)
+        let finding = UntranslatedLabelRule().evaluate(u, in: context(screen(us), locale: "ru"))
         // Уровень намеренно мелкий: бренд от непереведённой подписи машина
         // не отличает, и обвинять здесь нельзя.
         #expect(finding?.severity == .minor)
@@ -429,5 +436,60 @@ struct GenericLabelInteractivityTests {
     func flagsInteractiveNone() {
         let u = Utterance(index: 0, spoken: "None, button", label: "None", traits: ["button"])
         #expect(GenericLabelRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
+}
+
+@Suite("Непереведённая подпись — только на локализованном экране")
+struct UntranslatedLabelLocalizationTests {
+
+    /// Экран из русских подписей плюс одна английская — настоящая утечка.
+    private func localizedScreen(leak: String) -> ScreenSnapshot {
+        var us = (0..<8).map {
+            Utterance(index: $0, spoken: "Кнопка \($0), button", label: "Кнопка \($0)", traits: ["button"])
+        }
+        us.append(Utterance(index: 8, spoken: "\(leak), button", label: leak, traits: ["button"]))
+        return screen(us)
+    }
+
+    /// Экран целиком на английском — приложение просто работает на английском.
+    private func englishScreen(_ label: String) -> ScreenSnapshot {
+        var us = (0..<8).map {
+            Utterance(index: $0, spoken: "Item \($0), button", label: "Item\($0)", traits: ["button"])
+        }
+        us.append(Utterance(index: 8, spoken: "\(label), button", label: label, traits: ["button"]))
+        return screen(us)
+    }
+
+    @Test("английское слово среди русских подписей — находка")
+    func flagsLeakInLocalizedScreen() {
+        let s = localizedScreen(leak: "Favorites")
+        let u = s.utterances.last!
+        #expect(UntranslatedLabelRule().evaluate(u, in: context(s, locale: "ru")) != nil)
+    }
+
+    @Test("экран целиком на английском — не находка")
+    func ignoresFullyEnglishScreen() {
+        // Регрессионный тест из Fitness и «Новостей»: кириллицы на экране ноль
+        // процентов, приложение работает на английском, а правило обвиняло
+        // в непереводе каждое слово подряд — «Close», «Summary», «Done».
+        let s = englishScreen("Summary")
+        let u = s.utterances.last!
+        #expect(UntranslatedLabelRule().evaluate(u, in: context(s, locale: "ru")) == nil)
+    }
+
+    @Test("экран с двумя подписями не судим — выборка ничего не значит")
+    func ignoresTinyScreen() {
+        let us = [
+            Utterance(index: 0, spoken: "Готово, button", label: "Готово", traits: ["button"]),
+            Utterance(index: 1, spoken: "Cancel, button", label: "Cancel", traits: ["button"]),
+        ]
+        let s = screen(us)
+        #expect(UntranslatedLabelRule().evaluate(us[1], in: context(s, locale: "ru")) == nil)
+    }
+
+    @Test("доля родной письменности считается по подписям экрана")
+    func measuresLocalizedShare() {
+        #expect(UntranslatedLabelRule().isLocalized(localizedScreen(leak: "Favorites")) == true)
+        #expect(UntranslatedLabelRule().isLocalized(englishScreen("Summary")) == false)
     }
 }
