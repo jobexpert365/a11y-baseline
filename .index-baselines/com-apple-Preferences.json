@@ -1946,8 +1946,23 @@
             "x" : 0,
             "y" : 116
           },
-          "identifier" : "com.apple.Fitness",
+          "identifier" : "com.xmartlabs.Example",
           "index" : 29,
+          "label" : "Eureka",
+          "spoken" : "Eureka",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 263.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "identifier" : "com.apple.Fitness",
+          "index" : 30,
           "label" : "Fitness",
           "spoken" : "Fitness",
           "traits" : [
@@ -1962,7 +1977,7 @@
             "y" : 116
           },
           "identifier" : "com.example.apple-samplecode.Food-Truck",
-          "index" : 30,
+          "index" : 31,
           "label" : "Food Truck",
           "spoken" : "Food Truck",
           "traits" : [
@@ -1977,7 +1992,7 @@
             "y" : 116
           },
           "identifier" : "com.example.IceCubesApp",
-          "index" : 31,
+          "index" : 32,
           "label" : "Ice Cubes",
           "spoken" : "Ice Cubes",
           "traits" : [
@@ -1992,7 +2007,7 @@
             "y" : 116
           },
           "identifier" : "com.iftekhar.IQKeyboardManagerSwiftExample",
-          "index" : 32,
+          "index" : 33,
           "label" : "IQKB Swift",
           "spoken" : "IQKB Swift",
           "traits" : [
@@ -2007,7 +2022,7 @@
             "y" : 116
           },
           "identifier" : "com.onevcat.Kingfisher-Demo",
-          "index" : 33,
+          "index" : 34,
           "label" : "Kingfisher-Demo",
           "spoken" : "Kingfisher-Demo",
           "traits" : [
@@ -2022,7 +2037,7 @@
             "y" : 116
           },
           "identifier" : "com.apple.news",
-          "index" : 34,
+          "index" : 35,
           "label" : "News",
           "spoken" : "News",
           "traits" : [
@@ -2037,7 +2052,7 @@
             "y" : 116
           },
           "identifier" : "com.exyte.PopupExample",
-          "index" : 35,
+          "index" : 36,
           "label" : "PopupExample",
           "spoken" : "PopupExample",
           "traits" : [
@@ -2052,7 +2067,7 @@
             "y" : 116
           },
           "identifier" : "com.github.kean.pulse-demo",
-          "index" : 36,
+          "index" : 37,
           "label" : "Pulse Demo iOS",
           "spoken" : "Pulse Demo iOS",
           "traits" : [
@@ -2067,7 +2082,7 @@
             "y" : 116
           },
           "identifier" : "com.apple.mobilesafari",
-          "index" : 37,
+          "index" : 38,
           "label" : "Safari",
           "spoken" : "Safari",
           "traits" : [
@@ -2082,7 +2097,7 @@
             "y" : 116
           },
           "identifier" : "com.sonava.player",
-          "index" : 38,
+          "index" : 39,
           "label" : "Sonava",
           "spoken" : "Sonava",
           "traits" : [
@@ -2097,7 +2112,7 @@
             "y" : 116
           },
           "identifier" : "com.sonava.player.uitests.xctrunner",
-          "index" : 39,
+          "index" : 40,
           "label" : "SonavaUITests-Runner",
           "spoken" : "SonavaUITests-Runner",
           "traits" : [
@@ -2112,7 +2127,7 @@
             "y" : 116
           },
           "identifier" : "com.apple.Passbook",
-          "index" : 40,
+          "index" : 41,
           "label" : "Wallet",
           "spoken" : "Wallet",
           "traits" : [
@@ -2127,7 +2142,7 @@
             "y" : 116
           },
           "identifier" : "com.apple.Bridge",
-          "index" : 41,
+          "index" : 42,
           "label" : "Watch",
           "spoken" : "Watch",
           "traits" : [
@@ -2597,67 +2612,59 @@
         },
         {
           "frame" : {
-            "height" : 0,
-            "width" : 0,
-            "x" : 0,
-            "y" : 0
+            "height" : 53,
+            "width" : 362,
+            "x" : 20,
+            "y" : 964.3333377838135
           },
           "identifier" : "Допуск уведомлений",
           "index" : 14,
-          "label" : "Допуск уведомлений",
-          "spoken" : "Допуск уведомлений, 1, toggle",
+          "spoken" : "cell",
           "traits" : [
-            "toggle"
-          ],
-          "value" : "1"
+            "cell"
+          ]
         },
         {
           "frame" : {
-            "height" : 0,
-            "width" : 0,
-            "x" : 0,
-            "y" : 0
+            "height" : 53,
+            "width" : 362,
+            "x" : 20,
+            "y" : 1017.3333377838135
           },
           "identifier" : "В библиотеке приложений",
           "index" : 15,
-          "label" : "В библиотеке приложений",
-          "spoken" : "В библиотеке приложений, 1, toggle",
+          "spoken" : "cell",
           "traits" : [
-            "toggle"
-          ],
-          "value" : "1"
+            "cell"
+          ]
         },
         {
           "frame" : {
-            "height" : 0,
-            "width" : 0,
-            "x" : 0,
-            "y" : 0
+            "height" : 53,
+            "width" : 362,
+            "x" : 20,
+            "y" : 1070.3333377838135
           },
           "identifier" : "При отправке контента",
           "index" : 16,
-          "label" : "При отправке контента",
-          "spoken" : "При отправке контента, 1, toggle",
+          "spoken" : "cell",
           "traits" : [
-            "toggle"
-          ],
-          "value" : "1"
+            "cell"
+          ]
         },
         {
           "frame" : {
-            "height" : 0,
-            "width" : 0,
-            "x" : 0,
-            "y" : 0
+            "height" : 53,
+            "width" : 362,
+            "x" : 20,
+            "y" : 1123.3333377838135
           },
           "identifier" : "При реагировании на речь",
           "index" : 17,
-          "label" : "При реагировании на речь",
-          "spoken" : "При реагировании на речь, 1, toggle",
+          "spoken" : "cell",
           "traits" : [
-            "toggle"
-          ],
-          "value" : "1"
+            "cell"
+          ]
         },
         {
           "frame" : {

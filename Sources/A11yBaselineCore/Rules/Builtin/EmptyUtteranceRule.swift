@@ -27,6 +27,22 @@ public struct EmptyUtteranceRule: Rule {
         let placeholder = utterance.placeholder?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
         guard placeholder.isEmpty else { return nil }
 
+        // Значение — тоже не блокер, и по той же причине, что подсказка:
+        // человек что-то слышит.
+        //
+        // Правка по факту, найденному на чужом коде. Eureka и Charts:
+        // слайдер без подписи произносится как «50 %, slider», поле — как
+        // «2 015,00 RUB, textField». Правило называло это «элементом без
+        // подписи», а рядом в доказательстве печатало реплику, из которой
+        // видно, что элемент прекрасно говорит. Владелец приложения читает
+        // такое как ошибку инструмента, и он прав.
+        //
+        // Дефект здесь есть, но ДРУГОЙ: назначение неизвестно при известном
+        // значении. Им занимается ValueWithoutNameRule, и severity там ниже.
+        let value = utterance.value?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+        let visible = utterance.visibleText?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+        guard value.isEmpty, visible.isEmpty else { return nil }
+
         return Finding(
             key: makeKey(screen: context.screen.screen, utterance: utterance),
             ruleID: Self.id,

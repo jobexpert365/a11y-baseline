@@ -357,3 +357,77 @@ struct TargetSizeRuleTests {
         #expect(TargetSizeRule().evaluate(u, in: context(screen([u]))) == nil)
     }
 }
+
+@Suite("Значение без назначения")
+struct ValueWithoutNameRuleTests {
+
+    @Test("слайдер без подписи, но со значением — находка")
+    func flagsSliderWithValueOnly() {
+        let u = Utterance(index: 0, spoken: "50 %, slider", label: nil, value: "50 %", traits: ["slider"])
+        #expect(ValueWithoutNameRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
+
+    @Test("поле с отформатированным значением — находка")
+    func flagsFormattedField() {
+        let u = Utterance(index: 0, spoken: "2 015,00 RUB, textField", label: nil,
+                          value: "2 015,00 RUB", traits: ["textField"])
+        #expect(ValueWithoutNameRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
+
+    @Test("подсказка играет роль имени — не находка")
+    func ignoresPlaceholder() {
+        // «Введите адрес» объясняет назначение, а не сообщает содержимое.
+        let u = Utterance(index: 0, spoken: "Введите адрес, textField", label: nil,
+                          value: "москва", traits: ["textField"], placeholder: "Введите адрес")
+        #expect(ValueWithoutNameRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("подпись есть — не находка")
+    func ignoresLabelled() {
+        let u = Utterance(index: 0, spoken: "Громкость, 50 %, slider", label: "Громкость",
+                          value: "50 %", traits: ["slider"])
+        #expect(ValueWithoutNameRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("молчащий элемент оставляем блокеру, а не этому правилу")
+    func silentGoesToEmptyRule() {
+        // Границу между двумя правилами проверяем с обеих сторон: молчащий
+        // элемент должен попасть в empty-utterance и НЕ попасть сюда.
+        let u = Utterance(index: 0, spoken: "textField", label: nil, traits: ["textField"])
+        #expect(ValueWithoutNameRule().evaluate(u, in: context(screen([u]))) == nil)
+        #expect(EmptyUtteranceRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
+
+    @Test("говорящий элемент оставляем этому правилу, а не блокеру")
+    func speakingIsNotBlocker() {
+        // Обратная сторона той же границы: регрессионный тест на находку
+        // из Eureka, где блокер обвинял слайдер, произносящий «50 %».
+        let u = Utterance(index: 0, spoken: "50 %, slider", label: nil, value: "50 %", traits: ["slider"])
+        #expect(EmptyUtteranceRule().evaluate(u, in: context(screen([u]))) == nil)
+        #expect(ValueWithoutNameRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
+
+    @Test("неинтерактивный текст со значением — не находка")
+    func ignoresStaticText() {
+        let u = Utterance(index: 0, spoken: "None", label: nil, value: "None", traits: [])
+        #expect(ValueWithoutNameRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+}
+
+@Suite("Общая подпись только у нажимаемого")
+struct GenericLabelInteractivityTests {
+
+    @Test("статический текст «None» находкой не считается")
+    func ignoresNonInteractiveNone() {
+        // Регрессионный тест из Eureka: правило спрашивает «понятно ли, что
+        // произойдёт при нажатии», а нажимать было нечего — признаков нет.
+        let u = Utterance(index: 0, spoken: "None", label: "None", traits: [])
+        #expect(GenericLabelRule().evaluate(u, in: context(screen([u]))) == nil)
+    }
+
+    @Test("кнопка с той же подписью находкой остаётся")
+    func flagsInteractiveNone() {
+        let u = Utterance(index: 0, spoken: "None, button", label: "None", traits: ["button"])
+        #expect(GenericLabelRule().evaluate(u, in: context(screen([u]))) != nil)
+    }
+}

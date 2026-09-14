@@ -73,28 +73,28 @@
           "summary" : "Text clipped"
         },
         {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
+          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Стартовый экран",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
           "evidence" : "Text of this element may be clipped at larger Dynamic Type sizes.",
           "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
-          "occurrences" : 1,
-          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
-          "screen" : "Стартовый экран",
-          "severity" : "moderate",
-          "source" : "platformAudit",
-          "summary" : "Text clipped"
-        },
-        {
-          "evidence" : "Text of this SwiftUI.AccessibilityNode may be clipped at larger Dynamic Type sizes.",
-          "key" : "Стартовый экран|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
           "occurrences" : 1,
           "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
           "screen" : "Стартовый экран",
@@ -2336,13 +2336,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 64,
+            "width" : 66,
             "x" : 67,
             "y" : 519.8333333333334
           },
           "index" : 16,
-          "label" : "Today, 1:24",
-          "spoken" : "Today, 1:24",
+          "label" : "Today, 6:35",
+          "spoken" : "Today, 6:35",
           "traits" : [
 
           ]
@@ -2562,13 +2562,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 60.33333333333333,
+            "width" : 66.33333333333331,
             "x" : 67,
             "y" : 706.4999999999999
           },
           "index" : 32,
-          "label" : "Today, 1:11",
-          "spoken" : "Today, 1:11",
+          "label" : "Today, 6:30",
+          "spoken" : "Today, 6:30",
           "traits" : [
 
           ]
@@ -2703,13 +2703,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 66,
+            "width" : 64.33333333333331,
             "x" : 67,
             "y" : 832.3333333333333
           },
           "index" : 42,
-          "label" : "Today, 0:52",
-          "spoken" : "Today, 0:52",
+          "label" : "Today, 6:18",
+          "spoken" : "Today, 6:18",
           "traits" : [
 
           ]
@@ -2860,13 +2860,13 @@
         {
           "frame" : {
             "height" : 14.333333333333371,
-            "width" : 65.66666666666666,
+            "width" : 66,
             "x" : 67,
             "y" : 1019.1666666666666
           },
           "index" : 53,
-          "label" : "Today, 0:47",
-          "spoken" : "Today, 0:47",
+          "label" : "Today, 6:02",
+          "spoken" : "Today, 6:02",
           "traits" : [
 
           ]

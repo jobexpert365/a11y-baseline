@@ -1,0 +1,3545 @@
+{
+  "acceptedFindingKeys" : [
+
+  ],
+  "app" : "Eureka Example (формы, UIKit)",
+  "appVersion" : "—",
+  "capturedOn" : "2026-09-14",
+  "fidelity" : "accessibilityTree",
+  "formatVersion" : 1,
+  "locale" : "en",
+  "osVersion" : "26.4",
+  "screens" : [
+    {
+      "platformAuditFindings" : [
+
+      ],
+      "screen" : "Стартовый экран",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 76.66666666666666,
+            "x" : 162.66666666666666,
+            "y" : 73.66666666666666
+          },
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 246
+          },
+          "index" : 1,
+          "label" : "Rows",
+          "spoken" : "Rows",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 298
+          },
+          "index" : 2,
+          "label" : "Native iOS Event Form",
+          "spoken" : "Native iOS Event Form",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 350
+          },
+          "index" : 3,
+          "label" : "Accesory View Navigation",
+          "spoken" : "Accesory View Navigation",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 402
+          },
+          "index" : 4,
+          "label" : "Custom Cells",
+          "spoken" : "Custom Cells",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 454
+          },
+          "index" : 5,
+          "label" : "Customization of rows with text input",
+          "spoken" : "Customization of rows with text input",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 506
+          },
+          "index" : 6,
+          "label" : "Hidden rows",
+          "spoken" : "Hidden rows",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 558
+          },
+          "index" : 7,
+          "label" : "Disabled rows",
+          "spoken" : "Disabled rows",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 610
+          },
+          "index" : 8,
+          "label" : "Formatters",
+          "spoken" : "Formatters",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 662
+          },
+          "index" : 9,
+          "label" : "Inline rows",
+          "spoken" : "Inline rows",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 714
+          },
+          "index" : 10,
+          "label" : "List Sections",
+          "spoken" : "List Sections",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 766
+          },
+          "index" : 11,
+          "label" : "Validations",
+          "spoken" : "Validations",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 818
+          },
+          "index" : 12,
+          "label" : "Custom Design",
+          "spoken" : "Custom Design",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 20,
+            "y" : 870
+          },
+          "index" : 13,
+          "label" : "Multivalued Sections",
+          "spoken" : "Multivalued Sections",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 14,
+          "label" : "Swipe Actions",
+          "spoken" : "Swipe Actions",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 343.6666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 15,
+          "label" : "Plain Table View Style",
+          "spoken" : "Plain Table View Style",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 52,
+            "width" : 362,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 16,
+          "label" : "About",
+          "spoken" : "About",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Example.RowsExampleView|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.RowsExampleView",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this UITableViewLabel may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.RowsExampleView|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.RowsExampleView",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
+      ],
+      "screen" : "Example.RowsExampleView",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 74,
+            "x" : 20,
+            "y" : 167
+          },
+          "index" : 1,
+          "label" : "LabelRow",
+          "spoken" : "LabelRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 86,
+            "x" : 296,
+            "y" : 167
+          },
+          "index" : 2,
+          "label" : "tap the row",
+          "spoken" : "tap the row",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 68.33333333333333,
+            "x" : 20,
+            "y" : 219
+          },
+          "index" : 3,
+          "label" : "DateRow",
+          "spoken" : "DateRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 96.66666666666669,
+            "x" : 285.3333333333333,
+            "y" : 219
+          },
+          "index" : 4,
+          "label" : "14 Sep 2026",
+          "spoken" : "14 Sep 2026",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 162,
+            "x" : 20,
+            "y" : 271
+          },
+          "index" : 5,
+          "label" : "CountDownInlineRow",
+          "spoken" : "CountDownInlineRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 143.33333333333337,
+            "x" : 238.66666666666663,
+            "y" : 271
+          },
+          "index" : 6,
+          "label" : "7 hours 12 minutes",
+          "spoken" : "7 hours 12 minutes",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 81,
+            "x" : 20,
+            "y" : 323
+          },
+          "index" : 7,
+          "label" : "CheckRow",
+          "spoken" : "CheckRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.333333333333314,
+            "width" : 19,
+            "x" : 360.5,
+            "y" : 324.33333333333337
+          },
+          "index" : 8,
+          "label" : "checkmark",
+          "spoken" : "checkmark, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 83.66666666666667,
+            "x" : 20,
+            "y" : 375
+          },
+          "index" : 9,
+          "label" : "SwitchRow",
+          "spoken" : "SwitchRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 63,
+            "x" : 319,
+            "y" : 371
+          },
+          "index" : 10,
+          "label" : "SwitchRow",
+          "spoken" : "SwitchRow, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 76,
+            "x" : 65,
+            "y" : 427
+          },
+          "index" : 11,
+          "label" : "SliderRow",
+          "spoken" : "SliderRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 34,
+            "width" : 194,
+            "x" : 156,
+            "y" : 419.6666666666667
+          },
+          "index" : 12,
+          "spoken" : "50 %, slider",
+          "traits" : [
+            "slider"
+          ],
+          "value" : "50 %"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 24,
+            "x" : 358,
+            "y" : 427
+          },
+          "index" : 13,
+          "label" : "5.0",
+          "spoken" : "5.0",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 93,
+            "x" : 64,
+            "y" : 478
+          },
+          "index" : 14,
+          "label" : "StepperRow",
+          "spoken" : "StepperRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 31.666666666666657,
+            "x" : 248.33333333333334,
+            "y" : 477.3333333333333
+          },
+          "index" : 15,
+          "label" : "1,00",
+          "spoken" : "1,00",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 94,
+            "x" : 288,
+            "y" : 471.6666666666667
+          },
+          "index" : 16,
+          "spoken" : "stepper",
+          "traits" : [
+            "stepper"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 120,
+            "x" : 20,
+            "y" : 579
+          },
+          "index" : 17,
+          "label" : "One",
+          "spoken" : "One, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 121,
+            "x" : 140,
+            "y" : 579
+          },
+          "index" : 18,
+          "label" : "Two",
+          "spoken" : "Two, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 121,
+            "x" : 261,
+            "y" : 579
+          },
+          "index" : 19,
+          "label" : "Three",
+          "spoken" : "Three, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 104,
+            "x" : 20,
+            "y" : 636
+          },
+          "index" : 20,
+          "label" : "Who are you?",
+          "spoken" : "Who are you?",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 41,
+            "x" : 132,
+            "y" : 630
+          },
+          "index" : 21,
+          "label" : "💁🏻",
+          "spoken" : "💁🏻, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 42,
+            "x" : 173,
+            "y" : 630
+          },
+          "index" : 22,
+          "label" : "🍐",
+          "spoken" : "🍐, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 41,
+            "x" : 215,
+            "y" : 630
+          },
+          "index" : 23,
+          "label" : "👦🏼",
+          "spoken" : "👦🏼, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 42,
+            "x" : 256,
+            "y" : 630
+          },
+          "index" : 24,
+          "label" : "🐗",
+          "spoken" : "🐗, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 41,
+            "x" : 298,
+            "y" : 630
+          },
+          "index" : 25,
+          "label" : "🐼",
+          "spoken" : "🐼, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 43,
+            "x" : 339,
+            "y" : 630
+          },
+          "index" : 26,
+          "label" : "🐻",
+          "spoken" : "🐻, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 120.33333333333331,
+            "x" : 65,
+            "y" : 687
+          },
+          "index" : 27,
+          "label" : "SegmentedRow",
+          "spoken" : "SegmentedRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 94,
+            "x" : 193.33333333333337,
+            "y" : 681
+          },
+          "index" : 28,
+          "label" : "One",
+          "spoken" : "One, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 95,
+            "x" : 287.33333333333337,
+            "y" : 681
+          },
+          "index" : 29,
+          "label" : "Two",
+          "spoken" : "Two, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 81,
+            "x" : 58,
+            "y" : 732
+          },
+          "index" : 30,
+          "label" : "One",
+          "spoken" : "One, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 81,
+            "x" : 139,
+            "y" : 732
+          },
+          "index" : 31,
+          "label" : "Two",
+          "spoken" : "Two, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 81,
+            "x" : 220,
+            "y" : 732
+          },
+          "index" : 32,
+          "label" : "Three",
+          "spoken" : "Three, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 81,
+            "x" : 301,
+            "y" : 732
+          },
+          "index" : 33,
+          "label" : "Four",
+          "spoken" : "Four, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 120,
+            "x" : 20,
+            "y" : 783
+          },
+          "index" : 34,
+          "label" : "selected",
+          "spoken" : "selected, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 121,
+            "x" : 140,
+            "y" : 783
+          },
+          "index" : 35,
+          "label" : "plus image",
+          "spoken" : "plus image, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 121,
+            "x" : 261,
+            "y" : 783
+          },
+          "index" : 36,
+          "label" : "unselected",
+          "spoken" : "unselected, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 125.33333333333331,
+            "x" : 19.999999999999993,
+            "y" : 896
+          },
+          "index" : 37,
+          "label" : "ActionSheetRow",
+          "spoken" : "ActionSheetRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 88,
+            "x" : 294,
+            "y" : 896
+          },
+          "index" : 38,
+          "label" : "Luis Suarez",
+          "spoken" : "Luis Suarez",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 68.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 39,
+          "label" : "AlertRow",
+          "spoken" : "AlertRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 23,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 40,
+          "label" : "👦🏼",
+          "spoken" : "👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 70.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 41,
+          "label" : "PushRow",
+          "spoken" : "PushRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 23,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 42,
+          "label" : "👦🏼",
+          "spoken" : "👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 147.33333333333334,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 43,
+          "label" : "SectionedPushRow",
+          "spoken" : "SectionedPushRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 23,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 44,
+          "label" : "👦🏼",
+          "spoken" : "👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 183,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 45,
+          "label" : "LazySectionedPushRow",
+          "spoken" : "LazySectionedPushRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 23,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 46,
+          "label" : "👦🏼",
+          "spoken" : "👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 171.66666666666666,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 47,
+          "label" : "Custom Cell Push Row",
+          "spoken" : "Custom Cell Push Row",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 23,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 48,
+          "label" : "👦🏼",
+          "spoken" : "👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 97.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 49,
+          "label" : "LocationRow",
+          "spoken" : "LocationRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 148.33333333333334,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 50,
+          "label" : "-34,9124, -56,1594",
+          "spoken" : "-34,9124, -56,1594",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 79.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 51,
+          "label" : "ImageRow",
+          "spoken" : "ImageRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 156.33333333333334,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 52,
+          "label" : "MultipleSelectorRow",
+          "spoken" : "MultipleSelectorRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 87,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 53,
+          "label" : "🍐, 🐗, 👦🏼",
+          "spoken" : "🍐, 🐗, 👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 233.33333333333334,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 54,
+          "label" : "SectionedMultipleSelectorRow",
+          "spoken" : "SectionedMultipleSelectorRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 87,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 55,
+          "label" : "🍐, 🐗, 👦🏼",
+          "spoken" : "🍐, 🐗, 👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 192,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 56,
+          "label" : "LazyMultipleSelectorRow",
+          "spoken" : "LazyMultipleSelectorRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 87,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 57,
+          "label" : "🍐, 🐗, 👦🏼",
+          "spoken" : "🍐, 🐗, 👦🏼",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 402,
+            "x" : 0,
+            "y" : 1470
+          },
+          "index" : 58,
+          "label" : "Generic picker",
+          "spoken" : "Generic picker",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 217,
+            "width" : 402,
+            "x" : 0,
+            "y" : 1508
+          },
+          "index" : 59,
+          "spoken" : "cell",
+          "traits" : [
+            "cell"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 60,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 60,
+          "label" : "Options",
+          "spoken" : "Options",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 60,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 61,
+          "label" : "option 1",
+          "spoken" : "option 1",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 154.33333333333334,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 62,
+          "label" : "2 Component picker",
+          "spoken" : "2 Component picker",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 155,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 63,
+          "label" : "3 Component picker",
+          "spoken" : "3 Component picker",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 38,
+            "width" : 402,
+            "x" : 0,
+            "y" : 1899
+          },
+          "index" : 64,
+          "label" : "FieldRow examples",
+          "spoken" : "FieldRow examples",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 64.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 65,
+          "label" : "TextRow",
+          "spoken" : "TextRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 90,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 66,
+          "placeholder" : "Placeholder",
+          "spoken" : "Placeholder, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 93.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 67,
+          "label" : "DecimalRow",
+          "spoken" : "DecimalRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 68,
+          "spoken" : "5,00, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "5,00"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 64.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 69,
+          "label" : "URLRow",
+          "spoken" : "URLRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 158,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 70,
+          "spoken" : "http://xmartlabs.com, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "http://xmartlabs.com"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 161.66666666666666,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 71,
+          "label" : "PhoneRow (disabled)",
+          "spoken" : "PhoneRow (disabled)",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 147,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 72,
+          "spoken" : "+598 9898983510, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "+598 9898983510"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 77.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 73,
+          "label" : "NameRow",
+          "spoken" : "NameRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 74,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 106,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 75,
+          "label" : "PasswordRow",
+          "spoken" : "PasswordRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 22,
+            "width" : 248,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 76,
+          "spoken" : "••••••••, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "••••••••"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 52,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 77,
+          "label" : "IntRow",
+          "spoken" : "IntRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 78,
+          "spoken" : "2 015, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "2 015"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 73.33333333333333,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 79,
+          "label" : "EmailRow",
+          "spoken" : "EmailRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 80,
+          "spoken" : "a@b.com, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "a@b.com"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 85,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 81,
+          "label" : "TwitterRow",
+          "spoken" : "TwitterRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 91,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 82,
+          "spoken" : "@xmartlabs, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "@xmartlabs"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 95.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 83,
+          "label" : "AccountRow",
+          "spoken" : "AccountRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 90,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 84,
+          "placeholder" : "Placeholder",
+          "spoken" : "Placeholder, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 97.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 85,
+          "label" : "ZipCodeRow",
+          "spoken" : "ZipCodeRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666667,
+            "x" : 0,
+            "y" : 116
+          },
+          "index" : 86,
+          "placeholder" : "90210",
+          "spoken" : "90210, textField",
+          "traits" : [
+            "textField"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "This UIAccessibilityElementMockView is missing useful accessibility information.",
+          "key" : "Examples|platform|XCUIAccessibilityAuditType(rawValue: 8)|Element has no description",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Examples",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Examples",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 36,
+            "width" : 36,
+            "x" : 20,
+            "y" : 82
+          },
+          "index" : 0,
+          "label" : "Cancel",
+          "spoken" : "Cancel, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.66666666666667,
+            "width" : 81,
+            "x" : 160.33333333333334,
+            "y" : 89.66666666666666
+          },
+          "index" : 1,
+          "label" : "Add Event",
+          "spoken" : "Add Event",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 362,
+            "x" : 20,
+            "y" : 182
+          },
+          "index" : 2,
+          "placeholder" : "Title",
+          "spoken" : "Title, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 362,
+            "x" : 20,
+            "y" : 235
+          },
+          "index" : 3,
+          "placeholder" : "Location",
+          "spoken" : "Location, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 54,
+            "x" : 20,
+            "y" : 325
+          },
+          "index" : 4,
+          "label" : "All-day",
+          "spoken" : "All-day",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 63,
+            "x" : 319,
+            "y" : 321
+          },
+          "index" : 5,
+          "label" : "All-day",
+          "spoken" : "All-day, 0, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "0"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 45.66666666666666,
+            "x" : 19.999999999999996,
+            "y" : 377
+          },
+          "index" : 6,
+          "label" : "Starts",
+          "spoken" : "Starts",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 135,
+            "x" : 247,
+            "y" : 377
+          },
+          "index" : 7,
+          "label" : "15.09.2026, 07:12",
+          "spoken" : "15.09.2026, 07:12",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 37.66666666666666,
+            "x" : 19.999999999999996,
+            "y" : 429
+          },
+          "index" : 8,
+          "label" : "Ends",
+          "spoken" : "Ends",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 136.66666666666663,
+            "x" : 245.33333333333337,
+            "y" : 429
+          },
+          "index" : 9,
+          "label" : "15.09.2026, 08:12",
+          "spoken" : "15.09.2026, 08:12",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 53.66666666666666,
+            "x" : 19.999999999999996,
+            "y" : 517
+          },
+          "index" : 10,
+          "label" : "Repeat",
+          "spoken" : "Repeat",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 45.333333333333314,
+            "x" : 318.33333333333337,
+            "y" : 517
+          },
+          "index" : 11,
+          "label" : "Never",
+          "spoken" : "Never",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 36.33333333333334,
+            "x" : 20.000000000000004,
+            "y" : 605
+          },
+          "index" : 12,
+          "label" : "Alert",
+          "spoken" : "Alert",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 40.666666666666686,
+            "x" : 323,
+            "y" : 605
+          },
+          "index" : 13,
+          "label" : "None",
+          "spoken" : "None",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 65.66666666666667,
+            "x" : 20,
+            "y" : 693
+          },
+          "index" : 14,
+          "label" : "Show As",
+          "spoken" : "Show As",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 362,
+            "x" : 20,
+            "y" : 780
+          },
+          "index" : 15,
+          "placeholder" : "URL",
+          "spoken" : "URL, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 362,
+            "x" : 20,
+            "y" : 833
+          },
+          "index" : 16,
+          "label" : "Notes",
+          "spoken" : "Notes",
+          "traits" : [
+
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Text of this Eureka.PasswordCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this Eureka.NameCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.NavigationAccessory|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.NavigationAccessory",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Example.NavigationAccessory",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 202,
+            "x" : 20,
+            "y" : 187.33333333333334
+          },
+          "index" : 1,
+          "label" : "Navigation accessory view",
+          "spoken" : "Navigation accessory view",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 63,
+            "x" : 319,
+            "y" : 183.33333333333334
+          },
+          "index" : 2,
+          "label" : "Navigation accessory view",
+          "spoken" : "Navigation accessory view, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 155.66666666666666,
+            "x" : 20,
+            "y" : 239.33333333333334
+          },
+          "index" : 3,
+          "label" : "Stop at disabled row",
+          "spoken" : "Stop at disabled row",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 221,
+            "x" : 20,
+            "y" : 291.33333333333337
+          },
+          "index" : 4,
+          "label" : "Skip non first responder view",
+          "spoken" : "Skip non first responder view",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 17.333333333333314,
+            "width" : 19,
+            "x" : 360.5,
+            "y" : 292.6666666666667
+          },
+          "index" : 5,
+          "label" : "checkmark",
+          "spoken" : "checkmark, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 406.33333333333337
+          },
+          "index" : 6,
+          "label" : "Your name:",
+          "spoken" : "Your name:",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 406.33333333333337
+          },
+          "index" : 7,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 22,
+            "width" : 116.66666666666669,
+            "x" : 20.000000000000007,
+            "y" : 459.33333333333337
+          },
+          "index" : 8,
+          "label" : "Your password:",
+          "spoken" : "Your password:",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 22,
+            "width" : 237.33333333333337,
+            "x" : 144.66666666666663,
+            "y" : 459.33333333333337
+          },
+          "index" : 9,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 113.33333333333331,
+            "x" : 19.999999999999993,
+            "y" : 548.3333333333334
+          },
+          "index" : 10,
+          "label" : "Favourite food:",
+          "spoken" : "Favourite food:",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 60,
+            "x" : 141.33333333333337,
+            "y" : 542.3333333333334
+          },
+          "index" : 11,
+          "label" : "🐗",
+          "spoken" : "🐗, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 60,
+            "x" : 201.33333333333337,
+            "y" : 542.3333333333334
+          },
+          "index" : 12,
+          "label" : "🐖",
+          "spoken" : "🐖, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 60,
+            "x" : 261.33333333333337,
+            "y" : 542.3333333333334
+          },
+          "index" : 13,
+          "label" : "🐡",
+          "spoken" : "🐡, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 61,
+            "x" : 321.33333333333337,
+            "y" : 542.3333333333334
+          },
+          "index" : 14,
+          "label" : "🍐",
+          "spoken" : "🍐, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 598.3333333333334
+          },
+          "index" : 15,
+          "label" : "Your phone number",
+          "spoken" : "Your phone number",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 598.3333333333334
+          },
+          "index" : 16,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 651.3333333333334
+          },
+          "index" : 17,
+          "label" : "Disabled",
+          "spoken" : "Disabled",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 651.3333333333334
+          },
+          "index" : 18,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 704.3333333333334
+          },
+          "index" : 19,
+          "label" : "Your father's name",
+          "spoken" : "Your father's name",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 704.3333333333334
+          },
+          "index" : 20,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 757.3333333333334
+          },
+          "index" : 21,
+          "label" : "Your mother's name",
+          "spoken" : "Your mother's name",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 757.3333333333334
+          },
+          "index" : 22,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this Example.FloatLabelTextField",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this Example.FloatLabelTextField",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this UIButtonLabel",
+          "key" : "Example.CustomCells|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.CustomCells",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        }
+      ],
+      "screen" : "Example.CustomCells",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 51,
+            "x" : 20,
+            "y" : 302
+          },
+          "index" : 1,
+          "label" : "S",
+          "spoken" : "S, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 50.66666666666666,
+            "x" : 72,
+            "y" : 302
+          },
+          "index" : 2,
+          "label" : "M",
+          "spoken" : "M, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 51,
+            "x" : 123.66666666666669,
+            "y" : 302
+          },
+          "index" : 3,
+          "label" : "T",
+          "spoken" : "T, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 50.66666666666666,
+            "x" : 175.66666666666666,
+            "y" : 302
+          },
+          "index" : 4,
+          "label" : "W",
+          "spoken" : "W, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 51.00000000000003,
+            "x" : 227.33333333333334,
+            "y" : 302
+          },
+          "index" : 5,
+          "label" : "T",
+          "spoken" : "T, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 50.666666666666686,
+            "x" : 279.3333333333333,
+            "y" : 302
+          },
+          "index" : 6,
+          "label" : "F",
+          "spoken" : "F, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 60,
+            "width" : 51,
+            "x" : 331,
+            "y" : 302
+          },
+          "index" : 7,
+          "label" : "S",
+          "spoken" : "S, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 39,
+            "width" : 362,
+            "x" : 20,
+            "y" : 370
+          },
+          "index" : 8,
+          "label" : "Float Label Row, type something to see..",
+          "placeholder" : "Float Label Row, type something to see..",
+          "spoken" : "Float Label Row, type something to see.., textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 39,
+            "width" : 362,
+            "x" : 20,
+            "y" : 425
+          },
+          "index" : 9,
+          "label" : "Float Label Row, type something to see..",
+          "placeholder" : "Float Label Row, type something to see..",
+          "spoken" : "Float Label Row, type something to see.., textField",
+          "traits" : [
+            "textField"
+          ]
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this UILabel",
+          "key" : "Example.FieldRowCustomization|platform|XCUIAccessibilityAuditType(rawValue: 65536)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.FieldRowCustomization",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are partially unsupported"
+        },
+        {
+          "evidence" : "Text of this Eureka.NameCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.FieldRowCustomization|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.FieldRowCustomization",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this Eureka.NameCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.FieldRowCustomization|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.FieldRowCustomization",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "This UIAccessibilityElementMockView is missing useful accessibility information.",
+          "key" : "Example.FieldRowCustomization|platform|XCUIAccessibilityAuditType(rawValue: 8)|Element has no description",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.FieldRowCustomization",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Example.FieldRowCustomization",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 182.33333333333337,
+            "x" : 65.00000000000001,
+            "y" : 186.33333333333334
+          },
+          "index" : 1,
+          "label" : "Your name:",
+          "spoken" : "Your name:",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 126.66666666666666,
+            "x" : 255.33333333333334,
+            "y" : 186.33333333333334
+          },
+          "index" : 2,
+          "placeholder" : "(right alignment)",
+          "spoken" : "(right alignment), textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.00000000000003,
+            "width" : 317,
+            "x" : 65,
+            "y" : 239.33333333333334
+          },
+          "index" : 3,
+          "placeholder" : "Name (left alignment)",
+          "spoken" : "Name (left alignment), textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 238,
+            "x" : 20,
+            "y" : 392.33333333333337
+          },
+          "index" : 4,
+          "label" : "Your name:",
+          "spoken" : "Your name:",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 116,
+            "x" : 266,
+            "y" : 392.33333333333337
+          },
+          "index" : 5,
+          "placeholder" : "(left alignment)",
+          "spoken" : "(left alignment), textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 362,
+            "x" : 20,
+            "y" : 445.33333333333337
+          },
+          "index" : 6,
+          "placeholder" : "Name (right alignment)",
+          "spoken" : "Name (right alignment), textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 160.66666666666666,
+            "x" : 20,
+            "y" : 561.6666666666667
+          },
+          "index" : 7,
+          "label" : "Title",
+          "spoken" : "Title",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 193.33333333333337,
+            "x" : 188.66666666666663,
+            "y" : 561.6666666666667
+          },
+          "index" : 8,
+          "placeholder" : "textFieldPercentage = 0.6",
+          "spoken" : "textFieldPercentage = 0.6, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 160.66666666666666,
+            "x" : 20,
+            "y" : 614.6666666666667
+          },
+          "index" : 9,
+          "label" : "Another Title",
+          "spoken" : "Another Title",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 193.33333333333337,
+            "x" : 188.66666666666663,
+            "y" : 614.6666666666667
+          },
+          "index" : 10,
+          "placeholder" : "textFieldPercentage = 0.6",
+          "spoken" : "textFieldPercentage = 0.6, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 120.66666666666669,
+            "x" : 20.000000000000007,
+            "y" : 667.6666666666667
+          },
+          "index" : 11,
+          "label" : "One more",
+          "spoken" : "One more",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 233.33333333333337,
+            "x" : 148.66666666666663,
+            "y" : 667.6666666666667
+          },
+          "index" : 12,
+          "placeholder" : "textFieldPercentage = 0.7",
+          "spoken" : "textFieldPercentage = 0.7, textField",
+          "traits" : [
+            "textField"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 362,
+            "x" : 20,
+            "y" : 820.6666666666667
+          },
+          "index" : 13,
+          "label" : "TextAreaRow",
+          "spoken" : "TextAreaRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 110,
+            "width" : 402,
+            "x" : 0,
+            "y" : 946.6666666666667
+          },
+          "index" : 14,
+          "spoken" : "cell",
+          "traits" : [
+            "cell"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this Eureka.TextCell",
+          "key" : "Example.HiddenRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.HiddenRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this Eureka.TextCell",
+          "key" : "Example.HiddenRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.HiddenRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.HiddenRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.HiddenRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.HiddenRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.HiddenRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Example.HiddenRowsExample",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 120,
+            "x" : 20,
+            "y" : 181.33333333333334
+          },
+          "index" : 1,
+          "label" : "Sport",
+          "spoken" : "Sport, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 121,
+            "x" : 140,
+            "y" : 181.33333333333334
+          },
+          "index" : 2,
+          "label" : "Music",
+          "spoken" : "Music, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 121,
+            "x" : 261,
+            "y" : 181.33333333333334
+          },
+          "index" : 3,
+          "label" : "Films",
+          "spoken" : "Films, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 273.33333333333337
+          },
+          "index" : 4,
+          "label" : "Which is your favourite actor?",
+          "spoken" : "Which is your favourite actor?",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 273.33333333333337
+          },
+          "index" : 5,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 326.33333333333337
+          },
+          "index" : 6,
+          "label" : "Which is your favourite film?",
+          "spoken" : "Which is your favourite film?",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 326.33333333333337
+          },
+          "index" : 7,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 118.66666666666669,
+            "x" : 20.000000000000007,
+            "y" : 416.33333333333337
+          },
+          "index" : 8,
+          "label" : "Show Next Row",
+          "spoken" : "Show Next Row",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 63,
+            "x" : 319,
+            "y" : 412.33333333333337
+          },
+          "index" : 9,
+          "label" : "Show Next Row",
+          "spoken" : "Show Next Row, 0, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "0"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "User will not be able to change the font size of this Eureka.TextCell",
+          "key" : "Example.DisabledRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.DisabledRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "User will not be able to change the font size of this Eureka.TextCell",
+          "key" : "Example.DisabledRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 65536)|Dynamic Type font sizes are unsupported",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 65536)",
+          "screen" : "Example.DisabledRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Dynamic Type font sizes are unsupported"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.DisabledRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.DisabledRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        },
+        {
+          "evidence" : "This UITextField is missing useful accessibility information.",
+          "key" : "Example.DisabledRowsExample|platform|XCUIAccessibilityAuditType(rawValue: 8)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 8)",
+          "screen" : "Example.DisabledRowsExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Element has no description"
+        }
+      ],
+      "screen" : "Example.DisabledRowsExample",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 181,
+            "x" : 20,
+            "y" : 161
+          },
+          "index" : 1,
+          "label" : "Enabled",
+          "spoken" : "Enabled, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 181,
+            "x" : 201,
+            "y" : 161
+          },
+          "index" : 2,
+          "label" : "Disabled",
+          "spoken" : "Disabled, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 217
+          },
+          "index" : 3,
+          "label" : "choose enabled, disable above...",
+          "spoken" : "choose enabled, disable above...",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 217
+          },
+          "index" : 4,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 166.33333333333334,
+            "x" : 20,
+            "y" : 271
+          },
+          "index" : 5,
+          "label" : "Disable Next Section?",
+          "spoken" : "Disable Next Section?",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 63,
+            "x" : 319,
+            "y" : 267
+          },
+          "index" : 6,
+          "label" : "Disable Next Section?",
+          "spoken" : "Disable Next Section?, 0, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "0"
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 358
+          },
+          "index" : 7,
+          "label" : "Gonna be disabled soon..",
+          "spoken" : "Gonna be disabled soon..",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 358
+          },
+          "index" : 8,
+          "spoken" : "textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : ""
+        },
+        {
+          "frame" : {
+            "height" : 32,
+            "width" : 362,
+            "x" : 20,
+            "y" : 442
+          },
+          "index" : 9,
+          "label" : "Always Disabled",
+          "spoken" : "Always Disabled, button",
+          "traits" : [
+            "button"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Text of this Eureka.DecimalCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.FormatterExample|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.FormatterExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this Eureka.IntCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.FormatterExample|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.FormatterExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this Eureka.DecimalCell may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.FormatterExample|platform|XCUIAccessibilityAuditType(rawValue: 131072)|Text clipped",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.FormatterExample",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
+      ],
+      "screen" : "Example.FormatterExample",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 250,
+            "x" : 20,
+            "y" : 186.33333333333334
+          },
+          "index" : 1,
+          "label" : "Currency style",
+          "spoken" : "Currency style",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 104,
+            "x" : 278,
+            "y" : 186.33333333333334
+          },
+          "index" : 2,
+          "spoken" : "2 015,00 RUB, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "2 015,00 RUB"
+        },
+        {
+          "frame" : {
+            "height" : 23.00000000000003,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 239.33333333333334
+          },
+          "index" : 3,
+          "label" : "Scientific style",
+          "spoken" : "Scientific style",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23.00000000000003,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 239.33333333333334
+          },
+          "index" : 4,
+          "spoken" : "2,015E3, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "2,015E3"
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 197,
+            "x" : 20,
+            "y" : 292.33333333333337
+          },
+          "index" : 5,
+          "label" : "Spell out style",
+          "spoken" : "Spell out style",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 157,
+            "x" : 225,
+            "y" : 292.33333333333337
+          },
+          "index" : 6,
+          "spoken" : "two thousand fifteen, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "two thousand fifteen"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 82,
+            "x" : 20,
+            "y" : 402.33333333333337
+          },
+          "index" : 7,
+          "label" : "Short style",
+          "spoken" : "Short style",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 86,
+            "x" : 296,
+            "y" : 402.33333333333337
+          },
+          "index" : 8,
+          "label" : "14.09.2026",
+          "spoken" : "14.09.2026",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 78.33333333333333,
+            "x" : 20,
+            "y" : 454.33333333333337
+          },
+          "index" : 9,
+          "label" : "Long style",
+          "spoken" : "Long style",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 151.33333333333337,
+            "x" : 230.66666666666663,
+            "y" : 454.33333333333337
+          },
+          "index" : 10,
+          "label" : "14 September 2026",
+          "spoken" : "14 September 2026",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 561.3333333333334
+          },
+          "index" : 11,
+          "label" : "Energy: Jules to calories",
+          "spoken" : "Energy: Jules to calories",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 561.3333333333334
+          },
+          "index" : 12,
+          "spoken" : "100 J, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "100 J"
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 281.3333333333333,
+            "x" : 20,
+            "y" : 614.3333333333334
+          },
+          "index" : 13,
+          "label" : "Weight: Kg to lb",
+          "spoken" : "Weight: Kg to lb",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 23,
+            "width" : 72.66666666666669,
+            "x" : 309.3333333333333,
+            "y" : 614.3333333333334
+          },
+          "index" : 14,
+          "spoken" : "1 000 kg, textField",
+          "traits" : [
+            "textField"
+          ],
+          "value" : "1 000 kg"
+        }
+      ]
+    },
+    {
+      "platformAuditFindings" : [
+        {
+          "evidence" : "Text of this UITableViewLabel may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.InlineRows|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.InlineRows",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        },
+        {
+          "evidence" : "Text of this UITableViewLabel may be clipped at larger Dynamic Type sizes.",
+          "key" : "Example.InlineRows|platform|XCUIAccessibilityAuditType(rawValue: 131072)|",
+          "occurrences" : 1,
+          "ruleID" : "platform-XCUIAccessibilityAuditType(rawValue: 131072)",
+          "screen" : "Example.InlineRows",
+          "severity" : "moderate",
+          "source" : "platformAudit",
+          "summary" : "Text clipped"
+        }
+      ],
+      "screen" : "Example.InlineRows",
+      "utterances" : [
+        {
+          "frame" : {
+            "height" : 44,
+            "width" : 44,
+            "x" : 16,
+            "y" : 62
+          },
+          "identifier" : "BackButton",
+          "index" : 0,
+          "label" : "Examples",
+          "spoken" : "Examples, button",
+          "traits" : [
+            "button"
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 291,
+            "x" : 20,
+            "y" : 187.33333333333334
+          },
+          "index" : 1,
+          "label" : "Hides when another inline row is shown",
+          "spoken" : "Hides when another inline row is shown",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28,
+            "width" : 63,
+            "x" : 319,
+            "y" : 183.33333333333334
+          },
+          "index" : 2,
+          "label" : "Hides when another inline row is shown",
+          "spoken" : "Hides when another inline row is shown, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333343,
+            "width" : 291,
+            "x" : 20,
+            "y" : 239.33333333333334
+          },
+          "index" : 3,
+          "label" : "Hides when the First Responder changes",
+          "spoken" : "Hides when the First Responder changes",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 28.00000000000003,
+            "width" : 63,
+            "x" : 319,
+            "y" : 235.33333333333334
+          },
+          "index" : 4,
+          "label" : "Hides when the First Responder changes",
+          "spoken" : "Hides when the First Responder changes, 1, toggle",
+          "traits" : [
+            "toggle"
+          ],
+          "value" : "1"
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 108.33333333333331,
+            "x" : 19.999999999999993,
+            "y" : 327.33333333333337
+          },
+          "index" : 5,
+          "label" : "DateInlineRow",
+          "spoken" : "DateInlineRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 96.66666666666669,
+            "x" : 285.3333333333333,
+            "y" : 327.33333333333337
+          },
+          "index" : 6,
+          "label" : "14 Sep 2026",
+          "spoken" : "14 Sep 2026",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 110.33333333333331,
+            "x" : 19.999999999999993,
+            "y" : 379.33333333333337
+          },
+          "index" : 7,
+          "label" : "TimeInlineRow",
+          "spoken" : "TimeInlineRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 41.666666666666686,
+            "x" : 340.3333333333333,
+            "y" : 379.33333333333337
+          },
+          "index" : 8,
+          "label" : "07:14",
+          "spoken" : "07:14",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 144.33333333333334,
+            "x" : 20,
+            "y" : 431.33333333333337
+          },
+          "index" : 9,
+          "label" : "DateTimeInlineRow",
+          "spoken" : "DateTimeInlineRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 136,
+            "x" : 246,
+            "y" : 431.33333333333337
+          },
+          "index" : 10,
+          "label" : "14.09.2026, 07:14",
+          "spoken" : "14.09.2026, 07:14",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 162,
+            "x" : 20,
+            "y" : 483.33333333333337
+          },
+          "index" : 11,
+          "label" : "CountDownInlineRow",
+          "spoken" : "CountDownInlineRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.333333333333314,
+            "width" : 155,
+            "x" : 227,
+            "y" : 483.33333333333337
+          },
+          "index" : 12,
+          "label" : "18 hours 33 minutes",
+          "spoken" : "18 hours 33 minutes",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 119.66666666666669,
+            "x" : 20.000000000000007,
+            "y" : 591.3333333333334
+          },
+          "index" : 13,
+          "label" : "PickerInlineRow",
+          "spoken" : "PickerInlineRow",
+          "traits" : [
+
+          ]
+        },
+        {
+          "frame" : {
+            "height" : 20.33333333333337,
+            "width" : 78.33333333333331,
+            "x" : 303.6666666666667,
+            "y" : 591.3333333333334
+          },
+          "index" : 14,
+          "label" : "Year 2026",
+          "spoken" : "Year 2026",
+          "traits" : [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -26,6 +26,7 @@ public struct RuleRegistry: Sendable {
     public static var standard: RuleRegistry {
         RuleRegistry(rules: [
             EmptyUtteranceRule(),
+            ValueWithoutNameRule(),
             GenericLabelRule(),
             SymbolNameLabelRule(),
             UntranslatedLabelRule(),

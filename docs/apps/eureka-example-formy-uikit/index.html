@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Доступность Eureka Example (формы, UIKit) — проверка VoiceOver</title>
+<meta name="description" content="Что VoiceOver произносит в приложении Eureka Example (формы, UIKit): результат автоматической проверки 219 элементов интерфейса.">
+<style>:root {
+  --ground: #f6f7f9; --surface: #fff; --ink: #14181f; --ink-2: #444c5a;
+  --muted: #6b7280; --hair: #e2e5ea; --accent: #8a3324; --ok: #1a6b5f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #0f1216; --surface: #171b21; --ink: #e8eaee; --ink-2: #c3c8d0;
+    --muted: #8b919b; --hair: #262b33; --accent: #e08a76; --ok: #5ab5a4;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--ground); color: var(--ink);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+}
+main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+.eyebrow { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+.eyebrow a { color: var(--muted); }
+h1 { font-size: clamp(30px, 6vw, 42px); line-height: 1.1; margin: 0 0 14px; }
+h2 { font-size: 20px; margin: 36px 0 12px; }
+h3 { font-size: 17px; margin: 0 0 6px; }
+.lede { color: var(--ink-2); margin: 0 0 22px; }
+.tally { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 8px; padding: 0; }
+.tally div { background: var(--surface); border: 1px solid var(--hair); border-radius: 6px; padding: 10px 14px; }
+.tally dt { font-size: 12px; color: var(--muted); margin: 0; }
+.tally dd { margin: 2px 0 0; font-size: 22px; font-variant-numeric: tabular-nums; }
+.walked { font-size: 14px; color: var(--muted); margin: 12px 0 0; }
+.walked b { color: var(--ink-2); font-weight: 600; }
+.scope { border-left: 3px solid var(--ok); padding: 4px 0 4px 16px; margin: 32px 0; color: var(--ink-2); }
+.scope h2 { margin-top: 0; }
+.count { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.finding { background: var(--surface); border: 1px solid var(--hair); border-left: 3px solid var(--accent); border-radius: 6px; padding: 16px 18px; margin: 0 0 10px; }
+.finding .screen { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+.finding p { margin: 0 0 8px; color: var(--ink-2); }
+.std { font-size: 13px; color: var(--muted); margin: 0; }
+.platform ul { padding-left: 20px; color: var(--ink-2); }
+.platform .note { color: var(--muted); font-size: 14px; }
+footer { margin-top: 48px; border-top: 1px solid var(--hair); padding-top: 20px; color: var(--ink-2); }
+.repro { font-size: 14px; color: var(--muted); }
+a { color: var(--accent); }
+code { background: var(--ground); padding: 1px 5px; border-radius: 4px; font-size: .9em; }</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow"><a href="../../">Индекс доступности</a> · проверено 2026-09-14</p>
+    <h1>Eureka Example (формы, UIKit)</h1>
+    <p class="lede">
+      Автоматическая проверка того, что произносит VoiceOver.
+      Версия —, iOS 26.4,
+      язык интерфейса «en». Пройдено элементов: 219.
+    </p>
+    <dl class="tally">
+      <div><dt>Находки проверок</dt><dd>12</dd></div>
+      <div><dt>Встроенный аудит Apple</dt><dd>35</dd></div>
+      <div><dt>Экранов</dt><dd>10</dd></div>
+    </dl>
+
+    <!-- Список пройденных экранов с числом элементов.
+         Без него страница непроверяема: читатель видит «найдено 6»
+         и не может понять, смотрели ли мы вообще его раздел.
+         С именами экранов он сам оценит, насколько покрытие
+         относится к его приложению. -->
+    <p class="walked">
+      Пройдено:
+      <b>Стартовый экран</b> (17), <b>Example.RowsExampleView</b> (87), <b>Examples</b> (17), <b>Example.NavigationAccessory</b> (23), <b>Example.CustomCells</b> (10), <b>Example.FieldRowCustomization</b> (15), <b>Example.HiddenRowsExample</b> (10), <b>Example.DisabledRowsExample</b> (10), <b>Example.FormatterExample</b> (15), <b>Example.InlineRows</b> (15)
+    </p>
+  </header>
+
+  <section class="scope">
+    <h2>Что проверено, а что нет</h2>
+    <p>
+      Машина проверяет форму: есть ли подпись, не попало ли в неё имя файла,
+      не звучат ли элементы одинаково, совпадает ли видимая надпись с озвучкой.
+      Проверки не зависят от вкуса: прогон можно повторить и сверить
+      результат с этой страницей. Совпадение измерено — два одинаковых
+      прогона подряд дали одно и то же число элементов в 20 приложениях
+      из 24. Там, где приложение догружает содержимое с задержкой,
+      обход может пройти разное число экранов.
+    </p>
+    <p>
+      Машина <strong>не проверяет смысл</strong>. Подпись «Кнопка 2» пройдёт все
+      проверки, потому что формально она есть. Осмысленность формулировок,
+      логику озвучивания изменений и реальный сценарий работы с VoiceOver
+      оценивает только человек, и эта страница таких выводов не делает.
+    </p>
+  </section>
+
+    <section class="group">
+    <h2>Задача невыполнима <span class="count">4</span></h2>
+    <article class="finding">
+  <h3>Интерактивный элемент без подписи — пользователь не узнает, что это <span class="count">×2</span></h3>
+  <p class="screen">Example.RowsExampleView</p>
+  <p>VoiceOver произносит: «stepper». Назначения элемента в реплике нет.</p>
+  <p class="std">EN 301 549 п. 11.1.1.1 · WCAG 1.1.1 — Текстовая альтернатива нетекстовому содержимому</p>
+</article>
+<article class="finding">
+  <h3>Интерактивный элемент без подписи — пользователь не узнает, что это <span class="count">×6</span></h3>
+  <p class="screen">Example.NavigationAccessory</p>
+  <p>VoiceOver произносит: «textField». Назначения элемента в реплике нет.</p>
+  <p class="std">EN 301 549 п. 11.1.1.1 · WCAG 1.1.1 — Текстовая альтернатива нетекстовому содержимому</p>
+</article>
+<article class="finding">
+  <h3>Интерактивный элемент без подписи — пользователь не узнает, что это <span class="count">×2</span></h3>
+  <p class="screen">Example.HiddenRowsExample</p>
+  <p>VoiceOver произносит: «textField». Назначения элемента в реплике нет.</p>
+  <p class="std">EN 301 549 п. 11.1.1.1 · WCAG 1.1.1 — Текстовая альтернатива нетекстовому содержимому</p>
+</article>
+<article class="finding">
+  <h3>Интерактивный элемент без подписи — пользователь не узнает, что это <span class="count">×2</span></h3>
+  <p class="screen">Example.DisabledRowsExample</p>
+  <p>VoiceOver произносит: «textField». Назначения элемента в реплике нет.</p>
+  <p class="std">EN 301 549 п. 11.1.1.1 · WCAG 1.1.1 — Текстовая альтернатива нетекстовому содержимому</p>
+</article>
+  </section>
+  <section class="group">
+    <h2>Непонятно, что делает элемент <span class="count">2</span></h2>
+    <article class="finding">
+  <h3>Элемент произносит только значение, без назначения <span class="count">×8</span></h3>
+  <p class="screen">Example.RowsExampleView</p>
+  <p>VoiceOver произносит: «50 %, slider». Значение слышно, а чем управляет элемент — нет.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+<article class="finding">
+  <h3>Элемент произносит только значение, без назначения <span class="count">×5</span></h3>
+  <p class="screen">Example.FormatterExample</p>
+  <p>VoiceOver произносит: «2 015,00 RUB, textField». Значение слышно, а чем управляет элемент — нет.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+  </section>
+  <section class="group">
+    <h2>Понятно с усилием <span class="count">6</span></h2>
+    <article class="finding">
+  <h3>3 элемента звучат одинаково: «One»</h3>
+  <p class="screen">Example.RowsExampleView</p>
+  <p>Все они произносятся как «One, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+<article class="finding">
+  <h3>3 элемента звучат одинаково: «Two»</h3>
+  <p class="screen">Example.RowsExampleView</p>
+  <p>Все они произносятся как «Two, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+<article class="finding">
+  <h3>2 элемента звучат одинаково: «Three»</h3>
+  <p class="screen">Example.RowsExampleView</p>
+  <p>Все они произносятся как «Three, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+<article class="finding">
+  <h3>2 элемента звучат одинаково: «S»</h3>
+  <p class="screen">Example.CustomCells</p>
+  <p>Все они произносятся как «S, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+<article class="finding">
+  <h3>2 элемента звучат одинаково: «T»</h3>
+  <p class="screen">Example.CustomCells</p>
+  <p>Все они произносятся как «T, button». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+<article class="finding">
+  <h3>2 элемента звучат одинаково: «Float Label Row, type something to see..»</h3>
+  <p class="screen">Example.CustomCells</p>
+  <p>Все они произносятся как «Float Label Row, type something to see.., textField». На слух их невозможно различить, а глазами они различаются окружением.</p>
+  <p class="std">EN 301 549 п. 11.5.2.5 · WCAG 4.1.2 — Имя, роль, значение доступны программно</p>
+</article>
+  </section>
+
+  <section class="group platform">
+  <h2>Что нашли встроенные инструменты Apple <span class="count">35</span></h2>
+  <p class="note">
+    Эти находки выдаёт <code>performAccessibilityAudit</code> — он входит
+    в Xcode и доступен любой команде бесплатно. Раздел показан отдельно,
+    чтобы было видно, где заканчивается бесплатное.
+  </p>
+  <ul><li>Dynamic Type font sizes are partially unsupported</li><li>Text clipped</li><li>Element has no description</li><li>Text clipped</li><li>Text clipped</li><li>Element has no description</li><li>Element has no description</li><li>Element has no description</li><li>Element has no description</li><li>Element has no description</li><li>Element has no description</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are partially unsupported</li><li>Text clipped</li><li>Text clipped</li><li>Element has no description</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Element has no description</li><li>Element has no description</li><li>Dynamic Type font sizes are unsupported</li><li>Dynamic Type font sizes are unsupported</li><li>Element has no description</li><li>Element has no description</li><li>Text clipped</li><li>Text clipped</li><li>Text clipped</li><li>Text clipped</li><li>Text clipped</li></ul>
+</section>
+
+  <footer>
+    <h2>Проверка ошиблась?</h2>
+    <p>
+      Ложное срабатывание — это дефект инструмента, а не спор о вкусах.
+      Напишите, и страница будет исправлена: <a href="https://github.com/jobexpert365/a11y-baseline/issues/new">сообщить об ошибке</a>.
+    </p>
+    <p class="repro">
+      Проверка выполнена открытым инструментом, прогон можно повторить:
+      <a href="https://github.com/jobexpert365/a11y-baseline">a11y-baseline</a>.
+    </p>
+  </footer>
+</main>
+</body>
+</html>

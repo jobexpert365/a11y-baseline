@@ -31,6 +31,20 @@ public struct GenericLabelRule: Rule {
     public init() {}
 
     public func evaluate(_ utterance: Utterance, in context: RuleContext) -> Finding? {
+        // Судим только то, что можно нажать.
+        //
+        // Правило спрашивает «понятно ли, что произойдёт при нажатии»,
+        // и на неинтерактивном элементе этот вопрос бессмыслен. Поймано
+        // на Eureka: статический текст «None» (признаков нет вообще, нажимать
+        // нечего) получил обвинение в том, что человек «не понимает, что
+        // произойдёт при нажатии». А «None» там — показанное значение,
+        // то есть законное содержимое.
+        //
+        // Замер по всему индексу: на неинтерактивных элементах правило
+        // срабатывало ровно один раз на 25 приложений — этот самый случай.
+        // То есть проверка ничего не стоит и убирает ложную находку целиком.
+        guard context.isInteractive(utterance) else { return nil }
+
         guard let label = utterance.label?.trimmingCharacters(in: .whitespacesAndNewlines),
               !label.isEmpty else { return nil }
 

@@ -26,3 +26,4 @@ com.onevcat.Kingfisher-Demo|Kingfisher Demo (UIKit)|en|10
 com.iftekhar.IQKeyboardManagerSwiftExample|IQKeyboardManager Example (UIKit)|en|10
 com.exyte.PopupExample|PopupView Example (SwiftUI)|en|10
 com.dcg.ChartsDemo-iOS|Charts Demo (графики, UIKit)|en|10
+com.xmartlabs.Example|Eureka Example (формы, UIKit)|en|10
